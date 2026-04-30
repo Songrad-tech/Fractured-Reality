@@ -1,0 +1,30 @@
+# Folders
+/.vscode/
+/.mixin.out/
+/config/jei/world/
+/config/voicechat/username-cache.json
+/config/voicechat/voicechat-client.properties
+/local/
+/saves/
+/screenshots/
+/ESM/
+/logs/
+/resourcepacks/
+/mods/
+/crash-reports/
+/downloads/
+/immersive_furniture/
+/fancymenu_data/
+
+
+# Files
+/minecraftinstance.json
+/kubejs/README.txt
+/.curseclient
+/command_history.txt
+/user-prefs.json
+/usercache.json
+/usernamecache.json
+/options.txt
+/todo.md
+/progression.drawio
