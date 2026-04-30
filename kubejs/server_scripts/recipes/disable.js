@@ -1,8 +1,8 @@
 const disabledItems = [
-     "oritech:electrum_ingot",
-    // "oritech:electrum_dust",
-     "oritech:electrum_block"
-]
+  "oritech:electrum_ingot",
+  // "oritech:electrum_dust",
+  "oritech:electrum_block",
+];
 
 ServerEvents.tags("item", (event) => {
   disabledItems.forEach((item) => {
