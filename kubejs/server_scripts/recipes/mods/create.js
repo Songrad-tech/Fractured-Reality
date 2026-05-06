@@ -20,6 +20,11 @@ const createRecipeRemovals = [
   "create:crafting/kinetics/hose_pulley",
   "sliceanddice:sprinkler",
   "create:crafting/kinetics/steam_engine",
+  "create:crafting/kinetics/mechanical_arm",
+  "create:crafting/kinetics/mechanical_crafter",
+  "create:crafting/kinetics/elevator_pulley",
+  "createaddition:crafting/portable_energy_interface",
+  "create:crafting/kinetics/rotation_speed_controller",
 ];
 
 const createNewRecipes = [
@@ -72,6 +77,26 @@ const copperSmithingRecipes = [
   ["create:steam_engine", "create:shaft"],
 ];
 
+const brassSmithingRecipes = [
+  ["create:mechanical_arm", "create:precision_mechanism", "create:brass_hand"],
+  [
+    "create:mechanical_crafter",
+    "create:electron_tube",
+    "minecraft:crafting_table",
+  ],
+  [
+    "create:rotation_speed_controller",
+    "create:precision_mechanism",
+    "create:large_cogwheel",
+  ],
+  ["create:elevator_pulley", "create:shaft", "minecraft:dried_kelp_block"],
+  [
+    "createaddition:portable_energy_interface",
+    "createaddition:gold_spool",
+    "create:chute",
+  ],
+];
+
 ServerEvents.recipes((event) => {
   removeRecipes(event, createRecipeRemovals);
   replaceInputFromRecipes(event, createNewRecipes);
@@ -86,5 +111,9 @@ ServerEvents.recipes((event) => {
 
   copperSmithingRecipes.forEach(([output, addition]) => {
     event.smithing(output, "create:fluid_pipe", "kubejs:copper_core", addition);
+  });
+
+  brassSmithingRecipes.forEach(([output, base, addition]) => {
+    event.smithing(output, base, "kubejs:brass_core", addition);
   });
 });
