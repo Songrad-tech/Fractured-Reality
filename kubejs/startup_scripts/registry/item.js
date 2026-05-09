@@ -21,4 +21,6 @@ StartupEvents.registry("item", (event) => {
     .create("incomplete_brass_core")
     .parentModel("fractured_reality:block/incomplete_brass_core")
     .tag("c:hidden_from_recipe_viewers");
+
+  event.create("fluix_core").parentModel("fractured_reality:block/fluix_core");
 });

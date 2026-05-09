@@ -58,7 +58,11 @@ const andesiteSmithingRecipes = [
   ["create:mechanical_drill", "create:shaft", "create:drill_head"],
   ["create:mechanical_mixer", "create:cogwheel", "create:whisk"],
   ["create:mechanical_press", "create:shaft", "minecraft:iron_block"],
-  ["create:portable_storage_interface", "create:shaft", "create:chute"],
+  [
+    Item.of("create:portable_storage_interface", 2),
+    "create:shaft",
+    "create:chute",
+  ],
   ["create:encased_fan", "create:shaft", "create:propeller"],
   ["create:deployer", "create:shaft", "create:brass_hand"],
   ["sliceanddice:slicer", "create:cogwheel", "#c:tools/knife"],
@@ -68,7 +72,7 @@ const andesiteSmithingRecipes = [
 ];
 
 const copperSmithingRecipes = [
-  ["create:portable_fluid_interface", "create:chute"],
+  [Item.of("create:portable_fluid_interface", 2), "create:chute"],
   ["create:spout", "minecraft:dried_kelp"],
   ["create:copper_backtank", "minecraft:copper_block"],
   ["create:item_drain", "minecraft:iron_bars"],
@@ -80,7 +84,7 @@ const copperSmithingRecipes = [
 const brassSmithingRecipes = [
   ["create:mechanical_arm", "create:precision_mechanism", "create:brass_hand"],
   [
-    "create:mechanical_crafter",
+    Item.of("create:mechanical_crafter", 3),
     "create:electron_tube",
     "minecraft:crafting_table",
   ],
@@ -91,7 +95,7 @@ const brassSmithingRecipes = [
   ],
   ["create:elevator_pulley", "create:shaft", "minecraft:dried_kelp_block"],
   [
-    "createaddition:portable_energy_interface",
+    Item.of("createaddition:portable_energy_interface", 2),
     "createaddition:gold_spool",
     "create:chute",
   ],

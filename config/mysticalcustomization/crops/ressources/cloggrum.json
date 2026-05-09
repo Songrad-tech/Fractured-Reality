@@ -1,0 +1,13 @@
+{
+  "name": "Cloggrum",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "undergarden:cloggrum_ingot"
+  },
+  "color": "968168",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

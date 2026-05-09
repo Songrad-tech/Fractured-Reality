@@ -138,47 +138,57 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:rabbit": true
-			"minecraft:witch": true
-			"friendsandfoes:glare": true
-			"naturalist:coral_snake": true
-			"minecraft:enderman": true
-			"naturalist:duck": true
-			"naturalist:boar": true
-			"minecraft:spider": true
-			"minecraft:axolotl": true
-			"minecraft:chicken": true
-			"minecraft:warden": true
-			"naturalist:finch": true
-			"minecraft:horse": true
-			"minecraft:zombie_villager": true
-			"naturalist:sparrow": true
-			"minecraft:squid": true
-			"minecraft:slime": true
-			"minecraft:drowned": true
-			"minecraft:bat": true
-			"naturalist:butterfly": true
-			"minecraft:tropical_fish": false
 			"minecraft:cow": true
-			"naturalist:robin": true
-			"naturalist:bear": true
-			"friendsandfoes:crab": true
-			"naturalist:deer": true
-			"minecraft:skeleton": true
-			"minecraft:dolphin": true
-			"minecraft:glow_squid": true
-			"naturalist:snake": true
-			"naturalist:snail": true
-			"minecraft:zombie": true
+			"minecraft:warden": true
 			"naturalist:bass": true
-			"naturalist:lizard": true
-			"minecraft:bee": true
-			"minecraft:sheep": true
-			"minecraft:pig": true
-			"minecraft:donkey": true
-			"minecraft:creeper": true
+			"naturalist:robin": true
 			"friendsandfoes:rascal": true
+			"minecraft:cave_spider": true
+			"naturalist:butterfly": true
+			"minecraft:squid": true
+			"the_bumblezone:honey_slime": true
+			"the_bumblezone:variant_bee": true
+			"minecraft:villager": true
+			"minecraft:glow_squid": true
+			"naturalist:boar": true
+			"minecraft:rabbit": true
+			"naturalist:lizard": true
+			"minecraft:zombie": true
+			"minecraft:zombie_villager": true
+			"undergarden:brute": true
+			"minecraft:witch": true
+			"minecraft:bee": true
+			"minecraft:pig": true
+			"friendsandfoes:crab": true
+			"naturalist:bear": true
 			"naturalist:cardinal": true
+			"minecraft:tropical_fish": false
+			"naturalist:finch": true
+			"naturalist:coral_snake": true
+			"minecraft:creeper": true
+			"minecraft:chicken": true
+			"minecraft:bat": true
+			"naturalist:sparrow": true
+			"minecraft:drowned": true
+			"minecraft:phantom": true
+			"friendsandfoes:glare": true
+			"naturalist:snake": true
+			"minecraft:skeleton": true
+			"minecraft:horse": true
+			"naturalist:snail": true
+			"the_bumblezone:rootmin": true
+			"minecraft:donkey": true
+			"minecraft:enderman": true
+			"minecraft:spider": true
+			"the_bumblezone:beehemoth": true
+			"minecraft:dolphin": true
+			"minecraft:panda": true
+			"naturalist:duck": true
+			"minecraft:endermite": true
+			"naturalist:deer": true
+			"minecraft:sheep": true
+			"minecraft:slime": true
+			"minecraft:axolotl": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

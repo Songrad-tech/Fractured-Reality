@@ -5,9 +5,9 @@
   "disabledDimensions": [
     "bad_mod:bad_dimension"
   ],
-  "disableCustomSkies": true,
-  "disableCustomCloud": true,
-  "disableCustomWeather": true,
+  "disableCustomSkies": false,
+  "disableCustomCloud": false,
+  "disableCustomWeather": false,
   "modDisablingMainSkyRender": [
     "astrocraft"
   ],

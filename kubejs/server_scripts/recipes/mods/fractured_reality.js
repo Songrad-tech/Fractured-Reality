@@ -44,4 +44,26 @@ ServerEvents.recipes((event) => {
     },
     "kubejs:sequenced_assembly/brass_core",
   );
+
+  event.custom({
+    type: "create:mechanical_crafting",
+    accept_mirrored: true,
+    category: "misc",
+    key: {
+      A: {
+        item: "minecraft:quartz_block",
+      },
+      B: {
+        item: "ae2:sky_stone_block",
+      },
+      C: {
+        item: "oritech:energite_block",
+      },
+    },
+    pattern: ["AAAAA", "ABBBA", "ABCBA", "ABBBA", "AAAAA"],
+    result: {
+      count: 1,
+      id: "kubejs:fluix_core",
+    },
+  });
 });

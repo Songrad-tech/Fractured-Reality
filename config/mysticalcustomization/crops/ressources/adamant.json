@@ -1,0 +1,13 @@
+{
+  "name": "Adamant",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "oritech:adamant_ingot"
+  },
+  "color": "89C6E5",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

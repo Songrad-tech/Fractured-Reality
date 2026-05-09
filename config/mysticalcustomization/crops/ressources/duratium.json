@@ -1,0 +1,13 @@
+{
+  "name": "Duratium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "oritech:duratium_ingot"
+  },
+  "color": "8877A3",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="X_ciwLHrlPSh6_Im9nTa" name="Global">
-        <mxGraphModel dx="1973" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2093" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -90,32 +90,6 @@
                 </mxCell>
                 <mxCell id="34" value="Pylons" style="whiteSpace=wrap;html=1;" parent="16" vertex="1">
                     <mxGeometry x="225" y="350" width="120" height="60" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram id="_Ys1gw93ZnmSXle3PCbl" name="Create">
-        <mxGraphModel dx="2722" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="sWTN6DZXNDMRTZ2q6Q1_-1" value="Andesite&lt;div&gt;Core&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="385" y="40" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="sWTN6DZXNDMRTZ2q6Q1_-2" value="Copper&lt;div&gt;Core&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="1235" y="40" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="sWTN6DZXNDMRTZ2q6Q1_-3" value="Brass&lt;div&gt;Core&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-465" y="40" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="sWTN6DZXNDMRTZ2q6Q1_-4" value="Item Drain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="1120" y="440" width="90" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="sWTN6DZXNDMRTZ2q6Q1_-5" value="Copper backtank" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="1120" y="200" width="90" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="sWTN6DZXNDMRTZ2q6Q1_-6" value="Spout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="1120" y="320" width="90" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
