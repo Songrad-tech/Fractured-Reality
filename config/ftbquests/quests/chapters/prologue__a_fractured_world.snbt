@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "prologue__a_fractured_world"
+	group: "2B3850906486FE99"
+	id: "1E627FF06E3DEFF1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

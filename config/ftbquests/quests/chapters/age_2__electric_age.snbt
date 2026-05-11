@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age_2__electric_age"
+	group: "2B3850906486FE99"
+	id: "47BCA02B74AEAE70"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

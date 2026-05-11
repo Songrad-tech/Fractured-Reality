@@ -66,3 +66,23 @@ function sequencedAssembly(event, recipe, id) {
     })
     .id(id);
 }
+
+function craftResult(id, count) {
+  return {
+    id: id,
+    count: count || 1,
+  };
+}
+
+function mechanicalCrafting(event, recipe, id) {
+  event
+    .custom({
+      type: "create:mechanical_crafting",
+      accept_mirrored: recipe.acceptMirrored || true,
+      category: recipe.category || "misc",
+      key: recipe.key,
+      pattern: recipe.pattern,
+      result: craftResult(recipe.result, recipe.count),
+    })
+    .id(id);
+}

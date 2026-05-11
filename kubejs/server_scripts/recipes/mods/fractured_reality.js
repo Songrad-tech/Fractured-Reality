@@ -45,25 +45,46 @@ ServerEvents.recipes((event) => {
     "kubejs:sequenced_assembly/brass_core",
   );
 
-  event.custom({
-    type: "create:mechanical_crafting",
-    accept_mirrored: true,
-    category: "misc",
-    key: {
-      A: {
-        item: "minecraft:quartz_block",
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("minecraft:quartz_block"),
+        B: item("ae2:sky_stone_block"),
+        C: item("oritech:energite_block"),
       },
-      B: {
-        item: "ae2:sky_stone_block",
-      },
-      C: {
-        item: "oritech:energite_block",
-      },
+      pattern: ["AAAAA", "ABBBA", "ABCBA", "ABBBA", "AAAAA"],
+      result: "kubejs:fluix_core",
     },
-    pattern: ["AAAAA", "ABBBA", "ABCBA", "ABBBA", "AAAAA"],
-    result: {
-      count: 1,
-      id: "kubejs:fluix_core",
-    },
-  });
+    "kubejs:mechanical_crafting/fluix_core",
+  );
+
+  event
+    .custom({
+      type: "create:item_application",
+      ingredients: [
+        item("minecraft:polished_deepslate"),
+        item("createaddition:electrum_ingot"),
+      ],
+      results: [result("kubejs:electrum_casing")],
+    })
+    .id("kubejs:item_application/electrum_casing");
+
+  event
+    .custom({
+      type: "create:crushing",
+      ingredients: [item("kubejs:viridite")],
+      processing_time: 250,
+      results: [
+        {
+          chance: 0.4,
+          id: "create:crushed_raw_nickel",
+        },
+        {
+          chance: 0.4,
+          id: "oritech:nickel_nugget",
+        },
+      ],
+    })
+    .id("kubejs:crushing/viridite");
 });

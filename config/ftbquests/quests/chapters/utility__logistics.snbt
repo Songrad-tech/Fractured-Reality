@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utility__logistics"
+	group: ""
+	id: "626D402EBAE946F4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}
