@@ -32,19 +32,59 @@ ServerEvents.recipes((event) => {
     );
   });
 
+  event.shapeless("ae2:certus_quartz_crystal", [
+    "minecraft:quartz",
+    "ae2:sky_dust",
+  ]);
+
   event.custom({
     type: "ae2:transform",
     ingredients: [
-      {
-        item: "ae2:certus_quartz_crystal",
-      },
-      {
-        item: "oritech:adamant_block",
-      },
+      item("ae2:certus_quartz_crystal"),
+      item("oritech:adamant_block"),
     ],
     result: {
       count: 1,
       id: "ae2:damaged_budding_quartz",
+    },
+  });
+
+  event.custom({
+    type: "ae2:transform",
+    ingredients: [
+      item("ae2:certus_quartz_crystal"),
+      item("oritech:adamant_ingot"),
+      item("ae2:damaged_budding_quartz"),
+    ],
+    result: {
+      count: 1,
+      id: "ae2:chipped_budding_quartz",
+    },
+  });
+
+  event.custom({
+    type: "ae2:transform",
+    ingredients: [
+      item("ae2:certus_quartz_crystal"),
+      item("oritech:adamant_ingot"),
+      item("ae2:chipped_budding_quartz"),
+    ],
+    result: {
+      count: 1,
+      id: "ae2:flawed_budding_quartz",
+    },
+  });
+
+  event.custom({
+    type: "ae2:transform",
+    ingredients: [
+      item("ae2:certus_quartz_crystal"),
+      item("oritech:adamant_ingot"),
+      item("ae2:flawed_budding_quartz"),
+    ],
+    result: {
+      count: 1,
+      id: "ae2:flawless_budding_quartz",
     },
   });
 });
