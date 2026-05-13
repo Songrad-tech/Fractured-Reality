@@ -1,0 +1,16 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "up": "kubejs:block/veridite_cut_cap_connected",
+    "down": "kubejs:block/veridite_cut_cap_connected",
+    "side": "kubejs:block/viridite_cut_pillar_connected",
+    "particle": "kubejs:block/viridite_cut_pillar_connected"
+  },
+  "connections": [
+    {
+      "type": "is_same_block"
+    }
+  ]
+}

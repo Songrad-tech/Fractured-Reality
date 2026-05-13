@@ -1,0 +1,139 @@
+{
+"sky_objects": [
+  {
+    "rotation": [10.0, 0.0, 10.0],
+    "object_rotation": [0.0, 0.0, 0.0],
+    "height": 160,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_01.png",
+    "blend": true,
+    "size": 120.0
+  },
+    {
+    "rotation": [-50.0, 180.0, 5.0],
+    "object_rotation": [0.0, 0.0, 8.0],
+    "height": 190,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_02.png",
+    "blend": true,
+    "size": 95.0
+  },
+    {
+    "rotation": [35.0, 180.0, -5.0],
+    "object_rotation": [0.0, 0.0, -6.0],
+    "height": 220,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_03.png",
+    "blend": true,
+    "size": 135.0
+  },
+  {
+    "rotation": [80.0, 270.0, 0.0],
+    "object_rotation": [0.0, 0.0, 90],
+    "height": 180,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_04.png",
+    "blend": true,
+    "size": 110.0
+  },
+  {
+    "rotation": [80.0, 70.0, 10.0],
+    "object_rotation": [0.0, 0.0, -5.0],
+    "height": 140,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_05.png",
+    "blend": true,
+    "size": 65.0
+  },
+    {
+    "rotation": [-80.0, -60.0, 25.0],
+    "object_rotation": [0.0, 90.0, 0.0],
+    "height": 150,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_06.png",
+    "blend": true,
+    "size": 58.0
+  },
+  {
+    "rotation": [70.0, -60.0, -15.0],
+    "object_rotation": [0.0, 0.0, -10.0],
+    "height": 130,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_07.png",
+    "blend": true,
+    "size": 48.0
+  },
+    {
+    "rotation": [-60.0, 275.0, 5.0],
+    "object_rotation": [0.0, 0.0, 6.0],
+    "height": 170,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_08.png",
+    "blend": true,
+    "size": 72.0
+  },
+    {
+    "rotation": [-70.0, 125.0, -20.0],
+    "object_rotation": [0.0, 0.0, -8.0],
+    "height": 200,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_09.png",
+    "blend": true,
+    "size": 85.0
+  },
+  {
+    "rotation": [180.0, 245.0, 20.0],
+    "object_rotation": [0.0, 0.0, 4.0],
+    "height": 255,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_10.png",
+    "blend": true,
+    "size": 160.0
+  },
+  {
+    "rotation": [5.0, 110.0, 0.0],
+    "object_rotation": [60.0, 0.0, 0.0],
+    "height": 110,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_01.png",
+    "blend": true,
+    "size": 134.0
+  }
+],
+  "moon": {
+    "moon_phase": true,
+    "texture": "minecraft:textures/environment/moon_phases.png",
+    "height": 75.0,
+    "size": 75.0
+  },
+  "stars": {
+    "scale": 0.05,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "vanilla": true,
+    "moving_stars": false,
+    "count": 100000,
+    "all_days_visible": false
+  },
+  "sky_color": {
+    "sunset_alpha_modifier": 1
+  },
+  "fog_settings": {
+    "fog": false
+  },
+  "weather": true,
+  "sun": {
+    "texture": "minecraft:textures/environment/sun.png",
+    "height": 450.0,
+    "size": 135.0
+  },
+  "world": "minecraft:overworld",
+  "id": "fractured_reality:default",
+  "cloud_settings": {
+    "cloud": false,
+    "cloud_height": 300
+  }
+}

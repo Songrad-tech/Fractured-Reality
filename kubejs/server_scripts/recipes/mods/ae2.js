@@ -31,4 +31,20 @@ ServerEvents.recipes((event) => {
       addition,
     );
   });
+
+  event.custom({
+    type: "ae2:transform",
+    ingredients: [
+      {
+        item: "ae2:certus_quartz_crystal",
+      },
+      {
+        item: "oritech:adamant_block",
+      },
+    ],
+    result: {
+      count: 1,
+      id: "ae2:damaged_budding_quartz",
+    },
+  });
 });
