@@ -6,5 +6,16 @@
 	id: "46E470D55F809922"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["72EC9401EE3BA289"]
+		hide_until_deps_complete: true
+		id: "16FF223093771098"
+		tasks: [{
+			id: "360762341E7BF568"
+			structure: "minecraft:ancient_city"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

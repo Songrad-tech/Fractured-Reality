@@ -28,3 +28,6 @@
 /options.txt
 /todo.md
 /progression.drawio
+config/packetfixer.properties
+config/*-client.snbt
+config/drippyloadingscreen/early_window_reference.properties

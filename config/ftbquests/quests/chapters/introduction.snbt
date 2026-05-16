@@ -3,16 +3,175 @@
 	default_quest_shape: ""
 	filename: "introduction"
 	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "6399B43668493780"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "467A80382231A9C6"
-		tasks: [{
-			id: "1CBF0E3388B97917"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "stellaris:block/earth_globe"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "467A80382231A9C6"
+			rewards: [
+				{
+					count: 5
+					id: "1FBC1F6BD1B80438"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "2FBE0FFB47A4A176"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1CBF0E3388B97917"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["467A80382231A9C6"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/toast/recipe_book.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "62006D27C12C3402"
+			rewards: [{
+				id: "10C42E078945EA00"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "59CCBBC3CC8BA992"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["467A80382231A9C6"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/minimap_info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "54678129C0A1A442"
+			rewards: [{
+				id: "586E480ABF880E93"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "69B13AC47F86E94C"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["467A80382231A9C6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "48DA5F1CC92B5184"
+			rewards: [{
+				id: "0AEF33ABCBE985E5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6E299E94C559321A"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["467A80382231A9C6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			icon_scale: 1.2d
+			id: "72EC9401EE3BA289"
+			rewards: [{
+				id: "47C6CCC59B021A6D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5488F47F46796B43"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["467A80382231A9C6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:andesite_core"
+			}
+			icon_scale: 1.25d
+			id: "128BDDD7D750138C"
+			rewards: [{
+				id: "2B595ECF1D37E4AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5B1060E0BCADFA58"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["467A80382231A9C6"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fractured_reality:item/fractured_shard"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.3d
+			id: "35C22982FC123B45"
+			rewards: [{
+				id: "73993AAFAFC4A823"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5E1F49E858806D7C"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+	]
 }

@@ -1,18 +1,168 @@
 {
 	chapter.14893C4ADFC69999.title: "Inside the Hive"
-	chapter.178EFA23CBF2F69A.title: "Final Age : Fractured Divinity"
+	chapter.178EFA23CBF2F69A.title: "Final Age: Fractured Divinity"
 	chapter.1D1AB8DE53356D95.title: "Cosmic Odyssey"
-	chapter.1E400F3088D217E5.title: "Age 1 : Mechanical Age"
-	chapter.1E627FF06E3DEFF1.title: "Prologue : A Fractured World"
-	chapter.2777DBBD34C022DB.title: "Age 4 : Seeds of Eternity"
+	chapter.1E400F3088D217E5.title: "Age 1: Mechanical Age"
+	chapter.1E627FF06E3DEFF1.title: "Prologue: A Fractured World"
+	chapter.2777DBBD34C022DB.title: "Age 4: Seeds of Eternity"
 	chapter.3ACA0646478CC055.title: "Verdant Abyss"
 	chapter.46E470D55F809922.title: "Into the Darkness"
-	chapter.47BCA02B74AEAE70.title: "Age 2 : Electric Age"
+	chapter.47BCA02B74AEAE70.title: "Age 2: Electric Age"
 	chapter.626D402EBAE946F4.title: "Utility \\& Logistics"
 	chapter.6399B43668493780.title: "Introduction"
-	chapter.6FD6B73C3A43BBA9.title: "Is This The End ?"
-	chapter.7EE8A90CDC0768D4.title: "Age 3 : Digital Consciousness"
-	chapter.7F9615FA16B130DA.title: "Age 5 : Beyond the Sky"
+	chapter.6FD6B73C3A43BBA9.title: "Is This the End?"
+	chapter.7EE8A90CDC0768D4.title: "Age 3: Digital Consciousness"
+	chapter.7F9615FA16B130DA.title: "Age 5: Beyond the Sky"
 	chapter_group.2B3850906486FE99.title: "Progression"
 	chapter_group.69F5CC4C3382AB9B.title: "Exploration"
+	quest.0FCAE2FFD1263B87.title: "Find Zinc"
+	quest.116B91C74588FDB0.title: "Craft Planks"
+	quest.128BDDD7D750138C.quest_desc: [
+		"§7Hand crafting may help you survive the early days.§r"
+		" "
+		"§fBut true progression begins with machines, logistics, and automated production.§r"
+		" "
+		"§6The more you automate, the further you will go.§r"
+	]
+	quest.128BDDD7D750138C.title: "Automation is the Key"
+	quest.1933418C96886DBE.title: "Craft Crafting Table"
+	quest.35C22982FC123B45.quest_desc: [
+		"§7Some phenomena cannot be explained.§r"
+		" "
+		"§7You may encounter impossible structures, distorted landscapes, or fractures in the sky itself.§r"
+		" "
+		"§8If reality appears unstable...§r"
+		" "
+		"§4That is perfectly normal.§r"
+	]
+	quest.35C22982FC123B45.title: "Reality Feels... Wrong"
+	quest.3F8FDF23051A7247.title: "Craft Andesite Alloy"
+	quest.467A80382231A9C6.quest_desc: [
+		"§fWelcome, traveler.§r"
+		" "
+		"§7You may have already noticed the cracks spreading across the sky. This world is no longer the one you once knew.§r"
+		" "
+		"§8Something shattered reality itself. Strange energies now flow through the land, twisting nature, machines, and even dimensions beyond comprehension.§r"
+		" "
+		"§7As you explore, you will uncover forgotten technologies, corrupted ecosystems, and secrets buried deep within fractured worlds.§r"
+		" "
+		"§8But for now...§r"
+		" "
+		"§fStart simple.§r"
+		"§6Gather wood.§r"
+		"§6Survive.§r"
+	]
+	quest.467A80382231A9C6.title: "Welcome to Fractured Reality"
+	quest.48DA5F1CC92B5184.quest_desc: [
+		"§7Technology progression is intentionally gated.§r"
+		" "
+		"§fYou are expected to advance through different technological eras in a specific order.§r"
+		" "
+		"§7Each age unlocks new possibilities, dimensions, and systems.§r"
+		" "
+		"§6Follow the main Progression chapters to guide your journey.§r"
+	]
+	quest.48DA5F1CC92B5184.title: "Progression Matters"
+	quest.54678129C0A1A442.quest_desc: [
+		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.ftbchunks.map\",\"color\":\"gold\"},{\"text\":\" to open the FTB Chunks map.\",\"color\":\"white\"}]"
+		" "
+		"§7From there, you can:§r"
+		"§6- Create a team§r"
+		"§6- Claim chunks§r"
+		"§6- Protect your base§r"
+		"§6- Chunkload your machines§r"
+		" "
+		"§cHighly recommended once automation begins.§r"
+	]
+	quest.54678129C0A1A442.title: "Claim and Protect Your Base"
+	quest.62006D27C12C3402.quest_desc: [
+		"§lJEI§r §7will guide you throughout your journey.§r"
+		" "
+		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.jei.showRecipe\",\"color\":\"gold\"},{\"text\":\" while hovering an item to view its recipes.\",\"color\":\"white\"}]"
+		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.jei.showUses\",\"color\":\"gold\"},{\"text\":\" to see every recipe using the selected item.\",\"color\":\"white\"}]"
+		"[{\"text\":\"Hold \",\"color\":\"white\"},{\"keybind\":\"key.sneak\",\"color\":\"gold\"},{\"text\":\" while hovering items for additional details.\",\"color\":\"white\"}]"
+		" "
+		"§6Many recipes in this modpack have been heavily customized.§r"
+		"§cDo not rely entirely on vanilla progression knowledge.§r"
+	]
+	quest.62006D27C12C3402.title: "JEI is Your Best Friend"
+	quest.6655C9EC1E601EB6.title: "Gather Andesite"
+	quest.66A0A2094ABCFD5D.title: "Craft Zinc Nuggets"
+	quest.6ED33C26796DEA3A.quest_subtitle: "The Beginning"
+	quest.6ED33C26796DEA3A.title: "Gather Wood"
+	quest.72EC9401EE3BA289.quest_desc: [
+		"§7Many dimensions, structures, and hidden locations contain important resources, progression items, and fragments of lost knowledge.§r"
+		" "
+		"§6The world of Fractured Reality rewards curiosity.§r"
+		" "
+		"§fDo not remain underground forever.§r"
+	]
+
+quest.6ED33C26796DEA3A.quest_desc: [
+	"§7Every journey begins with something simple.§r"
+	" "
+	"§fGather any type of log to start building your first tools and shelter.§r"
+	" "
+	"§6The fractured world will not wait for you.§r"
+]
+
+quest.116B91C74588FDB0.quest_desc: [
+	"§7Raw wood is useful, but planks are where crafting truly begins.§r"
+	" "
+	"§fConvert your logs into planks and prepare your first workspace.§r"
+]
+
+quest.1933418C96886DBE.quest_desc: [
+	"§7A simple table. Four planks. Endless possibilities.§r"
+	" "
+	"§fCraft a Crafting Table to unlock your first real steps into survival and technology.§r"
+]
+
+quest.6655C9EC1E601EB6.quest_desc: [
+	"§7Andesite is rough, common, and easy to overlook.§r"
+	" "
+	"§fBut in this world, it will become the foundation of your first machines.§r"
+]
+
+quest.0FCAE2FFD1263B87.quest_desc: [
+	"§7Zinc carries the first traces of mechanical potential.§r"
+	" "
+	"§fFind and smelt zinc to prepare your first custom alloy recipe.§r"
+	" "
+	"§6JEI will help you locate the correct recipe path if needed.§r"
+]
+
+quest.66A0A2094ABCFD5D.quest_desc: [
+	"§7Not every mechanism begins with a full ingot.§r"
+	" "
+	"§fBreak zinc down into nuggets. Small parts often become the key to larger machines.§r"
+]
+
+quest.3F8FDF23051A7247.quest_desc: [
+	"§7Andesite and zinc now form something greater.§r"
+	" "
+	"§fCraft Andesite Alloy to take your first real step toward mechanical automation.§r"
+	" "
+	"§6Mechanical Age is within reach.§r"
+]
+
+quest.116B91C74588FDB0.quest_subtitle: "First Materials"
+quest.1933418C96886DBE.quest_subtitle: "A Place to Work"
+quest.6655C9EC1E601EB6.quest_subtitle: "Stone for Machines"
+quest.0FCAE2FFD1263B87.quest_subtitle: "First Metal"
+quest.66A0A2094ABCFD5D.quest_subtitle: "Small Components"
+quest.3F8FDF23051A7247.quest_subtitle: "The First Alloy"
+
+	quest.72EC9401EE3BA289.title: "Exploration is Essential"
+	task.0E65D18F4C1C713D.title: "Any #c:ores/zinc"
+	task.10B1D3F62030CB9B.title: "Any #minecraft:logs"
+	task.1C47A13DFFFDD8C5.title: "Useful Tips"
+	task.3130670069A4E805.title: "Any #minecraft:planks"
+	task.360762341E7BF568.title: "Ancient Civilisation"
+	task.5488F47F46796B43.title: "Exploration"
+	task.59CCBBC3CC8BA992.title: "JEI"
+	task.5B1060E0BCADFA58.title: "Automation"
+	task.5E1F49E858806D7C.title: "Unstable Reality"
+	task.69B13AC47F86E94C.title: "Claims"
+	task.6E299E94C559321A.title: "Progression"
 }

@@ -6,5 +6,156 @@
 	id: "1E627FF06E3DEFF1"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["48DA5F1CC92B5184"]
+			hide_until_deps_complete: true
+			id: "6ED33C26796DEA3A"
+			rewards: [{
+				count: 16
+				id: "172DB757746F7ABA"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "10B1D3F62030CB9B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ED33C26796DEA3A"]
+			hide_until_deps_visible: true
+			id: "116B91C74588FDB0"
+			rewards: [{
+				id: "18354CAA74019988"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 4L
+				id: "3130670069A4E805"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["116B91C74588FDB0"]
+			id: "1933418C96886DBE"
+			rewards: [{
+				id: "7397D69ED3B63D06"
+				item: {
+					count: 1
+					id: "minecraft:wooden_pickaxe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B2E57F264A79C36"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1933418C96886DBE"]
+			hide_until_deps_visible: true
+			id: "6655C9EC1E601EB6"
+			rewards: [{
+				count: 32
+				id: "1BAC383AA28BC395"
+				item: {
+					count: 1
+					id: "minecraft:andesite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "37CEDD2E4CE23525"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1933418C96886DBE"]
+			hide_until_deps_visible: true
+			id: "0FCAE2FFD1263B87"
+			rewards: [{
+				count: 16
+				id: "0E0177FC94787D42"
+				item: {
+					count: 1
+					id: "create:zinc_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "617665C92CB9118D"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0FCAE2FFD1263B87"]
+			hide_until_deps_visible: true
+			id: "66A0A2094ABCFD5D"
+			rewards: [{
+				count: 9
+				id: "20A2D0109B68FED8"
+				item: {
+					count: 1
+					id: "create:zinc_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "32408810087AF91C"
+				item: { count: 1, id: "create:zinc_nugget" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6655C9EC1E601EB6"
+				"66A0A2094ABCFD5D"
+			]
+			hide_until_deps_visible: true
+			id: "3F8FDF23051A7247"
+			rewards: [{
+				count: 8
+				id: "763D41EB9B2E4FA8"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5E7F33F72E90BE2E"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+	]
 }
