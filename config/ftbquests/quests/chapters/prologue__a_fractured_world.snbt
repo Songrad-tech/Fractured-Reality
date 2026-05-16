@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "prologue__a_fractured_world"
 	group: "2B3850906486FE99"
+	icon: {
+		id: "minecraft:oak_log"
+	}
 	id: "1E627FF06E3DEFF1"
 	order_index: 0
 	quest_links: [ ]

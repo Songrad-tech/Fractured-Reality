@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "is_this_the_end"
 	group: "69F5CC4C3382AB9B"
+	icon: {
+		id: "minecraft:end_portal_frame"
+	}
 	id: "6FD6B73C3A43BBA9"
 	order_index: 4
 	quest_links: [ ]

@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "final_chapter__fractured_divinity"
 	group: "2B3850906486FE99"
+	icon: {
+		components: {
+			"ftbquests:icon": "fractured_reality:item/fractured_shard"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "178EFA23CBF2F69A"
 	order_index: 6
 	quest_links: [ ]

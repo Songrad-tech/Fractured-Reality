@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "into_the_darkness"
 	group: "69F5CC4C3382AB9B"
+	icon: {
+		id: "deeperdarker:heart_of_the_deep"
+	}
 	id: "46E470D55F809922"
 	order_index: 2
 	quest_links: [ ]

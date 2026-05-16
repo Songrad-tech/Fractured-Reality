@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "cosmic_odyssey"
 	group: "69F5CC4C3382AB9B"
+	icon: {
+		components: {
+			"ftbquests:icon": "stellaris:textures/environment/galaxy/milky_way.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "1D1AB8DE53356D95"
 	order_index: 3
 	quest_links: [ ]

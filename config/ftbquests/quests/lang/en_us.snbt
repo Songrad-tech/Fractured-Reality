@@ -15,7 +15,21 @@
 	chapter.7F9615FA16B130DA.title: "Age 5: Beyond the Sky"
 	chapter_group.2B3850906486FE99.title: "Progression"
 	chapter_group.69F5CC4C3382AB9B.title: "Exploration"
+	quest.0FCAE2FFD1263B87.quest_desc: [
+		"§7Zinc carries the first traces of mechanical potential.§r"
+		" "
+		"§fFind and smelt zinc to prepare your first custom alloy recipe.§r"
+		" "
+		"§6JEI will help you locate the correct recipe path if needed.§r"
+	]
+	quest.0FCAE2FFD1263B87.quest_subtitle: "First Metal"
 	quest.0FCAE2FFD1263B87.title: "Find Zinc"
+	quest.116B91C74588FDB0.quest_desc: [
+		"§7Raw wood is useful, but planks are where crafting truly begins.§r"
+		" "
+		"§fConvert your logs into planks and prepare your first workspace.§r"
+	]
+	quest.116B91C74588FDB0.quest_subtitle: "First Materials"
 	quest.116B91C74588FDB0.title: "Craft Planks"
 	quest.128BDDD7D750138C.quest_desc: [
 		"§7Hand crafting may help you survive the early days.§r"
@@ -25,6 +39,12 @@
 		"§6The more you automate, the further you will go.§r"
 	]
 	quest.128BDDD7D750138C.title: "Automation is the Key"
+	quest.1933418C96886DBE.quest_desc: [
+		"§7A simple table. Four planks. Endless possibilities.§r"
+		" "
+		"§fCraft a Crafting Table to unlock your first real steps into survival and technology.§r"
+	]
+	quest.1933418C96886DBE.quest_subtitle: "A Place to Work"
 	quest.1933418C96886DBE.title: "Craft Crafting Table"
 	quest.35C22982FC123B45.quest_desc: [
 		"§7Some phenomena cannot be explained.§r"
@@ -36,6 +56,14 @@
 		"§4That is perfectly normal.§r"
 	]
 	quest.35C22982FC123B45.title: "Reality Feels... Wrong"
+	quest.3F8FDF23051A7247.quest_desc: [
+		"§7Andesite and zinc now form something greater.§r"
+		" "
+		"§fCraft Andesite Alloy to take your first real step toward mechanical automation.§r"
+		" "
+		"§6Mechanical Age is within reach.§r"
+	]
+	quest.3F8FDF23051A7247.quest_subtitle: "The First Alloy"
 	quest.3F8FDF23051A7247.title: "Craft Andesite Alloy"
 	quest.467A80382231A9C6.quest_desc: [
 		"§fWelcome, traveler.§r"
@@ -86,8 +114,27 @@
 		"§cDo not rely entirely on vanilla progression knowledge.§r"
 	]
 	quest.62006D27C12C3402.title: "JEI is Your Best Friend"
+	quest.6655C9EC1E601EB6.quest_desc: [
+		"§7Andesite is rough, common, and easy to overlook.§r"
+		" "
+		"§fBut in this world, it will become the foundation of your first machines.§r"
+	]
+	quest.6655C9EC1E601EB6.quest_subtitle: "Stone for Machines"
 	quest.6655C9EC1E601EB6.title: "Gather Andesite"
+	quest.66A0A2094ABCFD5D.quest_desc: [
+		"§7Not every mechanism begins with a full ingot.§r"
+		" "
+		"§fBreak zinc down into nuggets. Small parts often become the key to larger machines.§r"
+	]
+	quest.66A0A2094ABCFD5D.quest_subtitle: "Small Components"
 	quest.66A0A2094ABCFD5D.title: "Craft Zinc Nuggets"
+	quest.6ED33C26796DEA3A.quest_desc: [
+		"§7Every journey begins with something simple.§r"
+		" "
+		"§fGather any type of log to start building your first tools and shelter.§r"
+		" "
+		"§6The fractured world will not wait for you.§r"
+	]
 	quest.6ED33C26796DEA3A.quest_subtitle: "The Beginning"
 	quest.6ED33C26796DEA3A.title: "Gather Wood"
 	quest.72EC9401EE3BA289.quest_desc: [
@@ -97,62 +144,6 @@
 		" "
 		"§fDo not remain underground forever.§r"
 	]
-
-quest.6ED33C26796DEA3A.quest_desc: [
-	"§7Every journey begins with something simple.§r"
-	" "
-	"§fGather any type of log to start building your first tools and shelter.§r"
-	" "
-	"§6The fractured world will not wait for you.§r"
-]
-
-quest.116B91C74588FDB0.quest_desc: [
-	"§7Raw wood is useful, but planks are where crafting truly begins.§r"
-	" "
-	"§fConvert your logs into planks and prepare your first workspace.§r"
-]
-
-quest.1933418C96886DBE.quest_desc: [
-	"§7A simple table. Four planks. Endless possibilities.§r"
-	" "
-	"§fCraft a Crafting Table to unlock your first real steps into survival and technology.§r"
-]
-
-quest.6655C9EC1E601EB6.quest_desc: [
-	"§7Andesite is rough, common, and easy to overlook.§r"
-	" "
-	"§fBut in this world, it will become the foundation of your first machines.§r"
-]
-
-quest.0FCAE2FFD1263B87.quest_desc: [
-	"§7Zinc carries the first traces of mechanical potential.§r"
-	" "
-	"§fFind and smelt zinc to prepare your first custom alloy recipe.§r"
-	" "
-	"§6JEI will help you locate the correct recipe path if needed.§r"
-]
-
-quest.66A0A2094ABCFD5D.quest_desc: [
-	"§7Not every mechanism begins with a full ingot.§r"
-	" "
-	"§fBreak zinc down into nuggets. Small parts often become the key to larger machines.§r"
-]
-
-quest.3F8FDF23051A7247.quest_desc: [
-	"§7Andesite and zinc now form something greater.§r"
-	" "
-	"§fCraft Andesite Alloy to take your first real step toward mechanical automation.§r"
-	" "
-	"§6Mechanical Age is within reach.§r"
-]
-
-quest.116B91C74588FDB0.quest_subtitle: "First Materials"
-quest.1933418C96886DBE.quest_subtitle: "A Place to Work"
-quest.6655C9EC1E601EB6.quest_subtitle: "Stone for Machines"
-quest.0FCAE2FFD1263B87.quest_subtitle: "First Metal"
-quest.66A0A2094ABCFD5D.quest_subtitle: "Small Components"
-quest.3F8FDF23051A7247.quest_subtitle: "The First Alloy"
-
 	quest.72EC9401EE3BA289.title: "Exploration is Essential"
 	task.0E65D18F4C1C713D.title: "Any #c:ores/zinc"
 	task.10B1D3F62030CB9B.title: "Any #minecraft:logs"

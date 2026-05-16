@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "age_1__mechanical_age"
 	group: "2B3850906486FE99"
+	icon: {
+		id: "create:andesite_alloy"
+	}
 	id: "1E400F3088D217E5"
 	order_index: 1
 	quest_links: [ ]

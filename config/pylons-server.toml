@@ -57,7 +57,7 @@
 	#Delay between harvest attempts (in ticks).
 	# Default: 60
 	# Range: 10 ~ 120
-	harvesterWorkDelay = 60
+	harvesterWorkDelay = 20
 	#Whether the harvester requires a hoe to work.
 	#If enabled, it will use 1 durability per harvest action
 	harvesterRequiresTool = true
@@ -66,7 +66,7 @@
 	harvesterCanBeAutomated = false
 	#Whether the harvester requires power to work.
 	#If enabled, it will disable the tool requirement and instead have an RF cost per block.
-	harvesterRequiresPower = false
+	harvesterRequiresPower = true
 	#The RF cost per block harvested, if power usage is enabled.
 	# Default: 5
 	# Range: 1 ~ 10000
@@ -74,4 +74,4 @@
 	#Buffer size should be greater than power cost per block * 80.
 	# Default: 1000
 	# Range: 100 ~ 1000000
-	harvesterPowerBuffer = 1000
+	harvesterPowerBuffer = 10000

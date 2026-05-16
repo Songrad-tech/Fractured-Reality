@@ -56,7 +56,7 @@
      * The growth totem uses the randomTick to determine when it should grow crops. This value determines the chance in % that a random tick actually grows crops to potentially decrease its yield. For example, a 20% chance bonemeals a crop ~10.5 times an hour
      * Range: 1 - 100
      */
-    "growthTotemGrowChance": 20,
+    "growthTotemGrowChance": 50,
     "fossilEffectsEnabled": true,
     // Range: 10 - 50
     "fossilFleeRange": 20,

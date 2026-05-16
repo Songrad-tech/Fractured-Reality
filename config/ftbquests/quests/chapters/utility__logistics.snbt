@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "utility__logistics"
 	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbteams:textures/accept.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "626D402EBAE946F4"
 	order_index: 1
 	quest_links: [ ]

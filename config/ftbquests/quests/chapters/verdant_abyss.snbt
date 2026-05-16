@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "verdant_abyss"
 	group: "69F5CC4C3382AB9B"
+	icon: {
+		id: "undergarden:depthrock_pebble"
+	}
 	id: "3ACA0646478CC055"
 	order_index: 1
 	quest_links: [ ]

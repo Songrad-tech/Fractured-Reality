@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "inside_the_hive"
 	group: "69F5CC4C3382AB9B"
+	icon: {
+		id: "minecraft:honeycomb"
+	}
 	id: "14893C4ADFC69999"
 	order_index: 0
 	quest_links: [ ]
