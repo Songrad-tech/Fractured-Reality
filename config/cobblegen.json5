@@ -13,11 +13,6 @@
       minY: 0,
     },
     {
-      id: "minecraft:andesite",
-      weight: 20.0,
-      minY: 0,
-    },
-    {
       id: "minecraft:granite",
       weight: 20.0,
       minY: 0,
@@ -55,34 +50,34 @@
       ],
     },
     cobbleGen: {
-      "minecraft:gold_block": [
+      "kubejs:ochrum_core": [
         {
           id: "create:ochrum",
-          weight: 100.0,
+          weight: 1.0,
         },
       ],
       "minecraft:copper_block": [
         {
           id: "create:veridium",
-          weight: 100.0,
+          weight: 1.0,
         },
       ],
       "create:zinc_block": [
         {
           id: "create:asurine",
-          weight: 100.0,
+          weight: 1.0,
         },
       ],
       "minecraft:iron_block": [
         {
           id: "create:crimsite",
-          weight: 100.0,
+          weight: 1.0,
         },
       ],
       "oritech:nickel_block": [
         {
           id: "kubejs:viridite",
-          weight: 100.0,
+          weight: 1.0,
         },
       ],
     },

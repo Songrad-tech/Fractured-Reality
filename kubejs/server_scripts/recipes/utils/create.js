@@ -1,28 +1,4 @@
-function item(id) {
-  return { item: id };
-}
-
-function tag(id) {
-  return { tag: id };
-}
-
-function fluid(id, amount) {
-  return {
-    type: "neoforge:single",
-    amount: amount,
-    fluid: id,
-  };
-}
-
-function result(id, chance) {
-  const output = { id: id };
-
-  if (chance !== undefined) {
-    output.chance = chance;
-  }
-
-  return output;
-}
+//priority: 1000
 
 function step(type, transitionalItem, ingredients) {
   const finalIngredients = [item(transitionalItem)];

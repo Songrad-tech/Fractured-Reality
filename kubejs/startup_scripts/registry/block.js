@@ -46,4 +46,20 @@ StartupEvents.registry("block", (event) => {
   viriditeVariants.forEach((variant) => {
     createFullStoneSet(event, variant.id, variant.name);
   });
+
+  event
+    .create("ochrum_core")
+    .parentModel("fractured_reality:block/core/resources/ochrum_core")
+    .soundType("stone")
+    .requiresTool(true)
+    .tagBlock("minecraft:mineable/pickaxe");
+
+  event
+    .create("incomplete_ochrum_core")
+    .parentModel(
+      "fractured_reality:block/core/resources/incomplete_ochrum_core",
+    )
+    .soundType("stone")
+    .requiresTool(true)
+    .tagBlock("minecraft:mineable/pickaxe");
 });

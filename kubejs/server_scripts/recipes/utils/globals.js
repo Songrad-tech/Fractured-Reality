@@ -1,23 +1,11 @@
-/**
- * Removes recipes by their recipe IDs.
- *
- * @param {*} event - KubeJS recipe event.
- * @param {string[]} recipes - List of recipe IDs to remove.
- */
+//priority: 1000
+
 function removeRecipes(event, recipes) {
   recipes.forEach((recipeId) => {
     event.remove({ id: recipeId });
   });
 }
 
-/**
- * Replaces inputs in recipes matching specific outputs.
- *
- * @param {*} event - KubeJS recipe event.
- * @param {Object[]} recipes - List of recipe replacement configurations.
- * @param {string[]} recipes[].outputs - Recipe outputs to target.
- * @param {string[][]} recipes[].replacements - List of input replacements as [from, to].
- */
 function replaceInputFromRecipes(event, recipes) {
   recipes.forEach((recipe) => {
     recipe.outputs.forEach((output) => {
@@ -26,4 +14,30 @@ function replaceInputFromRecipes(event, recipes) {
       });
     });
   });
+}
+
+function item(id) {
+  return { item: id };
+}
+
+function tag(id) {
+  return { tag: id };
+}
+
+function fluid(id, amount) {
+  return {
+    type: "neoforge:single",
+    amount: amount,
+    fluid: id,
+  };
+}
+
+function result(id, chance) {
+  const output = { id: id };
+
+  if (chance !== undefined) {
+    output.chance = chance;
+  }
+
+  return output;
 }
