@@ -56,25 +56,25 @@
           weight: 1.0,
         },
       ],
-      "minecraft:copper_block": [
+      "kubejs:veridium_core": [
         {
           id: "create:veridium",
           weight: 1.0,
         },
       ],
-      "create:zinc_block": [
+      "kubejs:asurine_core": [
         {
           id: "create:asurine",
           weight: 1.0,
         },
       ],
-      "minecraft:iron_block": [
+      "kubejs:crimsite_core": [
         {
           id: "create:crimsite",
           weight: 1.0,
         },
       ],
-      "oritech:nickel_block": [
+      "kubejs:viridite_core": [
         {
           id: "kubejs:viridite",
           weight: 1.0,

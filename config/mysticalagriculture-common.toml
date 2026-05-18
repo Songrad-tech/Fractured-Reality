@@ -3,7 +3,7 @@
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	# Default: 0.2
 	# Range: 0.0 ~ 1.0
-	inferiumDropChance = 0.2
+	inferiumDropChance = 0.1
 	#The number of uses the basic Infusion Crystal should have.
 	# Default: 1000
 	# Range: > 10
@@ -11,7 +11,7 @@
 	#The amount of time in seconds between each Growth Accelerator growth tick.
 	# Default: 10
 	# Range: > 1
-	growthAcceleratorCooldown = 10
+	growthAcceleratorCooldown = 5
 	#The percentage chance that harvesting a Resource Crop will drop a Fertilized Essence.
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0

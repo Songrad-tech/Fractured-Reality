@@ -32,3 +32,16 @@ function createFullStoneSet(event, id, displayName) {
     "kubejs:stone_type/viridite",
   );
 }
+
+function createStoneCore(event, id, hidden) {
+  const block = event
+    .create(id)
+    .parentModel(`fractured_reality:block/core/resources/${id}`)
+    .soundType("stone")
+    .requiresTool(true)
+    .tagBlock("minecraft:mineable/pickaxe");
+
+  if (hidden) {
+    block.tag("c:hidden_from_recipe_viewers");
+  }
+}

@@ -1,5 +1,13 @@
 StartupEvents.registry("block", (event) => {
-  event.create("electrum_casing").soundType("metal");
+  event
+    .create("electrum_casing")
+    .soundType("metal")
+    .requiresTool(true)
+    .tagItem("create:casing")
+    .tagBlock("create:casing")
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("create:wrench_pickup")
+    .tagBlock("minecraft:mineable/axe");
 
   event
     .create("viridite")
@@ -47,19 +55,16 @@ StartupEvents.registry("block", (event) => {
     createFullStoneSet(event, variant.id, variant.name);
   });
 
-  event
-    .create("ochrum_core")
-    .parentModel("fractured_reality:block/core/resources/ochrum_core")
-    .soundType("stone")
-    .requiresTool(true)
-    .tagBlock("minecraft:mineable/pickaxe");
+  const resourceCores = [
+    "ochrum",
+    "asurine",
+    "crimsite",
+    "veridium",
+    "viridite",
+  ];
 
-  event
-    .create("incomplete_ochrum_core")
-    .parentModel(
-      "fractured_reality:block/core/resources/incomplete_ochrum_core",
-    )
-    .soundType("stone")
-    .requiresTool(true)
-    .tagBlock("minecraft:mineable/pickaxe");
+  resourceCores.forEach((core) => {
+    createStoneCore(event, `${core}_core`, false);
+    createStoneCore(event, `incomplete_${core}_core`, true);
+  });
 });

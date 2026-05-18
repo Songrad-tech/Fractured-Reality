@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "fractured_reality:block/incomplete_crimsite_core"
+  }
+}
