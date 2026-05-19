@@ -23,4 +23,10 @@ StartupEvents.registry("item", (event) => {
     .tag("c:hidden_from_recipe_viewers");
 
   event.create("fluix_core").parentModel("fractured_reality:block/fluix_core");
+
+  event
+    .create("honey_pearl")
+    .texture("fractured_reality:item/honey_pearl")
+    .maxStackSize(16)
+    .rarity("uncommon");
 });

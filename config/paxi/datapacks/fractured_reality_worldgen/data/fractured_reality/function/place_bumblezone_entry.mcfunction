@@ -1,0 +1,1 @@
+execute in the_bumblezone:the_bumblezone run place template fractured_reality:bumblezone_entry 0 120 0
