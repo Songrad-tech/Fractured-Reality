@@ -9,5 +9,28 @@
 	id: "14893C4ADFC69999"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["3E7246FF565DE837"]
+			id: "01154E300B5A8FD7"
+			tasks: [{
+				id: "4AE6861FB5F1C839"
+				item: { count: 1, id: "kubejs:honey_pearl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01154E300B5A8FD7"]
+			id: "339B1B43D36D8DB4"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "0634C6A559CD6E03"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
 }

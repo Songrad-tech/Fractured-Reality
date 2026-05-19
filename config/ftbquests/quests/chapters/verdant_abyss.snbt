@@ -9,5 +9,50 @@
 	id: "3ACA0646478CC055"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "58BE26650A0440F6"
+			tasks: [{
+				id: "151C0B880BFD479D"
+				item: { count: 1, id: "undergarden:catalyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58BE26650A0440F6"]
+			id: "62F5592C52CD8821"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "46B555CC64C5238E"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62F5592C52CD8821"]
+			id: "4BD509205B526E8C"
+			tasks: [{
+				id: "1A191C78EF8EE311"
+				structure: "undergarden:catacombs"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4BD509205B526E8C"]
+			id: "03A760BECFFD5126"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "4E9F3937E1CADA9F"
+				type: "kill"
+				value: 4L
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
 }

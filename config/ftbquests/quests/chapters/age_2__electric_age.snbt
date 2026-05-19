@@ -9,5 +9,39 @@
 	id: "47BCA02B74AEAE70"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["629860E916A8B1F7"]
+			id: "75AD0195B0CAF319"
+			tasks: [{
+				id: "2FFA8E7095128029"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75AD0195B0CAF319"]
+			id: "4E8825D12111FC6B"
+			tasks: [{
+				id: "6562CCA5DE389C32"
+				item: { count: 1, id: "createaddition:electrum_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E8825D12111FC6B"]
+			id: "51A24A24DCF5CFE2"
+			tasks: [{
+				id: "3BE1ECA7CE3C6BD3"
+				item: { count: 1, id: "kubejs:electrum_casing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+	]
 }
