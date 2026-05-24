@@ -124,8 +124,8 @@
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.5d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F8FDF23051A7247"]
@@ -304,6 +304,28 @@
 			}]
 			x: 4.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["6048F41AC1218BF5"]
+			id: "6BA09360A88A9072"
+			tasks: [{
+				id: "0CD4E4009FE67231"
+				item: { count: 1, id: "create:content_observer" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["629860E916A8B1F7"]
+			id: "65194B1780617E2D"
+			tasks: [{
+				id: "09138C9F5DD8EECC"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
 		}
 	]
 }

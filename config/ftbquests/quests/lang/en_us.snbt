@@ -15,6 +15,12 @@
 	chapter.7F9615FA16B130DA.title: "Age 5: Beyond the Sky"
 	chapter_group.2B3850906486FE99.title: "Progression"
 	chapter_group.69F5CC4C3382AB9B.title: "Exploration"
+	quest.006F7EA770EB49AD.title: "Copper Upgrade"
+	quest.02FE952A15865F26.title: "Wooden Construction Stick"
+	quest.033F07AD47AC2AB2.title: "Linking Tool"
+	quest.0593FF5DC6E58B76.title: "Obsidian Barrel"
+	quest.0860B05992C8E356.title: "Diamond Glider"
+	quest.0F5AC97C67C06135.title: "Diamond Barrel"
 	quest.0FCAE2FFD1263B87.quest_desc: [
 		"§7Zinc carries the first traces of mechanical potential.§r"
 		" "
@@ -39,6 +45,7 @@
 		"§6The more you automate, the further you will go.§r"
 	]
 	quest.128BDDD7D750138C.title: "Automation is the Key"
+	quest.174458AA46110F36.title: "Gold Chest"
 	quest.1933418C96886DBE.quest_desc: [
 		"§7A simple table. Four planks. Endless possibilities.§r"
 		" "
@@ -46,7 +53,14 @@
 	]
 	quest.1933418C96886DBE.quest_subtitle: "A Place to Work"
 	quest.1933418C96886DBE.title: "Craft Crafting Table"
+	quest.1ACED1A29208A092.title: "Diamond Upgrade"
 	quest.20CECAECE7438D7F.title: "The First Rotation"
+	quest.21864889EF3D7FE3.title: "Netherite Construction Stick"
+	quest.291C454B10B8EBBD.title: "Elevators"
+	quest.2B4A1A32FE79E51A.title: "Netherite Glider"
+	quest.2C60767BD295F11B.title: "Gold Barrel"
+	quest.3058A05926D38F58.title: "Gold Backpack"
+	quest.33744EB9CA7827B4.title: "Diamond Magnum Torch"
 	quest.35C22982FC123B45.quest_desc: [
 		"§7Some phenomena cannot be explained.§r"
 		" "
@@ -57,6 +71,8 @@
 		"§4That is perfectly normal.§r"
 	]
 	quest.35C22982FC123B45.title: "Reality Feels... Wrong"
+	quest.361CDDAF1904CA7D.title: "Time in a Bottle"
+	quest.3AB7518A0232F39C.title: "Netherite Barrel"
 	quest.3F8FDF23051A7247.quest_desc: [
 		"§7Andesite and zinc now form something greater.§r"
 		" "
@@ -66,6 +82,10 @@
 	]
 	quest.3F8FDF23051A7247.quest_subtitle: "The First Alloy"
 	quest.3F8FDF23051A7247.title: "Craft Andesite Alloy"
+	quest.407C4005B465D453.title: "Iron Chest"
+	quest.421B58874D9E154B.title: "Compacting Drawer"
+	quest.43281C17E44C75B1.title: "Amethyst Magnum Torch"
+	quest.43AFE81D3D2240D8.title: "Barrel"
 	quest.467A80382231A9C6.quest_desc: [
 		"§fWelcome, traveler.§r"
 		" "
@@ -82,6 +102,7 @@
 		"§6Survive.§r"
 	]
 	quest.467A80382231A9C6.title: "Welcome to Fractured Reality"
+	quest.4787C1D384778BEA.title: "Golden Glider"
 	quest.48DA5F1CC92B5184.quest_desc: [
 		"§7Technology progression is intentionally gated.§r"
 		" "
@@ -92,6 +113,10 @@
 		"§6Follow the main Progression chapters to guide your journey.§r"
 	]
 	quest.48DA5F1CC92B5184.title: "Progression Matters"
+	quest.4A8BD7AA0C2B41E6.title: "Iron Glider"
+	quest.4B94CEBFFEF5D196.title: "Iron Backpack"
+	quest.4F67DC68A3B182B4.title: "Emerald Magnum Torch"
+	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
 	quest.54678129C0A1A442.quest_desc: [
 		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.ftbchunks.map\",\"color\":\"gold\"},{\"text\":\" to open the FTB Chunks map.\",\"color\":\"white\"}]"
 		" "
@@ -104,6 +129,10 @@
 		"§cHighly recommended once automation begins.§r"
 	]
 	quest.54678129C0A1A442.title: "Claim and Protect Your Base"
+	quest.5478A6C6A333557A.title: "Iron Construction Stick"
+	quest.55FF126D92F7E1EE.title: "Storage Controller"
+	quest.5679AB2B6AF7FA6F.title: "Copper Construction Stick"
+	quest.6015EDC54A6BCEC0.title: "Drawer"
 	quest.62006D27C12C3402.quest_desc: [
 		"§lJEI§r §7will guide you throughout your journey.§r"
 		" "
@@ -115,6 +144,9 @@
 		"§cDo not rely entirely on vanilla progression knowledge.§r"
 	]
 	quest.62006D27C12C3402.title: "JEI is Your Best Friend"
+	quest.63D67DEF525D3D68.title: "Explorer's Compass"
+	quest.6523137544744B69.title: "Obsidian Chest"
+	quest.65A746736DC2D8ED.title: "Diamond Construction Stick"
 	quest.6655C9EC1E601EB6.quest_desc: [
 		"§7Andesite is rough, common, and easy to overlook.§r"
 		" "
@@ -129,6 +161,10 @@
 	]
 	quest.66A0A2094ABCFD5D.quest_subtitle: "Small Components"
 	quest.66A0A2094ABCFD5D.title: "Craft Zinc Nuggets"
+	quest.6942D9CB3B07E0D8.title: "Configuration Tool"
+	quest.6A4CCCEA030C7865.title: "Controller Extension"
+	quest.6CE2C3EFDCA2D25D.title: "Iron Barrel"
+	quest.6D407B1D6ECEC401.title: "Diamond Backpack"
 	quest.6ED33C26796DEA3A.quest_desc: [
 		"§7Every journey begins with something simple.§r"
 		" "
@@ -138,6 +174,8 @@
 	]
 	quest.6ED33C26796DEA3A.quest_subtitle: "The Beginning"
 	quest.6ED33C26796DEA3A.title: "Gather Wood"
+	quest.70B1DD16E287E1E0.title: "Diamond Chest"
+	quest.72D10B75A011DEB8.title: "Netherite Upgrade"
 	quest.72EC9401EE3BA289.quest_desc: [
 		"§7Many dimensions, structures, and hidden locations contain important resources, progression items, and fragments of lost knowledge.§r"
 		" "
@@ -146,9 +184,16 @@
 		"§fDo not remain underground forever.§r"
 	]
 	quest.72EC9401EE3BA289.title: "Exploration is Essential"
+	quest.760E55F3762CEE14.title: "Armory Cabinet"
+	quest.77C38BE8ECF78C64.title: "Netherite Backpack"
+	quest.77D9929025AD4DB1.title: "Wooden Glider"
+	quest.7AEF195E258F6020.title: "Backpack"
+	quest.7C20643129AD0134.title: "Chest"
+	quest.7D04BE7ADA7A5793.title: "Gold Upgrade"
 	task.0E65D18F4C1C713D.title: "Any #c:ores/zinc"
 	task.10B1D3F62030CB9B.title: "Any #minecraft:logs"
 	task.1C47A13DFFFDD8C5.title: "Useful Tips"
+	task.2169DD2DC384F9F2.title: "Any #functionalstorage:drawer_1x1"
 	task.2E3EEF143D275E46.title: "Any #elevatorid:elevators"
 	task.3130670069A4E805.title: "Any #minecraft:planks"
 	task.360762341E7BF568.title: "Ancient Civilisation"

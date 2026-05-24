@@ -11,15 +11,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["629860E916A8B1F7"]
+			dependencies: ["65194B1780617E2D"]
 			id: "75AD0195B0CAF319"
 			tasks: [{
 				id: "2FFA8E7095128029"
 				item: { count: 1, id: "createaddition:tesla_coil" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["75AD0195B0CAF319"]
@@ -29,8 +29,8 @@
 				item: { count: 1, id: "createaddition:electrum_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4E8825D12111FC6B"]
@@ -40,8 +40,162 @@
 				item: { count: 1, id: "kubejs:electrum_casing" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51A24A24DCF5CFE2"]
+			id: "663C2C9828D6C746"
+			tasks: [{
+				id: "3FEB7DC94593A463"
+				item: { count: 1, id: "kubejs:electrum_core" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["663C2C9828D6C746"]
+			id: "0FE65E3E2FB48FDD"
+			tasks: [{
+				id: "68CBCDA03F478E0B"
+				item: { count: 1, id: "oritech:machine_core_1" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FE65E3E2FB48FDD"]
+			id: "26C34D85662B5AE6"
+			tasks: [{
+				id: "36FF909C8ED6FEAC"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26C34D85662B5AE6"]
+			id: "76B17947279E3743"
+			tasks: [{
+				id: "2F3E3B4CF1CDE746"
+				item: { count: 1, id: "oritech:machine_core_3" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3DEFE136C2F663A0"]
+			id: "6DBCE30C8EB7B626"
+			tasks: [{
+				id: "7E09E6A6BA710E22"
+				item: { count: 1, id: "oritech:machine_core_5" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76B17947279E3743"]
+			id: "3DEFE136C2F663A0"
+			tasks: [{
+				id: "51BF095379B50A5A"
+				item: { count: 1, id: "oritech:machine_core_4" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DBCE30C8EB7B626"]
+			id: "25D5F8A7B5EB738F"
+			tasks: [{
+				id: "597969CEED7C63F9"
+				item: { count: 1, id: "oritech:machine_core_6" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25D5F8A7B5EB738F"]
+			id: "26CD127124654FA2"
+			tasks: [{
+				id: "7DA3B0BDF6B06448"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["663C2C9828D6C746"]
+			id: "0B4BD01A88F0FDE3"
+			tasks: [{
+				id: "434689F6B3FDF65C"
+				item: { count: 1, id: "oritech:basic_generator_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B4BD01A88F0FDE3"]
+			id: "2EA74B5D4BC76075"
+			tasks: [{
+				id: "3BEB6961FDAB883A"
+				item: { count: 1, id: "oritech:fuel_generator_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B4BD01A88F0FDE3"]
+			id: "35A6F9649E54174A"
+			tasks: [{
+				id: "3E00819EC9EB78DC"
+				item: { count: 1, id: "oritech:bio_generator_block" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B4BD01A88F0FDE3"]
+			id: "540A57E6C7E147B5"
+			tasks: [{
+				id: "58143396D5B0B14F"
+				item: { count: 1, id: "oritech:lava_generator_block" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B4BD01A88F0FDE3"]
+			id: "491415E3200FC513"
+			tasks: [{
+				id: "337EC74FD7FA3713"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B4BD01A88F0FDE3"]
+			id: "015112CAD01BA61B"
+			tasks: [{
+				id: "3BC4B49E3E2DC720"
+				item: { count: 1, id: "oritech:steam_engine_block" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
 		}
 	]
 }
