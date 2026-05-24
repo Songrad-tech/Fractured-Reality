@@ -29,6 +29,33 @@ const coreSequencedRecipes = [
       pressing("kubejs:incomplete_brass_core"),
     ],
   },
+  {
+    id: "kubejs:sequenced_assembly/electrum_core",
+    ingredient: item("kubejs:electrum_casing"),
+    transitionalItem: "kubejs:incomplete_electrum_core",
+    loops: 2,
+    results: [result("kubejs:electrum_core")],
+    sequence: [
+      deploying(
+        "kubejs:incomplete_electrum_core",
+        item("createaddition:tesla_coil"),
+      ),
+      deploying(
+        "kubejs:incomplete_electrum_core",
+        item("createaddition:modular_accumulator"),
+      ),
+      pressing("kubejs:incomplete_electrum_core"),
+      deploying(
+        "kubejs:incomplete_electrum_core",
+        item("createaddition:modular_accumulator"),
+      ),
+      deploying(
+        "kubejs:incomplete_electrum_core",
+        item("createaddition:alternator"),
+      ),
+      pressing("kubejs:incomplete_brass_core"),
+    ],
+  },
 ];
 
 const coreShapedRecipes = [
@@ -70,4 +97,23 @@ ServerEvents.recipes((event) => {
   coreMechanicalRecipes.forEach((recipe) => {
     mechanicalCrafting(event, recipe, recipe.id);
   });
+
+  event
+    .custom({
+      type: "oritech:assembler",
+      ingredients: [
+        item("createaddition:tesla_coil"),
+        item("createaddition:modular_accumulator"),
+        item("kubejs:electrum_casing"),
+        item("createaddition:alternator"),
+      ],
+      results: [
+        {
+          count: 2,
+          id: "kubejs:electrum_core",
+        },
+      ],
+      time: 80,
+    })
+    .id("kubejs:assembly/electrum_core");
 });

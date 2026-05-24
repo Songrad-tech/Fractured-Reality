@@ -25,6 +25,7 @@ const createRecipeRemovals = [
   "create:crafting/kinetics/elevator_pulley",
   "createaddition:crafting/portable_energy_interface",
   "create:crafting/kinetics/rotation_speed_controller",
+  "create:crafting/logistics/content_observer",
 ];
 
 const createNewRecipes = [
@@ -99,6 +100,7 @@ const brassSmithingRecipes = [
     "createaddition:gold_spool",
     "create:chute",
   ],
+  ["create:content_observer", "create:electron_tube", "minecraft:observer"],
 ];
 
 ServerEvents.recipes((event) => {
