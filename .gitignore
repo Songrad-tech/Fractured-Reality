@@ -32,3 +32,4 @@ config/packetfixer.properties
 config/*-client.snbt
 config/drippyloadingscreen/early_window_reference.properties
 progression.drawio
+*.drawio
