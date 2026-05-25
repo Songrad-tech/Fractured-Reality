@@ -1,0 +1,39 @@
+name: Bug Report
+description: Report a crash, bug, broken recipe, or unexpected behavior.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Explain the issue clearly.
+      placeholder: Describe the bug...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Craft...
+        3. Crash...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Modpack version
+      placeholder: "Example: 0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Crash report
+      description: Paste the crash report or latest.log if relevant.
+      render: shell

@@ -1,0 +1,36 @@
+name: Progression Issue
+description: Report a blocked quest, broken recipe chain, or unclear progression step.
+title: "[Progression]: "
+labels: ["progression", "quest"]
+body:
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: Related chapter
+      options:
+        - Introduction
+        - Utility & Logistics
+        - Prologue
+        - Mechanical Age
+        - Electric Age
+        - Digital Consciousness
+        - Seeds of Eternity
+        - Beyond the Sky
+        - Exploration
+        - End Game
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is blocking or confusing?
+      placeholder: Explain the progression problem...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: Describe what should happen instead.
