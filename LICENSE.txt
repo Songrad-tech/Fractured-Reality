@@ -1,0 +1,22 @@
+Fractured Reality License
+=========================
+
+Copyright (c) Songrad
+
+This modpack and its custom content are protected by copyright.
+
+You are allowed to:
+- Download and play the modpack
+- Use the modpack on private or public servers
+- Share the official download link
+
+You are NOT allowed to:
+- Reupload the modpack or its files
+- Redistribute modified versions of the modpack
+- Use custom assets, scripts, or textures from this project in other projects without permission
+- Claim this project as your own
+
+All usage of this modpack must comply with the Minecraft End User License Agreement:
+https://www.minecraft.net/en-us/eula
+
+Some included mods, assets, and dependencies may have their own licenses and remain the property of their respective authors.
