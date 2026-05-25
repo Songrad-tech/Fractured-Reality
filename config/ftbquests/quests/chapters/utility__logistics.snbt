@@ -21,8 +21,8 @@
 				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -32,8 +32,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(elevatorid:elevators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -43,8 +43,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7AEF195E258F6020"]
@@ -54,8 +54,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B94CEBFFEF5D196"]
@@ -65,8 +65,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3058A05926D38F58"]
@@ -76,8 +76,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6D407B1D6ECEC401"]
@@ -87,8 +87,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -98,30 +98,8 @@
 				item: { count: 1, id: "tiab:time_in_a_bottle" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["62006D27C12C3402"]
-			id: "4F67DC68A3B182B4"
-			tasks: [{
-				id: "52FB437349163F00"
-				item: { count: 1, id: "magnumtorch:emerald_magnum_torch" }
-				type: "item"
-			}]
 			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["62006D27C12C3402"]
-			id: "43281C17E44C75B1"
-			tasks: [{
-				id: "763F35E820C91819"
-				item: { count: 1, id: "magnumtorch:amethyst_magnum_torch" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -131,8 +109,8 @@
 				item: { count: 1, id: "vc_gliders:paraglider_wood" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["77D9929025AD4DB1"]
@@ -142,8 +120,8 @@
 				item: { count: 1, id: "vc_gliders:paraglider_iron" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4A8BD7AA0C2B41E6"]
@@ -153,8 +131,8 @@
 				item: { count: 1, id: "vc_gliders:paraglider_gold" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4787C1D384778BEA"]
@@ -164,8 +142,8 @@
 				item: { count: 1, id: "vc_gliders:paraglider_diamond" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0860B05992C8E356"]
@@ -175,8 +153,8 @@
 				item: { count: 1, id: "vc_gliders:paraglider_netherite" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -186,8 +164,8 @@
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -197,8 +175,8 @@
 				item: { count: 1, id: "minecraft:barrel" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["43AFE81D3D2240D8"]
@@ -208,8 +186,8 @@
 				item: { count: 1, id: "metalbarrels:iron_barrel" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6CE2C3EFDCA2D25D"]
@@ -219,8 +197,8 @@
 				item: { count: 1, id: "metalbarrels:gold_barrel" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: -2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2C60767BD295F11B"]
@@ -230,7 +208,7 @@
 				item: { count: 1, id: "metalbarrels:diamond_barrel" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: -2.5d
 			y: 7.0d
 		}
 		{
@@ -241,8 +219,8 @@
 				item: { count: 1, id: "metalbarrels:obsidian_barrel" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.0d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0593FF5DC6E58B76"]
@@ -252,8 +230,8 @@
 				item: { count: 1, id: "metalbarrels:netherite_barrel" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 7.0d
+			x: -2.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -263,8 +241,8 @@
 				item: { count: 1, id: "minecraft:chest" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7C20643129AD0134"]
@@ -274,8 +252,8 @@
 				item: { count: 1, id: "ironchest:iron_chest" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["407C4005B465D453"]
@@ -285,8 +263,8 @@
 				item: { count: 1, id: "ironchest:gold_chest" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: -4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["174458AA46110F36"]
@@ -296,8 +274,8 @@
 				item: { count: 1, id: "ironchest:diamond_chest" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.0d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["70B1DD16E287E1E0"]
@@ -307,8 +285,8 @@
 				item: { count: 1, id: "ironchest:obsidian_chest" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -318,8 +296,8 @@
 				item: { count: 1, id: "constructionstick:wooden_stick" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["02FE952A15865F26"]
@@ -329,8 +307,8 @@
 				item: { count: 1, id: "constructionstick:copper_stick" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5679AB2B6AF7FA6F"]
@@ -340,8 +318,8 @@
 				item: { count: 1, id: "constructionstick:iron_stick" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5478A6C6A333557A"]
@@ -351,8 +329,8 @@
 				item: { count: 1, id: "constructionstick:diamond_stick" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["65A746736DC2D8ED"]
@@ -362,8 +340,8 @@
 				item: { count: 1, id: "constructionstick:netherite_stick" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.0d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -373,8 +351,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer_1x1)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
@@ -384,8 +362,8 @@
 				item: { count: 1, id: "functionalstorage:compacting_drawer" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
@@ -395,8 +373,8 @@
 				item: { count: 1, id: "functionalstorage:storage_controller" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["55FF126D92F7E1EE"]
@@ -406,8 +384,8 @@
 				item: { count: 1, id: "functionalstorage:linking_tool" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 7.0d
+			x: -11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
@@ -417,8 +395,8 @@
 				item: { count: 1, id: "functionalstorage:configuration_tool" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 5.0d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["55FF126D92F7E1EE"]
@@ -428,8 +406,8 @@
 				item: { count: 1, id: "functionalstorage:controller_extension" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
+			x: -8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
@@ -439,8 +417,8 @@
 				item: { count: 1, id: "functionalstorage:copper_upgrade" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["006F7EA770EB49AD"]
@@ -450,8 +428,8 @@
 				item: { count: 1, id: "functionalstorage:gold_upgrade" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.0d
+			x: -6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7D04BE7ADA7A5793"]
@@ -461,8 +439,8 @@
 				item: { count: 1, id: "functionalstorage:diamond_upgrade" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.0d
+			x: -6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1ACED1A29208A092"]
@@ -472,8 +450,8 @@
 				item: { count: 1, id: "functionalstorage:netherite_upgrade" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 11.0d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
@@ -483,8 +461,8 @@
 				item: { count: 1, id: "functionalstorage:armory_cabinet" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
@@ -494,8 +472,8 @@
 				item: { count: 1, id: "functionalstorage:ender_drawer" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.5d
+			x: -7.5d
+			y: 1.0d
 		}
 	]
 }

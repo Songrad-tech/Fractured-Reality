@@ -84,7 +84,6 @@
 	quest.3F8FDF23051A7247.title: "Craft Andesite Alloy"
 	quest.407C4005B465D453.title: "Iron Chest"
 	quest.421B58874D9E154B.title: "Compacting Drawer"
-	quest.43281C17E44C75B1.title: "Amethyst Magnum Torch"
 	quest.43AFE81D3D2240D8.title: "Barrel"
 	quest.467A80382231A9C6.quest_desc: [
 		"§fWelcome, traveler.§r"
@@ -115,7 +114,6 @@
 	quest.48DA5F1CC92B5184.title: "Progression Matters"
 	quest.4A8BD7AA0C2B41E6.title: "Iron Glider"
 	quest.4B94CEBFFEF5D196.title: "Iron Backpack"
-	quest.4F67DC68A3B182B4.title: "Emerald Magnum Torch"
 	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
 	quest.54678129C0A1A442.quest_desc: [
 		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.ftbchunks.map\",\"color\":\"gold\"},{\"text\":\" to open the FTB Chunks map.\",\"color\":\"white\"}]"
