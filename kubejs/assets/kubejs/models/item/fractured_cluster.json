@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fractured_reality:block/fractured_element/fractured_cluster"
+  }
+}

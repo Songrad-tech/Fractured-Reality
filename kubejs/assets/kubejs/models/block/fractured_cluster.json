@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "fractured_reality:block/fractured_element/fractured_cluster"
+  },
+  "render_type": "cutout"
+}

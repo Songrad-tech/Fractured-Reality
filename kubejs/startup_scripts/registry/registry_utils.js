@@ -45,3 +45,21 @@ function createStoneCore(event, id, hidden) {
     block.tag("c:hidden_from_recipe_viewers");
   }
 }
+
+function budBase(event, id, name) {
+  event
+    .create(id)
+    .displayName(name)
+    .soundType("amethyst")
+    .hardness(1.5)
+    .resistance(1.5)
+    .noCollision()
+    .notSolid()
+    .property(BlockProperties.FACING)
+    .placementState((state) => {
+      state.set(BlockProperties.FACING, face);
+    })
+    .waterlogged()
+    .defaultCutout()
+    .tagBlock("minecraft:mineable/pickaxe");
+}

@@ -38,4 +38,9 @@ StartupEvents.registry("item", (event) => {
     .texture("fractured_reality:item/honey_pearl")
     .maxStackSize(16)
     .rarity("uncommon");
+
+  event
+    .create("fractured_shard")
+    .texture("fractured_reality:item/fractured_shard")
+    .rarity("uncommon");
 });

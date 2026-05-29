@@ -67,4 +67,9 @@ StartupEvents.registry("block", (event) => {
     createStoneCore(event, `${core}_core`, false);
     createStoneCore(event, `incomplete_${core}_core`, true);
   });
+
+  budBase(event, "small_fractured_bud", "Small Fractured Bud");
+  budBase(event, "medium_fractured_bud", "Medium Fractured Bud");
+  budBase(event, "large_fractured_bud", "Large Fractured Bud");
+  budBase(event, "fractured_cluster", "Fractured Cluster");
 });

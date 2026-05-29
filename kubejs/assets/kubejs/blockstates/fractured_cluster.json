@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "kubejs:block/fractured_cluster"
+    },
+    "facing=down": {
+      "model": "kubejs:block/fractured_cluster",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "kubejs:block/fractured_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "kubejs:block/fractured_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/fractured_cluster",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "kubejs:block/fractured_cluster",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
