@@ -3,7 +3,7 @@ const oritechMachineShapedRecipes = [
     output: "oritech:assembler_block",
     pattern: ["AAA", "BCB", "DED"],
     keys: {
-      A: "minecraft:copper_ingot",
+      A: "createaddition:electrum_ingot",
       B: "create:mechanical_crafter",
       C: "oritech:adamant_ingot",
       D: "oritech:motor",
@@ -14,9 +14,9 @@ const oritechMachineShapedRecipes = [
     output: "oritech:foundry_block",
     pattern: ["AAA", "ABA", "CDC"],
     keys: {
-      A: "minecraft:copper_ingot",
-      B: "oritech:motor",
-      C: "createaddition:electrum_ingot",
+      A: "createaddition:electrum_ingot",
+      B: "minecraft:blast_furnace",
+      C: "oritech:motor",
       D: "kubejs:electrum_core",
     },
   },
@@ -46,7 +46,7 @@ const oritechMachineShapedRecipes = [
     output: "oritech:pump_block",
     pattern: ["AAA", "ABA", "CDC"],
     keys: {
-      A: "minecraft:copper_ingot",
+      A: "createaddition:electrum_ingot",
       B: "oritech:motor",
       C: "#c:silicon",
       D: "kubejs:electrum_core",
@@ -69,7 +69,7 @@ const oritechMachineShapedRecipes = [
     keys: {
       A: "oritech:nickel_ingot",
       B: "minecraft:furnace",
-      C: "minecraft:copper_ingot",
+      C: "createaddition:electrum_ingot",
       D: "oritech:magnetic_coil",
       E: "kubejs:electrum_core",
     },
@@ -100,7 +100,7 @@ const oritechMachineShapedRecipes = [
     output: "oritech:placer_block",
     pattern: ["AAA", "BCB", "DED"],
     keys: {
-      A: "minecraft:copper_ingot",
+      A: "createaddition:electrum_ingot",
       B: "oritech:processing_unit",
       C: "create:deployer",
       D: "oritech:motor",
@@ -111,9 +111,9 @@ const oritechMachineShapedRecipes = [
     output: "oritech:destroyer_block",
     pattern: ["AAA", "BCB", "DED"],
     keys: {
-      A: "minecraft:copper_ingot",
+      A: "createaddition:electrum_ingot",
       B: "create:mechanical_drill",
-      C: "createaddition:electrum_ingot",
+      C: "oritech:processing_unit",
       D: "oritech:motor",
       E: "kubejs:electrum_core",
     },
@@ -122,9 +122,9 @@ const oritechMachineShapedRecipes = [
     output: "oritech:treefeller_block",
     pattern: ["AAA", "BCB", "DED"],
     keys: {
-      A: "minecraft:copper_ingot",
+      A: "createaddition:electrum_ingot",
       B: "create:mechanical_saw",
-      C: "createaddition:electrum_ingot",
+      C: "oritech:processing_unit",
       D: "oritech:motor",
       E: "kubejs:electrum_core",
     },
@@ -133,7 +133,7 @@ const oritechMachineShapedRecipes = [
     output: "oritech:fertilizer_block",
     pattern: ["AAA", "BCB", "DED"],
     keys: {
-      A: "minecraft:copper_ingot",
+      A: "createaddition:electrum_ingot",
       B: "#c:silicon",
       C: "sliceanddice:sprinkler",
       D: "oritech:motor",
@@ -184,7 +184,7 @@ const oritechMachineShapedRecipes = [
     output: "oritech:powered_furnace_block",
     pattern: ["AAA", "BCB", "DED"],
     keys: {
-      A: "minecraft:copper_ingot",
+      A: "createaddition:electrum_ingot",
       B: "#c:silicon",
       C: "kubejs:electrum_core",
       D: "oritech:magnetic_coil",
@@ -217,7 +217,7 @@ const oritechMachineShapedRecipes = [
     output: "oritech:refinery_module_block",
     pattern: ["AAA", "ABA", "CDC"],
     keys: {
-      A: "minecraft:copper_ingot",
+      A: "createaddition:electrum_ingot",
       B: "kubejs:electrum_core",
       C: "#c:silicon",
       D: "oritech:small_tank_block",
@@ -256,6 +256,15 @@ const oritechMachineShapedRecipes = [
       D: "oritech:duratium_ingot",
       E: "oritech:motor",
       F: "kubejs:electrum_core",
+    },
+  },
+  {
+    output: "oritech:small_tank_block",
+    pattern: ["AAA", "BCB", "AAA"],
+    keys: {
+      A: "createaddition:electrum_ingot",
+      B: "oritech:fluid_pipe",
+      C: "#c:glass_blocks",
     },
   },
 ];

@@ -10,6 +10,7 @@ const oritechRecipeRemovals = [
   "oritech:crafting/alloy/steel",
   "oritech:mixing/compat/create/biosteel",
   "oritech:crafting/assembleralter",
+  "oritech:crafting/stank",
 
   // Oritech core
   "oritech:crafting/core1",

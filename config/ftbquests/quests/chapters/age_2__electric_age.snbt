@@ -46,6 +46,8 @@
 		{
 			dependencies: ["51A24A24DCF5CFE2"]
 			id: "663C2C9828D6C746"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "3FEB7DC94593A463"
 				item: { count: 1, id: "kubejs:electrum_core" }
@@ -63,7 +65,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0FE65E3E2FB48FDD"]
@@ -73,8 +75,8 @@
 				item: { count: 1, id: "oritech:machine_core_2" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["26C34D85662B5AE6"]
@@ -84,8 +86,8 @@
 				item: { count: 1, id: "oritech:machine_core_3" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3DEFE136C2F663A0"]
@@ -95,8 +97,8 @@
 				item: { count: 1, id: "oritech:machine_core_5" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: 2.0d
+			x: 7.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["76B17947279E3743"]
@@ -106,8 +108,8 @@
 				item: { count: 1, id: "oritech:machine_core_4" }
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.0d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6DBCE30C8EB7B626"]
@@ -117,8 +119,8 @@
 				item: { count: 1, id: "oritech:machine_core_6" }
 				type: "item"
 			}]
-			x: 17.5d
-			y: 2.0d
+			x: 7.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["25D5F8A7B5EB738F"]
@@ -128,8 +130,8 @@
 				item: { count: 1, id: "oritech:machine_core_7" }
 				type: "item"
 			}]
-			x: 19.5d
-			y: 2.0d
+			x: 7.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["663C2C9828D6C746"]
@@ -196,6 +198,256 @@
 			}]
 			x: 6.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["663C2C9828D6C746"]
+			id: "291EF1B8C5FAF6D2"
+			tasks: [{
+				id: "3BC5C6668BE1A3F9"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["291EF1B8C5FAF6D2"]
+			id: "5796DA9810601E71"
+			tasks: [{
+				id: "390516462132E14A"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["246EA8BDE0EBBBCA"]
+			id: "05DD01ACBF11E548"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "39BAF4AB41B46921"
+				item: { count: 1, id: "oritech:laser_arm_block" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05DD01ACBF11E548"]
+			id: "26A381EB48031E70"
+			tasks: [{
+				id: "7E513DD1074A4C03"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5796DA9810601E71"]
+			id: "396229085654B376"
+			tasks: [{
+				id: "295C7787A186D413"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["396229085654B376"]
+			id: "1FD4DFECE1B67D42"
+			tasks: [{
+				id: "2A37585BD0882E3B"
+				item: { count: 1, id: "oritech:refinery_block" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26A381EB48031E70"]
+			id: "73FEC50107D340CA"
+			tasks: [{
+				id: "5107EB0FA003E788"
+				item: { count: 1, id: "oritech:deep_drill_block" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26A381EB48031E70"]
+			id: "48100508EA4A0312"
+			tasks: [{
+				id: "6A67D7112705D7E9"
+				item: { count: 1, id: "oritech:drone_port_block" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FD4DFECE1B67D42"]
+			id: "246EA8BDE0EBBBCA"
+			tasks: [{
+				id: "6E71ABFCA2B339F1"
+				item: { count: 1, id: "oritech:refinery_module_block" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["070D12DF74281A94"]
+			id: "22349AB19BB59BC8"
+			tasks: [{
+				id: "43B621ADE871573F"
+				item: { count: 1, id: "oritech:augment_application_block" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05DD01ACBF11E548"]
+			id: "7B9A5E838B0A0A12"
+			tasks: [
+				{
+					id: "4486BCFA790B05B7"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+				{
+					id: "6D25BD4BE5C1CD3D"
+					item: { count: 1, id: "oritech:accelerator_motor" }
+					type: "item"
+				}
+				{
+					id: "493D356BF864FD21"
+					item: { count: 1, id: "oritech:accelerator_ring" }
+					type: "item"
+				}
+				{
+					id: "63518430BEE03C87"
+					item: { count: 1, id: "oritech:accelerator_sensor" }
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05DD01ACBF11E548"]
+			id: "070D12DF74281A94"
+			tasks: [{
+				id: "7EF2E1685EECCA9E"
+				item: { count: 1, id: "oritech:fragment_forge_block" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["396229085654B376"]
+			id: "3FC3F71FF15B1160"
+			tasks: [{
+				id: "3DD3FED775B6BF77"
+				item: { count: 1, id: "oritech:placer_block" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FC3F71FF15B1160"]
+			id: "59972BC0AD42823E"
+			tasks: [{
+				id: "088B0C4C2DFD8117"
+				item: { count: 1, id: "oritech:destroyer_block" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["59972BC0AD42823E"]
+			id: "6AC0DB7D357CFE78"
+			tasks: [{
+				id: "61916011D247C90F"
+				item: { count: 1, id: "oritech:treefeller_block" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6AC0DB7D357CFE78"]
+			id: "20AAFFB120685D28"
+			tasks: [{
+				id: "49C7A783E1F07484"
+				item: { count: 1, id: "oritech:fertilizer_block" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["26A381EB48031E70"]
+			id: "0B9EF5104D703692"
+			tasks: [{
+				id: "1FEEE24F5A66FBB0"
+				item: { count: 1, id: "tempad:time_steel" }
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B9EF5104D703692"]
+			id: "6589C4AA92E71F8F"
+			tasks: [{
+				id: "1C95EBE1821D7603"
+				item: { count: 1, id: "tempad:chronomark" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B9EF5104D703692"]
+			id: "388CD5446CC01181"
+			tasks: [{
+				id: "6CA1C8E1158C7C29"
+				item: { count: 1, id: "tempad:chronometer" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0B9EF5104D703692"]
+			id: "42341EC5B943117F"
+			tasks: [{
+				id: "316503F5C311DF5D"
+				item: { count: 1, id: "tempad:tempad" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B9EF5104D703692"]
+			id: "72F72CE103EE9BF9"
+			tasks: [{
+				id: "0A9B6778F799F1B7"
+				item: { count: 1, id: "tempad:chronon_battery" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: -0.5d
 		}
 	]
 }
