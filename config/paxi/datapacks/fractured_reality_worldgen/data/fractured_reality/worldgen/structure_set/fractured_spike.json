@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "fractured_reality:fractured_spike",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 4,
+    "salt": 713284
+  }
+}

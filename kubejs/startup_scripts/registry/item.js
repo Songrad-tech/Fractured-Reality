@@ -36,11 +36,15 @@ StartupEvents.registry("item", (event) => {
   event
     .create("honey_pearl")
     .texture("fractured_reality:item/honey_pearl")
-    .maxStackSize(16)
-    .rarity("uncommon");
+    .maxStackSize(16);
 
   event
     .create("fractured_shard")
     .texture("fractured_reality:item/fractured_shard")
-    .rarity("uncommon");
+    .tag("the_bumblezone:crystalline_flower/xp_2_when_consumed");
+
+  event
+    .create("fractured_pearl")
+    .texture("fractured_reality:item/fractured_pearl")
+    .maxStackSize(16);
 });

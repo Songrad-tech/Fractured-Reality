@@ -46,10 +46,9 @@ function createStoneCore(event, id, hidden) {
   }
 }
 
-function budBase(event, id, name) {
+function budBase(event, id) {
   event
     .create(id)
-    .displayName(name)
     .soundType("amethyst")
     .hardness(1.5)
     .resistance(1.5)
@@ -57,9 +56,10 @@ function budBase(event, id, name) {
     .notSolid()
     .property(BlockProperties.FACING)
     .placementState((state) => {
-      state.set(BlockProperties.FACING, face);
+      state.set(BlockProperties.FACING, String(state.getClickedFace()));
     })
     .waterlogged()
     .defaultCutout()
+    .tagBlock("oritech:laser_passthrough")
     .tagBlock("minecraft:mineable/pickaxe");
 }

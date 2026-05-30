@@ -68,8 +68,40 @@ StartupEvents.registry("block", (event) => {
     createStoneCore(event, `incomplete_${core}_core`, true);
   });
 
-  budBase(event, "small_fractured_bud", "Small Fractured Bud");
-  budBase(event, "medium_fractured_bud", "Medium Fractured Bud");
-  budBase(event, "large_fractured_bud", "Large Fractured Bud");
-  budBase(event, "fractured_cluster", "Fractured Cluster");
+  budBase(event, "small_fractured_bud");
+  budBase(event, "medium_fractured_bud");
+  budBase(event, "large_fractured_bud");
+  event
+    .create("fractured_cluster")
+    .soundType("amethyst")
+    .hardness(1.5)
+    .resistance(1.5)
+    .noCollision()
+    .notSolid()
+    .property(BlockProperties.FACING)
+    .placementState((state) => {
+      state.set(BlockProperties.FACING, String(state.getClickedFace()));
+    })
+    .waterlogged()
+    .defaultCutout()
+    .tagBlock("minecraft:mineable/pickaxe");
+
+  event
+    .create("fractured_block")
+    .soundType("amethyst")
+    .hardness(1.5)
+    .resistance(1.5)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("the_bumblezone:crystalline_flower/can_be_placed_on")
+    .tagItem("the_bumblezone:crystalline_flower/xp_8_when_consumed");
+
+  event
+    .create("budding_fractured")
+    .soundType("amethyst")
+    .hardness(1.5)
+    .resistance(1.5)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("ae2:growth_acceleratable")
+    .tagBlock("oritech:laser_accelerated")
+    .tagBlock("the_bumblezone:crystalline_flower/can_be_placed_on");
 });

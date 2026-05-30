@@ -41,3 +41,17 @@ function result(id, chance) {
 
   return output;
 }
+
+function countedResult(id, count) {
+  return {
+    count: count,
+    id: id,
+  };
+}
+
+function chanceResult(id, chance) {
+  return {
+    chance: chance,
+    id: id,
+  };
+}
