@@ -413,30 +413,30 @@
 				item: { count: 1, id: "tempad:chronomark" }
 				type: "item"
 			}]
-			x: 28.5d
-			y: -2.5d
+			x: 27.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["0B9EF5104D703692"]
+			dependencies: ["72F72CE103EE9BF9"]
 			id: "388CD5446CC01181"
 			tasks: [{
 				id: "6CA1C8E1158C7C29"
 				item: { count: 1, id: "tempad:chronometer" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: -3.5d
+			x: 29.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["0B9EF5104D703692"]
+			dependencies: ["72F72CE103EE9BF9"]
 			id: "42341EC5B943117F"
 			tasks: [{
 				id: "316503F5C311DF5D"
 				item: { count: 1, id: "tempad:tempad" }
 				type: "item"
 			}]
-			x: 28.5d
-			y: -1.5d
+			x: 29.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B9EF5104D703692"]
@@ -446,8 +446,8 @@
 				item: { count: 1, id: "tempad:chronon_battery" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: -0.5d
+			x: 27.0d
+			y: -1.0d
 		}
 	]
 }
