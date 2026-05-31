@@ -12,6 +12,8 @@ const ae2RecipeRemovals = [
   "ae2:network/blocks/pattern_providers_interface",
   "ae2:network/blocks/energy_energy_cell",
   "ae2:network/blocks/quantum_link",
+  "ae2:transform/damaged_budding_quartz",
+  "ae2:transform/certus_quartz_crystals",
   "ae2wtlib:magnet_card",
 ];
 
@@ -101,11 +103,6 @@ const pressRecipes = [
 ];
 
 const buddingRecipes = [
-  {
-    catalyst: "oritech:adamant_block",
-    input: "ae2:certus_quartz_crystal",
-    output: "ae2:damaged_budding_quartz",
-  },
   {
     catalyst: "oritech:adamant_ingot",
     input: "ae2:damaged_budding_quartz",
@@ -269,6 +266,17 @@ ServerEvents.recipes((event) => {
       "ae2:advanced_card",
     ])
     .id("ae2wtlib:magnet_card");
+
+  event
+    .custom({
+      type: "ae2:transform",
+      ingredients: [
+        item("ae2:certus_quartz_crystal"),
+        item("oritech:adamant_block"),
+      ],
+      result: countedResult("ae2:damaged_budding_quartz"),
+    })
+    .id(`kubejs:ae2/transform/damaged_budding_quartz`);
 
   buddingRecipes.forEach((budding) => {
     event

@@ -78,7 +78,7 @@ const coreMechanicalRecipes = [
     key: {
       A: item("minecraft:quartz_block"),
       B: item("ae2:sky_stone_block"),
-      C: item("oritech:energite_block"),
+      C: item("ae2:fluix_block"),
     },
     pattern: ["AAAAA", "ABBBA", "ABCBA", "ABBBA", "AAAAA"],
     result: "kubejs:fluix_core",
