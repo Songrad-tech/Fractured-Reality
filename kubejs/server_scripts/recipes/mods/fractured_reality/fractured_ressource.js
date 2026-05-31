@@ -74,4 +74,12 @@ ServerEvents.recipes((event) => {
       id: "kubejs:fractured_pearl",
     },
   });
+
+  event
+    .custom({
+      type: "create:item_application",
+      ingredients: [item("kubejs:fractured_block"), item("ae2:singularity")],
+      results: [result("kubejs:fractured_singularity_block")],
+    })
+    .id("kubejs:item_application/fractured_singularity_block");
 });

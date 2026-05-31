@@ -100,12 +100,6 @@
     "size": 134.0
   }
 ],
-  "moon": {
-    "moon_phase": true,
-    "texture": "minecraft:textures/environment/moon_phases.png",
-    "height": 75.0,
-    "size": 75.0
-  },
   "stars": {
     "scale": 0.05,
     "color": [
@@ -119,21 +113,30 @@
     "all_days_visible": false
   },
   "sky_color": {
-    "sunset_alpha_modifier": 1
+    "sunset_alpha_modifier": 1,
+    "custom_color": false
   },
   "fog_settings": {
     "fog": false
   },
-  "weather": true,
-  "sun": {
-    "texture": "minecraft:textures/environment/sun.png",
-    "height": 450.0,
-    "size": 135.0
-  },
+  "rain": true,
   "world": "minecraft:overworld",
   "id": "fractured_reality:default",
   "cloud_settings": {
     "cloud": false,
     "cloud_height": 300
-  }
+  },
+  "sky_type": "NORMAL",
+  "custom_vanilla_objects": {
+  "sun": true,
+  "sun_texture": "minecraft:textures/environment/sun.png",
+  "sun_height": 450.0,
+  "sun_size": 135.0,
+
+  "moon": true,
+  "moon_phase": true,
+  "moon_texture": "minecraft:textures/environment/moon_phases.png",
+  "moon_height": 75.0,
+  "moon_size": 75.0
+}
 }

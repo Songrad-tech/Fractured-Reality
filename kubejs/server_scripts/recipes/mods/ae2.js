@@ -51,7 +51,10 @@ const ae2NewRecipes = [
   },
   {
     outputs: ["ae2:condenser"],
-    replacements: [["minecraft:iron_ingot", "oritech:adamant_ingot"]],
+    replacements: [
+      ["minecraft:iron_ingot", "oritech:adamant_ingot"],
+      ["ae2:fluix_dust", "ae2:calculation_processor"],
+    ],
   },
   {
     outputs: ["ae2:interface"],

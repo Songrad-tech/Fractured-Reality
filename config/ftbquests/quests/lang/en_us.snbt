@@ -1,7 +1,6 @@
 {
 	chapter.14893C4ADFC69999.title: "Inside the Hive"
 	chapter.178EFA23CBF2F69A.title: "Final Age: Fractured Divinity"
-	chapter.1D1AB8DE53356D95.title: "Cosmic Odyssey"
 	chapter.1E400F3088D217E5.title: "Age 1: Mechanical Age"
 	chapter.1E627FF06E3DEFF1.title: "Prologue: A Fractured World"
 	chapter.2777DBBD34C022DB.title: "Age 4: Seeds of Eternity"
@@ -12,7 +11,6 @@
 	chapter.6399B43668493780.title: "Introduction"
 	chapter.6FD6B73C3A43BBA9.title: "Is This the End?"
 	chapter.7EE8A90CDC0768D4.title: "Age 3: Digital Consciousness"
-	chapter.7F9615FA16B130DA.title: "Age 5: Beyond the Sky"
 	chapter_group.2B3850906486FE99.title: "Progression"
 	chapter_group.69F5CC4C3382AB9B.title: "Exploration"
 	quest.006F7EA770EB49AD.title: "Copper Upgrade"
@@ -185,6 +183,10 @@
 	quest.760E55F3762CEE14.title: "Armory Cabinet"
 	quest.77C38BE8ECF78C64.title: "Netherite Backpack"
 	quest.77D9929025AD4DB1.title: "Wooden Glider"
+	quest.7ABF9857AE02F946.quest_desc: [
+		""
+		"{image:minecraft:textures/gui/quests/flux_craft.png width:96 height:96 align:center}"
+	]
 	quest.7AEF195E258F6020.title: "Backpack"
 	quest.7C20643129AD0134.title: "Chest"
 	quest.7D04BE7ADA7A5793.title: "Gold Upgrade"

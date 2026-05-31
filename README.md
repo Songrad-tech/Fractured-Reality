@@ -34,7 +34,6 @@ The modpack is designed around multiple technological eras, guiding the player f
 - Oritech
 - Applied Energistics 2
 - Mystical Agriculture
-- Stellaris
 - End Remastered
 - And many more...
 

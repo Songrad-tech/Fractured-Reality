@@ -29,7 +29,7 @@ const mysticalAgricultureNewRecipes = [
     replacements: [
       ["minecraft:gold_ingot", "createaddition:electrum_ingot"],
       ["minecraft:stone", "ae2:sky_stone_block"],
-      ["minecraft:red_wool", "oritech:fluxite"],
+      ["minecraft:red_wool", "ae2:singularity"],
     ],
   },
   {
@@ -63,14 +63,6 @@ const mysticalAgricultureNewRecipes = [
 
 const mysticalagricultureShapedRecipes = [
   {
-    output: "stellaris:heavy_metal_ingot",
-    pattern: ["AAA", "ABA", "AAA"],
-    keys: {
-      A: "mysticalagriculture:iron_essence",
-      B: "mysticalagriculture:coal_essence",
-    },
-  },
-  {
     output: Item.of("oritech:energite_ingot", 4),
     pattern: ["AAA", "A A", "AAA"],
     keys: {
@@ -103,13 +95,6 @@ const mysticalagricultureShapedRecipes = [
     pattern: ["AAA", "A A", "AAA"],
     keys: {
       A: "mysticalagriculture:froststeel_essence",
-    },
-  },
-  {
-    output: Item.of("stellaris:tharsite_ingot", 4),
-    pattern: ["AAA", "A A", "AAA"],
-    keys: {
-      A: "mysticalagriculture:tharsite_essence",
     },
   },
   {

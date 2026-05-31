@@ -16,7 +16,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "stellaris:block/earth_globe"
+					"ftbquests:icon": "ftblibrary:icons/globe"
 				}
 				id: "ftbquests:custom_icon"
 			}

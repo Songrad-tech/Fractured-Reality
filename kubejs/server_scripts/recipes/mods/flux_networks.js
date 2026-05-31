@@ -7,7 +7,7 @@ const $ParticleTypes = Java.loadClass(
 const recipes = [
   {
     clickedBlock: "minecraft:obsidian",
-    baseBlock: "ae2:fluix_block",
+    baseBlock: "kubejs:fractured_singularity_block",
     inputItem: "ae2:sky_dust",
     outputItem: "fluxnetworks:flux_dust",
     maxCount: 512,
@@ -80,6 +80,19 @@ recipes.forEach((recipe) => {
   });
 });
 
-RecipeViewerEvents.removeEntries("item", (event) => {
-  event.remove("fluxnetworks:flux_dust");
+RecipeViewerEvents.addInformation("item", (event) => {
+  event.add("fluxnetworks:flux_dust", [
+    "You can generate §lFlux Dust§r using this setup:",
+    "",
+    "§8-§0 Obsidian on top",
+    "§8-§0 Sky Stone dust dropped in the middle",
+    "§8-§0 Fractured Singularity Block two blocks below the obsidian",
+    "",
+    "§8Action:",
+    "§0Left-click the Obsidian.",
+    "",
+    "§8Result:",
+    "§0Converts dropped Sky Dust into Flux Dust.",
+    "§0Maximum: §f512§0 per activation.",
+  ]);
 });

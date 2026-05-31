@@ -104,4 +104,11 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("ae2:growth_acceleratable")
     .tagBlock("oritech:laser_accelerated")
     .tagBlock("the_bumblezone:crystalline_flower/can_be_placed_on");
+
+  event
+    .create("fractured_singularity_block")
+    .soundType("amethyst")
+    .hardness(5)
+    .resistance(5)
+    .tagBlock("minecraft:mineable/pickaxe");
 });
