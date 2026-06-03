@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
     {
       key: {
         A: item("createaddition:electrum_ingot"),
-        B: item("minecraft:glass"),
+        B: tag("c:glass_blocks"),
         C: item("ae2:charged_certus_quartz_crystal"),
         D: item("ae2:fluix_crystal"),
         E: item("oritech:adamant_ingot"),
