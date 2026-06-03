@@ -30,7 +30,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["62F5592C52CD8821"]
@@ -41,7 +41,7 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4BD509205B526E8C"]
@@ -50,10 +50,10 @@
 				entity: "undergarden:forgotten_guardian"
 				id: "4E9F3937E1CADA9F"
 				type: "kill"
-				value: 4L
+				value: 1L
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 6.0d
 		}
 	]
 }

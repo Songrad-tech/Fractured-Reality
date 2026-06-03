@@ -31,7 +31,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["790A807983D217D9"]
@@ -42,7 +42,41 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4242965A13D79C42"]
+			id: "24828DD7843BAD17"
+			tasks: [{
+				id: "1AFEA1D8388496AB"
+				structure: "deeperdarker:ancient_temple"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24828DD7843BAD17"]
+			id: "6C74B0300D2159A6"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "06270EE25A62C5E0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6C74B0300D2159A6"]
+			id: "31FC459BE575BB16"
+			tasks: [{
+				id: "23662EEFBA157528"
+				item: { count: 1, id: "deeperdarker:soul_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
 		}
 	]
 }

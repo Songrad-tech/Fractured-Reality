@@ -9,5 +9,101 @@
 	id: "2777DBBD34C022DB"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7BCF609A2E79A59A"
+			tasks: [
+				{
+					id: "4F74EC303DE71C93"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4ADC1D1A7A2382F3"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BCF609A2E79A59A"]
+			id: "42318046DA02C486"
+			tasks: [{
+				id: "237A5F6CF25544D3"
+				item: { count: 1, id: "mysticalagriculture:infusion_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02CFF707C09E12D5"]
+			id: "704E5EB0ED816B90"
+			tasks: [{
+				id: "0583CAEB03C97805"
+				item: { count: 1, id: "mysticalagriculture:master_infusion_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["42318046DA02C486"]
+			id: "497AE1198BA68365"
+			tasks: [{
+				id: "5B9D82D3133C18C8"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "082979C3AA5CE91C"
+			tasks: [{
+				id: "21E5381E726C044D"
+				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082979C3AA5CE91C"]
+			id: "7D42EE8FAAC4C722"
+			tasks: [{
+				id: "7B7C64BDBE524CAD"
+				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D42EE8FAAC4C722"]
+			id: "5BAF4F567EA7033A"
+			tasks: [{
+				id: "1775772982E6581C"
+				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5BAF4F567EA7033A"]
+			id: "02CFF707C09E12D5"
+			tasks: [{
+				id: "41964DE59457C0A1"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+	]
 }
