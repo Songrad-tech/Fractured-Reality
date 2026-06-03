@@ -1,41 +1,35 @@
 {
   "fallback": "minecraft:empty",
   "elements": [
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "fractured_reality:fractured_spike_small_01",
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "fractured_reality:fractured_spike_small_02",
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "fractured_reality:fractured_spike_medium_01",
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "fractured_reality:fractured_spike_medium_02",
-        "processors": "minecraft:empty",
-        "projection": "rigid"
-      }
-    }
+    { "weight": 16, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_small_01", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 16, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_small_02", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 12, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_small_03_broken", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 12, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_small_04_hooked", "processors": "minecraft:empty", "projection": "rigid" } },
+
+    { "weight": 10, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_medium_01", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 10, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_medium_02", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 8, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_medium_03_leaning", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 8, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_medium_04_shattered", "processors": "minecraft:empty", "projection": "rigid" } },
+
+    { "weight": 4, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_large_01_rift_needle", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 4, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_spike_large_02_twin_rift", "processors": "minecraft:empty", "projection": "rigid" } },
+
+    { "weight": 8, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_cluster_low_01", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 8, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_cluster_low_02", "processors": "minecraft:empty", "projection": "rigid" } },
+
+    { "weight": 7, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_field_small_01", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 7, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_field_small_02", "processors": "minecraft:empty", "projection": "rigid" } },
+
+    { "weight": 5, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_core_broken_01", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 5, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_core_broken_02", "processors": "minecraft:empty", "projection": "rigid" } },
+
+    { "weight": 5, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_fallen_shards_01", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 5, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_fallen_shards_02", "processors": "minecraft:empty", "projection": "rigid" } },
+
+    { "weight": 3, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_twin_rift_01", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 3, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_twin_rift_02", "processors": "minecraft:empty", "projection": "rigid" } },
+
+    { "weight": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_impact_formation_01", "processors": "minecraft:empty", "projection": "rigid" } },
+    { "weight": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "fractured_reality:fractured_impact_formation_02", "processors": "minecraft:empty", "projection": "rigid" } }
   ]
 }
