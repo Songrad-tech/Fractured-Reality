@@ -26,6 +26,10 @@ const createRecipeRemovals = [
   "createaddition:crafting/portable_energy_interface",
   "create:crafting/kinetics/rotation_speed_controller",
   "create:crafting/logistics/content_observer",
+  "create:crushing/ochrum_recycling",
+  "create:crushing/ochrum",
+  "create:crushing/tuff_recycling",
+  "create:crushing/tuff",
 ];
 
 const createNewRecipes = [
@@ -122,4 +126,60 @@ ServerEvents.recipes((event) => {
   brassSmithingRecipes.forEach(([output, base, addition]) => {
     event.smithing(output, base, "kubejs:brass_core", addition);
   });
+
+  event
+    .custom({
+      type: "create:crushing",
+      ingredients: [
+        {
+          tag: "create:stone_types/ochrum",
+        },
+      ],
+      processing_time: 250,
+      results: [
+        {
+          chance: 0.2,
+          id: "create:crushed_raw_gold",
+        },
+        {
+          chance: 0.2,
+          id: "minecraft:gold_nugget",
+        },
+      ],
+    })
+    .id("create:crushing/ochrum");
+
+  event
+    .custom({
+      type: "create:crushing",
+      ingredients: [
+        {
+          tag: "create:stone_types/tuff",
+        },
+      ],
+      processing_time: 350,
+      results: [
+        {
+          chance: 0.25,
+          id: "minecraft:flint",
+        },
+        {
+          chance: 0.1,
+          id: "minecraft:gold_nugget",
+        },
+        {
+          chance: 0.1,
+          id: "create:copper_nugget",
+        },
+        {
+          chance: 0.1,
+          id: "create:zinc_nugget",
+        },
+        {
+          chance: 0.1,
+          id: "minecraft:iron_nugget",
+        },
+      ],
+    })
+    .id("kubjs:crushing/tuff");
 });

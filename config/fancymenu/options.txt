@@ -1,7 +1,7 @@
 ##[general]
 
-I:default_gui_scale = '-1';
-B:force_fullscreen = 'false';
+I:default_gui_scale = '3';
+B:force_fullscreen = 'true';
 B:play_vanilla_menu_music = 'true';
 
 
@@ -65,11 +65,11 @@ B:enable_element_tilting_controls = 'true';
 ##[ui]
 
 B:enable_ui_animations = 'true';
-S:ui_scale_v2 = 'auto';
+S:ui_scale_v2 = 'micro';
 I:context_menu_hover_open_speed = '1';
 S:ui_theme = 'dark';
 B:pip_window_docking = 'true';
-B:enable_ui_blur = 'false';
+B:enable_ui_blur = 'true';
 F:ui_blur_intensity = '3.0';
 B:use_minecraft_font = 'false';
 B:play_ui_click_sounds = 'true';
@@ -106,7 +106,7 @@ L:requirement_caching_duration_ms = '0';
 B:global_slider_background_nine_slice = 'false';
 S:global_slider_handle_hover = '';
 S:global_button_background_normal = '';
-B:global_button_label_shadow = 'true';
+B:global_button_label_shadow = 'false';
 S:global_button_background_inactive = '';
 B:global_button_background_nine_slice = 'false';
 S:global_button_label_hover_color = '';
