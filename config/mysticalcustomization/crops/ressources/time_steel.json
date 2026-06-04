@@ -1,0 +1,13 @@
+{
+  "name": "Time Steel",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "tempad:time_steel"
+  },
+  "color": "e6d395",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

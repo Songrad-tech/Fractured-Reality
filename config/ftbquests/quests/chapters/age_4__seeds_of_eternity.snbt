@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["29B52E3C87142E4D"]
 			id: "7BCF609A2E79A59A"
 			tasks: [
 				{
@@ -36,8 +37,8 @@
 				item: { count: 1, id: "mysticalagriculture:infusion_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["02CFF707C09E12D5"]
@@ -47,8 +48,8 @@
 				item: { count: 1, id: "mysticalagriculture:master_infusion_crystal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.0d
+			x: 14.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["42318046DA02C486"]
@@ -58,8 +59,8 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["497AE1198BA68365"]
@@ -69,8 +70,8 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["082979C3AA5CE91C"]
@@ -80,8 +81,8 @@
 				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.5d
+			x: 8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7D42EE8FAAC4C722"]
@@ -91,8 +92,8 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5BAF4F567EA7033A"]
@@ -102,8 +103,8 @@
 				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.5d
+			x: 12.0d
+			y: 0.5d
 		}
 	]
 }

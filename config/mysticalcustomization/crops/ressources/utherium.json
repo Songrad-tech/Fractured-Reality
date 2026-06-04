@@ -1,0 +1,13 @@
+{
+  "name": "Utherium Crystal",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "undergarden:utherium_crystal"
+  },
+  "color": "dc584a",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_tall_gem"
+  }
+}

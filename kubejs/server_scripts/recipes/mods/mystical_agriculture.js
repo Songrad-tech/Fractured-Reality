@@ -120,6 +120,41 @@ const mysticalagricultureShapedRecipes = [
       B: "mysticalagriculture:skeleton_essence",
     },
   },
+  {
+    output: Item.of("undergarden:regalium_crystal", 4),
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:regalium_essence",
+    },
+  },
+  {
+    output: Item.of("undergarden:utherium_crystal"),
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:utherium_essence",
+    },
+  },
+  {
+    output: Item.of("undergarden:rogdorium"),
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:rogdorium_essence",
+    },
+  },
+  {
+    output: Item.of("tempad:time_steel"),
+    pattern: ["AAA", "AAA", "AAA"],
+    keys: {
+      A: "mysticalagriculture:time_steel_essence",
+    },
+  },
+  {
+    output: Item.of("kubejs:fractured_shard", 10),
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:fractured_shared_essence",
+    },
+  },
 ];
 
 ServerEvents.recipes((event) => {

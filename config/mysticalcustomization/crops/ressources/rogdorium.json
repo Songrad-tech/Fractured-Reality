@@ -1,0 +1,13 @@
+{
+  "name": "Rogdorium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "undergarden:rogdorium"
+  },
+  "color": "81adb4",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_rock"
+  }
+}
