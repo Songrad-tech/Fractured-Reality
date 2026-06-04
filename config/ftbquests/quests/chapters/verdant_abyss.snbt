@@ -55,5 +55,16 @@
 			x: 0.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["03A760BECFFD5126"]
+			id: "7F3839D206AED8BA"
+			tasks: [{
+				id: "22843C1DF8693D2E"
+				item: { count: 1, id: "undergarden:forgotten_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
 	]
 }

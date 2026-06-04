@@ -297,7 +297,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["02FE952A15865F26"]
@@ -308,7 +308,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5679AB2B6AF7FA6F"]
@@ -319,7 +319,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5478A6C6A333557A"]
@@ -330,7 +330,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["65A746736DC2D8ED"]
@@ -341,7 +341,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["62006D27C12C3402"]
@@ -474,6 +474,28 @@
 			}]
 			x: -7.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["62006D27C12C3402"]
+			id: "297F324A555D9FD3"
+			tasks: [{
+				id: "47EC602D66C4C8FC"
+				item: { count: 1, id: "trashcans:item_trash_can" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["62006D27C12C3402"]
+			id: "4ACA3AD7D9F37A05"
+			tasks: [{
+				id: "3350CA2A794BCE24"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
 		}
 	]
 }
