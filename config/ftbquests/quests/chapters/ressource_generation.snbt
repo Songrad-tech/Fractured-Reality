@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ressource_generation"
+	group: "2B3850906486FE99"
+	icon: {
+		id: "kubejs:viridite"
+	}
+	id: "60E95EFFAAB07DD2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6048F41AC1218BF5"]
+			id: "3A3FDB2C0738518C"
+			tasks: [{
+				id: "7FDD597DA3D7A5BA"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A3FDB2C0738518C"]
+			id: "6BB174B968379666"
+			tasks: [{
+				count: 16L
+				id: "021BDE0A448C3618"
+				item: { count: 1, id: "kubejs:viridite" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A3FDB2C0738518C"]
+			id: "2D4F692D91D9AD14"
+			tasks: [{
+				count: 16L
+				id: "4359256F15F944C2"
+				item: { count: 1, id: "create:ochrum" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A3FDB2C0738518C"]
+			id: "3EFEC4006AB93CCC"
+			tasks: [{
+				count: 16L
+				id: "5F795FC45BA26E7E"
+				item: { count: 1, id: "create:veridium" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A3FDB2C0738518C"]
+			id: "54FDC770499D6560"
+			tasks: [{
+				count: 16L
+				id: "777A0D9E00A42F10"
+				item: { count: 1, id: "create:crimsite" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A3FDB2C0738518C"]
+			id: "11AF2176193077FD"
+			tasks: [{
+				count: 16L
+				id: "3533814E58705A3F"
+				item: { count: 1, id: "create:asurine" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D4F692D91D9AD14"]
+			id: "7981CF7164F5B951"
+			tasks: [{
+				id: "06BC23935F467925"
+				item: { count: 1, id: "kubejs:ochrum_core" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BB174B968379666"]
+			id: "2CD0C913394EB5AE"
+			tasks: [{
+				id: "1AC58700A8AC4952"
+				item: { count: 1, id: "kubejs:viridite_core" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54FDC770499D6560"]
+			id: "0789D9872462D216"
+			tasks: [{
+				id: "19207F6B8B262191"
+				item: { count: 1, id: "kubejs:crimsite_core" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EFEC4006AB93CCC"]
+			id: "7E5877B8D86682A1"
+			tasks: [{
+				id: "41AA8EBCCE6EE0FF"
+				item: { count: 1, id: "kubejs:veridium_core" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11AF2176193077FD"]
+			id: "171622854563F784"
+			tasks: [{
+				id: "70B5AB7E938CB512"
+				item: { count: 1, id: "kubejs:asurine_core" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CD0C913394EB5AE"]
+			id: "25B4817CC7F9D6A1"
+			tasks: [{
+				count: 256L
+				id: "7BCFB6F51E535D5D"
+				item: { count: 1, id: "oritech:nickel_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7981CF7164F5B951"]
+			id: "47BE189106F666DD"
+			tasks: [{
+				count: 256L
+				id: "7285D6788AE1A72E"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0789D9872462D216"]
+			id: "0E18DE2A29892903"
+			tasks: [{
+				count: 256L
+				id: "2B24204C2C0897B2"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E5877B8D86682A1"]
+			id: "2E40399441207208"
+			tasks: [{
+				count: 256L
+				id: "73C970535E045DC5"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["171622854563F784"]
+			id: "3A7A7F0160A7E9A4"
+			tasks: [{
+				count: 256L
+				id: "6AD4F47FEC9C3D82"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+}

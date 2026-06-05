@@ -497,5 +497,25 @@
 			x: -2.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["62006D27C12C3402"]
+			icon: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"veinmining:vein_mining": 1
+						}
+					}
+				}
+				id: "minecraft:enchanted_book"
+			}
+			id: "12FEB243D400D4CE"
+			tasks: [{
+				id: "4019B2DB71EE47D3"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
 	]
 }

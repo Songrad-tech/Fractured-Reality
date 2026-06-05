@@ -13,46 +13,57 @@
 		{
 			dependencies: ["72EC9401EE3BA289"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:reinforced_deepslate"
+			}
 			id: "16FF223093771098"
 			tasks: [{
 				id: "360762341E7BF568"
 				structure: "minecraft:ancient_city"
 				type: "structure"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["16FF223093771098"]
+			dependencies: ["637878425CE55C37"]
 			id: "790A807983D217D9"
 			tasks: [{
 				id: "7377C9881D881006"
 				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["790A807983D217D9"]
+			icon: {
+				id: "deeperdarker:sculk_stone_bricks"
+			}
 			id: "4242965A13D79C42"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				id: "41C7AA2A8ADE4A86"
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4242965A13D79C42"]
+			icon: {
+				id: "deeperdarker:ancient_vase"
+			}
 			id: "24828DD7843BAD17"
 			tasks: [{
 				id: "1AFEA1D8388496AB"
 				structure: "deeperdarker:ancient_temple"
 				type: "structure"
 			}]
-			x: 0.0d
+			x: 2.5d
 			y: 6.0d
 		}
 		{
@@ -64,8 +75,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6C74B0300D2159A6"]
@@ -75,8 +86,54 @@
 				item: { count: 1, id: "deeperdarker:soul_crystal" }
 				type: "item"
 			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["16FF223093771098"]
+			id: "637878425CE55C37"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "52F78F20848BDA47"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4242965A13D79C42"]
+			id: "4EBF77C1E4DA7981"
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "59381DB1FA3F31F3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4EBF77C1E4DA7981"]
+			id: "54C14057FC31C6DF"
+			tasks: [{
+				id: "4ED26CEFEB96284F"
+				item: { count: 1, id: "deeperdarker:resonarium" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["54C14057FC31C6DF"]
+			id: "35690DA73DE6F776"
+			tasks: [{
+				id: "15160C56EF22ABB4"
+				item: { count: 1, id: "deeperdarker:resonarium_plate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
 		}
 	]
 }

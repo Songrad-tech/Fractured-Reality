@@ -18,12 +18,17 @@
 				item: { count: 1, id: "undergarden:catalyst" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["58BE26650A0440F6"]
+			icon: {
+				id: "undergarden:deepturf_block"
+			}
 			id: "62F5592C52CD8821"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				id: "46B555CC64C5238E"
@@ -34,14 +39,17 @@
 		}
 		{
 			dependencies: ["62F5592C52CD8821"]
+			icon: {
+				id: "undergarden:depthrock_bricks"
+			}
 			id: "4BD509205B526E8C"
 			tasks: [{
 				id: "1A191C78EF8EE311"
 				structure: "undergarden:catacombs"
 				type: "structure"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4BD509205B526E8C"]
@@ -52,8 +60,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["03A760BECFFD5126"]
@@ -63,8 +71,85 @@
 				item: { count: 1, id: "undergarden:forgotten_ingot" }
 				type: "item"
 			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62F5592C52CD8821"]
+			id: "75CE2CADC4756616"
+			tasks: [{
+				id: "7F6007BDE84BE930"
+				item: { count: 1, id: "undergarden:raw_cloggrum" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75CE2CADC4756616"]
+			id: "2BA0235D2DDDA051"
+			tasks: [{
+				id: "588D75A5AD2100DE"
+				item: { count: 1, id: "undergarden:cloggrum_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["62F5592C52CD8821"]
+			id: "405C4901EE2BAC5A"
+			tasks: [{
+				id: "6AED322630F0AE2D"
+				item: { count: 1, id: "undergarden:raw_froststeel" }
+				type: "item"
+			}]
 			x: 0.0d
-			y: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["405C4901EE2BAC5A"]
+			id: "4C2651AD1AA0A7D5"
+			tasks: [{
+				id: "45CC3F6C94CC5FD7"
+				item: { count: 1, id: "undergarden:froststeel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["62F5592C52CD8821"]
+			id: "0A5C056A2A1492A4"
+			tasks: [{
+				id: "478FB11424177AE3"
+				item: { count: 1, id: "undergarden:utheric_shard" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A5C056A2A1492A4"]
+			id: "716185F216AB4B7E"
+			tasks: [{
+				id: "0F6459AD2D48216E"
+				item: { count: 1, id: "undergarden:utherium_crystal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["62F5592C52CD8821"]
+			id: "631750A602DDA817"
+			tasks: [{
+				id: "518FD8398310C4E0"
+				item: { count: 1, id: "undergarden:regalium_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
 		}
 	]
 }

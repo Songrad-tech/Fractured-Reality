@@ -7,7 +7,7 @@
 		id: "mysticalagriculture:master_infusion_crystal"
 	}
 	id: "2777DBBD34C022DB"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -26,7 +26,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -37,7 +37,7 @@
 				item: { count: 1, id: "mysticalagriculture:infusion_crystal" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -48,7 +48,7 @@
 				item: { count: 1, id: "mysticalagriculture:master_infusion_crystal" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 24.0d
 			y: 0.5d
 		}
 		{
@@ -70,7 +70,7 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 0.5d
 		}
 		{
@@ -81,7 +81,7 @@
 				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 12.0d
 			y: 0.5d
 		}
 		{
@@ -92,7 +92,7 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -103,8 +103,118 @@
 				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 20.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "717A0D8EDE87A2DF"
+			tasks: [{
+				id: "476FDA245F5D10D7"
+				item: { count: 1, id: "mysticalagriculture:earth_seeds" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "7A4B44B343547F12"
+			tasks: [{
+				id: "58C9B2DD7913D0E8"
+				item: { count: 1, id: "mysticalagriculture:air_seeds" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "4BD747458D93FFE1"
+			tasks: [{
+				id: "17A425BE24127F94"
+				item: { count: 1, id: "mysticalagriculture:water_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "2B28FB7ECCDC5319"
+			tasks: [{
+				id: "4FC8F836B0AEA5AF"
+				item: { count: 1, id: "mysticalagriculture:fire_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "6DF5162588711E4F"
+			tasks: [{
+				id: "6254BA2D055A9BB7"
+				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "5C0F21A11B1611E1"
+			tasks: [{
+				id: "3D23D6C0B2C58B37"
+				item: { count: 1, id: "mysticalagriculture:stone_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "7303890E9D4FFCCF"
+			tasks: [{
+				id: "593A3F3A5501CF06"
+				item: { count: 1, id: "mysticalagriculture:dirt_seeds" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "2084432E2840239D"
+			tasks: [{
+				id: "3AE646B6B887A32F"
+				item: { count: 1, id: "mysticalagriculture:wood_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "2F230B0DD745B6EC"
+			tasks: [{
+				id: "188078E9B28570D7"
+				item: { count: 1, id: "mysticalagriculture:ice_seeds" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["497AE1198BA68365"]
+			id: "6DF3932CE848E0A1"
+			tasks: [{
+				id: "7D735D0E2A97B09B"
+				item: { count: 1, id: "mysticalagriculture:deepslate_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
 		}
 	]
 }
