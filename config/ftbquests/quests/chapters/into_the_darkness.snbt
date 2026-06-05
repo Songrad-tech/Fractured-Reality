@@ -46,6 +46,12 @@
 			size: 2.0d
 			tasks: [{
 				dimension: "deeperdarker:otherside"
+				icon: {
+					components: {
+						"ftbquests:icon": "deeperdarker:block/otherside_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "41C7AA2A8ADE4A86"
 				type: "dimension"
 			}]

@@ -31,6 +31,12 @@
 			size: 2.0d
 			tasks: [{
 				dimension: "undergarden:undergarden"
+				icon: {
+					components: {
+						"ftbquests:icon": "undergarden:block/undergarden_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "46B555CC64C5238E"
 				type: "dimension"
 			}]

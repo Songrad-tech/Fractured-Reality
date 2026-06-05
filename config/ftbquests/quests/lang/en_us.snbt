@@ -7,7 +7,7 @@
 	chapter.3ACA0646478CC055.title: "Verdant Abyss"
 	chapter.46E470D55F809922.title: "Into the Darkness"
 	chapter.47BCA02B74AEAE70.title: "Age 2: Electric Age"
-	chapter.60E95EFFAAB07DD2.title: "Ressource Generation"
+	chapter.60E95EFFAAB07DD2.title: "Resource Generation"
 	chapter.626D402EBAE946F4.title: "Utility \\& Logistics"
 	chapter.6399B43668493780.title: "Introduction"
 	chapter.6FD6B73C3A43BBA9.title: "Is This the End?"
@@ -17,8 +17,24 @@
 	quest.006F7EA770EB49AD.title: "Copper Upgrade"
 	quest.02FE952A15865F26.title: "Wooden Construction Stick"
 	quest.033F07AD47AC2AB2.title: "Linking Tool"
+	quest.03A760BECFFD5126.quest_desc: [
+		"The catacombs still have a guardian, and it has not forgotten its duty."
+		" "
+		"Defeat the Forgotten Guardian to claim your place in the Undergarden's deeper progression."
+	]
+	quest.03A760BECFFD5126.quest_subtitle: "Buried Protector"
+	quest.03A760BECFFD5126.title: "Defeat the Forgotten Guardian"
 	quest.0593FF5DC6E58B76.title: "Obsidian Barrel"
+	quest.0789D9872462D216.title: "Craft a Crimsite Core"
 	quest.0860B05992C8E356.title: "Diamond Glider"
+	quest.0A5C056A2A1492A4.quest_desc: [
+		"Utheric Shards carry a cold, alien energy found within the Undergarden."
+		" "
+		"Collect one to start working toward stronger materials."
+	]
+	quest.0A5C056A2A1492A4.quest_subtitle: "Hidden Energy"
+	quest.0A5C056A2A1492A4.title: "Find Utheric Shards"
+	quest.0E18DE2A29892903.title: "Generate Iron"
 	quest.0F5AC97C67C06135.title: "Diamond Barrel"
 	quest.0FCAE2FFD1263B87.quest_desc: [
 		"§7Zinc carries the first traces of mechanical potential.§r"
@@ -36,6 +52,7 @@
 	]
 	quest.116B91C74588FDB0.quest_subtitle: "First Materials"
 	quest.116B91C74588FDB0.title: "Craft Planks"
+	quest.11AF2176193077FD.title: "Gather Asurine"
 	quest.128BDDD7D750138C.quest_desc: [
 		"§7Hand crafting may help you survive the early days.§r"
 		" "
@@ -44,6 +61,14 @@
 		"§6The more you automate, the further you will go.§r"
 	]
 	quest.128BDDD7D750138C.title: "Automation is the Key"
+	quest.16FF223093771098.quest_desc: [
+		"The deepest cities were built around something they could not fully control."
+		" "
+		"Find an Ancient City and search its remains for the path into darker places."
+	]
+	quest.16FF223093771098.quest_subtitle: "Buried Ruins"
+	quest.16FF223093771098.title: "Find an Ancient City"
+	quest.171622854563F784.title: "Craft an Asurine Core"
 	quest.174458AA46110F36.title: "Gold Chest"
 	quest.1933418C96886DBE.quest_desc: [
 		"§7A simple table. Four planks. Endless possibilities.§r"
@@ -55,11 +80,43 @@
 	quest.1ACED1A29208A092.title: "Diamond Upgrade"
 	quest.20CECAECE7438D7F.title: "The First Rotation"
 	quest.21864889EF3D7FE3.title: "Netherite Construction Stick"
+	quest.24828DD7843BAD17.quest_desc: [
+		"The Otherside hides temples older than the sculk spreading through it."
+		" "
+		"Locate an Ancient Temple and push deeper into Deeper and Darker's progression."
+	]
+	quest.24828DD7843BAD17.quest_subtitle: "Ancient Echoes"
+	quest.24828DD7843BAD17.title: "Find an Ancient Temple"
+	quest.25B4817CC7F9D6A1.title: "Generate Nickel"
 	quest.291C454B10B8EBBD.title: "Elevators"
 	quest.2B4A1A32FE79E51A.title: "Netherite Glider"
+	quest.2BA0235D2DDDA051.quest_desc: [
+		"Raw Cloggrum is only the beginning."
+		" "
+		"Smelt or process it into a Cloggrum Ingot to begin using Undergarden metals."
+	]
+	quest.2BA0235D2DDDA051.quest_subtitle: "First Alloy"
+	quest.2BA0235D2DDDA051.title: "Make Cloggrum"
 	quest.2C60767BD295F11B.title: "Gold Barrel"
+	quest.2CD0C913394EB5AE.title: "Craft a Viridite Core"
+	quest.2D4F692D91D9AD14.title: "Gather Ochrum"
+	quest.2E40399441207208.title: "Generate Copper"
 	quest.3058A05926D38F58.title: "Gold Backpack"
+	quest.31FC459BE575BB16.quest_desc: [
+		"The Soul Crystal is one of the clearest signs that the Otherside changes what it touches."
+		" "
+		"Bring one back before the darkness decides to keep it."
+	]
+	quest.31FC459BE575BB16.quest_subtitle: "Condensed Echo"
+	quest.31FC459BE575BB16.title: "Obtain a Soul Crystal"
 	quest.33744EB9CA7827B4.title: "Diamond Magnum Torch"
+	quest.35690DA73DE6F776.quest_desc: [
+		"Resonarium can be pressed into stronger components."
+		" "
+		"Craft a Resonarium Plate and complete this first branch of Otherside materials."
+	]
+	quest.35690DA73DE6F776.quest_subtitle: "Pressed Power"
+	quest.35690DA73DE6F776.title: "Craft a Resonarium Plate"
 	quest.35C22982FC123B45.quest_desc: [
 		"§7Some phenomena cannot be explained.§r"
 		" "
@@ -71,7 +128,10 @@
 	]
 	quest.35C22982FC123B45.title: "Reality Feels... Wrong"
 	quest.361CDDAF1904CA7D.title: "Time in a Bottle"
+	quest.3A3FDB2C0738518C.title: "Begin Resource Generation"
+	quest.3A7A7F0160A7E9A4.title: "Generate Zinc"
 	quest.3AB7518A0232F39C.title: "Netherite Barrel"
+	quest.3EFEC4006AB93CCC.title: "Gather Veridium"
 	quest.3F8FDF23051A7247.quest_desc: [
 		"§7Andesite and zinc now form something greater.§r"
 		" "
@@ -81,8 +141,22 @@
 	]
 	quest.3F8FDF23051A7247.quest_subtitle: "The First Alloy"
 	quest.3F8FDF23051A7247.title: "Craft Andesite Alloy"
+	quest.405C4901EE2BAC5A.quest_desc: [
+		"Froststeel begins as raw material hidden inside the Undergarden."
+		" "
+		"Collect it before the dimension's cold pressure wears you down."
+	]
+	quest.405C4901EE2BAC5A.quest_subtitle: "Cold Metal"
+	quest.405C4901EE2BAC5A.title: "Mine Raw Froststeel"
 	quest.407C4005B465D453.title: "Iron Chest"
 	quest.421B58874D9E154B.title: "Compacting Drawer"
+	quest.4242965A13D79C42.quest_desc: [
+		"The Heart of the Deep opens a way into the Otherside."
+		" "
+		"Step through and see what the Ancient City was trying to keep sealed away."
+	]
+	quest.4242965A13D79C42.quest_subtitle: "Beyond the Sculk"
+	quest.4242965A13D79C42.title: "Enter the Otherside"
 	quest.43AFE81D3D2240D8.title: "Barrel"
 	quest.467A80382231A9C6.quest_desc: [
 		"§fWelcome, traveler.§r"
@@ -101,6 +175,7 @@
 	]
 	quest.467A80382231A9C6.title: "Welcome to Fractured Reality"
 	quest.4787C1D384778BEA.title: "Golden Glider"
+	quest.47BE189106F666DD.title: "Generate Gold"
 	quest.48DA5F1CC92B5184.quest_desc: [
 		"§7Technology progression is intentionally gated.§r"
 		" "
@@ -113,6 +188,27 @@
 	quest.48DA5F1CC92B5184.title: "Progression Matters"
 	quest.4A8BD7AA0C2B41E6.title: "Iron Glider"
 	quest.4B94CEBFFEF5D196.title: "Iron Backpack"
+	quest.4BD509205B526E8C.quest_desc: [
+		"The Undergarden's catacombs are old, hostile, and worth searching."
+		" "
+		"Find one to continue the dimension's main challenge path."
+	]
+	quest.4BD509205B526E8C.quest_subtitle: "Stone Tombs"
+	quest.4BD509205B526E8C.title: "Find the Catacombs"
+	quest.4C2651AD1AA0A7D5.quest_desc: [
+		"Froststeel becomes useful once refined."
+		" "
+		"Create a Froststeel Ingot and add another Undergarden metal to your toolkit."
+	]
+	quest.4C2651AD1AA0A7D5.quest_subtitle: "Refined Cold"
+	quest.4C2651AD1AA0A7D5.title: "Make Froststeel"
+	quest.4EBF77C1E4DA7981.quest_desc: [
+		"The Otherside is not empty. Some of its creatures are little more than living sculk decay."
+		" "
+		"Defeat a Sludge and learn what this dimension is willing to throw at you."
+	]
+	quest.4EBF77C1E4DA7981.quest_subtitle: "Living Decay"
+	quest.4EBF77C1E4DA7981.title: "Defeat a Sludge"
 	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
 	quest.54678129C0A1A442.quest_desc: [
 		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.ftbchunks.map\",\"color\":\"gold\"},{\"text\":\" to open the FTB Chunks map.\",\"color\":\"white\"}]"
@@ -127,8 +223,23 @@
 	]
 	quest.54678129C0A1A442.title: "Claim and Protect Your Base"
 	quest.5478A6C6A333557A.title: "Iron Construction Stick"
+	quest.54C14057FC31C6DF.quest_desc: [
+		"Resonarium hums with the strange frequency of the Otherside."
+		" "
+		"Obtain some and prepare it for more advanced crafting."
+	]
+	quest.54C14057FC31C6DF.quest_subtitle: "Deep Resonance"
+	quest.54C14057FC31C6DF.title: "Find Resonarium"
+	quest.54FDC770499D6560.title: "Gather Crimsite"
 	quest.55FF126D92F7E1EE.title: "Storage Controller"
 	quest.5679AB2B6AF7FA6F.title: "Copper Construction Stick"
+	quest.58BE26650A0440F6.quest_desc: [
+		"The Catalyst is the key that wakes the portal to the Undergarden."
+		" "
+		"Craft or obtain one before stepping into the green abyss below reality."
+	]
+	quest.58BE26650A0440F6.quest_subtitle: "Portal Key"
+	quest.58BE26650A0440F6.title: "Obtain a Catalyst"
 	quest.6015EDC54A6BCEC0.title: "Drawer"
 	quest.62006D27C12C3402.quest_desc: [
 		"§lJEI§r §7will guide you throughout your journey.§r"
@@ -141,6 +252,27 @@
 		"§cDo not rely entirely on vanilla progression knowledge.§r"
 	]
 	quest.62006D27C12C3402.title: "JEI is Your Best Friend"
+	quest.62F5592C52CD8821.quest_desc: [
+		"The Undergarden is not just another cave. It is a whole dimension beneath the world you know."
+		" "
+		"Enter it and begin gathering what only grows in that darkness."
+	]
+	quest.62F5592C52CD8821.quest_subtitle: "Below the World"
+	quest.62F5592C52CD8821.title: "Enter the Undergarden"
+	quest.631750A602DDA817.quest_desc: [
+		"Regalium glows with a cleaner, rarer power than most Undergarden materials."
+		" "
+		"Find a crystal and keep it for later progression."
+	]
+	quest.631750A602DDA817.quest_subtitle: "Royal Crystal"
+	quest.631750A602DDA817.title: "Find Regalium"
+	quest.637878425CE55C37.quest_desc: [
+		"The Warden is less a boss than a warning."
+		" "
+		"Defeat one and prove you can survive the path toward Deeper and Darker."
+	]
+	quest.637878425CE55C37.quest_subtitle: "The Warning Wakes"
+	quest.637878425CE55C37.title: "Defeat the Warden"
 	quest.63D67DEF525D3D68.title: "Explorer's Compass"
 	quest.6523137544744B69.title: "Obsidian Chest"
 	quest.65A746736DC2D8ED.title: "Diamond Construction Stick"
@@ -160,6 +292,14 @@
 	quest.66A0A2094ABCFD5D.title: "Craft Zinc Nuggets"
 	quest.6942D9CB3B07E0D8.title: "Configuration Tool"
 	quest.6A4CCCEA030C7865.title: "Controller Extension"
+	quest.6BB174B968379666.title: "Gather Viridite"
+	quest.6C74B0300D2159A6.quest_desc: [
+		"Something is hunting through the silence of the Otherside."
+		" "
+		"Defeat a Stalker and take back a little control over the dark."
+	]
+	quest.6C74B0300D2159A6.quest_subtitle: "Hunter in the Dark"
+	quest.6C74B0300D2159A6.title: "Defeat a Stalker"
 	quest.6CE2C3EFDCA2D25D.title: "Iron Barrel"
 	quest.6D407B1D6ECEC401.title: "Diamond Backpack"
 	quest.6ED33C26796DEA3A.quest_desc: [
@@ -172,6 +312,13 @@
 	quest.6ED33C26796DEA3A.quest_subtitle: "The Beginning"
 	quest.6ED33C26796DEA3A.title: "Gather Wood"
 	quest.70B1DD16E287E1E0.title: "Diamond Chest"
+	quest.716185F216AB4B7E.quest_desc: [
+		"Utheric Shards can be formed into a stronger crystal."
+		" "
+		"Obtain Utherium and continue building your Undergarden material chain."
+	]
+	quest.716185F216AB4B7E.quest_subtitle: "Crystallized Power"
+	quest.716185F216AB4B7E.title: "Make Utherium"
 	quest.72D10B75A011DEB8.title: "Netherite Upgrade"
 	quest.72EC9401EE3BA289.quest_desc: [
 		"§7Many dimensions, structures, and hidden locations contain important resources, progression items, and fragments of lost knowledge.§r"
@@ -181,9 +328,24 @@
 		"§fDo not remain underground forever.§r"
 	]
 	quest.72EC9401EE3BA289.title: "Exploration is Essential"
+	quest.75CE2CADC4756616.quest_desc: [
+		"Cloggrum is one of the first metals worth collecting in the Undergarden."
+		" "
+		"Mine raw Cloggrum and prepare it for refining."
+	]
+	quest.75CE2CADC4756616.quest_subtitle: "Undergarden Metal"
+	quest.75CE2CADC4756616.title: "Mine Raw Cloggrum"
 	quest.760E55F3762CEE14.title: "Armory Cabinet"
 	quest.77C38BE8ECF78C64.title: "Netherite Backpack"
 	quest.77D9929025AD4DB1.title: "Wooden Glider"
+	quest.790A807983D217D9.quest_desc: [
+		"The Heart of the Deep is the key to reaching the Otherside."
+		" "
+		"Bring one back from the ancient depths and prepare for a dimension shaped by sculk."
+	]
+	quest.790A807983D217D9.quest_subtitle: "Doorway to the Otherside"
+	quest.790A807983D217D9.title: "Obtain the Heart of the Deep"
+	quest.7981CF7164F5B951.title: "Craft an Ochrum Core"
 	quest.7ABF9857AE02F946.quest_desc: [
 		""
 		"{image:minecraft:textures/gui/quests/flux_craft.png width:96 height:96 align:center}"
@@ -191,6 +353,14 @@
 	quest.7AEF195E258F6020.title: "Backpack"
 	quest.7C20643129AD0134.title: "Chest"
 	quest.7D04BE7ADA7A5793.title: "Gold Upgrade"
+	quest.7E5877B8D86682A1.title: "Craft a Veridium Core"
+	quest.7F3839D206AED8BA.quest_desc: [
+		"Forgotten metal still remembers how to become something powerful."
+		" "
+		"Obtain a Forgotten Ingot from the Undergarden's deeper challenges."
+	]
+	quest.7F3839D206AED8BA.quest_subtitle: "Recovered Metal"
+	quest.7F3839D206AED8BA.title: "Obtain a Forgotten Ingot"
 	task.0E65D18F4C1C713D.title: "Any #c:ores/zinc"
 	task.10B1D3F62030CB9B.title: "Any #minecraft:logs"
 	task.1C47A13DFFFDD8C5.title: "Useful Tips"
@@ -206,5 +376,5 @@
 	task.5E1F49E858806D7C.title: "Unstable Reality"
 	task.69B13AC47F86E94C.title: "Claims"
 	task.6E299E94C559321A.title: "Progression"
-	task.7FDD597DA3D7A5BA.title: "Ressource Genrator"
+	task.7FDD597DA3D7A5BA.title: "Resource Generator"
 }
