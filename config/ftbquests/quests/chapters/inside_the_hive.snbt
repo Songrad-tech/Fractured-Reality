@@ -7,7 +7,25 @@
 		id: "minecraft:honeycomb"
 	}
 	id: "14893C4ADFC69999"
-	order_index: 0
+	images: [
+		{
+			height: 5.0d
+			image: "minecraft:textures/gui/quests/the_bumblezone_title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/gui/quests/queen_bee.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 11.5d
+			y: 5.5d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -40,7 +58,10 @@
 		{
 			dependencies: ["57C41AC47480BA8F"]
 			icon: {
-				id: "the_bumblezone:bee_queen_spawn_egg"
+				components: {
+					"ftbquests:icon": "the_bumblezone:textures/gui/bee_queen_trades.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "4C91928ED655611D"
 			tasks: [{
@@ -96,7 +117,7 @@
 				}
 			]
 			x: 6.5d
-			y: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47F92CA7E0294DDA"]
@@ -107,7 +128,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["52870C249A924E6F"]
@@ -118,7 +139,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4C91928ED655611D"]
@@ -214,7 +235,7 @@
 				}
 			]
 			x: 6.5d
-			y: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -224,7 +245,10 @@
 				"42E3219A7C71D571"
 			]
 			icon: {
-				id: "the_bumblezone:essence_of_the_bees"
+				components: {
+					"ftbquests:icon": "the_bumblezone:textures/entity_icon/bee_queen.png"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "6AD41FA37188492D"
 			shape: "hexagon"
