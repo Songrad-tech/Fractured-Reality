@@ -3,7 +3,7 @@
   "biomes": "#fractured_reality:has_structure/fractured_spike",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "beard_thin",
   "start_pool": "fractured_reality:fractured_spikes",
   "start_jigsaw_name": "fractured_reality:fractured_spike/base",
   "size": 1,
