@@ -15,6 +15,14 @@
 	chapter_group.2B3850906486FE99.title: "Progression"
 	chapter_group.69F5CC4C3382AB9B.title: "Exploration"
 	quest.006F7EA770EB49AD.title: "Copper Upgrade"
+	quest.01154E300B5A8FD7.quest_desc: [
+		"This Honey Pearl has been attuned to the hive beyond the Overworld."
+		" "
+		"Use it as your key into The Bumblezone."
+	]
+	quest.01154E300B5A8FD7.quest_subtitle: "A World Inside the Hive"
+	quest.01154E300B5A8FD7.title: "Craft a Honey Pearl"
+	quest.01C57A3A9AC3B4F5.title: "Essence of Raging"
 	quest.02FE952A15865F26.title: "Wooden Construction Stick"
 	quest.033F07AD47AC2AB2.title: "Linking Tool"
 	quest.03A760BECFFD5126.quest_desc: [
@@ -27,6 +35,7 @@
 	quest.0593FF5DC6E58B76.title: "Obsidian Barrel"
 	quest.0789D9872462D216.title: "Craft a Crimsite Core"
 	quest.0860B05992C8E356.title: "Diamond Glider"
+	quest.0A586098A85A17ED.title: "Essence of Calming"
 	quest.0A5C056A2A1492A4.quest_desc: [
 		"Utheric Shards carry a cold, alien energy found within the Undergarden."
 		" "
@@ -45,6 +54,13 @@
 	]
 	quest.0FCAE2FFD1263B87.quest_subtitle: "First Metal"
 	quest.0FCAE2FFD1263B87.title: "Find Zinc"
+	quest.1101CDC12DFDBAB4.quest_desc: [
+		"Warden Carapaces can be recovered from Wardens and, more rarely, from Ancient City chests."
+		" "
+		"Collect four of them. They are needed to craft the compass that reveals an undiscovered Ancient Temple."
+	]
+	quest.1101CDC12DFDBAB4.quest_subtitle: "Fragments of the Warden"
+	quest.1101CDC12DFDBAB4.title: "Collect Warden Carapaces"
 	quest.116B91C74588FDB0.quest_desc: [
 		"§7Raw wood is useful, but planks are where crafting truly begins.§r"
 		" "
@@ -53,6 +69,7 @@
 	quest.116B91C74588FDB0.quest_subtitle: "First Materials"
 	quest.116B91C74588FDB0.title: "Craft Planks"
 	quest.11AF2176193077FD.title: "Gather Asurine"
+	quest.125AEB10070AAA43.title: "Essence of Life"
 	quest.128BDDD7D750138C.quest_desc: [
 		"§7Hand crafting may help you survive the early days.§r"
 		" "
@@ -61,6 +78,13 @@
 		"§6The more you automate, the further you will go.§r"
 	]
 	quest.128BDDD7D750138C.title: "Automation is the Key"
+	quest.1290994D6E074626.quest_desc: [
+		"The Essence of the Bees is a permanent infusion, not a crafting ingredient."
+		" "
+		"Consume it to gain the Queen's blessing and unlock safe access to the Sempiternal Sanctums."
+	]
+	quest.1290994D6E074626.quest_subtitle: "The Hive Accepts You"
+	quest.1290994D6E074626.title: "Consume the Essence"
 	quest.16FF223093771098.quest_desc: [
 		"The deepest cities were built around something they could not fully control."
 		" "
@@ -68,6 +92,13 @@
 	]
 	quest.16FF223093771098.quest_subtitle: "Buried Ruins"
 	quest.16FF223093771098.title: "Find an Ancient City"
+	quest.170949B81B466B83.quest_desc: [
+		"Journey's End means every desire has been fulfilled, but your reward is still waiting."
+		" "
+		"Return to the Bee Queen and right-click her with an empty hand to receive the Essence of the Bees."
+	]
+	quest.170949B81B466B83.quest_subtitle: "The Queen's Final Gift"
+	quest.170949B81B466B83.title: "Claim the Essence of the Bees"
 	quest.171622854563F784.title: "Craft an Asurine Core"
 	quest.174458AA46110F36.title: "Gold Chest"
 	quest.1933418C96886DBE.quest_desc: [
@@ -78,12 +109,34 @@
 	quest.1933418C96886DBE.quest_subtitle: "A Place to Work"
 	quest.1933418C96886DBE.title: "Craft Crafting Table"
 	quest.1ACED1A29208A092.title: "Diamond Upgrade"
+	quest.1B99B2431D1A5A72.quest_desc: [
+		"These desires focus on pollen, flowers, Honey Slimes, and injured bees."
+		" "
+		"Use the advancement descriptions for the required totals and equipment."
+	]
+	quest.1B99B2431D1A5A72.quest_subtitle: "Let the Hive Flourish"
+	quest.1B99B2431D1A5A72.title: "The Queen's Garden"
+	quest.1E4C5686F11D495F.quest_desc: [
+		"Complete the Queen's hunting requests: Silverfish, Endermites, Spiders, and Cave Spiders."
+		" "
+		"Each completed desire rewards one Royal Jelly Bottle."
+	]
+	quest.1E4C5686F11D495F.quest_subtitle: "Unwanted Intruders"
+	quest.1E4C5686F11D495F.title: "The Queen's Hunts"
+	quest.1E62854E3E508869.quest_desc: [
+		"After consuming the Essence of the Bees, enter any Sempiternal Sanctum."
+		" "
+		"Each color contains a different trial and one of six powerful essences."
+	]
+	quest.1E62854E3E508869.quest_subtitle: "Six Ancient Trials"
+	quest.1E62854E3E508869.title: "Enter a Sempiternal Sanctum"
 	quest.20CECAECE7438D7F.title: "The First Rotation"
 	quest.21864889EF3D7FE3.title: "Netherite Construction Stick"
+	quest.2468A9BE914BEFDE.title: "Essence of Knowing"
 	quest.24828DD7843BAD17.quest_desc: [
 		"The Otherside hides temples older than the sculk spreading through it."
 		" "
-		"Locate an Ancient Temple and push deeper into Deeper and Darker's progression."
+		"Follow your Ancient Compass to the nearest undiscovered Ancient Temple."
 	]
 	quest.24828DD7843BAD17.quest_subtitle: "Ancient Echoes"
 	quest.24828DD7843BAD17.title: "Find an Ancient Temple"
@@ -110,10 +163,17 @@
 	quest.31FC459BE575BB16.quest_subtitle: "Condensed Echo"
 	quest.31FC459BE575BB16.title: "Obtain a Soul Crystal"
 	quest.33744EB9CA7827B4.title: "Diamond Magnum Torch"
-	quest.35690DA73DE6F776.quest_desc: [
-		"Resonarium can be pressed into stronger components."
+	quest.339B1B43D36D8DB4.quest_desc: [
+		"Enter The Bumblezone and begin exploring its enormous honeycomb caverns."
 		" "
-		"Craft a Resonarium Plate and complete this first branch of Otherside materials."
+		"Most creatures are peaceful until the hive considers you a threat."
+	]
+	quest.339B1B43D36D8DB4.quest_subtitle: "Beyond the Honey"
+	quest.339B1B43D36D8DB4.title: "Enter The Bumblezone"
+	quest.35690DA73DE6F776.quest_desc: [
+		"Four pieces of Resonarium and four scutes form a Resonarium Plate."
+		" "
+		"The plate is now an upgrade material used with diamond equipment and a Resonarium smithing template."
 	]
 	quest.35690DA73DE6F776.quest_subtitle: "Pressed Power"
 	quest.35690DA73DE6F776.title: "Craft a Resonarium Plate"
@@ -131,6 +191,7 @@
 	quest.3A3FDB2C0738518C.title: "Begin Resource Generation"
 	quest.3A7A7F0160A7E9A4.title: "Generate Zinc"
 	quest.3AB7518A0232F39C.title: "Netherite Barrel"
+	quest.3BBF7D4ABB5C285F.title: "Essence of Radiance"
 	quest.3EFEC4006AB93CCC.title: "Gather Veridium"
 	quest.3F8FDF23051A7247.quest_desc: [
 		"§7Andesite and zinc now form something greater.§r"
@@ -149,6 +210,13 @@
 	quest.405C4901EE2BAC5A.quest_subtitle: "Cold Metal"
 	quest.405C4901EE2BAC5A.title: "Mine Raw Froststeel"
 	quest.407C4005B465D453.title: "Iron Chest"
+	quest.410B78E13AFC434F.quest_desc: [
+		"Combine four Royal Jelly Bottles with a Bucket to collect a full bucket."
+		" "
+		"Royal Jelly can empower bees and transform a fully befriended Beehemoth into a Queen Beehemoth."
+	]
+	quest.410B78E13AFC434F.quest_subtitle: "Concentrated Royalty"
+	quest.410B78E13AFC434F.title: "Fill a Royal Jelly Bucket"
 	quest.421B58874D9E154B.title: "Compacting Drawer"
 	quest.4242965A13D79C42.quest_desc: [
 		"The Heart of the Deep opens a way into the Otherside."
@@ -157,6 +225,13 @@
 	]
 	quest.4242965A13D79C42.quest_subtitle: "Beyond the Sculk"
 	quest.4242965A13D79C42.title: "Enter the Otherside"
+	quest.42E3219A7C71D571.quest_desc: [
+		"The final desires demand specialized Bumblezone equipment and a great deal of patience."
+		" "
+		"Fire stingers, defeat the Wither with a Stinger Spear, slay the Ender Dragon in Bee Armor, and complete 128 Queen trades."
+	]
+	quest.42E3219A7C71D571.quest_subtitle: "Proof of Devotion"
+	quest.42E3219A7C71D571.title: "The Queen's Great Feats"
 	quest.43AFE81D3D2240D8.title: "Barrel"
 	quest.467A80382231A9C6.quest_desc: [
 		"§fWelcome, traveler.§r"
@@ -176,6 +251,13 @@
 	quest.467A80382231A9C6.title: "Welcome to Fractured Reality"
 	quest.4787C1D384778BEA.title: "Golden Glider"
 	quest.47BE189106F666DD.title: "Generate Gold"
+	quest.47F92CA7E0294DDA.quest_desc: [
+		"Begin with the desires centered on caring for bees and their home."
+		" "
+		"Breed bees, build hives, drink honey, and feed the colony. Check the Bumblezone advancement tab for exact counters."
+	]
+	quest.47F92CA7E0294DDA.quest_subtitle: "Care for the Colony"
+	quest.47F92CA7E0294DDA.title: "The Queen's Beekeeping"
 	quest.48DA5F1CC92B5184.quest_desc: [
 		"§7Technology progression is intentionally gated.§r"
 		" "
@@ -202,6 +284,13 @@
 	]
 	quest.4C2651AD1AA0A7D5.quest_subtitle: "Refined Cold"
 	quest.4C2651AD1AA0A7D5.title: "Make Froststeel"
+	quest.4C91928ED655611D.quest_desc: [
+		"The Bee Queen is a peaceful trader, not a boss."
+		" "
+		"Hold or drop an item she accepts and complete one trade. This unlocks the hidden Queen's Desire advancement path."
+	]
+	quest.4C91928ED655611D.quest_subtitle: "An Audience with Royalty"
+	quest.4C91928ED655611D.title: "Trade with the Bee Queen"
 	quest.4EBF77C1E4DA7981.quest_desc: [
 		"The Otherside is not empty. Some of its creatures are little more than living sculk decay."
 		" "
@@ -210,6 +299,13 @@
 	quest.4EBF77C1E4DA7981.quest_subtitle: "Living Decay"
 	quest.4EBF77C1E4DA7981.title: "Defeat a Sludge"
 	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
+	quest.52870C249A924E6F.quest_desc: [
+		"Every completed Queen's Desire advancement rewards a Royal Jelly Bottle."
+		" "
+		"The first bottle proves that you are following the correct advancement path."
+	]
+	quest.52870C249A924E6F.quest_subtitle: "A Royal Reward"
+	quest.52870C249A924E6F.title: "Obtain Royal Jelly"
 	quest.54678129C0A1A442.quest_desc: [
 		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.ftbchunks.map\",\"color\":\"gold\"},{\"text\":\" to open the FTB Chunks map.\",\"color\":\"white\"}]"
 		" "
@@ -233,6 +329,13 @@
 	quest.54FDC770499D6560.title: "Gather Crimsite"
 	quest.55FF126D92F7E1EE.title: "Storage Controller"
 	quest.5679AB2B6AF7FA6F.title: "Copper Construction Stick"
+	quest.57C41AC47480BA8F.quest_desc: [
+		"Find a Throne Pillar, the home of the Bee Queen."
+		" "
+		"Honey Compasses found in other Bumblezone structures can point toward her throne."
+	]
+	quest.57C41AC47480BA8F.quest_subtitle: "The Queen Awaits"
+	quest.57C41AC47480BA8F.title: "Find the Throne Pillar"
 	quest.58BE26650A0440F6.quest_desc: [
 		"The Catalyst is the key that wakes the portal to the Undergarden."
 		" "
@@ -292,6 +395,13 @@
 	quest.66A0A2094ABCFD5D.title: "Craft Zinc Nuggets"
 	quest.6942D9CB3B07E0D8.title: "Configuration Tool"
 	quest.6A4CCCEA030C7865.title: "Controller Extension"
+	quest.6AD41FA37188492D.quest_desc: [
+		"Complete all sixteen Queen's Desire advancements."
+		" "
+		"The mod's advancement screen tracks every counter precisely. This final advancement completes automatically when all sixteen are done."
+	]
+	quest.6AD41FA37188492D.quest_subtitle: "Every Desire Fulfilled"
+	quest.6AD41FA37188492D.title: "Reach Journey's End"
 	quest.6BB174B968379666.title: "Gather Viridite"
 	quest.6C74B0300D2159A6.quest_desc: [
 		"Something is hunting through the silence of the Otherside."
@@ -336,6 +446,7 @@
 	quest.75CE2CADC4756616.quest_subtitle: "Undergarden Metal"
 	quest.75CE2CADC4756616.title: "Mine Raw Cloggrum"
 	quest.760E55F3762CEE14.title: "Armory Cabinet"
+	quest.76B954D68DD2F748.title: "Essence of Continuity"
 	quest.77C38BE8ECF78C64.title: "Netherite Backpack"
 	quest.77D9929025AD4DB1.title: "Wooden Glider"
 	quest.790A807983D217D9.quest_desc: [
@@ -361,6 +472,120 @@
 	]
 	quest.7F3839D206AED8BA.quest_subtitle: "Recovered Metal"
 	quest.7F3839D206AED8BA.title: "Obtain a Forgotten Ingot"
+	quest.7FD9E439525F1203.quest_desc: [
+		"Craft an Ancient Compass with a normal compass surrounded by four Warden Carapaces."
+		" "
+		"Inside the Otherside, it points toward the nearest Ancient Temple you have not yet discovered."
+	]
+	quest.7FD9E439525F1203.quest_subtitle: "A Path Through the Gloom"
+	quest.7FD9E439525F1203.title: "Craft an Ancient Compass"
+	quest.8CB77B71C64448D4.quest_desc: [
+		"The final desires demand specialized Bumblezone equipment and a great deal of patience."
+		" "
+		"Fire stingers, defeat the Wither with a Stinger Spear, slay the Ender Dragon in Bee Armor, and complete 128 Queen trades."
+	]
+	quest.8CB77B71C64448D4.quest_subtitle: "Proof of Devotion"
+	quest.8CB77B71C64448D4.title: "The Queen's Great Feats"
+	quest.8D36A2E96AAA4B69.quest_desc: [
+		"Porous Sculk Gleam slowly grows Gleam Gel through several stages."
+		" "
+		"Use shears when the growth is ready. Sculk Snappers may also accept the gel as food."
+	]
+	quest.8D36A2E96AAA4B69.quest_subtitle: "Harvested Light"
+	quest.8D36A2E96AAA4B69.title: "Harvest Gleam Gel"
+	quest.93E20AA9DF4A4591.quest_desc: [
+		"Resonarium equipment now requires a dedicated smithing template."
+		" "
+		"Search Ancient Cities, Trial Chambers, Stronghold corridors, or the apex of an Ancient Temple."
+		" "
+		"Once found, the template can be duplicated with Resonarium and diamonds."
+	]
+	quest.93E20AA9DF4A4591.quest_subtitle: "The Missing Pattern"
+	quest.93E20AA9DF4A4591.title: "Find a Resonarium Upgrade"
+	quest.95933F9B9FAB42A9.quest_desc: [
+		"These desires focus on pollen, flowers, Honey Slimes, and injured bees."
+		" "
+		"Use the advancement descriptions for the required totals and equipment."
+	]
+	quest.95933F9B9FAB42A9.quest_subtitle: "Let the Hive Flourish"
+	quest.95933F9B9FAB42A9.title: "The Queen's Garden"
+	quest.A29BA901E42A4B32.quest_desc: [
+		"Explore the Crystal Canyons and recover both normal and Glistering Honey Crystals."
+		" "
+		"Use their shards to craft a Honey Crystal Shield."
+	]
+	quest.A29BA901E42A4B32.quest_subtitle: "Fragile but Useful"
+	quest.A29BA901E42A4B32.title: "Master Honey Crystals"
+	quest.B21F9278165948F9.quest_desc: [
+		"The Crystalline Flower consumes items and experience to grow."
+		" "
+		"Once developed, it can manipulate powerful enchantments through its own interface."
+	]
+	quest.B21F9278165948F9.quest_subtitle: "Feed the Flower"
+	quest.B21F9278165948F9.title: "Grow a Crystalline Flower"
+	quest.B23D617ADD704747.quest_desc: [
+		"Combine four Royal Jelly Bottles with a Bucket to collect a full bucket."
+		" "
+		"Royal Jelly can empower bees for an extremely long time and can transform a Beehemoth into a Queen Beehemoth."
+	]
+	quest.B23D617ADD704747.quest_subtitle: "Concentrated Royalty"
+	quest.B23D617ADD704747.title: "Fill a Royal Jelly Bucket"
+	quest.BC9010C5006548C9.quest_desc: [
+		"The Bee Queen is a peaceful trader, not a boss."
+		" "
+		"Hold or drop an item she accepts and complete one trade. This unlocks the hidden Queen's Desire advancement path."
+	]
+	quest.BC9010C5006548C9.quest_subtitle: "An Audience with Royalty"
+	quest.BC9010C5006548C9.title: "Trade with the Bee Queen"
+	quest.BCAD51DF3BC545D5.quest_desc: [
+		"Find a Throne Pillar, the home of the Bee Queen."
+		" "
+		"Honey Compasses found in other Bumblezone structures can point toward her throne."
+	]
+	quest.BCAD51DF3BC545D5.quest_subtitle: "The Queen Awaits"
+	quest.BCAD51DF3BC545D5.title: "Find the Throne Pillar"
+	quest.C4CABF62252142CF.quest_desc: [
+		"Combine the Resonarium Upgrade template, a diamond sword, and a Resonarium Plate in a Smithing Table."
+		" "
+		"The same method can upgrade the other supported diamond tools and armor."
+	]
+	quest.C4CABF62252142CF.quest_subtitle: "Diamond, Reforged"
+	quest.C4CABF62252142CF.title: "Forge a Resonarium Weapon"
+	quest.DE805BEE8B0D494A.quest_desc: [
+		"The Bumblezone contains many distinct biomes and structures beyond the Queen's throne."
+		" "
+		"Discover every biome and enter every major structure."
+	]
+	quest.DE805BEE8B0D494A.quest_subtitle: "Leave No Cell Unexplored"
+	quest.DE805BEE8B0D494A.title: "Explore the Entire Hive"
+	quest.DF6DD5A8A1A74546.quest_desc: [
+		"Angler Fish now swim through the pools of the Blooming Caverns."
+		" "
+		"Track one down to discover another form of life shaped by the Otherside."
+	]
+	quest.DF6DD5A8A1A74546.quest_subtitle: "Light Beneath the Water"
+	quest.DF6DD5A8A1A74546.title: "Hunt an Angler Fish"
+	quest.E375F06818474B98.quest_desc: [
+		"Gloomsherds dropped by Overcast Pots can be assembled like pottery sherds."
+		" "
+		"Use four of them to craft a Gloomslate Pot capable of holding one stack of items."
+	]
+	quest.E375F06818474B98.quest_subtitle: "Pieces of Emotion"
+	quest.E375F06818474B98.title: "Craft a Gloomslate Pot"
+	quest.E5CB5F0CDB9444BB.quest_desc: [
+		"Raise a Beehemoth's friendship to its maximum, then offer it Royal Jelly."
+		" "
+		"The transformation creates a Queen Beehemoth with permanent royal power."
+	]
+	quest.E5CB5F0CDB9444BB.quest_subtitle: "A Royal Transformation"
+	quest.E5CB5F0CDB9444BB.title: "Create a Queen Beehemoth"
+	quest.F1B74DE9725240D1.quest_desc: [
+		"Sorrow, Fear, and Anger have taken physical form in the Overcast Columns."
+		" "
+		"Defeat all three Overcast Pot variants and gather the Gloomsherds left behind."
+	]
+	quest.F1B74DE9725240D1.quest_subtitle: "Shattered Emotions"
+	quest.F1B74DE9725240D1.title: "Break the Overcast Pots"
 	task.0E65D18F4C1C713D.title: "Any #c:ores/zinc"
 	task.10B1D3F62030CB9B.title: "Any #minecraft:logs"
 	task.1C47A13DFFFDD8C5.title: "Useful Tips"

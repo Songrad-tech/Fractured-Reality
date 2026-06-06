@@ -59,7 +59,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4242965A13D79C42"]
+			dependencies: ["7FD9E439525F1203"]
 			icon: {
 				id: "deeperdarker:ancient_vase"
 			}
@@ -69,8 +69,8 @@
 				structure: "deeperdarker:ancient_temple"
 				type: "structure"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["24828DD7843BAD17"]
@@ -81,8 +81,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 6.0d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6C74B0300D2159A6"]
@@ -92,8 +92,8 @@
 				item: { count: 1, id: "deeperdarker:soul_crystal" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.0d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["16FF223093771098"]
@@ -116,8 +116,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4EBF77C1E4DA7981"]
@@ -127,8 +127,8 @@
 				item: { count: 1, id: "deeperdarker:resonarium" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["54C14057FC31C6DF"]
@@ -138,8 +138,34 @@
 				item: { count: 1, id: "deeperdarker:resonarium_plate" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.0d
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1101CDC12DFDBAB4"
+				"4242965A13D79C42"
+			]
+			id: "7FD9E439525F1203"
+			tasks: [{
+				id: "35E5E2DD525D6F06"
+				item: { count: 1, id: "deeperdarker:ancient_compass" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["637878425CE55C37"]
+			id: "1101CDC12DFDBAB4"
+			tasks: [{
+				count: 4L
+				id: "1A567A5F015EDA48"
+				item: { count: 1, id: "deeperdarker:warden_carapace" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
 		}
 	]
 }
