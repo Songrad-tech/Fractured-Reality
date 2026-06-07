@@ -7,7 +7,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_01.png",
     "blend": true,
-    "size": 120.0
+    "size": 85.0
   },
     {
     "rotation": [-50.0, 180.0, 5.0],
@@ -16,7 +16,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_02.png",
     "blend": true,
-    "size": 95.0
+    "size": 70.0
   },
     {
     "rotation": [35.0, 180.0, -5.0],
@@ -25,7 +25,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_03.png",
     "blend": true,
-    "size": 135.0
+    "size": 95.0
   },
   {
     "rotation": [80.0, 270.0, 0.0],
@@ -34,7 +34,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_04.png",
     "blend": true,
-    "size": 110.0
+    "size": 80.0
   },
   {
     "rotation": [80.0, 70.0, 10.0],
@@ -43,7 +43,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_05.png",
     "blend": true,
-    "size": 65.0
+    "size": 52.0
   },
     {
     "rotation": [-80.0, -60.0, 25.0],
@@ -52,7 +52,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_06.png",
     "blend": true,
-    "size": 58.0
+    "size": 46.0
   },
   {
     "rotation": [70.0, -60.0, -15.0],
@@ -61,7 +61,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_07.png",
     "blend": true,
-    "size": 48.0
+    "size": 38.0
   },
     {
     "rotation": [-60.0, 275.0, 5.0],
@@ -70,7 +70,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_08.png",
     "blend": true,
-    "size": 72.0
+    "size": 52.0
   },
     {
     "rotation": [-70.0, 125.0, -20.0],
@@ -79,7 +79,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_09.png",
     "blend": true,
-    "size": 85.0
+    "size": 60.0
   },
   {
     "rotation": [180.0, 245.0, 20.0],
@@ -88,7 +88,7 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_10.png",
     "blend": true,
-    "size": 160.0
+    "size": 105.0
   },
   {
     "rotation": [5.0, 110.0, 0.0],
@@ -97,7 +97,79 @@
     "rotation_type": "STATIC",
     "texture": "minecraft:textures/environment/fracture_01.png",
     "blend": true,
-    "size": 134.0
+    "size": 90.0
+  },
+  {
+    "rotation": [22.0, 42.0, -12.0],
+    "object_rotation": [0.0, 0.0, 28.0],
+    "height": 125,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_05.png",
+    "blend": true,
+    "size": 24.0
+  },
+  {
+    "rotation": [-28.0, 78.0, 18.0],
+    "object_rotation": [0.0, 0.0, -35.0],
+    "height": 145,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_02.png",
+    "blend": true,
+    "size": 31.0
+  },
+  {
+    "rotation": [48.0, 145.0, 8.0],
+    "object_rotation": [0.0, 0.0, 16.0],
+    "height": 180,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_07.png",
+    "blend": true,
+    "size": 20.0
+  },
+  {
+    "rotation": [-42.0, 215.0, -16.0],
+    "object_rotation": [0.0, 0.0, 52.0],
+    "height": 155,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_04.png",
+    "blend": true,
+    "size": 36.0
+  },
+  {
+    "rotation": [15.0, 250.0, 22.0],
+    "object_rotation": [0.0, 0.0, -22.0],
+    "height": 210,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_08.png",
+    "blend": true,
+    "size": 28.0
+  },
+  {
+    "rotation": [55.0, 315.0, -8.0],
+    "object_rotation": [0.0, 0.0, 40.0],
+    "height": 135,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_01.png",
+    "blend": true,
+    "size": 18.0
+  },
+  {
+    "rotation": [-18.0, 335.0, 14.0],
+    "object_rotation": [0.0, 0.0, -48.0],
+    "height": 195,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_06.png",
+    "blend": true,
+    "size": 38.0
+  },
+  {
+    "rotation": [-65.0, 25.0, -10.0],
+    "object_rotation": [0.0, 0.0, 12.0],
+    "height": 165,
+    "rotation_type": "STATIC",
+    "texture": "minecraft:textures/environment/fracture_03.png",
+    "blend": true,
+    "size": 26.0
   }
 ],
   "stars": {
@@ -109,7 +181,7 @@
     ],
     "vanilla": true,
     "moving_stars": false,
-    "count": 100000,
+    "count": 10000,
     "all_days_visible": false
   },
   "sky_color": {
