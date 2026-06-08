@@ -7,7 +7,159 @@
 		id: "minecraft:end_portal_frame"
 	}
 	id: "6FD6B73C3A43BBA9"
+	images: [
+		{
+			height: 6.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7168367346938709d
+			y: -3.4260204081632892d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.00255102040815558d
+			y: -3.4260204081632892d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.6913265306122511d
+			y: -3.4260204081632892d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 2.0d
+			x: 3.426020408163261d
+			y: -1.7117346938775668d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 2.0d
+			x: 3.426020408163261d
+			y: 0.00255102040815558d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 2.0d
+			x: 3.426020408163261d
+			y: 1.7168367346938638d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 180.0d
+			width: 2.0d
+			x: 1.7117346938775526d
+			y: 3.431122448979586d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 180.0d
+			width: 2.0d
+			x: -0.0025510204081626853d
+			y: 3.431122448979579d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 180.0d
+			width: 2.0d
+			x: -1.716836734693878d
+			y: 3.431122448979579d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 270.0d
+			width: 2.0d
+			x: -3.4311224489795933d
+			y: 1.7168367346938638d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 270.0d
+			width: 2.0d
+			x: -3.4311224489795933d
+			y: 0.0025510204081484744d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 270.0d
+			width: 2.0d
+			x: -3.4311224489795933d
+			y: -1.7117346938775668d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"388CD5446CC01181"
+				"3C70A5B33ED35671"
+			]
+			id: "098814F981482811"
+			shape: "square"
+			tasks: [{
+				id: "103327CE0E9600F4"
+				item: { count: 1, id: "endrem:time_eye" }
+				type: "item"
+			}]
+			x: 1.6913265306122511d
+			y: -3.4260204081632892d
+		}
+		{
+			dependencies: [
+				"55C3D47B5B2B9120"
+				"3C70A5B33ED35671"
+			]
+			id: "1A7308D143DA5C61"
+			shape: "square"
+			tasks: [{
+				id: "36C666027093C519"
+				item: { count: 1, id: "endrem:fractured_eye" }
+				type: "item"
+			}]
+			x: -0.00255102040815558d
+			y: -3.4260204081632892d
+		}
+		{
+			dependencies: [
+				"6048F41AC1218BF5"
+				"3C70A5B33ED35671"
+			]
+			id: "4591D16215E93012"
+			shape: "square"
+			tasks: [{
+				id: "5F631BFC0300D50C"
+				item: { count: 1, id: "endrem:mechanical_eye" }
+				type: "item"
+			}]
+			x: -1.7168367346938709d
+			y: -3.4260204081632892d
+		}
+	]
 }

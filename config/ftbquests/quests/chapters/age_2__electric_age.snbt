@@ -449,5 +449,16 @@
 			x: 27.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["246EA8BDE0EBBBCA"]
+			id: "3C70A5B33ED35671"
+			tasks: [{
+				id: "1129862CE513F614"
+				item: { count: 1, id: "oritech:still_strange_matter_bucket" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
 	]
 }

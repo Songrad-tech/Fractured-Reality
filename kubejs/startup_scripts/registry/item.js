@@ -47,4 +47,8 @@ StartupEvents.registry("item", (event) => {
     .create("fractured_pearl")
     .texture("fractured_reality:item/fractured_pearl")
     .maxStackSize(16);
+
+  event
+    .create("partial_mechanical_eye")
+    .texture("fractured_reality:item/partial_mechanical_eye");
 });
