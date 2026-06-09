@@ -80,6 +80,12 @@
           weight: 1.0,
         },
       ],
+      "kubejs:fractured_singularity_block": [
+        {
+          id: "kubejs:fractured_stone",
+          weight: 1.0,
+        },
+      ],
     },
   },
   // advanced: {

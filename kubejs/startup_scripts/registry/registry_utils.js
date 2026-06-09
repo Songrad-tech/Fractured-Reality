@@ -16,20 +16,18 @@ function createStoneFamily(event, id, displayName, type) {
   return block;
 }
 
-function createFullStoneSet(event, id, displayName) {
-  createStoneFamily(event, id, displayName).tagItem(
-    "kubejs:stone_type/viridite",
-  );
+function createFullStoneSet(event, id, displayName, tag) {
+  createStoneFamily(event, id, displayName).tagItem("kubejs:stone_type/" + tag);
 
   createStoneFamily(
     event,
     id + "_stairs",
     displayName + " Stairs",
     "stairs",
-  ).tagItem("kubejs:stone_type/viridite");
+  ).tagItem("kubejs:stone_type/" + tag);
   createStoneFamily(event, id + "_slab", displayName + " Slab", "slab");
   createStoneFamily(event, id + "_wall", displayName + " Wall", "wall").tagItem(
-    "kubejs:stone_type/viridite",
+    "kubejs:stone_type/" + tag,
   );
 }
 

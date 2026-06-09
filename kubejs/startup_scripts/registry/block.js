@@ -52,7 +52,7 @@ StartupEvents.registry("block", (event) => {
   ];
 
   viriditeVariants.forEach((variant) => {
-    createFullStoneSet(event, variant.id, variant.name);
+    createFullStoneSet(event, variant.id, variant.name, "viridite");
   });
 
   const resourceCores = [
@@ -111,4 +111,23 @@ StartupEvents.registry("block", (event) => {
     .hardness(5)
     .resistance(5)
     .tagBlock("minecraft:mineable/pickaxe");
+
+  const fracturedBlocks = [
+    {
+      id: "fractured_stone",
+      name: "Fractured Stone",
+    },
+    {
+      id: "smooth_fractured_stone",
+      name: "Smooth Fractured Stone",
+    },
+    {
+      id: "fractured_stone_bricks",
+      name: "Fractured Stone Bricks",
+    },
+  ];
+
+  fracturedBlocks.forEach((variant) => {
+    createFullStoneSet(event, variant.id, variant.name, "fractured");
+  });
 });

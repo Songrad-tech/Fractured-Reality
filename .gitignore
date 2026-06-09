@@ -1,36 +1,72 @@
-# Folders
+# Editors and operating system
 /.vscode/
-/.mixin.out/
-/config/jei/world/
-/config/voicechat/username-cache.json
-/config/voicechat/voicechat-client.properties
-/local/
-/saves/
-/screenshots/
-/ESM/
-/logs/
-/resourcepacks/
-/mods/
-/crash-reports/
-/downloads/
-/immersive_furniture/
-/fancymenu_data/
-config/worldedit/
+/.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
 
-# Files
-/minecraftinstance.json
-/kubejs/README.txt
+# CurseForge and launcher metadata
 /.curseclient
-/command_history.txt
+/minecraftinstance.json
 /user-prefs.json
+
+# Minecraft user and session data
+/options.txt
+/servers.dat
+/servers.dat_old
+/realms_persistence.json
+/knownkeys.txt
+/command_history.txt
 /usercache.json
 /usernamecache.json
-/options.txt
+/screenshots/
+/saves/
+
+# Runtime output and diagnostics
+/.mixin.out/
+/crash-reports/
+/debug/
+/downloads/
+/logs/
+/local/
+/moddata/
+*.log
+*.log.gz
+hs_err_pid*.log
+replay_pid*.log
+
+# Installed binaries and local media
+/mods/
+/resourcepacks/
+/shaderpacks/
+
+# Generated mod data and caches
+/ESM/
+/fancymenu_data/
+/immersive_furniture/
+/config/jei/world/
+/config/spark/tmp-client/
+/config/worldedit/
+/config/voicechat/username-cache.json
+/config/voicechat/voicechat-client.properties
+
+# Generated or machine-specific configuration
+/config/*-client.snbt
+/config/drippyloadingscreen/early_window_reference.properties
+/config/packetfixer.properties
+/config/worldeditcui.config.json
+/kubejs/README.txt
+
+# Local development notes and diagrams
 /todo.md
-/progression.drawio
-config/packetfixer.properties
-config/*-client.snbt
-config/drippyloadingscreen/early_window_reference.properties
-progression.drawio
 *.drawio
-config/worldeditcui.config.json
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
