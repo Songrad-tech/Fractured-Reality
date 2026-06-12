@@ -1,0 +1,19 @@
+{
+  "wants": [
+    {
+      "id": "kubejs:fractured_pearl",
+      "required": true
+    }
+  ],
+  "possible_rewards": [
+    {
+      "item": {
+        "id": "endrem:honey_eye",
+        "count": 1
+      },
+      "xp_reward": 10,
+      "weight": 1,
+      "required": true
+    }
+  ]
+}

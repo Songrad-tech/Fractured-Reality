@@ -4,5 +4,9 @@
   "item.endrem.time_eye": "Time Eye",
   "item.endrem.time_eye.description": "An eye capable of severing itself from the flow of time.",
   "item.endrem.mechanical_eye":"Mechanical Eye",
-  "item.endrem.mechanical_eye.description": "An eye forged through mechanical ingenuity."
+  "item.endrem.mechanical_eye.description": "An eye forged through mechanical ingenuity.",
+  "item.endrem.echo_eye": "Echo Eye",
+  "item.endrem.echo_eye.description": "An eye that whispers with echoes from beyond the darkness.",
+  "item.endrem.honey_eye": "Honey Eye",
+  "item.endrem.honey_eye.description": "An eye bestowed by the queen of an ancient hive."
 }

@@ -161,5 +161,29 @@
 			x: -1.7168367346938709d
 			y: -3.4260204081632892d
 		}
+		{
+			dependencies: ["6C74B0300D2159A6"]
+			id: "163AAFAE7C789CC2"
+			shape: "square"
+			tasks: [{
+				id: "5D96CFAAD787FC69"
+				item: { count: 1, id: "endrem:echo_eye" }
+				type: "item"
+			}]
+			x: -3.4379591836734713d
+			y: -1.7066326530612344d
+		}
+		{
+			dependencies: ["6AD41FA37188492D"]
+			id: "63A1228608D20D77"
+			shape: "square"
+			tasks: [{
+				id: "0371457ECD820418"
+				item: { count: 1, id: "endrem:honey_eye" }
+				type: "item"
+			}]
+			x: -3.4387755102040813d
+			y: 0.0d
+		}
 	]
 }

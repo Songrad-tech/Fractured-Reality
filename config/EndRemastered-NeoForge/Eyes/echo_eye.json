@@ -1,0 +1,8 @@
+{
+  "id": "echo_eye",
+  "rarity": "epic",
+  "loot_to_inject_id": "endrem:deeperdarker/entities/stalker",
+  "loot_tables_id": [
+    "deeperdarker:entities/stalker"
+  ]
+}
