@@ -185,5 +185,17 @@
 			x: -3.4387755102040813d
 			y: 0.0d
 		}
+		{
+			dependencies: ["7EFC4A52220B1A80"]
+			id: "21D677C3C24AAD51"
+			shape: "square"
+			tasks: [{
+				id: "331004E6979F3BBE"
+				item: { count: 1, id: "endrem:under_eye" }
+				type: "item"
+			}]
+			x: -3.4285714285714377d
+			y: 1.706632653061206d
+		}
 	]
 }

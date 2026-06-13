@@ -269,6 +269,13 @@
 	]
 	quest.48DA5F1CC92B5184.title: "Progression Matters"
 	quest.4A8BD7AA0C2B41E6.title: "Iron Glider"
+	quest.4AAD20A54D5CA614.quest_desc: [
+		"Rogdorium is a rare crystal infused with the strange energy of the Undergarden."
+		" "
+		"Search the depths for some and uncover its purifying properties."
+	]
+	quest.4AAD20A54D5CA614.quest_subtitle: "Crystal of the Depths"
+	quest.4AAD20A54D5CA614.title: "Obtain Rogdorium"
 	quest.4B94CEBFFEF5D196.title: "Iron Backpack"
 	quest.4BD509205B526E8C.quest_desc: [
 		"The Undergarden's catacombs are old, hostile, and worth searching."
@@ -465,6 +472,13 @@
 	quest.7C20643129AD0134.title: "Chest"
 	quest.7D04BE7ADA7A5793.title: "Gold Upgrade"
 	quest.7E5877B8D86682A1.title: "Craft a Veridium Core"
+	quest.7EFC4A52220B1A80.quest_desc: [
+		"The Infuser harnesses the unique energies found throughout the Undergarden."
+		" "
+		"Craft one to transform materials using the dimension's powerful crystals."
+	]
+	quest.7EFC4A52220B1A80.quest_subtitle: "Power of Infusion"
+	quest.7EFC4A52220B1A80.title: "Craft an Infuser"
 	quest.7F3839D206AED8BA.quest_desc: [
 		"Forgotten metal still remembers how to become something powerful."
 		" "

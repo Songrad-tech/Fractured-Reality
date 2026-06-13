@@ -7,6 +7,24 @@
 		id: "undergarden:depthrock_pebble"
 	}
 	id: "3ACA0646478CC055"
+	images: [
+		{
+			height: 4.0d
+			image: "minecraft:textures/gui/quests/rotbeast.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/gui/quests/forgotten_guardian.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: -0.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -88,8 +106,8 @@
 				item: { count: 1, id: "undergarden:raw_cloggrum" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["75CE2CADC4756616"]
@@ -99,8 +117,8 @@
 				item: { count: 1, id: "undergarden:cloggrum_ingot" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["62F5592C52CD8821"]
@@ -110,7 +128,7 @@
 				item: { count: 1, id: "undergarden:raw_froststeel" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -121,8 +139,8 @@
 				item: { count: 1, id: "undergarden:froststeel_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["62F5592C52CD8821"]
@@ -133,7 +151,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0A5C056A2A1492A4"]
@@ -144,7 +162,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["62F5592C52CD8821"]
@@ -156,6 +174,31 @@
 			}]
 			x: 0.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["62F5592C52CD8821"]
+			id: "4AAD20A54D5CA614"
+			tasks: [{
+				id: "3C97453F056B1A36"
+				item: { count: 1, id: "undergarden:rogdorium" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4AAD20A54D5CA614"
+				"0A5C056A2A1492A4"
+			]
+			id: "7EFC4A52220B1A80"
+			tasks: [{
+				id: "4D00430181090EA2"
+				item: { count: 1, id: "undergarden:infuser" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
 		}
 	]
 }

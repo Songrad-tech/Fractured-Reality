@@ -45,4 +45,34 @@ ServerEvents.recipes((event) => {
     },
     "kubejs:sequenced_assembly/mechanical_eye",
   );
+
+  event.custom({
+    type: "undergarden:infuser_conversion",
+    category: "corrupting",
+    experience: 2.0,
+    infusing_time: 300,
+    ingredient: {
+      item: "kubejs:fractured_pearl",
+    },
+    result: {
+      count: 1,
+      id: "kubejs:partial_under_eye",
+    },
+    slot_type: "utherium",
+  });
+
+  event.custom({
+    type: "undergarden:infuser_conversion",
+    category: "purifying",
+    experience: 2.0,
+    infusing_time: 300,
+    ingredient: {
+      item: "kubejs:partial_under_eye",
+    },
+    result: {
+      count: 1,
+      id: "endrem:under_eye",
+    },
+    slot_type: "rogdorium",
+  });
 });

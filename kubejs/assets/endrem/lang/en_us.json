@@ -8,5 +8,7 @@
   "item.endrem.echo_eye": "Echo Eye",
   "item.endrem.echo_eye.description": "An eye that whispers with echoes from beyond the darkness.",
   "item.endrem.honey_eye": "Honey Eye",
-  "item.endrem.honey_eye.description": "An eye bestowed by the queen of an ancient hive."
+  "item.endrem.honey_eye.description": "An eye bestowed by the queen of an ancient hive.",
+  "item.endrem.under_eye": "Under Eye",
+  "item.endrem.under_eye.description": "An eye recovered from the forgotten depths beneath the world."
 }
