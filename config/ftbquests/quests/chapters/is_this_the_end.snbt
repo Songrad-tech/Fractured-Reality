@@ -197,5 +197,17 @@
 			x: -3.4285714285714377d
 			y: 1.706632653061206d
 		}
+		{
+			dependencies: ["663C2C9828D6C746"]
+			id: "75E11D4A3E06B103"
+			shape: "square"
+			tasks: [{
+				id: "617B7B6A3BCAC5D8"
+				item: { count: 1, id: "endrem:charged_electrical_eye" }
+				type: "item"
+			}]
+			x: 3.426020408163268d
+			y: -1.7066326530612344d
+		}
 	]
 }

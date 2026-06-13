@@ -53,7 +53,7 @@ const coreSequencedRecipes = [
         "kubejs:incomplete_electrum_core",
         item("createaddition:alternator"),
       ),
-      pressing("kubejs:incomplete_brass_core"),
+      pressing("kubejs:incomplete_electrum_core"),
     ],
   },
 ];

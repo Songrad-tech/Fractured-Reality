@@ -75,4 +75,26 @@ ServerEvents.recipes((event) => {
     },
     slot_type: "rogdorium",
   });
+
+  event.shaped("kubejs:electrical_eye", ["ABA", "BCB", "ABA"], {
+    A: "createaddition:electrum_sheet",
+    B: "createaddition:electrum_spool",
+    C: "kubejs:fractured_pearl",
+  });
+
+  event.custom({
+    type: "createaddition:charging",
+    energy: 648000,
+    ingredients: [
+      {
+        item: "kubejs:electrical_eye",
+      },
+    ],
+    max_charge_rate: 360,
+    results: [
+      {
+        id: "endrem:charged_electrical_eye",
+      },
+    ],
+  });
 });

@@ -55,4 +55,8 @@ StartupEvents.registry("item", (event) => {
   event
     .create("partial_under_eye")
     .texture("fractured_reality:item/partial_under_eye");
+
+  event
+    .create("electrical_eye")
+    .texture("fractured_reality:item/electrical_eye");
 });

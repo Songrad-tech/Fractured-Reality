@@ -10,5 +10,18 @@
   "item.endrem.honey_eye": "Honey Eye",
   "item.endrem.honey_eye.description": "An eye bestowed by the queen of an ancient hive.",
   "item.endrem.under_eye": "Under Eye",
-  "item.endrem.under_eye.description": "An eye recovered from the forgotten depths beneath the world."
+  "item.endrem.under_eye.description": "An eye recovered from the forgotten depths beneath the world.",
+  "item.endrem.charged_electrical_eye": "Charged Electrical Eye",
+  "item.endrem.charged_electrical_eye.description": "An eye infused with the raw power of electricity.",
+  
+  "item.endrem.machine_eye": "Machine Eye",
+  "item.endrem.machine_eye.description": "An eye crafted within the heart of advanced machinery.",
+  "item.endrem.digital_eye": "Digital Eye",
+  "item.endrem.digital_eye.description": "An eye woven from streams of encoded knowledge.",
+  "item.endrem.network_eye": "Network Eye",
+  "item.endrem.network_eye.description": "An eye linking distant places through unseen currents.",
+  "item.endrem.essence_eye": "Essence Eye",
+  "item.endrem.essence_eye.description": "An eye nourished by the pure essence of life itself.",
+  "item.endrem.memory_eye": "Memory Eye",
+  "item.endrem.memory_eye.description": "An eye containing the memories of every path taken."
 }
