@@ -41,17 +41,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["02CFF707C09E12D5"]
-			id: "704E5EB0ED816B90"
-			tasks: [{
-				id: "0583CAEB03C97805"
-				item: { count: 1, id: "mysticalagriculture:master_infusion_crystal" }
-				type: "item"
-			}]
-			x: 24.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["42318046DA02C486"]
 			id: "497AE1198BA68365"
 			tasks: [{
@@ -215,6 +204,25 @@
 			}]
 			x: 3.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["02CFF707C09E12D5"]
+			id: "6248DE8E6A9D2A5C"
+			tasks: [
+				{
+					id: "0A8374E07E2087B3"
+					item: { count: 1, id: "mysticalagriculture:awakening_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7331CA8772D20B59"
+					item: { count: 1, id: "mysticalagriculture:awakening_pedestal" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.5d
 		}
 	]
 }

@@ -209,5 +209,41 @@
 			x: 3.426020408163268d
 			y: -1.7066326530612344d
 		}
+		{
+			dependencies: ["6248DE8E6A9D2A5C"]
+			id: "386872AF044DBD9D"
+			shape: "square"
+			tasks: [{
+				id: "229D71B48CD9455B"
+				item: { count: 1, id: "endrem:essence_eye" }
+				type: "item"
+			}]
+			x: 3.426020408163268d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26A381EB48031E70"]
+			id: "5612A9DE37B4C5C0"
+			shape: "square"
+			tasks: [{
+				id: "43BA84D9F706B854"
+				item: { count: 1, id: "endrem:machine_eye" }
+				type: "item"
+			}]
+			x: 3.426020408163268d
+			y: 1.706632653061206d
+		}
+		{
+			dependencies: ["02CFF707C09E12D5"]
+			id: "6BD1B45A82E9E526"
+			shape: "square"
+			tasks: [{
+				id: "26E1BC19D1F7C2EE"
+				item: { count: 1, id: "endrem:memory_eye" }
+				type: "item"
+			}]
+			x: -0.00255102040815558d
+			y: 3.431122448979572d
+		}
 	]
 }

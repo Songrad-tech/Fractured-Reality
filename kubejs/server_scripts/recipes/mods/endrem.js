@@ -97,4 +97,77 @@ ServerEvents.recipes((event) => {
       },
     ],
   });
+
+  event
+    .custom({
+      type: "mysticalagriculture:awakening",
+      essences: [
+        {
+          id: "mysticalagriculture:air_essence",
+          count: 20,
+        },
+        {
+          id: "mysticalagriculture:earth_essence",
+          count: 20,
+        },
+        {
+          id: "mysticalagriculture:water_essence",
+          count: 20,
+        },
+        {
+          id: "mysticalagriculture:fire_essence",
+          count: 20,
+        },
+      ],
+      input: item("kubejs:fractured_pearl"),
+      ingredients: [
+        item("mysticalagriculture:supremium_ingot"),
+        item("mysticalagriculture:supremium_gemstone"),
+        item("mysticalagriculture:supremium_ingot"),
+        item("mysticalagriculture:supremium_gemstone"),
+      ],
+      result: {
+        id: "endrem:essence_eye",
+      },
+    })
+    .id("kubejs:awakening/essence_eye");
+
+  event
+    .custom({
+      type: "oritech:atomic_forge",
+      ingredients: [
+        item("kubejs:fractured_pearl"),
+        item("oritech:prometheum_ingot"),
+        item("oritech:plutonium_pellet"),
+      ],
+      results: [
+        {
+          count: 1,
+          id: "endrem:machine_eye",
+        },
+      ],
+      time: 400,
+    })
+    .id("kubejs:atomic_forge/machine_eye");
+
+  event
+    .custom({
+      type: "mysticalagriculture:infusion",
+      input: item("kubejs:fractured_pearl"),
+      ingredients: [
+        item("undergarden:utherium_crystal"),
+        item("mysticalagriculture:supremium_ingot"),
+        item("ae2:charged_certus_quartz_crystal"),
+        item("oritech:energite_ingot"),
+        item("createaddition:electrum_ingot"),
+        item("create:brass_ingot"),
+        item("the_bumblezone:honey_crystal_shards"),
+        item("deeperdarker:soul_crystal"),
+      ],
+      result: {
+        count: 1,
+        id: "endrem:memory_eye",
+      },
+    })
+    .id("kubejs:infusion/memory_eye");
 });
