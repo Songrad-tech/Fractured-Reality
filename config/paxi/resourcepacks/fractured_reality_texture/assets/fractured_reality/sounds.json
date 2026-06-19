@@ -1,0 +1,10 @@
+{
+  "music.ender_dragon": {
+    "sounds": [
+      {
+        "name": "fractured_reality:music/ender_dragon",
+        "stream": true
+      }
+    ]
+  }
+}
