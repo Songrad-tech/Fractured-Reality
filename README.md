@@ -15,7 +15,7 @@ Fractured Reality is a heavily customized Minecraft 1.21.1 modpack focused on:
 - 🚀 End-game automation
 - 🎨 Immersive atmosphere and worldbuilding
 
-The modpack is designed around multiple technological eras, guiding the player from primitive mechanical systems to advanced digital networks and interplanetary exploration.
+The modpack is designed around multiple technological eras, guiding the player from primitive mechanical systems to advanced digital networks and dimentions exploration.
 
 ## Features
 

@@ -1,0 +1,13 @@
+{
+  "name": "Flux Dust",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "fluxnetworks:flux_dust"
+  },
+  "color": "2b2b2b",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

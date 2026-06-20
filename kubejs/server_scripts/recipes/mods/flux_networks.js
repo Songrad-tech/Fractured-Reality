@@ -12,6 +12,13 @@ const recipes = [
     outputItem: "fluxnetworks:flux_dust",
     maxCount: 512,
   },
+  {
+    clickedBlock: "fluxnetworks:flux_block",
+    baseBlock: "fluxnetworks:gargantuan_flux_storage",
+    inputItem: "kubejs:fractured_pearl",
+    outputItem: "endrem:network_eye",
+    maxCount: 1,
+  },
 ];
 
 recipes.forEach((recipe) => {
@@ -94,5 +101,19 @@ RecipeViewerEvents.addInformation("item", (event) => {
     "§8Result:",
     "§0Converts dropped Sky Dust into Flux Dust.",
     "§0Maximum: §f512§0 per activation.",
+  ]);
+
+  event.add("endrem:network_eye", [
+    "You can generate the §lNetwork Eye§r using this setup:",
+    "",
+    "§8-§0 Flux Block on top",
+    "§8-§0 Fractured Pearl dropped in the middle",
+    "§8-§0 Gargantuan Flux Storage two blocks below the Flux Block",
+    "",
+    "§8Action:",
+    "§0Left-click the Flux Block.",
+    "",
+    "§8Result:",
+    "§0Converts one Fractured Pearl into one Network Eye.",
   ]);
 });

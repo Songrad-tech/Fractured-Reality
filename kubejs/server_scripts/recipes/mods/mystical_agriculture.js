@@ -15,10 +15,7 @@ const mysticalAgricultureNewRecipes = [
     replacements: [
       ["minecraft:gold_ingot", "createaddition:electrum_ingot"],
       ["mysticalagriculture:soulstone", "ae2:sky_stone_block"],
-      [
-        "#c:glass_blocks/colorless",
-        "mysticalagriculture:supremium_gemstone",
-      ],
+      ["#c:glass_blocks/colorless", "mysticalagriculture:supremium_gemstone"],
     ],
   },
   {
@@ -158,6 +155,13 @@ const mysticalagricultureShapedRecipes = [
     pattern: ["AAA", "A A", "AAA"],
     keys: {
       A: "mysticalagriculture:fractured_shared_essence",
+    },
+  },
+  {
+    output: Item.of("fluxnetworks:flux_dust", 12),
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:flux_dust_essence",
     },
   },
 ];
