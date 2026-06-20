@@ -109,7 +109,7 @@ ServerEvents.recipes((event) => {
       ],
       results: [
         {
-          count: 2,
+          count: 3,
           id: "kubejs:electrum_core",
         },
       ],

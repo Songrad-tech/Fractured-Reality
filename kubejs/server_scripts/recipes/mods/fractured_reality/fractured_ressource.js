@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "oritech:laser",
     ingredients: [item("kubejs:fractured_cluster")],
-    results: [countedResult("kubejs:fractured_shard", 1)],
+    results: [countedResult("kubejs:fractured_shard", 3)],
     time: 1,
   });
 

@@ -21,7 +21,7 @@
 			image: "minecraft:textures/gui/quests/queen_bee.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 11.5d
+			x: 10.5d
 			y: 5.5d
 		}
 	]

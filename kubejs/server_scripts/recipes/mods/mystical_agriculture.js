@@ -7,7 +7,7 @@ const mysticalAgricultureNewRecipes = [
     replacements: [
       ["minecraft:gold_ingot", "createaddition:electrum_ingot"],
       ["mysticalagriculture:soulstone", "ae2:sky_stone_block"],
-      ["minecraft:orange_wool", "mysticalagriculture:supremium_ingot_block"],
+      ["minecraft:orange_wool", "mysticalagriculture:supremium_ingot"],
     ],
   },
   {
@@ -17,19 +17,24 @@ const mysticalAgricultureNewRecipes = [
       ["mysticalagriculture:soulstone", "ae2:sky_stone_block"],
       [
         "#c:glass_blocks/colorless",
-        "mysticalagriculture:supremium_gemstone_block",
+        "mysticalagriculture:supremium_gemstone",
       ],
     ],
   },
   {
-    outputs: [
-      "mysticalagriculture:infusion_altar",
-      "mysticalagriculture:infusion_pedestal",
-    ],
+    outputs: ["mysticalagriculture:infusion_altar"],
     replacements: [
       ["minecraft:gold_ingot", "createaddition:electrum_ingot"],
       ["minecraft:stone", "ae2:sky_stone_block"],
       ["minecraft:red_wool", "ae2:singularity"],
+    ],
+  },
+  {
+    outputs: ["mysticalagriculture:infusion_pedestal"],
+    replacements: [
+      ["minecraft:gold_ingot", "createaddition:electrum_ingot"],
+      ["minecraft:stone", "ae2:sky_stone_block"],
+      ["minecraft:red_wool", "oritech:fluxite_block"],
     ],
   },
   {

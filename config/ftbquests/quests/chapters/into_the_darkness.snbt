@@ -14,7 +14,7 @@
 			image: "minecraft:textures/gui/quests/warden.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -3.5d
+			x: -3.0d
 			y: 9.5d
 		}
 		{
