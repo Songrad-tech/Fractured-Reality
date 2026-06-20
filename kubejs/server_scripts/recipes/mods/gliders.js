@@ -11,17 +11,6 @@ const glidersShapeRecipes = [
     id: "vc_gliders:paraglider_iron",
   },
   {
-    output: "vc_gliders:paraglider_iron",
-    pattern: ["AAA", "BCB", "D D"],
-    keys: {
-      A: "vc_gliders:reinforced_paper_iron",
-      B: "minecraft:string",
-      C: "vc_gliders:paraglider_wood",
-      D: "minecraft:feather",
-    },
-    id: "vc_gliders:paraglider_iron",
-  },
-  {
     output: "vc_gliders:paraglider_gold",
     pattern: ["AAA", "BCB", "D D"],
     keys: {

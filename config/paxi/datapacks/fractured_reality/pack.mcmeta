@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Fractured Reality made by Songrad"
+  },
+    "filter": {
+    "block": [
+      {
+        "namespace": "endrem",
+        "path": "loot_table/minecraft/(chests|entities)/.*"
+      },
+      {
+        "namespace": "endrem",
+        "path": "recipe/(undead_eye|exotic_eye|witch_eye)\\.json"
+      }
+    ]
+  }
+}
