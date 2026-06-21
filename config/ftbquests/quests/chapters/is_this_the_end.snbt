@@ -128,8 +128,8 @@
 				item: { count: 1, id: "endrem:time_eye" }
 				type: "item"
 			}]
-			x: 1.6913265306122511d
-			y: -3.4260204081632892d
+			x: 1.7117346938775455d
+			y: 3.4477040816326365d
 		}
 		{
 			dependencies: [
@@ -270,6 +270,7 @@
 				"75E11D4A3E06B103"
 				"21D677C3C24AAD51"
 				"163AAFAE7C789CC2"
+				"505DA33D19D27C4D"
 			]
 			icon: {
 				id: "minecraft:end_portal_frame"
@@ -297,7 +298,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0EB9076B63210E45"]
@@ -313,8 +314,20 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: -0.039965986394548736d
+			y: 8.631547619047609d
+		}
+		{
+			dependencies: ["46F32CC3B5E43788"]
+			id: "505DA33D19D27C4D"
+			shape: "square"
+			tasks: [{
+				id: "34A4412DFE43D780"
+				item: { count: 1, id: "endrem:digital_eye" }
+				type: "item"
+			}]
+			x: 1.676020408163268d
+			y: -3.4094387755102176d
 		}
 	]
 }

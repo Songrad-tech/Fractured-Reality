@@ -170,4 +170,41 @@ ServerEvents.recipes((event) => {
       },
     })
     .id("kubejs:infusion/memory_eye");
+
+  event
+    .custom({
+      type: "ae2:transform",
+      circumstance: {
+        type: "fluid",
+        tag: "c:strange_matter",
+      },
+      ingredients: [
+        item("ae2:controller"),
+        item("kubejs:fractured_pearl"),
+        item("ae2:fluix_block"),
+      ],
+      result: {
+        count: 1,
+        id: "kubejs:uncharged_digital_eye",
+      },
+    })
+    .id("kubejs:transform/uncharged_digital_eye");
+
+  event
+    .custom({
+      type: "createaddition:charging",
+      energy: 648000,
+      ingredients: [
+        {
+          item: "kubejs:uncharged_digital_eye",
+        },
+      ],
+      max_charge_rate: 360,
+      results: [
+        {
+          id: "endrem:digital_eye",
+        },
+      ],
+    })
+    .id("kubejs:charging/digital_eye");
 });

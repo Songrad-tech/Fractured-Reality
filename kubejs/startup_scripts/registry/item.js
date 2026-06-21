@@ -49,6 +49,10 @@ StartupEvents.registry("item", (event) => {
     .maxStackSize(16);
 
   event
+    .create("uncharged_digital_eye")
+    .texture("fractured_reality:item/uncharged_digital_eye");
+
+  event
     .create("partial_mechanical_eye")
     .texture("fractured_reality:item/partial_mechanical_eye");
 
