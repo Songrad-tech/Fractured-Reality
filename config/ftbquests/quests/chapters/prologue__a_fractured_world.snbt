@@ -15,11 +15,11 @@
 			hide_until_deps_complete: true
 			id: "6ED33C26796DEA3A"
 			rewards: [{
-				count: 16
+				count: 8
 				id: "172DB757746F7ABA"
 				item: {
 					count: 1
-					id: "minecraft:oak_log"
+					id: "minecraft:torch"
 				}
 				type: "item"
 			}]
@@ -37,9 +37,13 @@
 			hide_until_deps_visible: true
 			id: "116B91C74588FDB0"
 			rewards: [{
+				count: 8
 				id: "18354CAA74019988"
-				type: "xp"
-				xp: 100
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				count: 4L
@@ -74,7 +78,7 @@
 			hide_until_deps_visible: true
 			id: "6655C9EC1E601EB6"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "1BAC383AA28BC395"
 				item: {
 					count: 1
@@ -96,7 +100,7 @@
 			hide_until_deps_visible: true
 			id: "0FCAE2FFD1263B87"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "0E0177FC94787D42"
 				item: {
 					count: 1
@@ -118,7 +122,7 @@
 			hide_until_deps_visible: true
 			id: "66A0A2094ABCFD5D"
 			rewards: [{
-				count: 9
+				count: 3
 				id: "20A2D0109B68FED8"
 				item: {
 					count: 1
@@ -142,15 +146,26 @@
 			]
 			hide_until_deps_visible: true
 			id: "3F8FDF23051A7247"
-			rewards: [{
-				count: 8
-				id: "763D41EB9B2E4FA8"
-				item: {
-					count: 1
-					id: "create:andesite_alloy"
+			rewards: [
+				{
+					count: 2
+					id: "763D41EB9B2E4FA8"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "5FC4E6CB5FDBE58A"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "5E7F33F72E90BE2E"

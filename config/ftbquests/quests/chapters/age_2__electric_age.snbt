@@ -13,6 +13,14 @@
 		{
 			dependencies: ["65194B1780617E2D"]
 			id: "75AD0195B0CAF319"
+			rewards: [{
+				id: "0898C627540AEC4A"
+				item: {
+					count: 1
+					id: "createaddition:gold_spool"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FFA8E7095128029"
 				item: { count: 1, id: "createaddition:tesla_coil" }
@@ -24,6 +32,11 @@
 		{
 			dependencies: ["75AD0195B0CAF319"]
 			id: "4E8825D12111FC6B"
+			rewards: [{
+				id: "3B514B671E5195EE"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "6562CCA5DE389C32"
 				item: { count: 1, id: "createaddition:electrum_ingot" }
@@ -35,6 +48,15 @@
 		{
 			dependencies: ["4E8825D12111FC6B"]
 			id: "51A24A24DCF5CFE2"
+			rewards: [{
+				count: 2
+				id: "3A400ABBBFF8CB2E"
+				item: {
+					count: 1
+					id: "createaddition:electrum_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BE1ECA7CE3C6BD3"
 				item: { count: 1, id: "kubejs:electrum_casing" }
@@ -46,6 +68,14 @@
 		{
 			dependencies: ["51A24A24DCF5CFE2"]
 			id: "663C2C9828D6C746"
+			rewards: [{
+				id: "5216737DC7295079"
+				item: {
+					count: 1
+					id: "createaddition:modular_accumulator"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -59,6 +89,15 @@
 		{
 			dependencies: ["663C2C9828D6C746"]
 			id: "0FE65E3E2FB48FDD"
+			rewards: [{
+				count: 8
+				id: "3954C2512F7AFF64"
+				item: {
+					count: 1
+					id: "minecraft:oak_planks"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68CBCDA03F478E0B"
 				item: { count: 1, id: "oritech:machine_core_1" }
@@ -70,6 +109,15 @@
 		{
 			dependencies: ["0FE65E3E2FB48FDD"]
 			id: "26C34D85662B5AE6"
+			rewards: [{
+				count: 4
+				id: "08AF4E5E2495ACF7"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "36FF909C8ED6FEAC"
 				item: { count: 1, id: "oritech:machine_core_2" }
@@ -81,6 +129,15 @@
 		{
 			dependencies: ["26C34D85662B5AE6"]
 			id: "76B17947279E3743"
+			rewards: [{
+				count: 2
+				id: "2F4EF4644671A41B"
+				item: {
+					count: 1
+					id: "oritech:carbon_fibre_strands"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F3E3B4CF1CDE746"
 				item: { count: 1, id: "oritech:machine_core_3" }
@@ -92,6 +149,14 @@
 		{
 			dependencies: ["3DEFE136C2F663A0"]
 			id: "6DBCE30C8EB7B626"
+			rewards: [{
+				id: "57A24694D3D50632"
+				item: {
+					count: 1
+					id: "oritech:adamant_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E09E6A6BA710E22"
 				item: { count: 1, id: "oritech:machine_core_5" }
@@ -103,6 +168,14 @@
 		{
 			dependencies: ["76B17947279E3743"]
 			id: "3DEFE136C2F663A0"
+			rewards: [{
+				id: "260D26E16B439205"
+				item: {
+					count: 1
+					id: "oritech:enderic_compound"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "51BF095379B50A5A"
 				item: { count: 1, id: "oritech:machine_core_4" }
@@ -114,6 +187,14 @@
 		{
 			dependencies: ["6DBCE30C8EB7B626"]
 			id: "25D5F8A7B5EB738F"
+			rewards: [{
+				id: "2DD6CE2088102EF2"
+				item: {
+					count: 1
+					id: "oritech:duratium_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "597969CEED7C63F9"
 				item: { count: 1, id: "oritech:machine_core_6" }
@@ -125,6 +206,14 @@
 		{
 			dependencies: ["25D5F8A7B5EB738F"]
 			id: "26CD127124654FA2"
+			rewards: [{
+				id: "1629D841BE370D2E"
+				item: {
+					count: 1
+					id: "oritech:prometheum_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7DA3B0BDF6B06448"
 				item: { count: 1, id: "oritech:machine_core_7" }
@@ -136,6 +225,15 @@
 		{
 			dependencies: ["663C2C9828D6C746"]
 			id: "0B4BD01A88F0FDE3"
+			rewards: [{
+				count: 8
+				id: "782D6640A9D6723D"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "434689F6B3FDF65C"
 				item: { count: 1, id: "oritech:basic_generator_block" }
@@ -147,6 +245,15 @@
 		{
 			dependencies: ["0B4BD01A88F0FDE3"]
 			id: "2EA74B5D4BC76075"
+			rewards: [{
+				count: 16
+				id: "68967904D1323BBC"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BEB6961FDAB883A"
 				item: { count: 1, id: "oritech:fuel_generator_block" }
@@ -158,6 +265,15 @@
 		{
 			dependencies: ["0B4BD01A88F0FDE3"]
 			id: "35A6F9649E54174A"
+			rewards: [{
+				count: 16
+				id: "391EE3A6522E6CDF"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E00819EC9EB78DC"
 				item: { count: 1, id: "oritech:bio_generator_block" }
@@ -169,6 +285,14 @@
 		{
 			dependencies: ["0B4BD01A88F0FDE3"]
 			id: "540A57E6C7E147B5"
+			rewards: [{
+				id: "69A5425A9E410201"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58143396D5B0B14F"
 				item: { count: 1, id: "oritech:lava_generator_block" }
@@ -180,6 +304,15 @@
 		{
 			dependencies: ["0B4BD01A88F0FDE3"]
 			id: "491415E3200FC513"
+			rewards: [{
+				count: 8
+				id: "5AB3DAA9CF8AE7C7"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "337EC74FD7FA3713"
 				item: { count: 1, id: "oritech:big_solar_panel_block" }
@@ -191,6 +324,14 @@
 		{
 			dependencies: ["0B4BD01A88F0FDE3"]
 			id: "015112CAD01BA61B"
+			rewards: [{
+				id: "0A510B911F20E8DA"
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BC4B49E3E2DC720"
 				item: { count: 1, id: "oritech:steam_engine_block" }
@@ -202,6 +343,15 @@
 		{
 			dependencies: ["663C2C9828D6C746"]
 			id: "291EF1B8C5FAF6D2"
+			rewards: [{
+				count: 2
+				id: "4B02B82D36929120"
+				item: {
+					count: 1
+					id: "createaddition:electrum_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BC5C6668BE1A3F9"
 				item: { count: 1, id: "oritech:foundry_block" }
@@ -213,6 +363,14 @@
 		{
 			dependencies: ["291EF1B8C5FAF6D2"]
 			id: "5796DA9810601E71"
+			rewards: [{
+				id: "09DC463A9C6E7199"
+				item: {
+					count: 1
+					id: "oritech:motor"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "390516462132E14A"
 				item: { count: 1, id: "oritech:assembler_block" }
@@ -224,6 +382,11 @@
 		{
 			dependencies: ["246EA8BDE0EBBBCA"]
 			id: "05DD01ACBF11E548"
+			rewards: [{
+				id: "0937F232490CFCC6"
+				type: "xp"
+				xp: 150
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -237,6 +400,11 @@
 		{
 			dependencies: ["05DD01ACBF11E548"]
 			id: "26A381EB48031E70"
+			rewards: [{
+				id: "1CDC3DC7C4D524A5"
+				type: "xp"
+				xp: 200
+			}]
 			tasks: [{
 				id: "7E513DD1074A4C03"
 				item: { count: 1, id: "oritech:atomic_forge_block" }
@@ -248,6 +416,15 @@
 		{
 			dependencies: ["5796DA9810601E71"]
 			id: "396229085654B376"
+			rewards: [{
+				count: 8
+				id: "0EA10628C9022A15"
+				item: {
+					count: 1
+					id: "minecraft:glass_bottle"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "295C7787A186D413"
 				item: { count: 1, id: "oritech:centrifuge_block" }
@@ -259,6 +436,14 @@
 		{
 			dependencies: ["396229085654B376"]
 			id: "1FD4DFECE1B67D42"
+			rewards: [{
+				id: "05D82EEDBF072167"
+				item: {
+					count: 1
+					id: "oritech:small_tank_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A37585BD0882E3B"
 				item: { count: 1, id: "oritech:refinery_block" }
@@ -270,6 +455,11 @@
 		{
 			dependencies: ["26A381EB48031E70"]
 			id: "73FEC50107D340CA"
+			rewards: [{
+				id: "2F5F60CFA234F5AF"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "5107EB0FA003E788"
 				item: { count: 1, id: "oritech:deep_drill_block" }
@@ -281,6 +471,11 @@
 		{
 			dependencies: ["26A381EB48031E70"]
 			id: "48100508EA4A0312"
+			rewards: [{
+				id: "6DED2EF7FA16CB99"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "6A67D7112705D7E9"
 				item: { count: 1, id: "oritech:drone_port_block" }
@@ -292,6 +487,15 @@
 		{
 			dependencies: ["1FD4DFECE1B67D42"]
 			id: "246EA8BDE0EBBBCA"
+			rewards: [{
+				count: 4
+				id: "2D6FB209F63B650E"
+				item: {
+					count: 1
+					id: "oritech:fluid_pipe"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E71ABFCA2B339F1"
 				item: { count: 1, id: "oritech:refinery_module_block" }
@@ -303,6 +507,15 @@
 		{
 			dependencies: ["070D12DF74281A94"]
 			id: "22349AB19BB59BC8"
+			rewards: [{
+				count: 2
+				id: "4322431EFA5495B1"
+				item: {
+					count: 1
+					id: "oritech:carbon_fibre_strands"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "43B621ADE871573F"
 				item: { count: 1, id: "oritech:augment_application_block" }
@@ -314,6 +527,15 @@
 		{
 			dependencies: ["05DD01ACBF11E548"]
 			id: "7B9A5E838B0A0A12"
+			rewards: [{
+				count: 2
+				id: "609A624CAC06B60C"
+				item: {
+					count: 1
+					id: "oritech:duratium_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4486BCFA790B05B7"
@@ -342,6 +564,15 @@
 		{
 			dependencies: ["05DD01ACBF11E548"]
 			id: "070D12DF74281A94"
+			rewards: [{
+				count: 2
+				id: "571EEBEA6D272DD3"
+				item: {
+					count: 1
+					id: "oritech:plastic_sheet"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7EF2E1685EECCA9E"
 				item: { count: 1, id: "oritech:fragment_forge_block" }
@@ -353,6 +584,14 @@
 		{
 			dependencies: ["396229085654B376"]
 			id: "3FC3F71FF15B1160"
+			rewards: [{
+				id: "280C5682C600BA1A"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3DD3FED775B6BF77"
 				item: { count: 1, id: "oritech:placer_block" }
@@ -364,6 +603,15 @@
 		{
 			dependencies: ["3FC3F71FF15B1160"]
 			id: "59972BC0AD42823E"
+			rewards: [{
+				count: 4
+				id: "1EA95FB9CA6C7027"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "088B0C4C2DFD8117"
 				item: { count: 1, id: "oritech:destroyer_block" }
@@ -375,6 +623,15 @@
 		{
 			dependencies: ["59972BC0AD42823E"]
 			id: "6AC0DB7D357CFE78"
+			rewards: [{
+				count: 4
+				id: "12A97E1D9003917D"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "61916011D247C90F"
 				item: { count: 1, id: "oritech:treefeller_block" }
@@ -386,6 +643,15 @@
 		{
 			dependencies: ["6AC0DB7D357CFE78"]
 			id: "20AAFFB120685D28"
+			rewards: [{
+				count: 16
+				id: "250AE623945403A0"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "49C7A783E1F07484"
 				item: { count: 1, id: "oritech:fertilizer_block" }
@@ -397,6 +663,11 @@
 		{
 			dependencies: ["26A381EB48031E70"]
 			id: "0B9EF5104D703692"
+			rewards: [{
+				id: "67F5B114C716937C"
+				type: "xp"
+				xp: 200
+			}]
 			tasks: [{
 				id: "1FEEE24F5A66FBB0"
 				item: { count: 1, id: "tempad:time_steel" }
@@ -408,6 +679,14 @@
 		{
 			dependencies: ["0B9EF5104D703692"]
 			id: "6589C4AA92E71F8F"
+			rewards: [{
+				id: "49BC4EDF8D1731AD"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C95EBE1821D7603"
 				item: { count: 1, id: "tempad:chronomark" }
@@ -419,6 +698,14 @@
 		{
 			dependencies: ["72F72CE103EE9BF9"]
 			id: "388CD5446CC01181"
+			rewards: [{
+				id: "6EF2B3A4C6271A0F"
+				item: {
+					count: 1
+					id: "minecraft:clock"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CA1C8E1158C7C29"
 				item: { count: 1, id: "tempad:chronometer" }
@@ -430,6 +717,15 @@
 		{
 			dependencies: ["72F72CE103EE9BF9"]
 			id: "42341EC5B943117F"
+			rewards: [{
+				count: 4
+				id: "3765C1D90AB88D79"
+				item: {
+					count: 1
+					id: "minecraft:chorus_fruit"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "316503F5C311DF5D"
 				item: { count: 1, id: "tempad:tempad" }
@@ -441,6 +737,14 @@
 		{
 			dependencies: ["0B9EF5104D703692"]
 			id: "72F72CE103EE9BF9"
+			rewards: [{
+				id: "0FA4D4F9A46B0A5B"
+				item: {
+					count: 1
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A9B6778F799F1B7"
 				item: { count: 1, id: "tempad:chronon_battery" }
@@ -452,6 +756,15 @@
 		{
 			dependencies: ["246EA8BDE0EBBBCA"]
 			id: "3C70A5B33ED35671"
+			rewards: [{
+				count: 3
+				id: "46B500F015A9E624"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1129862CE513F614"
 				item: { count: 1, id: "oritech:still_strange_matter_bucket" }

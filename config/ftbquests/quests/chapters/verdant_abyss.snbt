@@ -31,6 +31,15 @@
 		{
 			dependencies: ["26A381EB48031E70"]
 			id: "58BE26650A0440F6"
+			rewards: [{
+				count: 4
+				id: "2BEA5BA818F99117"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "151C0B880BFD479D"
 				item: { count: 1, id: "undergarden:catalyst" }
@@ -45,6 +54,15 @@
 				id: "undergarden:deepturf_block"
 			}
 			id: "62F5592C52CD8821"
+			rewards: [{
+				count: 16
+				id: "056ED80CAE8F2922"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -67,6 +85,15 @@
 				id: "undergarden:depthrock_bricks"
 			}
 			id: "4BD509205B526E8C"
+			rewards: [{
+				count: 2
+				id: "34D50EA6B5F39ADD"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A191C78EF8EE311"
 				structure: "undergarden:catacombs"
@@ -78,6 +105,11 @@
 		{
 			dependencies: ["4BD509205B526E8C"]
 			id: "03A760BECFFD5126"
+			rewards: [{
+				id: "1B99DEA72FDD670C"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
 				id: "4E9F3937E1CADA9F"
@@ -90,6 +122,11 @@
 		{
 			dependencies: ["03A760BECFFD5126"]
 			id: "7F3839D206AED8BA"
+			rewards: [{
+				id: "49B13B12401BE8A1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "22843C1DF8693D2E"
 				item: { count: 1, id: "undergarden:forgotten_ingot" }
@@ -101,6 +138,15 @@
 		{
 			dependencies: ["62F5592C52CD8821"]
 			id: "75CE2CADC4756616"
+			rewards: [{
+				count: 4
+				id: "45AF43287DABDE27"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F6007BDE84BE930"
 				item: { count: 1, id: "undergarden:raw_cloggrum" }
@@ -112,6 +158,11 @@
 		{
 			dependencies: ["75CE2CADC4756616"]
 			id: "2BA0235D2DDDA051"
+			rewards: [{
+				id: "0A24E2EF338F44F6"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "588D75A5AD2100DE"
 				item: { count: 1, id: "undergarden:cloggrum_ingot" }
@@ -123,6 +174,15 @@
 		{
 			dependencies: ["62F5592C52CD8821"]
 			id: "405C4901EE2BAC5A"
+			rewards: [{
+				count: 4
+				id: "1ED52E0122D4CC30"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AED322630F0AE2D"
 				item: { count: 1, id: "undergarden:raw_froststeel" }
@@ -134,6 +194,11 @@
 		{
 			dependencies: ["405C4901EE2BAC5A"]
 			id: "4C2651AD1AA0A7D5"
+			rewards: [{
+				id: "37744839A0F7C59F"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "45CC3F6C94CC5FD7"
 				item: { count: 1, id: "undergarden:froststeel_ingot" }
@@ -145,6 +210,11 @@
 		{
 			dependencies: ["62F5592C52CD8821"]
 			id: "0A5C056A2A1492A4"
+			rewards: [{
+				id: "39F175528DCC251C"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "478FB11424177AE3"
 				item: { count: 1, id: "undergarden:utheric_shard" }
@@ -156,6 +226,11 @@
 		{
 			dependencies: ["0A5C056A2A1492A4"]
 			id: "716185F216AB4B7E"
+			rewards: [{
+				id: "68699778A921EA90"
+				type: "xp"
+				xp: 75
+			}]
 			tasks: [{
 				id: "0F6459AD2D48216E"
 				item: { count: 1, id: "undergarden:utherium_crystal" }
@@ -167,6 +242,11 @@
 		{
 			dependencies: ["62F5592C52CD8821"]
 			id: "631750A602DDA817"
+			rewards: [{
+				id: "0CCA3DF85FEDD07E"
+				type: "xp"
+				xp: 75
+			}]
 			tasks: [{
 				id: "518FD8398310C4E0"
 				item: { count: 1, id: "undergarden:regalium_crystal" }
@@ -178,6 +258,11 @@
 		{
 			dependencies: ["62F5592C52CD8821"]
 			id: "4AAD20A54D5CA614"
+			rewards: [{
+				id: "510996559ED68BF0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3C97453F056B1A36"
 				item: { count: 1, id: "undergarden:rogdorium" }
@@ -192,6 +277,11 @@
 				"0A5C056A2A1492A4"
 			]
 			id: "7EFC4A52220B1A80"
+			rewards: [{
+				id: "2E0AB933ADF0D437"
+				type: "xp"
+				xp: 150
+			}]
 			tasks: [{
 				id: "4D00430181090EA2"
 				item: { count: 1, id: "undergarden:infuser" }
