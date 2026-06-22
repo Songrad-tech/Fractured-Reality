@@ -63,4 +63,13 @@ StartupEvents.registry("item", (event) => {
   event
     .create("electrical_eye")
     .texture("fractured_reality:item/electrical_eye");
+
+  event
+    .create("fractured_coin")
+    .texture("fractured_reality:item/fractured_coin");
+
+  event
+    .create("fractured_wallet")
+    .parentModel("fractured_reality:item/fractured_wallet")
+    .maxStackSize(1);
 });
