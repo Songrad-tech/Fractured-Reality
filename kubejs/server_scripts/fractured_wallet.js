@@ -6,6 +6,13 @@ const WALLET_DISPLAY_KEY = "FracturedCoinBalanceDisplay";
 const WALLET_WITHDRAW_AMOUNT = 64;
 const WALLET_MAX_COINS = 2147483647;
 
+function playWalletSound(player, sound, volume, pitch) {
+  const name = player.username;
+  player.server.runCommandSilent(
+    `execute at ${name} run playsound ${sound} player ${name} ~ ~ ~ ${volume} ${pitch}`,
+  );
+}
+
 function getPlayerCoins(player) {
   return Math.max(0, player.persistentData.getInt(PLAYER_COIN_KEY));
 }
@@ -49,7 +56,7 @@ function migrateLegacyWallet(player, wallet) {
   wallet.setCustomData(data);
   setPlayerCoins(player, getPlayerCoins(player) + legacyCoins);
   player.setStatusMessage(
-    Text.of(`Migrated ${legacyCoins} coins to your shared balance`).color("#ff99ff"),
+    Text.of(`Migrated ${legacyCoins} coins to your balance`).color("#ff99ff"),
   );
 }
 
@@ -72,16 +79,20 @@ function depositFracturedCoins(player, wallet, walletHand) {
   const deposited = Math.min(coinsInOtherHand.count, room);
 
   if (deposited <= 0) {
-    player.setStatusMessage(Text.of(`Wallet: ${stored} Fractured Coins`).color("#e14dff"));
+    player.setStatusMessage(
+      Text.of(`Wallet: ${stored} Fractured Coins`).color("#e14dff"),
+    );
     return;
   }
 
   coinsInOtherHand.shrink(deposited);
   setPlayerCoins(player, stored + deposited);
   player.setStatusMessage(
-    Text.of(`Stored ${deposited} coins | Total: ${stored + deposited}`).color("#e14dff"),
+    Text.of(`Stored ${deposited} coins | Total: ${stored + deposited}`).color(
+      "#e14dff",
+    ),
   );
-  player.runCommandSilent("playsound minecraft:entity.item.pickup player @s ~ ~ ~ 0.55 0.8");
+  playWalletSound(player, "minecraft:entity.item.pickup", 0.55, 0.8);
 }
 
 function withdrawFracturedCoins(player, wallet, requestedAmount) {
@@ -97,9 +108,11 @@ function withdrawFracturedCoins(player, wallet, requestedAmount) {
   player.give(Item.of(FRACTURED_COIN, withdrawn));
   player.sendInventoryUpdate();
   player.setStatusMessage(
-    Text.of(`Withdrew ${withdrawn} coins | Remaining: ${stored - withdrawn}`).color("#ff99ff"),
+    Text.of(
+      `Withdrew ${withdrawn} coins | Remaining: ${stored - withdrawn}`,
+    ).color("#ff99ff"),
   );
-  player.runCommandSilent("playsound minecraft:item.bundle.remove_one player @s ~ ~ ~ 0.65 1.15");
+  playWalletSound(player, "minecraft:item.bundle.remove_one", 0.65, 1.15);
 }
 
 ItemEvents.rightClicked(FRACTURED_WALLET, (event) => {
@@ -118,9 +131,7 @@ ItemEvents.firstLeftClicked((event) => {
   if (player.level.isClientSide() || !player.isShiftKeyDown()) return;
 
   const wallet =
-    event.item.id === FRACTURED_WALLET
-      ? event.item
-      : player.getOffhandItem();
+    event.item.id === FRACTURED_WALLET ? event.item : player.getOffhandItem();
 
   if (wallet.id !== FRACTURED_WALLET) return;
 

@@ -58,6 +58,7 @@ replay_pid*.log
 /config/packetfixer.properties
 /config/worldeditcui.config.json
 /kubejs/README.txt
+config/iris.properties
 
 # Local development notes and diagrams
 /todo.md

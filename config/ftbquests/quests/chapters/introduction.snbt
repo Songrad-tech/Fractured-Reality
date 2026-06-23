@@ -21,22 +21,14 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "467A80382231A9C6"
-			rewards: [
-				{
-					count: 5
-					id: "1FBC1F6BD1B80438"
-					item: {
-						count: 1
-						id: "minecraft:bread"
-					}
-					type: "item"
+			rewards: [{
+				id: "0D7C1FF0B314E31E"
+				item: {
+					count: 1
+					id: "kubejs:fractured_wallet"
 				}
-				{
-					id: "2FBE0FFB47A4A176"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -58,9 +50,12 @@
 			icon_scale: 1.5d
 			id: "62006D27C12C3402"
 			rewards: [{
-				id: "10C42E078945EA00"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "79531584F2FD952D"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "59CCBBC3CC8BA992"
@@ -81,8 +76,11 @@
 			id: "54678129C0A1A442"
 			rewards: [{
 				id: "586E480ABF880E93"
-				type: "xp_levels"
-				xp_levels: 1
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "69B13AC47F86E94C"
@@ -100,8 +98,11 @@
 			id: "48DA5F1CC92B5184"
 			rewards: [{
 				id: "0AEF33ABCBE985E5"
-				type: "xp_levels"
-				xp_levels: 1
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "6E299E94C559321A"
@@ -120,8 +121,11 @@
 			id: "72EC9401EE3BA289"
 			rewards: [{
 				id: "47C6CCC59B021A6D"
-				type: "xp_levels"
-				xp_levels: 1
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "5488F47F46796B43"
@@ -140,8 +144,11 @@
 			id: "128BDDD7D750138C"
 			rewards: [{
 				id: "2B595ECF1D37E4AF"
-				type: "xp_levels"
-				xp_levels: 1
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "5B1060E0BCADFA58"
@@ -163,8 +170,11 @@
 			id: "35C22982FC123B45"
 			rewards: [{
 				id: "73993AAFAFC4A823"
-				type: "xp_levels"
-				xp_levels: 1
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "5E1F49E858806D7C"
