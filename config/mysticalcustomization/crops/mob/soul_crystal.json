@@ -1,0 +1,18 @@
+{
+  "name": "Soul Crystal",
+  "type": "mysticalagriculture:mob",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "mysticalagriculture:soul_jar",
+    "components": {
+      "mysticalagriculture:soul_jar": {
+        "type": "mysticalcustomization:stalker",
+        "souls": 6.0
+      }
+    }
+  },
+  "color": "02565f",
+  "textures": {
+    "essence": "mysticalagriculture:item/essence_tall_gem"
+  }
+}

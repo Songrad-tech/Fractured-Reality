@@ -1,0 +1,19 @@
+{
+  "name": "Forgotten",
+  "type": "mysticalagriculture:mob",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "mysticalagriculture:soul_jar",
+    "components": {
+      "mysticalagriculture:soul_jar": {
+        "type": "mysticalcustomization:forgotten_guardian",
+        "souls": 3.0
+      }
+    }
+  },
+  "color": "28ab8a",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

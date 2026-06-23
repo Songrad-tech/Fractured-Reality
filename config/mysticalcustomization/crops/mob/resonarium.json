@@ -1,0 +1,18 @@
+{
+  "name": "Resonarium",
+  "type": "mysticalagriculture:mob",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "mysticalagriculture:soul_jar",
+    "components": {
+      "mysticalagriculture:soul_jar": {
+        "type": "mysticalcustomization:sludge",
+        "souls": 6.0
+      }
+    }
+  },
+  "color": "32c0f4",
+  "textures": {
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

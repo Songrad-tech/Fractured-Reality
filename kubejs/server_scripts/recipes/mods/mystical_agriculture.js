@@ -123,6 +123,34 @@ const mysticalagricultureShapedRecipes = [
     },
   },
   {
+    output: Item.of("undergarden:forgotten_ingot", 2),
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:forgotten_essence",
+    },
+  },
+  {
+    output: "friendsandfoes:wildfire_crown_fragment",
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:wildfire_essence",
+    },
+  },
+  {
+    output: Item.of("deeperdarker:resonarium", 2),
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:resonarium_essence",
+    },
+  },
+  {
+    output: "deeperdarker:soul_crystal",
+    pattern: ["AAA", "A A", "AAA"],
+    keys: {
+      A: "mysticalagriculture:soul_crystal_essence",
+    },
+  },
+  {
     output: Item.of("undergarden:regalium_crystal", 4),
     pattern: ["AAA", "A A", "AAA"],
     keys: {
@@ -166,10 +194,56 @@ const mysticalagricultureShapedRecipes = [
   },
 ];
 
+const mysticalagricultureSoulExtractionRecipes = [
+  {
+    input: "deeperdarker:warden_carapace",
+    type: "mysticalcustomization:warden",
+    souls: 1.0,
+  },
+  {
+    input: "undergarden:forgotten_ingot",
+    type: "mysticalcustomization:forgotten_guardian",
+    souls: 1.0,
+  },
+  {
+    input: "undergarden:forgotten_nugget",
+    type: "mysticalcustomization:forgotten_guardian",
+    souls: 0.1,
+  },
+  {
+    input: "friendsandfoes:wildfire_crown_fragment",
+    type: "mysticalcustomization:wildfire",
+    souls: 1.0,
+  },
+  {
+    input: "deeperdarker:resonarium",
+    type: "mysticalcustomization:sludge",
+    souls: 1.0,
+  },
+  {
+    input: "deeperdarker:soul_crystal",
+    type: "mysticalcustomization:stalker",
+    souls: 1.0,
+  },
+];
+
 ServerEvents.recipes((event) => {
   replaceInputFromRecipes(event, mysticalAgricultureNewRecipes);
 
   mysticalagricultureShapedRecipes.forEach((recipe) => {
     event.shaped(recipe.output, recipe.pattern, recipe.keys);
+  });
+
+  mysticalagricultureSoulExtractionRecipes.forEach((recipe) => {
+    event.custom({
+      type: "mysticalagriculture:soul_extraction",
+      input: {
+        item: recipe.input,
+      },
+      result: {
+        type: recipe.type,
+        souls: recipe.souls,
+      },
+    });
   });
 });

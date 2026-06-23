@@ -1,6 +1,6 @@
 {
   "name": "Warden",
-  "souls": 3,
+  "souls": 4,
   "entity": "minecraft:warden",
   "color": "024050"
 }
