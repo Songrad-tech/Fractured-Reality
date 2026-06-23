@@ -16,6 +16,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "33744EB9CA7827B4"
+			rewards: [{
+				id: "435FB2775B063F8A"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "27D159A735540908"
 				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
@@ -27,6 +35,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "291C454B10B8EBBD"
+			rewards: [{
+				id: "064F1FDE7BE880F8"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E3EEF143D275E46"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(elevatorid:elevators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -38,6 +54,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "7AEF195E258F6020"
+			rewards: [{
+				id: "6942B87860DAAB21"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EA40FBEAD83EB81"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
@@ -49,6 +73,14 @@
 		{
 			dependencies: ["7AEF195E258F6020"]
 			id: "4B94CEBFFEF5D196"
+			rewards: [{
+				id: "56CB75D52BB80B76"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0DA9F3A974BE1D63"
 				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
@@ -60,6 +92,14 @@
 		{
 			dependencies: ["4B94CEBFFEF5D196"]
 			id: "3058A05926D38F58"
+			rewards: [{
+				id: "6DDD9A9A525B2182"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A3CDF191C3E4D9D"
 				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
@@ -71,6 +111,14 @@
 		{
 			dependencies: ["3058A05926D38F58"]
 			id: "6D407B1D6ECEC401"
+			rewards: [{
+				id: "477464A26CC813FE"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68A06BBA3681F455"
 				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
@@ -82,6 +130,14 @@
 		{
 			dependencies: ["6D407B1D6ECEC401"]
 			id: "77C38BE8ECF78C64"
+			rewards: [{
+				id: "7630EDEFABF32623"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CB317359E8165B9"
 				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
@@ -93,6 +149,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "361CDDAF1904CA7D"
+			rewards: [{
+				id: "421B60D4582B6EA0"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "38F38A8DBAD13DBA"
 				item: { count: 1, id: "tiab:time_in_a_bottle" }
@@ -104,6 +168,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "77D9929025AD4DB1"
+			rewards: [{
+				id: "687536A69C58DA4C"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A73E2C41348D75D"
 				item: { count: 1, id: "vc_gliders:paraglider_wood" }
@@ -115,6 +187,14 @@
 		{
 			dependencies: ["77D9929025AD4DB1"]
 			id: "4A8BD7AA0C2B41E6"
+			rewards: [{
+				id: "05BC6C201A452B02"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CC65289F760CB5D"
 				item: { count: 1, id: "vc_gliders:paraglider_iron" }
@@ -126,6 +206,14 @@
 		{
 			dependencies: ["4A8BD7AA0C2B41E6"]
 			id: "4787C1D384778BEA"
+			rewards: [{
+				id: "698B69B6D4DDCC7B"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "70F854F285AC242A"
 				item: { count: 1, id: "vc_gliders:paraglider_gold" }
@@ -137,6 +225,14 @@
 		{
 			dependencies: ["4787C1D384778BEA"]
 			id: "0860B05992C8E356"
+			rewards: [{
+				id: "6F7597E302A18278"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7323BBC8476253FF"
 				item: { count: 1, id: "vc_gliders:paraglider_diamond" }
@@ -148,6 +244,14 @@
 		{
 			dependencies: ["0860B05992C8E356"]
 			id: "2B4A1A32FE79E51A"
+			rewards: [{
+				id: "1719B2BB1F56A58C"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "27499575103F0ED3"
 				item: { count: 1, id: "vc_gliders:paraglider_netherite" }
@@ -159,6 +263,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "63D67DEF525D3D68"
+			rewards: [{
+				id: "5E820FF1AC417648"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "549B5B4FEE3C590E"
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
@@ -170,6 +282,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "43AFE81D3D2240D8"
+			rewards: [{
+				id: "0C9FBC469FB95D95"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AD7D456FBE0B4D6"
 				item: { count: 1, id: "minecraft:barrel" }
@@ -181,6 +301,14 @@
 		{
 			dependencies: ["43AFE81D3D2240D8"]
 			id: "6CE2C3EFDCA2D25D"
+			rewards: [{
+				id: "0F12CBF48AD21FD8"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D4D08D2725EC2C1"
 				item: { count: 1, id: "metalbarrels:iron_barrel" }
@@ -192,6 +320,14 @@
 		{
 			dependencies: ["6CE2C3EFDCA2D25D"]
 			id: "2C60767BD295F11B"
+			rewards: [{
+				id: "4A471C176D970F87"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B0C5F6F49386827"
 				item: { count: 1, id: "metalbarrels:gold_barrel" }
@@ -203,6 +339,14 @@
 		{
 			dependencies: ["2C60767BD295F11B"]
 			id: "0F5AC97C67C06135"
+			rewards: [{
+				id: "54613843EB99CEBF"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "65280D991058A1EF"
 				item: { count: 1, id: "metalbarrels:diamond_barrel" }
@@ -214,6 +358,14 @@
 		{
 			dependencies: ["0F5AC97C67C06135"]
 			id: "0593FF5DC6E58B76"
+			rewards: [{
+				id: "6CFD5CFA21AE3700"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "22438F53140EC4DB"
 				item: { count: 1, id: "metalbarrels:obsidian_barrel" }
@@ -225,6 +377,14 @@
 		{
 			dependencies: ["0593FF5DC6E58B76"]
 			id: "3AB7518A0232F39C"
+			rewards: [{
+				id: "350237F33EFF13BA"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "47E3BF9CF49F9465"
 				item: { count: 1, id: "metalbarrels:netherite_barrel" }
@@ -236,6 +396,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "7C20643129AD0134"
+			rewards: [{
+				id: "18E395C5C5FCE992"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "709DBA46BA6EF602"
 				item: { count: 1, id: "minecraft:chest" }
@@ -247,6 +415,14 @@
 		{
 			dependencies: ["7C20643129AD0134"]
 			id: "407C4005B465D453"
+			rewards: [{
+				id: "5C17A49F1D3A85EC"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "57EA8D6C97F1A707"
 				item: { count: 1, id: "ironchest:iron_chest" }
@@ -258,6 +434,14 @@
 		{
 			dependencies: ["407C4005B465D453"]
 			id: "174458AA46110F36"
+			rewards: [{
+				id: "7E887330C906AD01"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "164AF4B1B47DAD68"
 				item: { count: 1, id: "ironchest:gold_chest" }
@@ -269,6 +453,14 @@
 		{
 			dependencies: ["174458AA46110F36"]
 			id: "70B1DD16E287E1E0"
+			rewards: [{
+				id: "2B2A83F9E6185E74"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "14E6F7369A057113"
 				item: { count: 1, id: "ironchest:diamond_chest" }
@@ -280,6 +472,14 @@
 		{
 			dependencies: ["70B1DD16E287E1E0"]
 			id: "6523137544744B69"
+			rewards: [{
+				id: "07EEFC2F7928FBCB"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C0D70CE9002FA0F"
 				item: { count: 1, id: "ironchest:obsidian_chest" }
@@ -291,6 +491,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "02FE952A15865F26"
+			rewards: [{
+				id: "1486EE4CC34F4ABE"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AFE55533F70288F"
 				item: { count: 1, id: "constructionstick:wooden_stick" }
@@ -302,6 +510,14 @@
 		{
 			dependencies: ["02FE952A15865F26"]
 			id: "5679AB2B6AF7FA6F"
+			rewards: [{
+				id: "3C9BD0D7C95B6AF7"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77B982C64FD2863F"
 				item: { count: 1, id: "constructionstick:copper_stick" }
@@ -313,6 +529,14 @@
 		{
 			dependencies: ["5679AB2B6AF7FA6F"]
 			id: "5478A6C6A333557A"
+			rewards: [{
+				id: "4E2ABD8AD1673CAD"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A19EE45C1DDA71F"
 				item: { count: 1, id: "constructionstick:iron_stick" }
@@ -324,6 +548,14 @@
 		{
 			dependencies: ["5478A6C6A333557A"]
 			id: "65A746736DC2D8ED"
+			rewards: [{
+				id: "6FE4EC24FCD10267"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1033C7F35F77CA18"
 				item: { count: 1, id: "constructionstick:diamond_stick" }
@@ -335,6 +567,14 @@
 		{
 			dependencies: ["65A746736DC2D8ED"]
 			id: "21864889EF3D7FE3"
+			rewards: [{
+				id: "378266976E1A5C56"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "018E9148B4C23884"
 				item: { count: 1, id: "constructionstick:netherite_stick" }
@@ -346,6 +586,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "6015EDC54A6BCEC0"
+			rewards: [{
+				id: "677E0BC680A6AFE1"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2169DD2DC384F9F2"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer_1x1)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -357,6 +605,14 @@
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
 			id: "421B58874D9E154B"
+			rewards: [{
+				id: "389EA0595C98020E"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0DB5D3BFC379887C"
 				item: { count: 1, id: "functionalstorage:compacting_drawer" }
@@ -368,6 +624,14 @@
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
 			id: "55FF126D92F7E1EE"
+			rewards: [{
+				id: "40557D5A42FA8B88"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "04FDBB85D68A7967"
 				item: { count: 1, id: "functionalstorage:storage_controller" }
@@ -379,6 +643,14 @@
 		{
 			dependencies: ["55FF126D92F7E1EE"]
 			id: "033F07AD47AC2AB2"
+			rewards: [{
+				id: "4221B79DF9BB6DD9"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F55493E8AD3A1FD"
 				item: { count: 1, id: "functionalstorage:linking_tool" }
@@ -390,6 +662,14 @@
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
 			id: "6942D9CB3B07E0D8"
+			rewards: [{
+				id: "426C48D6039A7321"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "03E89055EE23E8C0"
 				item: { count: 1, id: "functionalstorage:configuration_tool" }
@@ -401,6 +681,14 @@
 		{
 			dependencies: ["55FF126D92F7E1EE"]
 			id: "6A4CCCEA030C7865"
+			rewards: [{
+				id: "39198EA2D7D20860"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CA866A92ADCC548"
 				item: { count: 1, id: "functionalstorage:controller_extension" }
@@ -412,6 +700,14 @@
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
 			id: "006F7EA770EB49AD"
+			rewards: [{
+				id: "58BE09958516F31C"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "057B69D67C878B77"
 				item: { count: 1, id: "functionalstorage:copper_upgrade" }
@@ -423,6 +719,14 @@
 		{
 			dependencies: ["006F7EA770EB49AD"]
 			id: "7D04BE7ADA7A5793"
+			rewards: [{
+				id: "3857F5A8C8001217"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "075E796BF147216B"
 				item: { count: 1, id: "functionalstorage:gold_upgrade" }
@@ -434,6 +738,14 @@
 		{
 			dependencies: ["7D04BE7ADA7A5793"]
 			id: "1ACED1A29208A092"
+			rewards: [{
+				id: "6847E920B389B60F"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "489269122484BF84"
 				item: { count: 1, id: "functionalstorage:diamond_upgrade" }
@@ -445,6 +757,14 @@
 		{
 			dependencies: ["1ACED1A29208A092"]
 			id: "72D10B75A011DEB8"
+			rewards: [{
+				id: "2FB2EC28AED1AFD4"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "45C071D0C0C4F97A"
 				item: { count: 1, id: "functionalstorage:netherite_upgrade" }
@@ -456,6 +776,14 @@
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
 			id: "760E55F3762CEE14"
+			rewards: [{
+				id: "3D101A745E4FCC22"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3ABD8CBF0E97654A"
 				item: { count: 1, id: "functionalstorage:armory_cabinet" }
@@ -467,6 +795,14 @@
 		{
 			dependencies: ["6015EDC54A6BCEC0"]
 			id: "4FB1DF47DEF3A064"
+			rewards: [{
+				id: "1504B1C2888C20FE"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B3DDB399B01DC58"
 				item: { count: 1, id: "functionalstorage:ender_drawer" }
@@ -478,6 +814,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "297F324A555D9FD3"
+			rewards: [{
+				id: "4ED8B00DFBAB0B04"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "47EC602D66C4C8FC"
 				item: { count: 1, id: "trashcans:item_trash_can" }
@@ -489,6 +833,14 @@
 		{
 			dependencies: ["62006D27C12C3402"]
 			id: "4ACA3AD7D9F37A05"
+			rewards: [{
+				id: "6A8BFBF0A8549064"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3350CA2A794BCE24"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -510,6 +862,14 @@
 				id: "minecraft:enchanted_book"
 			}
 			id: "12FEB243D400D4CE"
+			rewards: [{
+				id: "0F4D96720CA719A3"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4019B2DB71EE47D3"
 				type: "checkmark"

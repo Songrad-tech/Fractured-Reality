@@ -32,11 +32,10 @@
 			dependencies: ["3E7246FF565DE837"]
 			id: "01154E300B5A8FD7"
 			rewards: [{
-				count: 4
-				id: "5BC064B3A59F1B30"
+				id: "3D51F28B00D8FB5A"
 				item: {
 					count: 1
-					id: "minecraft:honeycomb"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -55,11 +54,10 @@
 			}
 			id: "339B1B43D36D8DB4"
 			rewards: [{
-				count: 2
-				id: "2C84302D65EF264E"
+				id: "03CCF7F7A5FA0B20"
 				item: {
 					count: 1
-					id: "minecraft:honey_bottle"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -83,11 +81,10 @@
 			}
 			id: "4C91928ED655611D"
 			rewards: [{
-				count: 8
-				id: "252DC2D4E60B8845"
+				id: "6C2275671602BFB8"
 				item: {
 					count: 1
-					id: "minecraft:honeycomb"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -107,11 +104,10 @@
 			}
 			id: "57C41AC47480BA8F"
 			rewards: [{
-				count: 4
-				id: "54F1502FC188F9E6"
+				id: "4E838DF08D8BAB75"
 				item: {
 					count: 1
-					id: "minecraft:honey_bottle"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -127,9 +123,12 @@
 			dependencies: ["4C91928ED655611D"]
 			id: "47F92CA7E0294DDA"
 			rewards: [{
-				id: "086E42AB1512ABAC"
-				type: "xp"
-				xp: 100
+				id: "283CA8C986CC0B2F"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -164,11 +163,10 @@
 			dependencies: ["47F92CA7E0294DDA"]
 			id: "52870C249A924E6F"
 			rewards: [{
-				count: 4
-				id: "102E262511F83F45"
+				id: "63862714EBB2BFA1"
 				item: {
 					count: 1
-					id: "minecraft:glass_bottle"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -184,10 +182,10 @@
 			dependencies: ["52870C249A924E6F"]
 			id: "410B78E13AFC434F"
 			rewards: [{
-				id: "21FCD548118E80BB"
+				id: "5220EEB22F0FE3D1"
 				item: {
 					count: 1
-					id: "minecraft:bucket"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -203,9 +201,12 @@
 			dependencies: ["4C91928ED655611D"]
 			id: "1B99B2431D1A5A72"
 			rewards: [{
-				id: "4AAD44846E433D77"
-				type: "xp"
-				xp: 125
+				id: "65792577A2E3B039"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -240,9 +241,12 @@
 			dependencies: ["4C91928ED655611D"]
 			id: "1E4C5686F11D495F"
 			rewards: [{
-				id: "78736343C78AD34E"
-				type: "xp"
-				xp: 150
+				id: "410E97360B01CB8D"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -277,9 +281,12 @@
 			dependencies: ["4C91928ED655611D"]
 			id: "42E3219A7C71D571"
 			rewards: [{
-				id: "677E98BFDACD7B87"
-				type: "xp"
-				xp: 175
+				id: "6E13D9076C028180"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -325,11 +332,10 @@
 			}
 			id: "6AD41FA37188492D"
 			rewards: [{
-				count: 4
-				id: "378A8501836707DA"
+				id: "110E271B3F847160"
 				item: {
 					count: 1
-					id: "minecraft:honey_block"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -348,10 +354,10 @@
 			dependencies: ["6AD41FA37188492D"]
 			id: "170949B81B466B83"
 			rewards: [{
-				id: "156EBEDCC6B97235"
+				id: "5569B4139BC3A9E6"
 				item: {
 					count: 1
-					id: "the_bumblezone:royal_jelly_bottle"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -367,9 +373,12 @@
 			dependencies: ["170949B81B466B83"]
 			id: "1290994D6E074626"
 			rewards: [{
-				id: "3B8768B3789FBE29"
-				type: "xp"
-				xp: 200
+				id: "47F0163E38D99632"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				advancement: "the_bumblezone:essence/bee_essence_infusion"
@@ -387,11 +396,10 @@
 			}
 			id: "1E62854E3E508869"
 			rewards: [{
-				count: 16
-				id: "48F49BD2689FFADE"
+				id: "14F66BFA3B1B4679"
 				item: {
 					count: 1
-					id: "minecraft:torch"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -407,9 +415,12 @@
 			dependencies: ["1E62854E3E508869"]
 			id: "01C57A3A9AC3B4F5"
 			rewards: [{
-				id: "476085229950E728"
-				type: "xp"
-				xp: 150
+				id: "7FA5638E6A554AD7"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "00EFE18F1B4360C1"
@@ -423,9 +434,12 @@
 			dependencies: ["1E62854E3E508869"]
 			id: "2468A9BE914BEFDE"
 			rewards: [{
-				id: "25EAE80CE464F6BD"
-				type: "xp"
-				xp: 150
+				id: "4F8020C3659A11B7"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "2FC9A80A8C3F1C69"
@@ -439,9 +453,12 @@
 			dependencies: ["1E62854E3E508869"]
 			id: "0A586098A85A17ED"
 			rewards: [{
-				id: "46D5943A2496B0A6"
-				type: "xp"
-				xp: 150
+				id: "661CEBE12F85D557"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "4D120DEEDFCB02BD"
@@ -455,9 +472,12 @@
 			dependencies: ["1E62854E3E508869"]
 			id: "125AEB10070AAA43"
 			rewards: [{
-				id: "5818A5DC66BEB4B2"
-				type: "xp"
-				xp: 150
+				id: "77A90C385BA05A48"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "6C6C3098B53489DD"
@@ -471,9 +491,12 @@
 			dependencies: ["1E62854E3E508869"]
 			id: "3BBF7D4ABB5C285F"
 			rewards: [{
-				id: "2DE928141E9D081E"
-				type: "xp"
-				xp: 150
+				id: "24C1798CC1975B59"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "24B4879105B814A5"
@@ -487,9 +510,12 @@
 			dependencies: ["1E62854E3E508869"]
 			id: "76B954D68DD2F748"
 			rewards: [{
-				id: "7C02149B9651033F"
-				type: "xp"
-				xp: 150
+				id: "4AE272D01FA3AAA6"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "2987D13052B45304"

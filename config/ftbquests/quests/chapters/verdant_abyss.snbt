@@ -32,11 +32,10 @@
 			dependencies: ["26A381EB48031E70"]
 			id: "58BE26650A0440F6"
 			rewards: [{
-				count: 4
-				id: "2BEA5BA818F99117"
+				id: "7DA56BEC24A087F5"
 				item: {
 					count: 1
-					id: "minecraft:obsidian"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -55,11 +54,10 @@
 			}
 			id: "62F5592C52CD8821"
 			rewards: [{
-				count: 16
-				id: "056ED80CAE8F2922"
+				id: "13B3F71A1462ACF2"
 				item: {
 					count: 1
-					id: "minecraft:torch"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -86,11 +84,10 @@
 			}
 			id: "4BD509205B526E8C"
 			rewards: [{
-				count: 2
-				id: "34D50EA6B5F39ADD"
+				id: "31C0B085875140EC"
 				item: {
 					count: 1
-					id: "minecraft:golden_apple"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -106,9 +103,12 @@
 			dependencies: ["4BD509205B526E8C"]
 			id: "03A760BECFFD5126"
 			rewards: [{
-				id: "1B99DEA72FDD670C"
-				type: "xp"
-				xp: 250
+				id: "55142CC76E9C84E2"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
@@ -123,9 +123,12 @@
 			dependencies: ["03A760BECFFD5126"]
 			id: "7F3839D206AED8BA"
 			rewards: [{
-				id: "49B13B12401BE8A1"
-				type: "xp"
-				xp: 100
+				id: "773C8B810890E9B2"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "22843C1DF8693D2E"
@@ -139,11 +142,10 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "75CE2CADC4756616"
 			rewards: [{
-				count: 4
-				id: "45AF43287DABDE27"
+				id: "0DD1DD4AD0E37007"
 				item: {
 					count: 1
-					id: "minecraft:coal"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -159,9 +161,12 @@
 			dependencies: ["75CE2CADC4756616"]
 			id: "2BA0235D2DDDA051"
 			rewards: [{
-				id: "0A24E2EF338F44F6"
-				type: "xp"
-				xp: 50
+				id: "054644FD3DAB18B9"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "588D75A5AD2100DE"
@@ -175,11 +180,10 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "405C4901EE2BAC5A"
 			rewards: [{
-				count: 4
-				id: "1ED52E0122D4CC30"
+				id: "0F8907767669270F"
 				item: {
 					count: 1
-					id: "minecraft:coal"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -195,9 +199,12 @@
 			dependencies: ["405C4901EE2BAC5A"]
 			id: "4C2651AD1AA0A7D5"
 			rewards: [{
-				id: "37744839A0F7C59F"
-				type: "xp"
-				xp: 50
+				id: "3B0741D56AC0FFCB"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "45CC3F6C94CC5FD7"
@@ -211,9 +218,12 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "0A5C056A2A1492A4"
 			rewards: [{
-				id: "39F175528DCC251C"
-				type: "xp"
-				xp: 50
+				id: "01B22457A478C8E8"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "478FB11424177AE3"
@@ -227,9 +237,12 @@
 			dependencies: ["0A5C056A2A1492A4"]
 			id: "716185F216AB4B7E"
 			rewards: [{
-				id: "68699778A921EA90"
-				type: "xp"
-				xp: 75
+				id: "294F8C1E448B3693"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "0F6459AD2D48216E"
@@ -243,9 +256,12 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "631750A602DDA817"
 			rewards: [{
-				id: "0CCA3DF85FEDD07E"
-				type: "xp"
-				xp: 75
+				id: "1BB1B6EB8BCCC2D6"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "518FD8398310C4E0"
@@ -259,9 +275,12 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "4AAD20A54D5CA614"
 			rewards: [{
-				id: "510996559ED68BF0"
-				type: "xp"
-				xp: 100
+				id: "04EDF5D75BAC221C"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "3C97453F056B1A36"
@@ -278,9 +297,12 @@
 			]
 			id: "7EFC4A52220B1A80"
 			rewards: [{
-				id: "2E0AB933ADF0D437"
-				type: "xp"
-				xp: 150
+				id: "6A794C6ECB6BDE6A"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "4D00430181090EA2"

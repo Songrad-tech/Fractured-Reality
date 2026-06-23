@@ -44,6 +44,14 @@
 				id: "minecraft:reinforced_deepslate"
 			}
 			id: "16FF223093771098"
+			rewards: [{
+				id: "2E2B8842D752A9CC"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "360762341E7BF568"
 				structure: "minecraft:ancient_city"
@@ -55,6 +63,14 @@
 		{
 			dependencies: ["637878425CE55C37"]
 			id: "790A807983D217D9"
+			rewards: [{
+				id: "38FD189E35653277"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7377C9881D881006"
 				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
@@ -69,6 +85,14 @@
 				id: "deeperdarker:sculk_stone_bricks"
 			}
 			id: "4242965A13D79C42"
+			rewards: [{
+				id: "7879FA3D387B1544"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -91,6 +115,14 @@
 				id: "deeperdarker:ancient_vase"
 			}
 			id: "24828DD7843BAD17"
+			rewards: [{
+				id: "3A357FCBA5998031"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AFEA1D8388496AB"
 				structure: "deeperdarker:ancient_temple"
@@ -102,6 +134,14 @@
 		{
 			dependencies: ["24828DD7843BAD17"]
 			id: "6C74B0300D2159A6"
+			rewards: [{
+				id: "479E41A2716C13A4"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "deeperdarker:stalker"
 				id: "06270EE25A62C5E0"
@@ -114,6 +154,14 @@
 		{
 			dependencies: ["6C74B0300D2159A6"]
 			id: "31FC459BE575BB16"
+			rewards: [{
+				id: "13DC9D927A3B83CA"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "23662EEFBA157528"
 				item: { count: 1, id: "deeperdarker:soul_crystal" }
@@ -125,6 +173,14 @@
 		{
 			dependencies: ["16FF223093771098"]
 			id: "637878425CE55C37"
+			rewards: [{
+				id: "6E0F05C08DD38A65"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "52F78F20848BDA47"
@@ -137,6 +193,14 @@
 		{
 			dependencies: ["4242965A13D79C42"]
 			id: "4EBF77C1E4DA7981"
+			rewards: [{
+				id: "25FF4AC442D15D6A"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "deeperdarker:sludge"
 				id: "59381DB1FA3F31F3"
@@ -149,6 +213,14 @@
 		{
 			dependencies: ["4EBF77C1E4DA7981"]
 			id: "54C14057FC31C6DF"
+			rewards: [{
+				id: "2F95A7CFA1C5834B"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4ED26CEFEB96284F"
 				item: { count: 1, id: "deeperdarker:resonarium" }
@@ -160,6 +232,14 @@
 		{
 			dependencies: ["54C14057FC31C6DF"]
 			id: "35690DA73DE6F776"
+			rewards: [{
+				id: "49314E67D3404652"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "15160C56EF22ABB4"
 				item: { count: 1, id: "deeperdarker:resonarium_plate" }
@@ -174,6 +254,14 @@
 				"4242965A13D79C42"
 			]
 			id: "7FD9E439525F1203"
+			rewards: [{
+				id: "11B6C634A2BBA269"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "35E5E2DD525D6F06"
 				item: { count: 1, id: "deeperdarker:ancient_compass" }
@@ -185,6 +273,14 @@
 		{
 			dependencies: ["637878425CE55C37"]
 			id: "1101CDC12DFDBAB4"
+			rewards: [{
+				id: "22E225FFFE10DF3E"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "1A567A5F015EDA48"

@@ -13,6 +13,14 @@
 		{
 			dependencies: ["29B52E3C87142E4D"]
 			id: "7BCF609A2E79A59A"
+			rewards: [{
+				id: "53BD1E43E56F4C5C"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4F74EC303DE71C93"
@@ -32,6 +40,14 @@
 		{
 			dependencies: ["7BCF609A2E79A59A"]
 			id: "42318046DA02C486"
+			rewards: [{
+				id: "6EA8CB4B173AA06F"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "237A5F6CF25544D3"
 				item: { count: 1, id: "mysticalagriculture:infusion_crystal" }
@@ -43,6 +59,14 @@
 		{
 			dependencies: ["42318046DA02C486"]
 			id: "497AE1198BA68365"
+			rewards: [{
+				id: "5C67711C7A9EAA3F"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B9D82D3133C18C8"
 				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
@@ -54,6 +78,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "082979C3AA5CE91C"
+			rewards: [{
+				id: "5CBDA2218FD7D2B7"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "21E5381E726C044D"
 				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
@@ -65,6 +97,14 @@
 		{
 			dependencies: ["082979C3AA5CE91C"]
 			id: "7D42EE8FAAC4C722"
+			rewards: [{
+				id: "79B07B1104DF666D"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B7C64BDBE524CAD"
 				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
@@ -76,6 +116,14 @@
 		{
 			dependencies: ["7D42EE8FAAC4C722"]
 			id: "5BAF4F567EA7033A"
+			rewards: [{
+				id: "452E3B2124CF46E7"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1775772982E6581C"
 				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
@@ -87,6 +135,14 @@
 		{
 			dependencies: ["5BAF4F567EA7033A"]
 			id: "02CFF707C09E12D5"
+			rewards: [{
+				id: "05EE294A35190D4D"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "41964DE59457C0A1"
 				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
@@ -98,6 +154,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "717A0D8EDE87A2DF"
+			rewards: [{
+				id: "3AFC84BC4DB11C12"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "476FDA245F5D10D7"
 				item: { count: 1, id: "mysticalagriculture:earth_seeds" }
@@ -109,6 +173,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "7A4B44B343547F12"
+			rewards: [{
+				id: "286EB342AAE9F9A2"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58C9B2DD7913D0E8"
 				item: { count: 1, id: "mysticalagriculture:air_seeds" }
@@ -120,6 +192,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "4BD747458D93FFE1"
+			rewards: [{
+				id: "15CA3A54D1F04CB4"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "17A425BE24127F94"
 				item: { count: 1, id: "mysticalagriculture:water_seeds" }
@@ -131,6 +211,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "2B28FB7ECCDC5319"
+			rewards: [{
+				id: "14C96D8957F0D331"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FC8F836B0AEA5AF"
 				item: { count: 1, id: "mysticalagriculture:fire_seeds" }
@@ -142,6 +230,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "6DF5162588711E4F"
+			rewards: [{
+				id: "7709248C0FE1F459"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6254BA2D055A9BB7"
 				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
@@ -153,6 +249,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "5C0F21A11B1611E1"
+			rewards: [{
+				id: "5BCA2145A4DAC32E"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D23D6C0B2C58B37"
 				item: { count: 1, id: "mysticalagriculture:stone_seeds" }
@@ -164,6 +268,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "7303890E9D4FFCCF"
+			rewards: [{
+				id: "0CD68E31C9DD3366"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "593A3F3A5501CF06"
 				item: { count: 1, id: "mysticalagriculture:dirt_seeds" }
@@ -175,6 +287,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "2084432E2840239D"
+			rewards: [{
+				id: "1A0362E2875FB863"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3AE646B6B887A32F"
 				item: { count: 1, id: "mysticalagriculture:wood_seeds" }
@@ -186,6 +306,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "2F230B0DD745B6EC"
+			rewards: [{
+				id: "5D229AD4F4F1E83F"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "188078E9B28570D7"
 				item: { count: 1, id: "mysticalagriculture:ice_seeds" }
@@ -197,6 +325,14 @@
 		{
 			dependencies: ["497AE1198BA68365"]
 			id: "6DF3932CE848E0A1"
+			rewards: [{
+				id: "10C21574782FF259"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D735D0E2A97B09B"
 				item: { count: 1, id: "mysticalagriculture:deepslate_seeds" }
@@ -208,6 +344,14 @@
 		{
 			dependencies: ["02CFF707C09E12D5"]
 			id: "6248DE8E6A9D2A5C"
+			rewards: [{
+				id: "3FC45F6AD271AF83"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0A8374E07E2087B3"

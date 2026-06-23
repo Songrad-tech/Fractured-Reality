@@ -15,11 +15,10 @@
 			hide_until_deps_complete: true
 			id: "6ED33C26796DEA3A"
 			rewards: [{
-				count: 8
-				id: "172DB757746F7ABA"
+				id: "249027D1118CE1CC"
 				item: {
 					count: 1
-					id: "minecraft:torch"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -37,11 +36,11 @@
 			hide_until_deps_visible: true
 			id: "116B91C74588FDB0"
 			rewards: [{
-				count: 8
-				id: "18354CAA74019988"
+				count: 2
+				id: "44934A04A4F5DE0F"
 				item: {
 					count: 1
-					id: "minecraft:stick"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -58,10 +57,10 @@
 			dependencies: ["116B91C74588FDB0"]
 			id: "1933418C96886DBE"
 			rewards: [{
-				id: "7397D69ED3B63D06"
+				id: "272EDC2A31BADD01"
 				item: {
 					count: 1
-					id: "minecraft:wooden_pickaxe"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -78,11 +77,10 @@
 			hide_until_deps_visible: true
 			id: "6655C9EC1E601EB6"
 			rewards: [{
-				count: 8
-				id: "1BAC383AA28BC395"
+				id: "3CBD69CAFE5DB5A1"
 				item: {
 					count: 1
-					id: "minecraft:andesite"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -100,11 +98,10 @@
 			hide_until_deps_visible: true
 			id: "0FCAE2FFD1263B87"
 			rewards: [{
-				count: 4
-				id: "0E0177FC94787D42"
+				id: "1EA4D2A12FE66764"
 				item: {
 					count: 1
-					id: "create:zinc_ingot"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -122,11 +119,10 @@
 			hide_until_deps_visible: true
 			id: "66A0A2094ABCFD5D"
 			rewards: [{
-				count: 3
-				id: "20A2D0109B68FED8"
+				id: "7ABD56C31B0A3184"
 				item: {
 					count: 1
-					id: "create:zinc_nugget"
+					id: "kubejs:fractured_coin"
 				}
 				type: "item"
 			}]
@@ -146,26 +142,14 @@
 			]
 			hide_until_deps_visible: true
 			id: "3F8FDF23051A7247"
-			rewards: [
-				{
-					count: 2
-					id: "763D41EB9B2E4FA8"
-					item: {
-						count: 1
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+			rewards: [{
+				id: "4BD32B7A8904C21A"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
 				}
-				{
-					count: 4
-					id: "5FC4E6CB5FDBE58A"
-					item: {
-						count: 1
-						id: "create:shaft"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "5E7F33F72E90BE2E"
