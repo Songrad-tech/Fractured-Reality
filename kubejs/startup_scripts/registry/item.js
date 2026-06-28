@@ -69,6 +69,11 @@ StartupEvents.registry("item", (event) => {
     .texture("fractured_reality:item/fractured_coin");
 
   event
+    .create("quarter_star")
+    .displayName("Quarter Star")
+    .texture("fractured_reality:item/quarter_star");
+
+  event
     .create("fractured_wallet")
     .parentModel("fractured_reality:item/fractured_wallet")
     .maxStackSize(1);

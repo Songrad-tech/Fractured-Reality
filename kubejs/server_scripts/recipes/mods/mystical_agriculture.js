@@ -192,6 +192,20 @@ const mysticalagricultureShapedRecipes = [
       A: "mysticalagriculture:flux_dust_essence",
     },
   },
+  {
+    output: "kubejs:quarter_star",
+    pattern: ["AAA", "AAA", "AAA"],
+    keys: {
+      A: "mysticalagriculture:nether_star_essence",
+    },
+  },
+  {
+    output: "minecraft:nether_star",
+    pattern: ["AA", "AA"],
+    keys: {
+      A: "kubejs:quarter_star",
+    },
+  },
 ];
 
 const mysticalagricultureSoulExtractionRecipes = [

@@ -23,6 +23,9 @@
 	quest.01154E300B5A8FD7.quest_subtitle: "A World Inside the Hive"
 	quest.01154E300B5A8FD7.title: "Craft a Honey Pearl"
 	quest.01C57A3A9AC3B4F5.title: "Essence of Raging"
+	quest.0205B9C94EB535DD.quest_desc: ["Soul Crystal Seeds grow concentrated spirit essence for the most demanding recipes."]
+	quest.0205B9C94EB535DD.quest_subtitle: "Cultivated Soul Crystal Essence"
+	quest.0205B9C94EB535DD.title: "Soul Crystal Seeds"
 	quest.02FE952A15865F26.title: "Wooden Construction Stick"
 	quest.033F07AD47AC2AB2.title: "Linking Tool"
 	quest.03A760BECFFD5126.quest_desc: [
@@ -32,7 +35,19 @@
 	]
 	quest.03A760BECFFD5126.quest_subtitle: "Buried Protector"
 	quest.03A760BECFFD5126.title: "Defeat the Forgotten Guardian"
+	quest.04A40A420B5AC3E5.quest_desc: ["Soulium Seeds deepen your Mystical Agriculture setup with spirit-bound essence."]
+	quest.04A40A420B5AC3E5.quest_subtitle: "Cultivated Soulium Essence"
+	quest.04A40A420B5AC3E5.title: "Soulium Seeds"
 	quest.0593FF5DC6E58B76.title: "Obsidian Barrel"
+	quest.06216B44D7EA3DA9.quest_desc: ["Warden Seeds are dangerous power made agricultural; harvest deep-dark strength with care."]
+	quest.06216B44D7EA3DA9.quest_subtitle: "Cultivated Warden Essence"
+	quest.06216B44D7EA3DA9.title: "Warden Seeds"
+	quest.06D721CECB36C569.quest_desc: ["Zinc Seeds strengthen your alloy chain and reduce the pressure on mining veins."]
+	quest.06D721CECB36C569.quest_subtitle: "Cultivated Zinc Essence"
+	quest.06D721CECB36C569.title: "Zinc Seeds"
+	quest.06EBFFCFCE57218A.quest_desc: ["Glowstone Seeds bring bright Nether dust home for lighting and magical recipes."]
+	quest.06EBFFCFCE57218A.quest_subtitle: "Cultivated Glowstone Essence"
+	quest.06EBFFCFCE57218A.title: "Glowstone Seeds"
 	quest.0789D9872462D216.title: "Craft a Crimsite Core"
 	quest.0860B05992C8E356.title: "Diamond Glider"
 	quest.0A586098A85A17ED.title: "Essence of Calming"
@@ -43,6 +58,9 @@
 	]
 	quest.0A5C056A2A1492A4.quest_subtitle: "Hidden Energy"
 	quest.0A5C056A2A1492A4.title: "Find Utheric Shards"
+	quest.0D766B72F550F11A.quest_desc: ["Utherium Seeds cultivate alien Undergarden energy for stronger custom materials."]
+	quest.0D766B72F550F11A.quest_subtitle: "Cultivated Utherium Essence"
+	quest.0D766B72F550F11A.title: "Utherium Seeds"
 	quest.0E18DE2A29892903.title: "Generate Iron"
 	quest.0F5AC97C67C06135.title: "Diamond Barrel"
 	quest.0FCAE2FFD1263B87.quest_desc: [
@@ -54,6 +72,9 @@
 	]
 	quest.0FCAE2FFD1263B87.quest_subtitle: "First Metal"
 	quest.0FCAE2FFD1263B87.title: "Find Zinc"
+	quest.1080F263719CA71F.quest_desc: ["Nether Quartz Seeds support comparators, machines, and refined Nether crafting from home."]
+	quest.1080F263719CA71F.quest_subtitle: "Cultivated Nether Quartz Essence"
+	quest.1080F263719CA71F.title: "Nether Quartz Seeds"
 	quest.1101CDC12DFDBAB4.quest_desc: [
 		"Warden Carapaces can be recovered from Wardens and, more rarely, from Ancient City chests."
 		" "
@@ -85,6 +106,21 @@
 	]
 	quest.1290994D6E074626.quest_subtitle: "The Hive Accepts You"
 	quest.1290994D6E074626.title: "Consume the Essence"
+	quest.12C16500E93479F9.quest_desc: ["Chicken Seeds keep feathers, eggs, and light food resources close to your base."]
+	quest.12C16500E93479F9.quest_subtitle: "Cultivated Chicken Essence"
+	quest.12C16500E93479F9.title: "Chicken Seeds"
+	quest.12D4330AEBD1E8E2.quest_desc: ["Rabbit Seeds farm light animal drops that are otherwise awkward to collect in bulk."]
+	quest.12D4330AEBD1E8E2.quest_subtitle: "Cultivated Rabbit Essence"
+	quest.12D4330AEBD1E8E2.title: "Rabbit Seeds"
+	quest.12F047277E8EE4FF.quest_desc: ["Dye Seeds are the tidy answer when recipes start asking for every color at once."]
+	quest.12F047277E8EE4FF.quest_subtitle: "Cultivated Dye Essence"
+	quest.12F047277E8EE4FF.title: "Dye Seeds"
+	quest.134E8E70EF5D79E4.quest_desc: ["Flux Dust Seeds feed energy and redstone-adjacent crafting with a renewable crop."]
+	quest.134E8E70EF5D79E4.quest_subtitle: "Cultivated Flux Dust Essence"
+	quest.134E8E70EF5D79E4.title: "Flux Dust Seeds"
+	quest.16A2C688BB865A46.quest_desc: ["Prismarine Seeds pull ocean monument materials into a safer renewable loop."]
+	quest.16A2C688BB865A46.quest_subtitle: "Cultivated Prismarine Essence"
+	quest.16A2C688BB865A46.title: "Prismarine Seeds"
 	quest.16FF223093771098.quest_desc: [
 		"The deepest cities were built around something they could not fully control."
 		" "
@@ -116,6 +152,9 @@
 	]
 	quest.1B99B2431D1A5A72.quest_subtitle: "Let the Hive Flourish"
 	quest.1B99B2431D1A5A72.title: "The Queen's Garden"
+	quest.1D6A4382B115577A.quest_desc: ["Amethyst Seeds keep crystal essence growing after your first geode discoveries."]
+	quest.1D6A4382B115577A.quest_subtitle: "Cultivated Amethyst Essence"
+	quest.1D6A4382B115577A.title: "Amethyst Seeds"
 	quest.1E4C5686F11D495F.quest_desc: [
 		"Complete the Queen's hunting requests: Silverfish, Endermites, Spiders, and Cave Spiders."
 		" "
@@ -130,7 +169,19 @@
 	]
 	quest.1E62854E3E508869.quest_subtitle: "Six Ancient Trials"
 	quest.1E62854E3E508869.title: "Enter a Sempiternal Sanctum"
+	quest.1EAB4435EA537A78.quest_desc: ["Gold Seeds keep powered rails, alloys, and magical recipes from draining your mines."]
+	quest.1EAB4435EA537A78.quest_subtitle: "Cultivated Gold Essence"
+	quest.1EAB4435EA537A78.title: "Gold Seeds"
+	quest.1EE754A8323EC5A7.quest_desc: ["Obsidian Seeds replace slow lava casting with a farmable volcanic essence."]
+	quest.1EE754A8323EC5A7.quest_subtitle: "Cultivated Obsidian Essence"
+	quest.1EE754A8323EC5A7.title: "Obsidian Seeds"
+	quest.2084432E2840239D.quest_desc: ["Grow Wood Seeds so logs and timber crafts can come from your farm instead of another forest trip."]
+	quest.2084432E2840239D.quest_subtitle: "Cultivated Wood Essence"
+	quest.2084432E2840239D.title: "Wood Seeds"
 	quest.20CECAECE7438D7F.title: "The First Rotation"
+	quest.21800CB9411472AE.quest_desc: ["Sheep Seeds keep wool and mutton resources available without constant shearing rounds."]
+	quest.21800CB9411472AE.quest_subtitle: "Cultivated Sheep Essence"
+	quest.21800CB9411472AE.title: "Sheep Seeds"
 	quest.21864889EF3D7FE3.title: "Netherite Construction Stick"
 	quest.2468A9BE914BEFDE.title: "Essence of Knowing"
 	quest.24828DD7843BAD17.quest_desc: [
@@ -140,9 +191,33 @@
 	]
 	quest.24828DD7843BAD17.quest_subtitle: "Ancient Echoes"
 	quest.24828DD7843BAD17.title: "Find an Ancient Temple"
+	quest.248863E10972CDFC.quest_desc: ["End Seeds bring distant dimension materials into your late-game garden."]
+	quest.248863E10972CDFC.quest_subtitle: "Cultivated End Essence"
+	quest.248863E10972CDFC.title: "End Seeds"
 	quest.25B4817CC7F9D6A1.title: "Generate Nickel"
+	quest.279FA5A90AA0D5BC.quest_desc: ["Sky Stone Seeds turn meteor hunting into a controlled Applied Energistics resource."]
+	quest.279FA5A90AA0D5BC.quest_subtitle: "Cultivated Sky Stone Essence"
+	quest.279FA5A90AA0D5BC.title: "Sky Stone Seeds"
+	quest.287864D41B5C71DF.quest_desc: ["Iron Seeds are a major automation milestone, turning a core metal into a crop."]
+	quest.287864D41B5C71DF.quest_subtitle: "Cultivated Iron Essence"
+	quest.287864D41B5C71DF.title: "Iron Seeds"
+	quest.287E5269E7A6AA79.quest_desc: ["Ghast Seeds make tears farmable, which is far kinder than searching the Nether sky."]
+	quest.287E5269E7A6AA79.quest_subtitle: "Cultivated Ghast Essence"
+	quest.287E5269E7A6AA79.title: "Ghast Seeds"
 	quest.291C454B10B8EBBD.title: "Elevators"
+	quest.2947EE06D8C93FF2.quest_desc: ["Pig Seeds turn basic animal drops into a clean farmable essence line."]
+	quest.2947EE06D8C93FF2.quest_subtitle: "Cultivated Pig Essence"
+	quest.2947EE06D8C93FF2.title: "Pig Seeds"
+	quest.29B7FA7414FE5127.quest_desc: ["Fractured Shared Seeds tie this age back to the pack's broken world and its stranger recipes."]
+	quest.29B7FA7414FE5127.quest_subtitle: "Cultivated Fractured Shared Essence"
+	quest.29B7FA7414FE5127.title: "Fractured Shared Seeds"
+	quest.2B28FB7ECCDC5319.quest_desc: ["Temper Fire Seeds carefully; their essence fuels hotter recipes without chasing flames."]
+	quest.2B28FB7ECCDC5319.quest_subtitle: "Cultivated Fire Essence"
+	quest.2B28FB7ECCDC5319.title: "Fire Seeds"
 	quest.2B4A1A32FE79E51A.title: "Netherite Glider"
+	quest.2B775794C77A8BAF.quest_desc: ["Squid Seeds are a cleaner path to ink-based crafting than waiting underwater."]
+	quest.2B775794C77A8BAF.quest_subtitle: "Cultivated Squid Essence"
+	quest.2B775794C77A8BAF.title: "Squid Seeds"
 	quest.2BA0235D2DDDA051.quest_desc: [
 		"Raw Cloggrum is only the beginning."
 		" "
@@ -153,7 +228,16 @@
 	quest.2C60767BD295F11B.title: "Gold Barrel"
 	quest.2CD0C913394EB5AE.title: "Craft a Viridite Core"
 	quest.2D4F692D91D9AD14.title: "Gather Ochrum"
+	quest.2D5F80A90CCA1579.quest_desc: ["Netherite Seeds are a top-tier reward for pushing essence farming into true endgame metals."]
+	quest.2D5F80A90CCA1579.quest_subtitle: "Cultivated Netherite Essence"
+	quest.2D5F80A90CCA1579.title: "Netherite Seeds"
 	quest.2E40399441207208.title: "Generate Copper"
+	quest.2E78830BD103CB57.quest_desc: ["Emerald Seeds make trading currency and green gem recipes far easier to sustain."]
+	quest.2E78830BD103CB57.quest_subtitle: "Cultivated Emerald Essence"
+	quest.2E78830BD103CB57.title: "Emerald Seeds"
+	quest.2F230B0DD745B6EC.quest_desc: ["Freeze a corner of your garden with Ice Seeds for cold essence whenever recipes ask for it."]
+	quest.2F230B0DD745B6EC.quest_subtitle: "Cultivated Ice Essence"
+	quest.2F230B0DD745B6EC.title: "Ice Seeds"
 	quest.3058A05926D38F58.title: "Gold Backpack"
 	quest.31FC459BE575BB16.quest_desc: [
 		"The Soul Crystal is one of the clearest signs that the Otherside changes what it touches."
@@ -170,6 +254,15 @@
 	]
 	quest.339B1B43D36D8DB4.quest_subtitle: "Beyond the Honey"
 	quest.339B1B43D36D8DB4.title: "Enter The Bumblezone"
+	quest.33EF55F9970BA109.quest_desc: ["Diamond Seeds turn one of Minecraft's classic bottlenecks into planned production."]
+	quest.33EF55F9970BA109.quest_subtitle: "Cultivated Diamond Essence"
+	quest.33EF55F9970BA109.title: "Diamond Seeds"
+	quest.344210FD0655A480.quest_desc: ["Breeze Seeds catch trial-chamber energy and turn it into repeatable essence."]
+	quest.344210FD0655A480.quest_subtitle: "Cultivated Breeze Essence"
+	quest.344210FD0655A480.title: "Breeze Seeds"
+	quest.3495DF57566B4ED0.quest_desc: ["Cloggrum Seeds bring Undergarden metal into your farmable resource economy."]
+	quest.3495DF57566B4ED0.quest_subtitle: "Cultivated Cloggrum Essence"
+	quest.3495DF57566B4ED0.title: "Cloggrum Seeds"
 	quest.35690DA73DE6F776.quest_desc: [
 		"Four pieces of Resonarium and four scutes form a Resonarium Plate."
 		" "
@@ -188,11 +281,26 @@
 	]
 	quest.35C22982FC123B45.title: "Reality Feels... Wrong"
 	quest.361CDDAF1904CA7D.title: "Time in a Bottle"
+	quest.37A9D826BB297B64.quest_desc: ["Rogdorium Seeds secure a custom metal line before advanced recipes demand stacks of it."]
+	quest.37A9D826BB297B64.quest_subtitle: "Cultivated Rogdorium Essence"
+	quest.37A9D826BB297B64.title: "Rogdorium Seeds"
 	quest.3A3FDB2C0738518C.title: "Begin Resource Generation"
+	quest.3A60A19D449B06E5.quest_desc: ["Blaze Seeds keep rods and powder flowing without another fortress farming trip."]
+	quest.3A60A19D449B06E5.quest_subtitle: "Cultivated Blaze Essence"
+	quest.3A60A19D449B06E5.title: "Blaze Seeds"
 	quest.3A7A7F0160A7E9A4.title: "Generate Zinc"
 	quest.3AB7518A0232F39C.title: "Netherite Barrel"
 	quest.3BBF7D4ABB5C285F.title: "Essence of Radiance"
+	quest.3CA6E03A937B5C2F.quest_desc: ["Platinum Seeds secure precious industrial essence for expensive late-game crafts."]
+	quest.3CA6E03A937B5C2F.quest_subtitle: "Cultivated Platinum Essence"
+	quest.3CA6E03A937B5C2F.title: "Platinum Seeds"
+	quest.3EC6888629E95574.quest_desc: ["Redstone Seeds keep circuits, machines, and automation logic supplied from the field."]
+	quest.3EC6888629E95574.quest_subtitle: "Cultivated Redstone Essence"
+	quest.3EC6888629E95574.title: "Redstone Seeds"
 	quest.3EFEC4006AB93CCC.title: "Gather Veridium"
+	quest.3F48FE9761B27155.quest_desc: ["Enderman Seeds make pearls and End resources predictable instead of luck-based."]
+	quest.3F48FE9761B27155.quest_subtitle: "Cultivated Enderman Essence"
+	quest.3F48FE9761B27155.title: "Enderman Seeds"
 	quest.3F8FDF23051A7247.quest_desc: [
 		"§7Andesite and zinc now form something greater.§r"
 		" "
@@ -217,6 +325,9 @@
 	]
 	quest.410B78E13AFC434F.quest_subtitle: "Concentrated Royalty"
 	quest.410B78E13AFC434F.title: "Fill a Royal Jelly Bucket"
+	quest.41CA701E6DC76F37.quest_desc: ["Brass Seeds support mechanical builds with a steady alloy essence source."]
+	quest.41CA701E6DC76F37.quest_subtitle: "Cultivated Brass Essence"
+	quest.41CA701E6DC76F37.title: "Brass Seeds"
 	quest.421B58874D9E154B.title: "Compacting Drawer"
 	quest.4242965A13D79C42.quest_desc: [
 		"The Heart of the Deep opens a way into the Otherside."
@@ -225,6 +336,9 @@
 	]
 	quest.4242965A13D79C42.quest_subtitle: "Beyond the Sculk"
 	quest.4242965A13D79C42.title: "Enter the Otherside"
+	quest.42BA096E8E20764F.quest_desc: ["Wither Skeleton Seeds farm the grim essence needed for skulls and Nether progression."]
+	quest.42BA096E8E20764F.quest_subtitle: "Cultivated Wither Skeleton Essence"
+	quest.42BA096E8E20764F.title: "Wither Skeleton Seeds"
 	quest.42E3219A7C71D571.quest_desc: [
 		"The final desires demand specialized Bumblezone equipment and a great deal of patience."
 		" "
@@ -233,6 +347,12 @@
 	quest.42E3219A7C71D571.quest_subtitle: "Proof of Devotion"
 	quest.42E3219A7C71D571.title: "The Queen's Great Feats"
 	quest.43AFE81D3D2240D8.title: "Barrel"
+	quest.449B86794FC6FCE9.quest_desc: ["Fish Seeds bring aquatic drops to land, useful when recipes ask for ocean resources."]
+	quest.449B86794FC6FCE9.quest_subtitle: "Cultivated Fish Essence"
+	quest.449B86794FC6FCE9.title: "Fish Seeds"
+	quest.45739EFF174B971C.quest_desc: ["Slime Seeds make sticky crafting materials renewable without hunting swamps or caves."]
+	quest.45739EFF174B971C.quest_subtitle: "Cultivated Slime Essence"
+	quest.45739EFF174B971C.title: "Slime Seeds"
 	quest.467A80382231A9C6.quest_desc: [
 		"§fWelcome, traveler.§r"
 		" "
@@ -249,7 +369,19 @@
 		"§6Survive.§r"
 	]
 	quest.467A80382231A9C6.title: "Welcome to Fractured Reality"
+	quest.46D41410B1D4C616.quest_desc: ["Forgotten Seeds preserve ancient Undergarden power in a renewable form."]
+	quest.46D41410B1D4C616.quest_subtitle: "Cultivated Forgotten Essence"
+	quest.46D41410B1D4C616.title: "Forgotten Seeds"
+	quest.46FDFD2428B06D4C.quest_desc: ["Steel Seeds strengthen your infrastructure with renewable heavy metal essence."]
+	quest.46FDFD2428B06D4C.quest_subtitle: "Cultivated Steel Essence"
+	quest.46FDFD2428B06D4C.title: "Steel Seeds"
+	quest.47240678096167BB.quest_desc: ["Adamant Seeds cultivate stubborn, high-tier essence for the strongest material gates."]
+	quest.47240678096167BB.quest_subtitle: "Cultivated Adamant Essence"
+	quest.47240678096167BB.title: "Adamant Seeds"
 	quest.4787C1D384778BEA.title: "Golden Glider"
+	quest.47901AF510FE12FC.quest_desc: ["Armadillo Seeds preserve scute-related resources in a compact magical crop."]
+	quest.47901AF510FE12FC.quest_subtitle: "Cultivated Armadillo Essence"
+	quest.47901AF510FE12FC.title: "Armadillo Seeds"
 	quest.47BE189106F666DD.title: "Generate Gold"
 	quest.47F92CA7E0294DDA.quest_desc: [
 		"Begin with the desires centered on caring for bees and their home."
@@ -258,6 +390,9 @@
 	]
 	quest.47F92CA7E0294DDA.quest_subtitle: "Care for the Colony"
 	quest.47F92CA7E0294DDA.title: "The Queen's Beekeeping"
+	quest.48AAD65FFE4AE1FF.quest_desc: ["Honey Seeds bottle the sweetness of bees into a calmer, crop-based resource path."]
+	quest.48AAD65FFE4AE1FF.quest_subtitle: "Cultivated Honey Essence"
+	quest.48AAD65FFE4AE1FF.title: "Honey Seeds"
 	quest.48DA5F1CC92B5184.quest_desc: [
 		"§7Technology progression is intentionally gated.§r"
 		" "
@@ -268,6 +403,12 @@
 		"§6Follow the main Progression chapters to guide your journey.§r"
 	]
 	quest.48DA5F1CC92B5184.title: "Progression Matters"
+	quest.494AE9D1D5FEA6A5.quest_desc: ["Coal Seeds keep early fuel and carbon recipes moving even when mining slows down."]
+	quest.494AE9D1D5FEA6A5.quest_subtitle: "Cultivated Coal Essence"
+	quest.494AE9D1D5FEA6A5.title: "Coal Seeds"
+	quest.49AC2693809C5238.quest_desc: ["Limestone Seeds make decorative and processing stone available without quarry detours."]
+	quest.49AC2693809C5238.quest_subtitle: "Cultivated Limestone Essence"
+	quest.49AC2693809C5238.title: "Limestone Seeds"
 	quest.4A8BD7AA0C2B41E6.title: "Iron Glider"
 	quest.4AAD20A54D5CA614.quest_desc: [
 		"Rogdorium is a rare crystal infused with the strange energy of the Undergarden."
@@ -284,6 +425,9 @@
 	]
 	quest.4BD509205B526E8C.quest_subtitle: "Stone Tombs"
 	quest.4BD509205B526E8C.title: "Find the Catacombs"
+	quest.4BD747458D93FFE1.quest_desc: ["Root Water Seeds beside your growing setup to keep water essence flowing without bucket runs."]
+	quest.4BD747458D93FFE1.quest_subtitle: "Cultivated Water Essence"
+	quest.4BD747458D93FFE1.title: "Water Seeds"
 	quest.4C2651AD1AA0A7D5.quest_desc: [
 		"Froststeel becomes useful once refined."
 		" "
@@ -298,6 +442,18 @@
 	]
 	quest.4C91928ED655611D.quest_subtitle: "An Audience with Royalty"
 	quest.4C91928ED655611D.title: "Trade with the Bee Queen"
+	quest.4CA00460C3369847.quest_desc: ["Time Steel Seeds give late recipes a renewable source of temporal alloy essence."]
+	quest.4CA00460C3369847.quest_subtitle: "Cultivated Time Steel Essence"
+	quest.4CA00460C3369847.title: "Time Steel Seeds"
+	quest.4CF4737FE41E136F.quest_desc: ["Creeper Seeds give you gunpowder essence without waiting for explosions."]
+	quest.4CF4737FE41E136F.quest_subtitle: "Cultivated Creeper Essence"
+	quest.4CF4737FE41E136F.title: "Creeper Seeds"
+	quest.4D0D548BC4F08DB4.quest_desc: ["Fluix Seeds stabilize AE2 progression with farmable fluix essence."]
+	quest.4D0D548BC4F08DB4.quest_subtitle: "Cultivated Fluix Essence"
+	quest.4D0D548BC4F08DB4.title: "Fluix Seeds"
+	quest.4E74D80CEC27A7E4.quest_desc: ["Silicon Seeds support circuit and processor crafting with a renewable supply line."]
+	quest.4E74D80CEC27A7E4.quest_subtitle: "Cultivated Silicon Essence"
+	quest.4E74D80CEC27A7E4.title: "Silicon Seeds"
 	quest.4EBF77C1E4DA7981.quest_desc: [
 		"The Otherside is not empty. Some of its creatures are little more than living sculk decay."
 		" "
@@ -306,6 +462,12 @@
 	quest.4EBF77C1E4DA7981.quest_subtitle: "Living Decay"
 	quest.4EBF77C1E4DA7981.title: "Defeat a Sludge"
 	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
+	quest.512BB2F6A1757B62.quest_desc: ["Certus Quartz Seeds keep Applied Energistics growth steady once networks begin expanding."]
+	quest.512BB2F6A1757B62.quest_subtitle: "Cultivated Certus Quartz Essence"
+	quest.512BB2F6A1757B62.title: "Certus Quartz Seeds"
+	quest.5165909A68C1B5BD.quest_desc: ["Cow Seeds are your reliable route to leather, beef, and ranch materials without expanding pens forever."]
+	quest.5165909A68C1B5BD.quest_subtitle: "Cultivated Cow Essence"
+	quest.5165909A68C1B5BD.title: "Cow Seeds"
 	quest.52870C249A924E6F.quest_desc: [
 		"Every completed Queen's Desire advancement rewards a Royal Jelly Bottle."
 		" "
@@ -313,6 +475,12 @@
 	]
 	quest.52870C249A924E6F.quest_subtitle: "A Royal Reward"
 	quest.52870C249A924E6F.title: "Obtain Royal Jelly"
+	quest.5340738A9874585C.quest_desc: ["Electrum Seeds grow a steady supply for conductive alloys and machine components."]
+	quest.5340738A9874585C.quest_subtitle: "Cultivated Electrum Essence"
+	quest.5340738A9874585C.title: "Electrum Seeds"
+	quest.53D6163B84FD4B33.quest_desc: ["Duratium Seeds grow durable custom metal essence for advanced equipment chains."]
+	quest.53D6163B84FD4B33.quest_subtitle: "Cultivated Duratium Essence"
+	quest.53D6163B84FD4B33.title: "Duratium Seeds"
 	quest.54678129C0A1A442.quest_desc: [
 		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.ftbchunks.map\",\"color\":\"gold\"},{\"text\":\" to open the FTB Chunks map.\",\"color\":\"white\"}]"
 		" "
@@ -343,6 +511,12 @@
 	]
 	quest.57C41AC47480BA8F.quest_subtitle: "The Queen Awaits"
 	quest.57C41AC47480BA8F.title: "Find the Throne Pillar"
+	quest.5876D13B06C07E0B.quest_desc: ["Nether Seeds condense the hostile dimension into essence you can harvest safely at home."]
+	quest.5876D13B06C07E0B.quest_subtitle: "Cultivated Nether Essence"
+	quest.5876D13B06C07E0B.title: "Nether Seeds"
+	quest.589D4E9267B8ADD6.quest_desc: ["Froststeel Seeds cultivate cold-forged essence for tougher Undergarden crafting."]
+	quest.589D4E9267B8ADD6.quest_subtitle: "Cultivated Froststeel Essence"
+	quest.589D4E9267B8ADD6.title: "Froststeel Seeds"
 	quest.58BE26650A0440F6.quest_desc: [
 		"The Catalyst is the key that wakes the portal to the Undergarden."
 		" "
@@ -350,7 +524,25 @@
 	]
 	quest.58BE26650A0440F6.quest_subtitle: "Portal Key"
 	quest.58BE26650A0440F6.title: "Obtain a Catalyst"
+	quest.5C0F21A11B1611E1.quest_desc: ["Let Stone Seeds cover the constant need for cobble, stone, and early building essence."]
+	quest.5C0F21A11B1611E1.quest_subtitle: "Cultivated Stone Essence"
+	quest.5C0F21A11B1611E1.title: "Stone Seeds"
+	quest.5C449B5BAB66086E.quest_desc: ["Sculk Seeds carry deep ancient growth into controlled essence production."]
+	quest.5C449B5BAB66086E.quest_subtitle: "Cultivated Sculk Essence"
+	quest.5C449B5BAB66086E.title: "Sculk Seeds"
+	quest.5D8FC161AF681FD4.quest_desc: ["Turtle Seeds carry slow coastal resources into your controlled farm network."]
+	quest.5D8FC161AF681FD4.quest_subtitle: "Cultivated Turtle Essence"
+	quest.5D8FC161AF681FD4.title: "Turtle Seeds"
 	quest.6015EDC54A6BCEC0.title: "Drawer"
+	quest.60CFD33DF18A59CC.quest_desc: ["Lapis Lazuli Seeds support enchanting, dyes, and blue-tier crafting without ore runs."]
+	quest.60CFD33DF18A59CC.quest_subtitle: "Cultivated Lapis Lazuli Essence"
+	quest.60CFD33DF18A59CC.title: "Lapis Lazuli Seeds"
+	quest.60F42F2A2B6BF3D4.quest_desc: ["Resonarium Seeds hum with custom energy, ready for the pack's stronger crafting paths."]
+	quest.60F42F2A2B6BF3D4.quest_subtitle: "Cultivated Resonarium Essence"
+	quest.60F42F2A2B6BF3D4.title: "Resonarium Seeds"
+	quest.61493893A4E2DF29.quest_desc: ["Nickel Seeds keep industrial alloy chains supplied when recipes start scaling up."]
+	quest.61493893A4E2DF29.quest_subtitle: "Cultivated Nickel Essence"
+	quest.61493893A4E2DF29.title: "Nickel Seeds"
 	quest.62006D27C12C3402.quest_desc: [
 		"§lJEI§r §7will guide you throughout your journey.§r"
 		" "
@@ -384,7 +576,16 @@
 	quest.637878425CE55C37.quest_subtitle: "The Warning Wakes"
 	quest.637878425CE55C37.title: "Defeat the Warden"
 	quest.63D67DEF525D3D68.title: "Explorer's Compass"
+	quest.647C86D465511AA7.quest_desc: ["Coral Seeds bring fragile reef materials into your garden without damaging the ocean."]
+	quest.647C86D465511AA7.quest_subtitle: "Cultivated Coral Essence"
+	quest.647C86D465511AA7.title: "Coral Seeds"
+	quest.650DC2E21CA320A1.quest_desc: ["Spider Seeds weave string and spider drops into your crop network."]
+	quest.650DC2E21CA320A1.quest_subtitle: "Cultivated Spider Essence"
+	quest.650DC2E21CA320A1.title: "Spider Seeds"
 	quest.6523137544744B69.title: "Obsidian Chest"
+	quest.657DCCCCD3FE615E.quest_desc: ["Copper Seeds make pipes, coils, and early machine parts easier to mass produce."]
+	quest.657DCCCCD3FE615E.quest_subtitle: "Cultivated Copper Essence"
+	quest.657DCCCCD3FE615E.title: "Copper Seeds"
 	quest.65A746736DC2D8ED.title: "Diamond Construction Stick"
 	quest.6655C9EC1E601EB6.quest_desc: [
 		"§7Andesite is rough, common, and easy to overlook.§r"
@@ -400,6 +601,12 @@
 	]
 	quest.66A0A2094ABCFD5D.quest_subtitle: "Small Components"
 	quest.66A0A2094ABCFD5D.title: "Craft Zinc Nuggets"
+	quest.68908414B84EC7AC.quest_desc: ["Zombie Seeds make rotten flesh and undead resources useful through automation."]
+	quest.68908414B84EC7AC.quest_subtitle: "Cultivated Zombie Essence"
+	quest.68908414B84EC7AC.title: "Zombie Seeds"
+	quest.689AD3F0E7571A85.quest_desc: ["Energite Seeds give your energy-tier materials a renewable backbone."]
+	quest.689AD3F0E7571A85.quest_subtitle: "Cultivated Energite Essence"
+	quest.689AD3F0E7571A85.title: "Energite Seeds"
 	quest.6942D9CB3B07E0D8.title: "Configuration Tool"
 	quest.6A4CCCEA030C7865.title: "Controller Extension"
 	quest.6AD41FA37188492D.quest_desc: [
@@ -419,6 +626,12 @@
 	quest.6C74B0300D2159A6.title: "Defeat a Stalker"
 	quest.6CE2C3EFDCA2D25D.title: "Iron Barrel"
 	quest.6D407B1D6ECEC401.title: "Diamond Backpack"
+	quest.6DF3932CE848E0A1.quest_desc: ["Deepslate Seeds bring the deep stone layer into automation before mining becomes a chore."]
+	quest.6DF3932CE848E0A1.quest_subtitle: "Cultivated Deepslate Essence"
+	quest.6DF3932CE848E0A1.title: "Deepslate Seeds"
+	quest.6DF5162588711E4F.quest_desc: ["Start the real Mystical Agriculture loop with Inferium Seeds, the base of every higher tier."]
+	quest.6DF5162588711E4F.quest_subtitle: "Cultivated Inferium Essence"
+	quest.6DF5162588711E4F.title: "Inferium Seeds"
 	quest.6ED33C26796DEA3A.quest_desc: [
 		"§7Every journey begins with something simple.§r"
 		" "
@@ -436,6 +649,12 @@
 	]
 	quest.716185F216AB4B7E.quest_subtitle: "Crystallized Power"
 	quest.716185F216AB4B7E.title: "Make Utherium"
+	quest.717A0D8EDE87A2DF.quest_desc: ["Stabilize your first fields with Earth Seeds, turning basic soil work into a steady essence source."]
+	quest.717A0D8EDE87A2DF.quest_subtitle: "Cultivated Earth Essence"
+	quest.717A0D8EDE87A2DF.title: "Earth Seeds"
+	quest.72A610C3E3B1C7AE.quest_desc: ["Nature Seeds gather plant life into one crop, smoothing out dye, leaf, and organic recipes."]
+	quest.72A610C3E3B1C7AE.quest_subtitle: "Cultivated Nature Essence"
+	quest.72A610C3E3B1C7AE.title: "Nature Seeds"
 	quest.72D10B75A011DEB8.title: "Netherite Upgrade"
 	quest.72EC9401EE3BA289.quest_desc: [
 		"§7Many dimensions, structures, and hidden locations contain important resources, progression items, and fragments of lost knowledge.§r"
@@ -445,6 +664,9 @@
 		"§fDo not remain underground forever.§r"
 	]
 	quest.72EC9401EE3BA289.title: "Exploration is Essential"
+	quest.7303890E9D4FFCCF.quest_desc: ["Dirt Seeds are humble, but they make terrain work and bulk crafting much less manual."]
+	quest.7303890E9D4FFCCF.quest_subtitle: "Cultivated Dirt Essence"
+	quest.7303890E9D4FFCCF.title: "Dirt Seeds"
 	quest.75CE2CADC4756616.quest_desc: [
 		"Cloggrum is one of the first metals worth collecting in the Undergarden."
 		" "
@@ -464,14 +686,35 @@
 	quest.790A807983D217D9.quest_subtitle: "Doorway to the Otherside"
 	quest.790A807983D217D9.title: "Obtain the Heart of the Deep"
 	quest.7981CF7164F5B951.title: "Craft an Ochrum Core"
+	quest.7985206082FEEE58.quest_desc: ["Uranium Seeds turn high-energy materials into a planned farming project."]
+	quest.7985206082FEEE58.quest_subtitle: "Cultivated Uranium Essence"
+	quest.7985206082FEEE58.title: "Uranium Seeds"
+	quest.79F4727AE5138702.quest_desc: ["Phantom Seeds are a peaceful answer to membrane farming and sleepless nights."]
+	quest.79F4727AE5138702.quest_subtitle: "Cultivated Phantom Essence"
+	quest.79F4727AE5138702.title: "Phantom Seeds"
+	quest.7A4B44B343547F12.quest_desc: ["Capture light currents in Air Seeds and let the farm gather airy essence over time."]
+	quest.7A4B44B343547F12.quest_subtitle: "Cultivated Air Essence"
+	quest.7A4B44B343547F12.title: "Air Seeds"
 	quest.7ABF9857AE02F946.quest_desc: [
 		""
 		"{image:minecraft:textures/gui/quests/flux_craft.png width:96 height:96 align:center}"
 	]
 	quest.7AEF195E258F6020.title: "Backpack"
+	quest.7B993E1F7990D293.quest_desc: ["Experience Seeds convert growth into stored knowledge for enchanting and utility crafts."]
+	quest.7B993E1F7990D293.quest_subtitle: "Cultivated Experience Essence"
+	quest.7B993E1F7990D293.title: "Experience Seeds"
 	quest.7C20643129AD0134.title: "Chest"
 	quest.7D04BE7ADA7A5793.title: "Gold Upgrade"
+	quest.7E35B188166E3ED9.quest_desc: ["Wildfire Seeds bottle a hotter flame for recipes beyond ordinary blaze power."]
+	quest.7E35B188166E3ED9.quest_subtitle: "Cultivated Wildfire Essence"
+	quest.7E35B188166E3ED9.title: "Wildfire Seeds"
 	quest.7E5877B8D86682A1.title: "Craft a Veridium Core"
+	quest.7E5CC25A25302918.quest_desc: ["Regalium Seeds grow royal Undergarden metal essence for later progression gates."]
+	quest.7E5CC25A25302918.quest_subtitle: "Cultivated Regalium Essence"
+	quest.7E5CC25A25302918.title: "Regalium Seeds"
+	quest.7EB58EB50EC527ED.quest_desc: ["Skeleton Seeds turn bones and arrows into dependable essence for combat and farming recipes."]
+	quest.7EB58EB50EC527ED.quest_subtitle: "Cultivated Skeleton Essence"
+	quest.7EB58EB50EC527ED.title: "Skeleton Seeds"
 	quest.7EFC4A52220B1A80.quest_desc: [
 		"The Infuser harnesses the unique energies found throughout the Undergarden."
 		" "
@@ -600,6 +843,13 @@
 	]
 	quest.F1B74DE9725240D1.quest_subtitle: "Shattered Emotions"
 	quest.F1B74DE9725240D1.title: "Break the Overcast Pots"
+	quest.3E58E0FB809F3BD9.quest_desc: [
+		"Nether Star Seeds are an endgame crop for turning Wither power into a slow but renewable essence line."
+		" "
+		"Nine Nether Star Essence craft one Quarter Star, and four Quarter Stars can be assembled into a Nether Star."
+	]
+	quest.3E58E0FB809F3BD9.quest_subtitle: "A Star Grown From Essence"
+	quest.3E58E0FB809F3BD9.title: "Nether Star Seeds"
 	task.0E65D18F4C1C713D.title: "Any #c:ores/zinc"
 	task.10B1D3F62030CB9B.title: "Any #minecraft:logs"
 	task.1C47A13DFFFDD8C5.title: "Useful Tips"

@@ -7,7 +7,7 @@
     "components": {
       "mysticalagriculture:soul_jar": {
         "type": "mysticalcustomization:wildfire",
-        "souls": 4.0
+        "souls": 5.0
       }
     }
   },

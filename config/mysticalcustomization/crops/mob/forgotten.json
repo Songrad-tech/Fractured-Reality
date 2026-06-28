@@ -7,7 +7,7 @@
     "components": {
       "mysticalagriculture:soul_jar": {
         "type": "mysticalcustomization:forgotten_guardian",
-        "souls": 3.0
+        "souls": 4.0
       }
     }
   },

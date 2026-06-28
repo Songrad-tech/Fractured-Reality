@@ -1,0 +1,13 @@
+{
+  "name": "Nether Star",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "minecraft:nether_star"
+  },
+  "color": "CDEEFF",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_gem",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}
