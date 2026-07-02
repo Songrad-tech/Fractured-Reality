@@ -77,4 +77,13 @@ StartupEvents.registry("item", (event) => {
     .create("fractured_wallet")
     .parentModel("fractured_reality:item/fractured_wallet")
     .maxStackSize(1);
+
+  event
+    .create("fractured_dragon_heart")
+    .texture("fractured_reality:item/fractured_dragon_heart")
+    .maxStackSize(1);
+
+  event
+    .create("fractured_ingot")
+    .texture("fractured_reality:item/fractured_ingot");
 });

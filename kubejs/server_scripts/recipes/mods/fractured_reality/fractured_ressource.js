@@ -82,4 +82,37 @@ ServerEvents.recipes((event) => {
       results: [result("kubejs:fractured_singularity_block")],
     })
     .id("kubejs:item_application/fractured_singularity_block");
+
+  event
+    .custom({
+      type: "create:mixing",
+      heat_requirement: "superheated",
+      ingredients: [
+        item("kubejs:fractured_dragon_heart"),
+        {
+          type: "neoforge:tag",
+          amount: 1000,
+          tag: "c:strange_matter",
+        },
+      ],
+      results: [
+        {
+          amount: 1000,
+          id: "kubejs:fractured_essence",
+        },
+        result("kubejs:fractured_dragon_heart"),
+      ],
+    })
+    .id("kubejs:mixing/fractured_essence");
+
+  event
+    .custom({
+      type: "create:filling",
+      ingredients: [
+        item("minecraft:netherite_ingot"),
+        fluid("kubejs:fractured_essence", 250),
+      ],
+      results: [result("kubejs:fractured_ingot")],
+    })
+    .id("kubejs:filling/fractured_ingot");
 });

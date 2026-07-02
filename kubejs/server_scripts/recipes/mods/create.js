@@ -30,6 +30,7 @@ const createRecipeRemovals = [
   "create:crushing/ochrum",
   "create:crushing/tuff_recycling",
   "create:crushing/tuff",
+  "createaddition:liquid_burning/biodiesel",
 ];
 
 const createNewRecipes = [

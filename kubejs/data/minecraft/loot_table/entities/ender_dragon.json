@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "name": "fractured_dragon_heart",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:fractured_dragon_heart",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

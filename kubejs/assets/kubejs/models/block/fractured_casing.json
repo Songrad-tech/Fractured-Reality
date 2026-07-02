@@ -1,0 +1,14 @@
+{
+  "loader": "fusion:model",
+  "type": "connecting",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kubejs:block/fractured_casing_connected",
+    "particle": "#all"
+  },
+  "connections": [
+    {
+      "type": "is_same_block"
+    }
+  ]
+}

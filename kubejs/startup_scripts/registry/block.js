@@ -130,4 +130,14 @@ StartupEvents.registry("block", (event) => {
   fracturedBlocks.forEach((variant) => {
     createFullStoneSet(event, variant.id, variant.name, "fractured");
   });
+
+  event
+    .create("fractured_casing")
+    .soundType("metal")
+    .requiresTool(true)
+    .tagItem("create:casing")
+    .tagBlock("create:casing")
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("create:wrench_pickup")
+    .tagBlock("minecraft:mineable/axe");
 });

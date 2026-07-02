@@ -12,5 +12,39 @@
 	id: "178EFA23CBF2F69A"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["55321446C11DA7F0"]
+			id: "40AA516985A4A73F"
+			tasks: [{
+				id: "7D91F7CE1A08CDCC"
+				item: { count: 1, id: "kubejs:fractured_dragon_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40AA516985A4A73F"]
+			id: "0DB8863C6C3F4096"
+			tasks: [{
+				id: "6C5A179633BC2848"
+				item: { count: 1, id: "kubejs:fractured_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "6C40E5231C8193EB"
+			tasks: [{
+				id: "77C574DA7342B45C"
+				item: { count: 1, id: "kubejs:fractured_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
 }
