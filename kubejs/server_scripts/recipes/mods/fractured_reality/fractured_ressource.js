@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
       ],
       results: [
         {
-          amount: 1000,
+          amount: 100,
           id: "kubejs:fractured_essence",
         },
         result("kubejs:fractured_dragon_heart"),
@@ -105,14 +105,33 @@ ServerEvents.recipes((event) => {
     })
     .id("kubejs:mixing/fractured_essence");
 
-  event
-    .custom({
-      type: "create:filling",
-      ingredients: [
-        item("minecraft:netherite_ingot"),
-        fluid("kubejs:fractured_essence", 250),
-      ],
+  sequencedAssembly(
+    event,
+    {
+      ingredient: item("oritech:duratium_ingot"),
+      transitionalItem: "kubejs:incomplete_fractured_ingot",
+      loops: 4,
       results: [result("kubejs:fractured_ingot")],
-    })
-    .id("kubejs:filling/fractured_ingot");
+      sequence: [
+        filling(
+          "kubejs:incomplete_fractured_ingot",
+          fluid("kubejs:fractured_essence", 250),
+        ),
+        deploying(
+          "kubejs:incomplete_fractured_ingot",
+          item("kubejs:fractured_shard"),
+        ),
+        pressing("kubejs:incomplete_fractured_ingot"),
+        deploying(
+          "kubejs:incomplete_fractured_ingot",
+          item("kubejs:fractured_pearl"),
+        ),
+        filling(
+          "kubejs:incomplete_fractured_ingot",
+          fluid("kubejs:fractured_essence", 250),
+        ),
+      ],
+    },
+    "kubejs:sequenced_assembly/fractured_ingot",
+  );
 });

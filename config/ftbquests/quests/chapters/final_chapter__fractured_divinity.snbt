@@ -25,7 +25,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["40AA516985A4A73F"]
+			dependencies: ["3E6489E8ADC28BBD"]
 			id: "0DB8863C6C3F4096"
 			tasks: [{
 				id: "6C5A179633BC2848"
@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0DB8863C6C3F4096"]
@@ -44,7 +44,18 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40AA516985A4A73F"]
+			id: "3E6489E8ADC28BBD"
+			tasks: [{
+				id: "29CB852C78F0D723"
+				item: { count: 1, id: "kubejs:fractured_essence_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 }

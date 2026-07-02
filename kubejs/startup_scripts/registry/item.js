@@ -86,4 +86,9 @@ StartupEvents.registry("item", (event) => {
   event
     .create("fractured_ingot")
     .texture("fractured_reality:item/fractured_ingot");
+
+  event
+    .create("incomplete_fractured_ingot")
+    .texture("fractured_reality:item/incomplete_fractured_ingot")
+    .tag("c:hidden_from_recipe_viewers");
 });
