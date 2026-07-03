@@ -57,5 +57,27 @@
 			x: 0.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "667D449EB01AECF4"
+			tasks: [{
+				id: "0D94EAAF9813C9F6"
+				item: { count: 1, id: "mysticalagriculture:creative_soulium_dagger" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "7F4F70FE44C0C32F"
+			tasks: [{
+				id: "5439C7DC361367E0"
+				item: { count: 1, id: "create:handheld_worldshaper" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
 	]
 }
