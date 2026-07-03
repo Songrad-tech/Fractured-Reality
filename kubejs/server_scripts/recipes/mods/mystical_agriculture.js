@@ -61,6 +61,23 @@ const mysticalAgricultureNewRecipes = [
       ],
     ],
   },
+  {
+    outputs: [
+      "mysticalautomation:fertilizer",
+      "mysticalautomation:enchanternator",
+      "mysticalautomation:infusion_altarnator",
+      "mysticalagriculture:soulium_spawner",
+      "mysticalautomation:awakening_altarnator",
+      "mysticalagriculture:harvester",
+      "mysticalagriculture:soul_extractor",
+      "mysticalagriculture:seed_reprocessor",
+      "mysticalautomation:crafter",
+      "mysticalautomation:farmer",
+      "mysticalautomation:infuser",
+      "mysticalagriculture:furnace",
+    ],
+    replacements: [["minecraft:iron_ingot", "oritech:steel_ingot"]],
+  },
 ];
 
 const mysticalagricultureShapedRecipes = [
@@ -243,6 +260,29 @@ const mysticalagricultureSoulExtractionRecipes = [
 
 ServerEvents.recipes((event) => {
   replaceInputFromRecipes(event, mysticalAgricultureNewRecipes);
+
+  event.remove({ id: "mysticalagriculture:machine_frame" });
+
+  event
+    .custom({
+      type: "mysticalagriculture:infusion",
+      input: item("create:zinc_block"),
+      ingredients: [
+        item("ae2:sky_stone_block"),
+        item("oritech:energite_ingot"),
+        item("ae2:sky_stone_block"),
+        item("mysticalagriculture:tertium_ingot"),
+        item("ae2:sky_stone_block"),
+        item("oritech:energite_ingot"),
+        item("ae2:sky_stone_block"),
+        item("mysticalagriculture:tertium_ingot"),
+      ],
+      result: {
+        count: 1,
+        id: "mysticalagriculture:machine_frame",
+      },
+    })
+    .id("kubejs:infusion/machine_frame");
 
   mysticalagricultureShapedRecipes.forEach((recipe) => {
     event.shaped(recipe.output, recipe.pattern, recipe.keys);
