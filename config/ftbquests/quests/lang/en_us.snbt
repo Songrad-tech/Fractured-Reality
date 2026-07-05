@@ -5,6 +5,7 @@
 	chapter.1E627FF06E3DEFF1.title: "Prologue: A Fractured World"
 	chapter.2777DBBD34C022DB.title: "Age 4: Seeds of Eternity"
 	chapter.3ACA0646478CC055.title: "Verdant Abyss"
+	chapter.3C209F73768184BD.title: "Market"
 	chapter.46E470D55F809922.title: "Into the Darkness"
 	chapter.47BCA02B74AEAE70.title: "Age 2: Electric Age"
 	chapter.60E95EFFAAB07DD2.title: "Resource Generation"
@@ -26,7 +27,23 @@
 	quest.0205B9C94EB535DD.quest_desc: ["Soul Crystal Seeds grow concentrated spirit essence for the most demanding recipes."]
 	quest.0205B9C94EB535DD.quest_subtitle: "Cultivated Soul Crystal Essence"
 	quest.0205B9C94EB535DD.title: "Soul Crystal Seeds"
+	quest.028183CAF76216EB.quest_desc: [
+		"§7Copper Casings unlock Create's fluid and heat-adjacent machines.§r"
+		" "
+		"§fCraft one with copper sheets and stripped logs. Keep a few ready before building the next production line.§r"
+	]
+	quest.028183CAF76216EB.quest_subtitle: "A Warmer Frame"
+	quest.028183CAF76216EB.title: "Craft a Copper Casing"
 	quest.02FE952A15865F26.title: "Wooden Construction Stick"
+	quest.0329DD5F78FB3E0C.quest_desc: [
+		"§6A Blaze Burner is the heat source behind stronger mixing recipes.§r"
+		" "
+		"§fCraft an Empty Blaze Burner, then right-click a Blaze Spawner with it to capture the flame.§r"
+		" "
+		"§cBlaze Spawners are usually found in Nether Fortresses.§r"
+	]
+	quest.0329DD5F78FB3E0C.quest_subtitle: "Controlled Heat"
+	quest.0329DD5F78FB3E0C.title: "Capture a Blaze Burner"
 	quest.033F07AD47AC2AB2.title: "Linking Tool"
 	quest.03A760BECFFD5126.quest_desc: [
 		"The catacombs still have a guardian, and it has not forgotten its duty."
@@ -42,12 +59,21 @@
 	quest.06216B44D7EA3DA9.quest_desc: ["Warden Seeds are dangerous power made agricultural; harvest deep-dark strength with care."]
 	quest.06216B44D7EA3DA9.quest_subtitle: "Cultivated Warden Essence"
 	quest.06216B44D7EA3DA9.title: "Warden Seeds"
+	quest.06C81E9D90C778FC.quest_desc: [
+		"§7Andesite Casings turn simple alloy into a proper machine frame.§r"
+		" "
+		"§fUse Andesite Alloy on stripped logs. Most early Create contraptions will ask for these sooner than you expect.§r"
+	]
+	quest.06C81E9D90C778FC.quest_subtitle: "Machine Framing"
+	quest.06C81E9D90C778FC.title: "Craft an Andesite Casing"
 	quest.06D721CECB36C569.quest_desc: ["Zinc Seeds strengthen your alloy chain and reduce the pressure on mining veins."]
 	quest.06D721CECB36C569.quest_subtitle: "Cultivated Zinc Essence"
 	quest.06D721CECB36C569.title: "Zinc Seeds"
 	quest.06EBFFCFCE57218A.quest_desc: ["Glowstone Seeds bring bright Nether dust home for lighting and magical recipes."]
 	quest.06EBFFCFCE57218A.quest_subtitle: "Cultivated Glowstone Essence"
 	quest.06EBFFCFCE57218A.title: "Glowstone Seeds"
+	quest.0789D9872462D216.quest_desc: ["§fIt condenses your Crimsite exploration into the key needed for Iron resource generation.§r"]
+	quest.0789D9872462D216.quest_subtitle: "Custom Resource Core"
 	quest.0789D9872462D216.title: "Craft a Crimsite Core"
 	quest.0860B05992C8E356.title: "Diamond Glider"
 	quest.0A586098A85A17ED.title: "Essence of Calming"
@@ -61,6 +87,21 @@
 	quest.0D766B72F550F11A.quest_desc: ["Utherium Seeds cultivate alien Undergarden energy for stronger custom materials."]
 	quest.0D766B72F550F11A.quest_subtitle: "Cultivated Utherium Essence"
 	quest.0D766B72F550F11A.title: "Utherium Seeds"
+	quest.0DC9B4CBE1642B75.quest_desc: [
+		"§7The Andesite Core is the first real checkpoint of the Mechanical Age.§r"
+		" "
+		"§fOnce you can craft it, early automation opens up quickly: pressing, mixing, cutting, drilling, and deploying all begin here.§r"
+	]
+	quest.0DC9B4CBE1642B75.quest_subtitle: "First Mechanical Core"
+	quest.0DC9B4CBE1642B75.title: "Craft an Andesite Core"
+	quest.0E18DE2A29892903.quest_desc: [
+		"§6Challenge: prove that Iron is no longer only a mining trip.§r"
+		" "
+		"§fProduce or gather 256 Iron Ingots through your automated resource setup.§r"
+		" "
+		"§7A buffer drawer, chest, or storage system makes this much easier to validate cleanly.§r"
+	]
+	quest.0E18DE2A29892903.quest_subtitle: "Automation Check"
 	quest.0E18DE2A29892903.title: "Generate Iron"
 	quest.0F5AC97C67C06135.title: "Diamond Barrel"
 	quest.0FCAE2FFD1263B87.quest_desc: [
@@ -82,6 +123,13 @@
 	]
 	quest.1101CDC12DFDBAB4.quest_subtitle: "Fragments of the Warden"
 	quest.1101CDC12DFDBAB4.title: "Collect Warden Carapaces"
+	quest.1152D0121612345C.quest_desc: [
+		"§7The Mechanical Saw cuts logs, strips blocks, and becomes the heart of simple wood automation.§r"
+		" "
+		"§6Feed it rotation and use belts, depots, or chutes to move items through it.§r"
+	]
+	quest.1152D0121612345C.quest_subtitle: "Automated Cutting"
+	quest.1152D0121612345C.title: "Craft a Mechanical Saw"
 	quest.116B91C74588FDB0.quest_desc: [
 		"§7Raw wood is useful, but planks are where crafting truly begins.§r"
 		" "
@@ -89,6 +137,14 @@
 	]
 	quest.116B91C74588FDB0.quest_subtitle: "First Materials"
 	quest.116B91C74588FDB0.title: "Craft Planks"
+	quest.11AF2176193077FD.quest_desc: [
+		"§7Asurine is one of Create's decorative stone families, usually found through exploration and mining.§r"
+		" "
+		"§fGather 16 Asurine to prepare the custom core recipe tied to Zinc generation.§r"
+		" "
+		"&eThis part is intentionally exploration-first: find the resource, then automate the metal.&r"
+	]
+	quest.11AF2176193077FD.quest_subtitle: "Exploration Material"
 	quest.11AF2176193077FD.title: "Gather Asurine"
 	quest.125AEB10070AAA43.title: "Essence of Life"
 	quest.128BDDD7D750138C.quest_desc: [
@@ -135,8 +191,18 @@
 	]
 	quest.170949B81B466B83.quest_subtitle: "The Queen's Final Gift"
 	quest.170949B81B466B83.title: "Claim the Essence of the Bees"
+	quest.171622854563F784.quest_desc: [" §fIt turns your Asurine finds into the progression key for automated Zinc production.§r"]
+	quest.171622854563F784.quest_subtitle: "Custom Resource Core"
 	quest.171622854563F784.title: "Craft an Asurine Core"
 	quest.174458AA46110F36.title: "Gold Chest"
+	quest.17E242E6078451DA.quest_desc: [
+		"§6Brass carries Create from simple motion into smarter machines.§r"
+		" "
+		"§fMix copper and zinc in a Basin with a heated Blaze Burner underneath.§r"
+		"§r"
+	]
+	quest.17E242E6078451DA.quest_subtitle: "Precision Alloy"
+	quest.17E242E6078451DA.title: "Make Brass"
 	quest.1933418C96886DBE.quest_desc: [
 		"§7A simple table. Four planks. Endless possibilities.§r"
 		" "
@@ -144,6 +210,15 @@
 	]
 	quest.1933418C96886DBE.quest_subtitle: "A Place to Work"
 	quest.1933418C96886DBE.title: "Craft Crafting Table"
+	quest.1978519042E27DC9.quest_desc: [
+		"§6A Steam Engine turns heat and water into serious rotational force.§r"
+		" "
+		"§fPlace it on a valid fluid tank or boiler setup, supply water, and heat it with Blaze Burners.§r"
+		" "
+		"§7Use it when water wheels no longer carry the factory.§r"
+	]
+	quest.1978519042E27DC9.quest_subtitle: "Pressure Into Power"
+	quest.1978519042E27DC9.title: "Craft a Steam Engine"
 	quest.1ACED1A29208A092.title: "Diamond Upgrade"
 	quest.1B99B2431D1A5A72.quest_desc: [
 		"These desires focus on pollen, flowers, Honey Slimes, and injured bees."
@@ -175,10 +250,25 @@
 	quest.1EE754A8323EC5A7.quest_desc: ["Obsidian Seeds replace slow lava casting with a farmable volcanic essence."]
 	quest.1EE754A8323EC5A7.quest_subtitle: "Cultivated Obsidian Essence"
 	quest.1EE754A8323EC5A7.title: "Obsidian Seeds"
+	quest.206BFA709CBCAB2A.quest_desc: [
+		"§7The Hose Pulley moves large amounts of fluid and makes bulk collection far less painful.§r"
+		" "
+		"§fLower it into a fluid pool and connect pipes or tanks to pump the liquid in or out.§r"
+	]
+	quest.206BFA709CBCAB2A.quest_subtitle: "Fluid Handling"
+	quest.206BFA709CBCAB2A.title: "Craft a Hose Pulley"
 	quest.2084432E2840239D.quest_desc: ["Grow Wood Seeds so logs and timber crafts can come from your farm instead of another forest trip."]
 	quest.2084432E2840239D.quest_subtitle: "Cultivated Wood Essence"
 	quest.2084432E2840239D.title: "Wood Seeds"
-	quest.20CECAECE7438D7F.title: "The First Rotation"
+	quest.20CECAECE7438D7F.quest_desc: [
+		"§7Create needs rotation before it can do anything clever.§r"
+		" "
+		"§fBuild a Water Wheel, Large Water Wheel, or Windmill Bearing to start moving shafts.§r"
+		" "
+		"§6Shafts, cogwheels, and gearboxes will carry that power into your machines.§r"
+	]
+	quest.20CECAECE7438D7F.quest_subtitle: "First Rotation"
+	quest.20CECAECE7438D7F.title: "Create Rotational Power"
 	quest.21800CB9411472AE.quest_desc: ["Sheep Seeds keep wool and mutton resources available without constant shearing rounds."]
 	quest.21800CB9411472AE.quest_subtitle: "Cultivated Sheep Essence"
 	quest.21800CB9411472AE.title: "Sheep Seeds"
@@ -194,6 +284,23 @@
 	quest.248863E10972CDFC.quest_desc: ["End Seeds bring distant dimension materials into your late-game garden."]
 	quest.248863E10972CDFC.quest_subtitle: "Cultivated End Essence"
 	quest.248863E10972CDFC.title: "End Seeds"
+	quest.25A8683648E2B093.quest_desc: [
+		"§7The Deployer repeats right-click actions for you.§r"
+		" "
+		"§fGive it rotation, place an item in its filter or hand, and let it click for you.§r"
+		" "
+		"§6It is quietly one of the most useful early machines.§r"
+	]
+	quest.25A8683648E2B093.quest_subtitle: "Hands-Free Work"
+	quest.25A8683648E2B093.title: "Craft a Deployer"
+	quest.25B4817CC7F9D6A1.quest_desc: [
+		"§6Challenge: Nickel should now come from your resource generator, not only from ore veins.§r"
+		" "
+		"§fProduce or gather 256 Nickel Ingots to prove the Viridite line is working.§r"
+		" "
+		"§7Let the system run, then collect from storage instead of babysitting every craft.§r"
+	]
+	quest.25B4817CC7F9D6A1.quest_subtitle: "Automation Check"
 	quest.25B4817CC7F9D6A1.title: "Generate Nickel"
 	quest.279FA5A90AA0D5BC.quest_desc: ["Sky Stone Seeds turn meteor hunting into a controlled Applied Energistics resource."]
 	quest.279FA5A90AA0D5BC.quest_subtitle: "Cultivated Sky Stone Essence"
@@ -226,11 +333,29 @@
 	quest.2BA0235D2DDDA051.quest_subtitle: "First Alloy"
 	quest.2BA0235D2DDDA051.title: "Make Cloggrum"
 	quest.2C60767BD295F11B.title: "Gold Barrel"
+	quest.2CD0C913394EB5AE.quest_desc: ["§fUse the Viridite you gathered to unlock the Nickel generation path.§r"]
+	quest.2CD0C913394EB5AE.quest_subtitle: "Custom Resource Core"
 	quest.2CD0C913394EB5AE.title: "Craft a Viridite Core"
+	quest.2D4F692D91D9AD14.quest_desc: [
+		"§7Ochrum is a Create stone type found while exploring and mining the world.§r"
+		" "
+		"§fGather 16 Ochrum before turning it into a custom core for Gold generation.§r"
+		" "
+		"§eNatural patches are the intended early route; automation comes after the core.§r"
+	]
+	quest.2D4F692D91D9AD14.quest_subtitle: "Exploration Material"
 	quest.2D4F692D91D9AD14.title: "Gather Ochrum"
 	quest.2D5F80A90CCA1579.quest_desc: ["Netherite Seeds are a top-tier reward for pushing essence farming into true endgame metals."]
 	quest.2D5F80A90CCA1579.quest_subtitle: "Cultivated Netherite Essence"
 	quest.2D5F80A90CCA1579.title: "Netherite Seeds"
+	quest.2E40399441207208.quest_desc: [
+		"§6Challenge: Copper should now be a renewable factory output.§r"
+		" "
+		"§fProduce or gather 256 Copper Ingots through your automated resource setup.§r"
+		" "
+		"§7This is where early mining starts turning into planned production.§r"
+	]
+	quest.2E40399441207208.quest_subtitle: "Automation Check"
 	quest.2E40399441207208.title: "Generate Copper"
 	quest.2E78830BD103CB57.quest_desc: ["Emerald Seeds make trading currency and green gem recipes far easier to sustain."]
 	quest.2E78830BD103CB57.quest_subtitle: "Cultivated Emerald Essence"
@@ -284,19 +409,66 @@
 	quest.37A9D826BB297B64.quest_desc: ["Rogdorium Seeds secure a custom metal line before advanced recipes demand stacks of it."]
 	quest.37A9D826BB297B64.quest_subtitle: "Cultivated Rogdorium Essence"
 	quest.37A9D826BB297B64.title: "Rogdorium Seeds"
+	quest.37AD46973FE4076D.quest_desc: [
+		"§7Mechanical Arms route items between depots, belts, and inventories with careful targeting.§r"
+		" "
+		"§fRight-click valid pickup and deposit points while placing or configuring the arm.§r"
+		" "
+		"§6They shine once your factory needs decisions, not just motion.§r"
+	]
+	quest.37AD46973FE4076D.quest_subtitle: "Directed Logistics"
+	quest.37AD46973FE4076D.title: "Craft a Mechanical Arm"
+	quest.3A3FDB2C0738518C.quest_desc: [
+		"§7Your machines are now strong enough to do more than process what you mine by hand.§r"
+		" "
+		"§fResource Generation lets you automate common materials so you can build, craft, and progress without returning to the caves every few minutes.§r"
+		" "
+		"§6Start by exploring for the stone resources used in the pack's custom cores.§r"
+	]
+	quest.3A3FDB2C0738518C.quest_subtitle: "Mine Less, Build More"
 	quest.3A3FDB2C0738518C.title: "Begin Resource Generation"
 	quest.3A60A19D449B06E5.quest_desc: ["Blaze Seeds keep rods and powder flowing without another fortress farming trip."]
 	quest.3A60A19D449B06E5.quest_subtitle: "Cultivated Blaze Essence"
 	quest.3A60A19D449B06E5.title: "Blaze Seeds"
+	quest.3A7A7F0160A7E9A4.quest_desc: [
+		"§6Challenge: Zinc is one of Create's most important metals, so automating it pays off quickly.§r"
+		" "
+		"§fProduce or gather 256 Zinc Ingots to validate the Asurine generation line.§r"
+		" "
+		"§7Once this runs on its own, Andesite Alloy and Brass become much easier to sustain.§r"
+	]
+	quest.3A7A7F0160A7E9A4.quest_subtitle: "Automation Check"
 	quest.3A7A7F0160A7E9A4.title: "Generate Zinc"
 	quest.3AB7518A0232F39C.title: "Netherite Barrel"
 	quest.3BBF7D4ABB5C285F.title: "Essence of Radiance"
 	quest.3CA6E03A937B5C2F.quest_desc: ["Platinum Seeds secure precious industrial essence for expensive late-game crafts."]
 	quest.3CA6E03A937B5C2F.quest_subtitle: "Cultivated Platinum Essence"
 	quest.3CA6E03A937B5C2F.title: "Platinum Seeds"
+	quest.3E58E0FB809F3BD9.quest_desc: [
+		"Nether Star Seeds are an endgame crop for turning Wither power into a slow but renewable essence line."
+		" "
+		"Nine Nether Star Essence craft one Quarter Star, and four Quarter Stars can be assembled into a Nether Star."
+	]
+	quest.3E58E0FB809F3BD9.quest_subtitle: "A Star Grown From Essence"
+	quest.3E58E0FB809F3BD9.title: "Nether Star Seeds"
+	quest.3E7246FF565DE837.quest_desc: [
+		"§7The Spout fills items with fluids, unlocking compact fluid crafting lines and many custom recipes.§r"
+		" "
+		"§fConnect a pipe or tank above it, then pass items underneath on a Depot or Belt.§r"
+	]
+	quest.3E7246FF565DE837.quest_subtitle: "Fluid Application"
+	quest.3E7246FF565DE837.title: "Craft a Spout"
 	quest.3EC6888629E95574.quest_desc: ["Redstone Seeds keep circuits, machines, and automation logic supplied from the field."]
 	quest.3EC6888629E95574.quest_subtitle: "Cultivated Redstone Essence"
 	quest.3EC6888629E95574.title: "Redstone Seeds"
+	quest.3EFEC4006AB93CCC.quest_desc: [
+		"§7Veridium is another Create stone resource found through exploration and mining.§r"
+		" "
+		"§fGather 16 Veridium to prepare the custom core linked to Copper generation.§r"
+		" "
+		"§eExplore caves and stone layers first; the automation reward comes after this setup step.§r"
+	]
+	quest.3EFEC4006AB93CCC.quest_subtitle: "Exploration Material"
 	quest.3EFEC4006AB93CCC.title: "Gather Veridium"
 	quest.3F48FE9761B27155.quest_desc: ["Enderman Seeds make pearls and End resources predictable instead of luck-based."]
 	quest.3F48FE9761B27155.quest_subtitle: "Cultivated Enderman Essence"
@@ -329,6 +501,15 @@
 	quest.41CA701E6DC76F37.quest_subtitle: "Cultivated Brass Essence"
 	quest.41CA701E6DC76F37.title: "Brass Seeds"
 	quest.421B58874D9E154B.title: "Compacting Drawer"
+	quest.422CEE61A723A33E.quest_desc: [
+		"§7The Mechanical Press flattens, stamps, and shapes materials.§r"
+		" "
+		"§fPlace items on a Depot, Belt, or Basin under the press and feed it rotation from the side.§r"
+		" "
+		"§6This is one of the first machines worth automating cleanly.§r"
+	]
+	quest.422CEE61A723A33E.quest_subtitle: "Pressed Parts"
+	quest.422CEE61A723A33E.title: "Craft a Mechanical Press"
 	quest.4242965A13D79C42.quest_desc: [
 		"The Heart of the Deep opens a way into the Otherside."
 		" "
@@ -350,9 +531,25 @@
 	quest.449B86794FC6FCE9.quest_desc: ["Fish Seeds bring aquatic drops to land, useful when recipes ask for ocean resources."]
 	quest.449B86794FC6FCE9.quest_subtitle: "Cultivated Fish Essence"
 	quest.449B86794FC6FCE9.title: "Fish Seeds"
+	quest.44BAE70AE87741B8.quest_desc: [
+		"§6Brass Casings give advanced Create machines the frame they need.§r"
+		" "
+		"§fUse Brass on stripped logs, just like the earlier casing recipes.§r"
+		" "
+		"§7This is where your factory starts becoming less improvised.§r"
+	]
+	quest.44BAE70AE87741B8.quest_subtitle: "Advanced Framing"
+	quest.44BAE70AE87741B8.title: "Craft a Brass Casing"
 	quest.45739EFF174B971C.quest_desc: ["Slime Seeds make sticky crafting materials renewable without hunting swamps or caves."]
 	quest.45739EFF174B971C.quest_subtitle: "Cultivated Slime Essence"
 	quest.45739EFF174B971C.title: "Slime Seeds"
+	quest.459A613EBCC07CF4.quest_desc: [
+		"§6The Copper Core marks the heated middle of the Mechanical Age.§r"
+		" "
+		"§fWith it, fluid handling, heat, and stronger processing become reliable tools instead of experiments.§r"
+	]
+	quest.459A613EBCC07CF4.quest_subtitle: "Heated Machinery"
+	quest.459A613EBCC07CF4.title: "Craft a Copper Core"
 	quest.467A80382231A9C6.quest_desc: [
 		"§fWelcome, traveler.§r"
 		" "
@@ -382,6 +579,14 @@
 	quest.47901AF510FE12FC.quest_desc: ["Armadillo Seeds preserve scute-related resources in a compact magical crop."]
 	quest.47901AF510FE12FC.quest_subtitle: "Cultivated Armadillo Essence"
 	quest.47901AF510FE12FC.title: "Armadillo Seeds"
+	quest.47BE189106F666DD.quest_desc: [
+		"§6Challenge: Gold is expensive in machines, logistics, and powered crafting.§r"
+		" "
+		"§fProduce or gather 256 Gold Ingots through your automated resource setup.§r"
+		" "
+		"§7If this takes a while, that is fine: the point is to let the system work for you.§r"
+	]
+	quest.47BE189106F666DD.quest_subtitle: "Automation Check"
 	quest.47BE189106F666DD.title: "Generate Gold"
 	quest.47F92CA7E0294DDA.quest_desc: [
 		"Begin with the desires centered on caring for bees and their home."
@@ -409,6 +614,13 @@
 	quest.49AC2693809C5238.quest_desc: ["Limestone Seeds make decorative and processing stone available without quarry detours."]
 	quest.49AC2693809C5238.quest_subtitle: "Cultivated Limestone Essence"
 	quest.49AC2693809C5238.title: "Limestone Seeds"
+	quest.49E35A1F78D77ED9.quest_desc: [
+		"§7The Elevator Pulley gives vertical movement a proper mechanical answer.§r"
+		" "
+		"§fAttach a platform below it, provide rotation, and let your base move between floors properly.§r"
+	]
+	quest.49E35A1F78D77ED9.quest_subtitle: "Vertical Motion"
+	quest.49E35A1F78D77ED9.title: "Craft an Elevator Pulley"
 	quest.4A8BD7AA0C2B41E6.title: "Iron Glider"
 	quest.4AAD20A54D5CA614.quest_desc: [
 		"Rogdorium is a rare crystal infused with the strange energy of the Undergarden."
@@ -417,6 +629,13 @@
 	]
 	quest.4AAD20A54D5CA614.quest_subtitle: "Crystal of the Depths"
 	quest.4AAD20A54D5CA614.title: "Obtain Rogdorium"
+	quest.4B647320ACF3A334.quest_desc: [
+		"§6The Rotation Speed Controller lets you tune machines without rebuilding the whole power line.§r"
+		" "
+		"§fUse it when a machine needs more speed, less speed, or a cleaner stress network.§r"
+	]
+	quest.4B647320ACF3A334.quest_subtitle: "Controlled Speed"
+	quest.4B647320ACF3A334.title: "Craft a Speed Controller"
 	quest.4B94CEBFFEF5D196.title: "Iron Backpack"
 	quest.4BD509205B526E8C.quest_desc: [
 		"The Undergarden's catacombs are old, hostile, and worth searching."
@@ -462,6 +681,13 @@
 	quest.4EBF77C1E4DA7981.quest_subtitle: "Living Decay"
 	quest.4EBF77C1E4DA7981.title: "Defeat a Sludge"
 	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
+	quest.50DDF2BE419D5CD8.quest_desc: [
+		"§7Encased Fans push air through blocks and materials.§r"
+		" "
+		"§fPut water, lava, fire, or soul fire in front of the airflow to enable washing, blasting, smoking, or haunting recipes.§r"
+	]
+	quest.50DDF2BE419D5CD8.quest_subtitle: "Useful Airflow"
+	quest.50DDF2BE419D5CD8.title: "Craft an Encased Fan"
 	quest.512BB2F6A1757B62.quest_desc: ["Certus Quartz Seeds keep Applied Energistics growth steady once networks begin expanding."]
 	quest.512BB2F6A1757B62.quest_subtitle: "Cultivated Certus Quartz Essence"
 	quest.512BB2F6A1757B62.title: "Certus Quartz Seeds"
@@ -501,6 +727,14 @@
 	]
 	quest.54C14057FC31C6DF.quest_subtitle: "Deep Resonance"
 	quest.54C14057FC31C6DF.title: "Find Resonarium"
+	quest.54FDC770499D6560.quest_desc: [
+		"§7Crimsite is a Create stone resource discovered while exploring and mining.§r"
+		" "
+		"§fGather 16 Crimsite to prepare the custom core tied to Iron generation.§r"
+		" "
+		"§eThis part is intentionally exploration-first: find the resource, then automate the metal.§r"
+	]
+	quest.54FDC770499D6560.quest_subtitle: "Exploration Material"
 	quest.54FDC770499D6560.title: "Gather Crimsite"
 	quest.55FF126D92F7E1EE.title: "Storage Controller"
 	quest.5679AB2B6AF7FA6F.title: "Copper Construction Stick"
@@ -524,6 +758,13 @@
 	]
 	quest.58BE26650A0440F6.quest_subtitle: "Portal Key"
 	quest.58BE26650A0440F6.title: "Obtain a Catalyst"
+	quest.5B4350BB46637173.quest_desc: [
+		"§7The Mechanical Drill breaks blocks for you.§r"
+		" "
+		"§fGive it rotation and place blocks in front of its head. Mount it on contraptions when you are ready for mobile mining.§r"
+	]
+	quest.5B4350BB46637173.quest_subtitle: "Powered Breaking"
+	quest.5B4350BB46637173.title: "Craft a Mechanical Drill"
 	quest.5C0F21A11B1611E1.quest_desc: ["Let Stone Seeds cover the constant need for cobble, stone, and early building essence."]
 	quest.5C0F21A11B1611E1.quest_subtitle: "Cultivated Stone Essence"
 	quest.5C0F21A11B1611E1.title: "Stone Seeds"
@@ -533,7 +774,21 @@
 	quest.5D8FC161AF681FD4.quest_desc: ["Turtle Seeds carry slow coastal resources into your controlled farm network."]
 	quest.5D8FC161AF681FD4.quest_subtitle: "Cultivated Turtle Essence"
 	quest.5D8FC161AF681FD4.title: "Turtle Seeds"
+	quest.5E4130136133654B.quest_desc: [
+		"§7The Item Drain removes fluids from items and supports tidy fluid loops for later automation.§r"
+		" "
+		"§fDrop filled containers onto it or pass them across with belts to empty them into connected tanks or pipes.§r"
+	]
+	quest.5E4130136133654B.quest_subtitle: "Drained Clean"
+	quest.5E4130136133654B.title: "Craft an Item Drain"
 	quest.6015EDC54A6BCEC0.title: "Drawer"
+	quest.6048F41AC1218BF5.quest_desc: [
+		"§6The Brass Core is the major capstone for advanced Create machinery.§r"
+		" "
+		"§fOnce this is stable, complex automation becomes much easier to justify: arms, speed control, observers, and automated assembly all open up.§r"
+	]
+	quest.6048F41AC1218BF5.quest_subtitle: "Advanced Mechanical Core"
+	quest.6048F41AC1218BF5.title: "Craft a Brass Core"
 	quest.60CFD33DF18A59CC.quest_desc: ["Lapis Lazuli Seeds support enchanting, dyes, and blue-tier crafting without ore runs."]
 	quest.60CFD33DF18A59CC.quest_subtitle: "Cultivated Lapis Lazuli Essence"
 	quest.60CFD33DF18A59CC.title: "Lapis Lazuli Seeds"
@@ -554,6 +809,15 @@
 		"§cDo not rely entirely on vanilla progression knowledge.§r"
 	]
 	quest.62006D27C12C3402.title: "JEI is Your Best Friend"
+	quest.629860E916A8B1F7.quest_desc: [
+		"§6Mechanical Crafters assemble recipes too large or too awkward for a normal crafting grid.§r"
+		" "
+		"§fPlace them in the shape of the recipe, set the arrows toward an output, and power the network with rotation.§r"
+		" "
+		"§eUse a Wrench to rotate the crafter arrows.§r"
+	]
+	quest.629860E916A8B1F7.quest_subtitle: "Automated Assembly"
+	quest.629860E916A8B1F7.title: "Craft Mechanical Crafters"
 	quest.62F5592C52CD8821.quest_desc: [
 		"The Undergarden is not just another cave. It is a whole dimension beneath the world you know."
 		" "
@@ -582,6 +846,15 @@
 	quest.650DC2E21CA320A1.quest_desc: ["Spider Seeds weave string and spider drops into your crop network."]
 	quest.650DC2E21CA320A1.quest_subtitle: "Cultivated Spider Essence"
 	quest.650DC2E21CA320A1.title: "Spider Seeds"
+	quest.65194B1780617E2D.quest_desc: [
+		"§6The Alternator converts Create rotation into electrical progress.§r"
+		" "
+		"§fConnect it to your rotational network and prepare the bridge into the Electric Age.§r"
+		" "
+		"§eThis is the handoff point: your factory is learning a new language.§r"
+	]
+	quest.65194B1780617E2D.quest_subtitle: "Rotation Becomes Power"
+	quest.65194B1780617E2D.title: "Craft an Alternator"
 	quest.6523137544744B69.title: "Obsidian Chest"
 	quest.657DCCCCD3FE615E.quest_desc: ["Copper Seeds make pipes, coils, and early machine parts easier to mass produce."]
 	quest.657DCCCCD3FE615E.quest_subtitle: "Cultivated Copper Essence"
@@ -616,6 +889,28 @@
 	]
 	quest.6AD41FA37188492D.quest_subtitle: "Every Desire Fulfilled"
 	quest.6AD41FA37188492D.title: "Reach Journey's End"
+	quest.6B7EC1E71863906F.quest_desc: [
+		"§6The Wrench is Create's best quality-of-life tool.§r"
+		" "
+		"§fUse it to rotate, configure, pick up, and clean up Create blocks without rebuilding everything by hand.§r"
+	]
+	quest.6B7EC1E71863906F.quest_subtitle: "Factory Tuning"
+	quest.6B7EC1E71863906F.title: "Craft a Wrench"
+	quest.6BA09360A88A9072.quest_desc: [
+		"§7The Content Observer reads inventories and signals when conditions are met.§r"
+		" "
+		"§fPoint it at a container, belt, or depot and use the signal to control smarter automation.§r"
+	]
+	quest.6BA09360A88A9072.quest_subtitle: "Watchful Automation"
+	quest.6BA09360A88A9072.title: "Craft a Content Observer"
+	quest.6BB174B968379666.quest_desc: [
+		"§7Viridite is a custom material for this pack, used to begin one branch of resource generation.§r"
+		" "
+		"§fGather 16 Viridite while exploring, then use it to craft its matching core.§r"
+		" "
+		"§eThe early step is discovery; the reward is not having to repeat that mining forever.§r"
+	]
+	quest.6BB174B968379666.quest_subtitle: "Exploration Material"
 	quest.6BB174B968379666.title: "Gather Viridite"
 	quest.6C74B0300D2159A6.quest_desc: [
 		"Something is hunting through the silence of the Otherside."
@@ -652,6 +947,13 @@
 	quest.717A0D8EDE87A2DF.quest_desc: ["Stabilize your first fields with Earth Seeds, turning basic soil work into a steady essence source."]
 	quest.717A0D8EDE87A2DF.quest_subtitle: "Cultivated Earth Essence"
 	quest.717A0D8EDE87A2DF.title: "Earth Seeds"
+	quest.72033845D8A91608.quest_desc: [
+		"§6Engineer's Goggles reveal stress, speed, and machine details that are otherwise easy to miss.§r"
+		" "
+		"§fWear them while looking at Create machines to understand why a setup is slow, overstressed, or disconnected.§r"
+	]
+	quest.72033845D8A91608.quest_subtitle: "Read the Machines"
+	quest.72033845D8A91608.title: "Craft Engineer's Goggles"
 	quest.72A610C3E3B1C7AE.quest_desc: ["Nature Seeds gather plant life into one crop, smoothing out dye, leaf, and organic recipes."]
 	quest.72A610C3E3B1C7AE.quest_subtitle: "Cultivated Nature Essence"
 	quest.72A610C3E3B1C7AE.title: "Nature Seeds"
@@ -685,6 +987,8 @@
 	]
 	quest.790A807983D217D9.quest_subtitle: "Doorway to the Otherside"
 	quest.790A807983D217D9.title: "Obtain the Heart of the Deep"
+	quest.7981CF7164F5B951.quest_desc: ["§fIt focuses your Ochrum exploration into the progression key for automated Gold production.§r"]
+	quest.7981CF7164F5B951.quest_subtitle: "Custom Resource Core"
 	quest.7981CF7164F5B951.title: "Craft an Ochrum Core"
 	quest.7985206082FEEE58.quest_desc: ["Uranium Seeds turn high-energy materials into a planned farming project."]
 	quest.7985206082FEEE58.quest_subtitle: "Cultivated Uranium Essence"
@@ -708,6 +1012,8 @@
 	quest.7E35B188166E3ED9.quest_desc: ["Wildfire Seeds bottle a hotter flame for recipes beyond ordinary blaze power."]
 	quest.7E35B188166E3ED9.quest_subtitle: "Cultivated Wildfire Essence"
 	quest.7E35B188166E3ED9.title: "Wildfire Seeds"
+	quest.7E5877B8D86682A1.quest_desc: ["§fUse it to turn your Veridium exploration into automated Copper production.§r"]
+	quest.7E5877B8D86682A1.quest_subtitle: "Custom Resource Core"
 	quest.7E5877B8D86682A1.title: "Craft a Veridium Core"
 	quest.7E5CC25A25302918.quest_desc: ["Regalium Seeds grow royal Undergarden metal essence for later progression gates."]
 	quest.7E5CC25A25302918.quest_subtitle: "Cultivated Regalium Essence"
@@ -729,6 +1035,15 @@
 	]
 	quest.7F3839D206AED8BA.quest_subtitle: "Recovered Metal"
 	quest.7F3839D206AED8BA.title: "Obtain a Forgotten Ingot"
+	quest.7FBE21826CC65EEB.quest_desc: [
+		"§7The Mechanical Mixer combines ingredients with rotational force.§r"
+		" "
+		"§fPlace it above a Basin, feed items or fluids into the Basin, and power the mixer from above or the side.§r"
+		" "
+		"§6Some recipes need heat from a Blaze Burner underneath.§r"
+	]
+	quest.7FBE21826CC65EEB.quest_subtitle: "Basin Processing"
+	quest.7FBE21826CC65EEB.title: "Craft a Mechanical Mixer"
 	quest.7FD9E439525F1203.quest_desc: [
 		"Craft an Ancient Compass with a normal compass surrounded by four Warden Carapaces."
 		" "
@@ -843,13 +1158,6 @@
 	]
 	quest.F1B74DE9725240D1.quest_subtitle: "Shattered Emotions"
 	quest.F1B74DE9725240D1.title: "Break the Overcast Pots"
-	quest.3E58E0FB809F3BD9.quest_desc: [
-		"Nether Star Seeds are an endgame crop for turning Wither power into a slow but renewable essence line."
-		" "
-		"Nine Nether Star Essence craft one Quarter Star, and four Quarter Stars can be assembled into a Nether Star."
-	]
-	quest.3E58E0FB809F3BD9.quest_subtitle: "A Star Grown From Essence"
-	quest.3E58E0FB809F3BD9.title: "Nether Star Seeds"
 	task.0E65D18F4C1C713D.title: "Any #c:ores/zinc"
 	task.10B1D3F62030CB9B.title: "Any #minecraft:logs"
 	task.1C47A13DFFFDD8C5.title: "Useful Tips"

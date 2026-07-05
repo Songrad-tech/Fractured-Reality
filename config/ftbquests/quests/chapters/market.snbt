@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market"
+	group: ""
+	icon: {
+		id: "kubejs:fractured_coin"
+	}
+	id: "3C209F73768184BD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}
