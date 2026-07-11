@@ -1,4 +1,68 @@
+const DataComponents = Java.loadClass(
+  "net.minecraft.core.component.DataComponents",
+);
+const ArmorItemType = Java.loadClass("net.minecraft.world.item.ArmorItem$Type");
+const HashMap = Java.loadClass("java.util.HashMap");
+const Rarity = Java.loadClass("net.minecraft.world.item.Rarity");
+const Unbreakable = Java.loadClass(
+  "net.minecraft.world.item.component.Unbreakable",
+);
+
+const FRACTURED_UNBREAKABLE = new Unbreakable(false);
+const FRACTURED_RARITY_TAG = "fractured_reality:rarity/fractured";
+const FRACTURED_GEAR_TAG = "fractured_reality:gear/fractured";
+
+const fracturedGlitch = () => Text.of("x").color("#52fff6").obfuscated(true);
+const fracturedName = (name) =>
+  Text.of("")
+    .append(fracturedGlitch())
+    .append(Text.of(" "))
+    .append(Text.of(name).color("#ff4dff"))
+    .append(Text.of(" "))
+    .append(fracturedGlitch())
+    .italic(false);
+
+const applyFracturedName = (builder, name) =>
+  builder
+    .formattedDisplayName(fracturedName(name))
+    .component(DataComponents.ITEM_NAME, fracturedName(name));
+
+ItemEvents.toolTierRegistry((event) => {
+  event.addBasedOnExisting("fractured", "netherite", (tier) => {
+    tier.setUses(2147483647);
+    tier.setSpeed(90);
+    tier.setAttackDamageBonus(40);
+    tier.setEnchantmentValue(30);
+  });
+});
+
+StartupEvents.registry("armor_material", (event) => {
+  const defense = new HashMap();
+  defense.put(ArmorItemType.BOOTS, 16);
+  defense.put(ArmorItemType.LEGGINGS, 20);
+  defense.put(ArmorItemType.CHESTPLATE, 24);
+  defense.put(ArmorItemType.HELMET, 12);
+
+  event
+    .create("fractured")
+    .defense(defense)
+    .enchantmentValue(30)
+    .toughness(12)
+    .knockbackResistance(1);
+});
+
 StartupEvents.registry("item", (event) => {
+  const fracturedArmor = (id, type, name) =>
+    applyFracturedName(event.create(id, type), name)
+      .material("kubejs:fractured")
+      .component(DataComponents.UNBREAKABLE, FRACTURED_UNBREAKABLE)
+      .rarity(Rarity.EPIC)
+      .glow(true)
+      .fireResistant()
+      .tag(FRACTURED_RARITY_TAG)
+      .tag(FRACTURED_GEAR_TAG)
+      .maxStackSize(1);
+
   event.create("create:drill_head");
   event.create("create:saw_blade");
 
@@ -91,4 +155,23 @@ StartupEvents.registry("item", (event) => {
     .create("incomplete_fractured_ingot")
     .texture("fractured_reality:item/incomplete_fractured_ingot")
     .tag("c:hidden_from_recipe_viewers");
+
+  event
+    .create("fractured_shovel", "shovel")
+    .formattedDisplayName(fracturedName("Fractured Shovel"))
+    .component(DataComponents.ITEM_NAME, fracturedName("Fractured Shovel"))
+    .parentModel("fractured_reality:item/fractured_shovel")
+    .tier("fractured")
+    .component(DataComponents.UNBREAKABLE, FRACTURED_UNBREAKABLE)
+    .rarity(Rarity.EPIC)
+    .glow(true)
+    .fireResistant()
+    .tag(FRACTURED_RARITY_TAG)
+    .tag(FRACTURED_GEAR_TAG)
+    .maxStackSize(1);
+
+  fracturedArmor("fractured_helmet", "helmet", "Fractured Helmet");
+  fracturedArmor("fractured_chestplate", "chestplate", "Fractured Chestplate");
+  fracturedArmor("fractured_leggings", "leggings", "Fractured Leggings");
+  fracturedArmor("fractured_boots", "boots", "Fractured Boots");
 });
