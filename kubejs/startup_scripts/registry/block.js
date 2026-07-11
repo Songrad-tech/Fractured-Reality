@@ -112,6 +112,17 @@ StartupEvents.registry("block", (event) => {
     .resistance(5)
     .tagBlock("minecraft:mineable/pickaxe");
 
+  event
+    .create("nether_star_block")
+    .displayName("Nether Star Block")
+    .soundType("amethyst")
+    .requiresTool(true)
+    .hardness(5)
+    .resistance(1200)
+    .tagBlock("minecraft:mineable/pickaxe")
+    .tagBlock("minecraft:needs_diamond_tool")
+    .tagBlock("minecraft:beacon_base_blocks");
+
   const fracturedBlocks = [
     {
       id: "fractured_stone",

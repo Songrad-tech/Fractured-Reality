@@ -183,4 +183,80 @@ ServerEvents.recipes((event) => {
       ],
     })
     .id("kubjs:crushing/tuff");
+
+  const royalJellyMixing = (honeyFluid, id) => {
+    event
+      .custom({
+        type: "create:mixing",
+        heat_requirement: "superheated",
+        ingredients: [
+          {
+            type: "neoforge:single",
+            amount: 1000,
+            fluid: honeyFluid,
+          },
+          {
+            type: "neoforge:single",
+            amount: 250,
+            fluid: "kubejs:fractured_essence",
+          },
+        ],
+        results: [
+          {
+            amount: 1000,
+            id: "the_bumblezone:royal_jelly_fluid_still",
+          },
+        ],
+      })
+      .id(id);
+  };
+
+  royalJellyMixing(
+    "the_bumblezone:honey_fluid_still",
+    "kubejs:create/mixing/royal_jelly_from_bumblezone_honey",
+  );
+
+  royalJellyMixing(
+    "create:honey",
+    "kubejs:create/mixing/royal_jelly_from_create_honey",
+  );
+
+  event
+    .custom({
+      type: "create:compacting",
+      ingredients: [
+        {
+          type: "neoforge:single",
+          amount: 1000,
+          fluid: "the_bumblezone:royal_jelly_fluid_still",
+        },
+      ],
+      results: [
+        {
+          id: "the_bumblezone:royal_jelly_block",
+        },
+      ],
+    })
+    .id("kubejs:create/compacting/royal_jelly_block");
+
+  event
+    .custom({
+      type: "create:filling",
+      ingredients: [
+        {
+          item: "minecraft:glass_bottle",
+        },
+        {
+          type: "neoforge:single",
+          amount: 250,
+          fluid: "the_bumblezone:royal_jelly_fluid_still",
+        },
+      ],
+      results: [
+        {
+          id: "the_bumblezone:royal_jelly_bottle",
+        },
+      ],
+    })
+    .id("kubejs:create/filling/royal_jelly_bottle");
 });
