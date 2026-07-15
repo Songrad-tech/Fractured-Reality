@@ -1,11 +1,4 @@
 const FRACTURED_FLIGHT_KEY = "fractured_reality.flight";
-const FRACTURED_ARMOR = [
-  "kubejs:fractured_boots",
-  "kubejs:fractured_leggings",
-  "kubejs:fractured_chestplate",
-  "kubejs:fractured_helmet",
-];
-
 const FRACTURED_FIRE_DAMAGE_TYPES = [
   "minecraft:in_fire",
   "minecraft:on_fire",
@@ -13,25 +6,24 @@ const FRACTURED_FIRE_DAMAGE_TYPES = [
   "minecraft:hot_floor",
 ];
 
-const hasFracturedArmorPiece = (player, slot, item) =>
-  player.getInventory().getArmor(slot).id === item;
+const FRACTURED_FIRE_DAMAGE_TYPE_LOOKUP = {};
+FRACTURED_FIRE_DAMAGE_TYPES.forEach((type) => {
+  FRACTURED_FIRE_DAMAGE_TYPE_LOOKUP[type] = true;
+});
 
-const hasFracturedBoots = (player) =>
-  hasFracturedArmorPiece(player, 0, "kubejs:fractured_boots");
-
-const hasFracturedHelmet = (player) =>
-  hasFracturedArmorPiece(player, 3, "kubejs:fractured_helmet");
-
-const hasFullFracturedArmor = (player) => {
+const getFracturedArmorState = (player) => {
   const inventory = player.getInventory();
+  const boots = inventory.getArmor(0).id === "kubejs:fractured_boots";
+  const leggings = inventory.getArmor(1).id === "kubejs:fractured_leggings";
+  const chestplate = inventory.getArmor(2).id === "kubejs:fractured_chestplate";
+  const helmet = inventory.getArmor(3).id === "kubejs:fractured_helmet";
 
-  for (let slot = 0; slot < FRACTURED_ARMOR.length; slot++) {
-    if (inventory.getArmor(slot).id !== FRACTURED_ARMOR[slot]) {
-      return false;
-    }
-  }
-
-  return true;
+  return {
+    boots: boots,
+    leggings: leggings,
+    helmet: helmet,
+    fullSet: boots && leggings && chestplate && helmet,
+  };
 };
 
 const setFracturedFlight = (player, enabled) => {
@@ -43,10 +35,19 @@ const setFracturedFlight = (player, enabled) => {
   const abilities = player.getAbilities();
   const wasEnabled = player.persistentData.getBoolean(FRACTURED_FLIGHT_KEY);
 
-  if (enabled && !wasEnabled) {
-    abilities.mayfly = true;
+  if (enabled) {
+    const needsAbilityUpdate = !wasEnabled || !abilities.mayfly;
+
+    if (!abilities.mayfly) {
+      abilities.mayfly = true;
+    }
+
     player.persistentData.putBoolean(FRACTURED_FLIGHT_KEY, true);
-    player.onUpdateAbilities();
+
+    if (needsAbilityUpdate) {
+      player.onUpdateAbilities();
+    }
+
     return;
   }
 
@@ -58,19 +59,33 @@ const setFracturedFlight = (player, enabled) => {
   }
 };
 
-const applyFracturedEffects = (player, fullSet) => {
+PlayerEvents.loggedIn((event) => {
+  const player = event.player;
+  setFracturedFlight(player, getFracturedArmorState(player).fullSet);
+});
+
+const giveFracturedEffect = (player, effect, amplifier) => {
+  player.server.runCommandSilent(
+    `effect give ${player.username} ${effect} 16 ${amplifier} true`,
+  );
+};
+
+const applyFracturedEffects = (player, armor) => {
   const name = player.username;
 
-  if (hasFracturedHelmet(player)) {
-    player.server.runCommandSilent(
-      `effect give ${name} minecraft:night_vision 16 0 true`,
-    );
+  if (armor.helmet) {
+    giveFracturedEffect(player, "minecraft:night_vision", 0);
+    giveFracturedEffect(player, "minecraft:water_breathing", 0);
   }
 
-  if (fullSet) {
-    player.server.runCommandSilent(
-      `effect give ${name} minecraft:fire_resistance 16 0 true`,
-    );
+  if (armor.leggings) {
+    giveFracturedEffect(player, "minecraft:speed", 1);
+    giveFracturedEffect(player, "minecraft:haste", 1);
+  }
+
+  if (armor.fullSet) {
+    giveFracturedEffect(player, "minecraft:fire_resistance", 0);
+    giveFracturedEffect(player, "minecraft:absorption", 1);
     player.server.runCommandSilent(`effect clear ${name} minecraft:poison`);
     player.server.runCommandSilent(`effect clear ${name} minecraft:wither`);
   }
@@ -78,8 +93,9 @@ const applyFracturedEffects = (player, fullSet) => {
 
 PlayerEvents.tick((event) => {
   const player = event.player;
+  const armor = getFracturedArmorState(player);
 
-  if (hasFracturedBoots(player)) {
+  if (armor.boots) {
     player.resetFallDistance();
   }
 
@@ -87,9 +103,8 @@ PlayerEvents.tick((event) => {
     return;
   }
 
-  const fullSet = hasFullFracturedArmor(player);
-  setFracturedFlight(player, fullSet);
-  applyFracturedEffects(player, fullSet);
+  setFracturedFlight(player, armor.fullSet);
+  applyFracturedEffects(player, armor);
 });
 
 EntityEvents.beforeHurt((event) => {
@@ -100,16 +115,14 @@ EntityEvents.beforeHurt((event) => {
   }
 
   const damageType = String(event.source.typeId || event.source);
+  const armor = getFracturedArmorState(entity);
 
-  if (damageType === "minecraft:fall" && hasFracturedBoots(entity)) {
+  if (damageType === "minecraft:fall" && armor.boots) {
     event.setDamage(0);
     return;
   }
 
-  if (
-    FRACTURED_FIRE_DAMAGE_TYPES.includes(damageType) &&
-    hasFullFracturedArmor(entity)
-  ) {
+  if (FRACTURED_FIRE_DAMAGE_TYPE_LOOKUP[damageType] && armor.fullSet) {
     event.setDamage(0);
   }
 });

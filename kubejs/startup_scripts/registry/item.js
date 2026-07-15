@@ -31,7 +31,7 @@ ItemEvents.toolTierRegistry((event) => {
   event.addBasedOnExisting("fractured", "netherite", (tier) => {
     tier.setUses(2147483647);
     tier.setSpeed(90);
-    tier.setAttackDamageBonus(40);
+    tier.setAttackDamageBonus(60);
     tier.setEnchantmentValue(30);
   });
 });
@@ -52,9 +52,8 @@ StartupEvents.registry("armor_material", (event) => {
 });
 
 StartupEvents.registry("item", (event) => {
-  const fracturedArmor = (id, type, name) =>
-    applyFracturedName(event.create(id, type), name)
-      .material("kubejs:fractured")
+  const fracturedGear = (builder, name) =>
+    applyFracturedName(builder, name)
       .component(DataComponents.UNBREAKABLE, FRACTURED_UNBREAKABLE)
       .rarity(Rarity.EPIC)
       .glow(true)
@@ -62,6 +61,14 @@ StartupEvents.registry("item", (event) => {
       .tag(FRACTURED_RARITY_TAG)
       .tag(FRACTURED_GEAR_TAG)
       .maxStackSize(1);
+
+  const fracturedTool = (id, type, name) =>
+    fracturedGear(event.create(id, type), name)
+      .parentModel(`fractured_reality:item/${id}`)
+      .tier("fractured");
+
+  const fracturedArmor = (id, type, name) =>
+    fracturedGear(event.create(id, type), name).material("kubejs:fractured");
 
   event.create("create:drill_head");
   event.create("create:saw_blade");
@@ -156,19 +163,9 @@ StartupEvents.registry("item", (event) => {
     .texture("fractured_reality:item/incomplete_fractured_ingot")
     .tag("c:hidden_from_recipe_viewers");
 
-  event
-    .create("fractured_shovel", "shovel")
-    .formattedDisplayName(fracturedName("Fractured Shovel"))
-    .component(DataComponents.ITEM_NAME, fracturedName("Fractured Shovel"))
-    .parentModel("fractured_reality:item/fractured_shovel")
-    .tier("fractured")
-    .component(DataComponents.UNBREAKABLE, FRACTURED_UNBREAKABLE)
-    .rarity(Rarity.EPIC)
-    .glow(true)
-    .fireResistant()
-    .tag(FRACTURED_RARITY_TAG)
-    .tag(FRACTURED_GEAR_TAG)
-    .maxStackSize(1);
+  fracturedTool("fractured_shovel", "shovel", "Fractured Shovel");
+  fracturedTool("fractured_axe", "axe", "Fractured Axe");
+  fracturedTool("fractured_pickaxe", "pickaxe", "Fractured Pickaxe");
 
   fracturedArmor("fractured_helmet", "helmet", "Fractured Helmet");
   fracturedArmor("fractured_chestplate", "chestplate", "Fractured Chestplate");
