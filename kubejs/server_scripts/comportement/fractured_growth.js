@@ -9,15 +9,18 @@ const FRACTURED_GROWTH_STAGES = [
   "kubejs:fractured_cluster",
 ];
 
+const FRACTURED_NEXT_GROWTH_STAGE = {};
+for (let i = 0; i < FRACTURED_GROWTH_STAGES.length - 1; i++) {
+  FRACTURED_NEXT_GROWTH_STAGE[FRACTURED_GROWTH_STAGES[i]] =
+    FRACTURED_GROWTH_STAGES[i + 1];
+}
+
 function canPlaceFracturedBud(block) {
   return block.id === "minecraft:air" || block.id === "minecraft:water";
 }
 
 function growFracturedBud(block) {
-  const index = FRACTURED_GROWTH_STAGES.indexOf(block.id);
-  if (index === -1) return false;
-
-  const nextBlockId = FRACTURED_GROWTH_STAGES[index + 1];
+  const nextBlockId = FRACTURED_NEXT_GROWTH_STAGE[block.id];
   if (!nextBlockId) return false;
 
   block.set(nextBlockId, {

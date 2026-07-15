@@ -100,6 +100,7 @@ StartupEvents.registry("block", (event) => {
     .soundType("amethyst")
     .hardness(1.5)
     .resistance(1.5)
+    .randomTick(() => {})
     .tagBlock("minecraft:mineable/pickaxe")
     .tagBlock("ae2:growth_acceleratable")
     .tagBlock("oritech:laser_accelerated")
