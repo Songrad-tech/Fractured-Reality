@@ -166,6 +166,7 @@ StartupEvents.registry("item", (event) => {
   fracturedTool("fractured_shovel", "shovel", "Fractured Shovel");
   fracturedTool("fractured_axe", "axe", "Fractured Axe");
   fracturedTool("fractured_pickaxe", "pickaxe", "Fractured Pickaxe");
+  fracturedTool("fractured_hoe", "hoe", "Fractured Hoe");
 
   fracturedArmor("fractured_helmet", "helmet", "Fractured Helmet");
   fracturedArmor("fractured_chestplate", "chestplate", "Fractured Chestplate");

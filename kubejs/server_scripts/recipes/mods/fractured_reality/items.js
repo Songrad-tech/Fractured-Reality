@@ -55,6 +55,21 @@ ServerEvents.recipes((event) => {
         "    A    ",
       ],
     },
+    {
+      id: "fractured_hoe",
+      baseTool: "mysticalagriculture:awakened_supremium_hoe",
+      pattern: [
+        "  AAAA",
+        "AADCEF",
+        "AECAAG",
+        "AAA  B",
+        "     B",
+        "     B",
+        "     B",
+        "     B",
+        "     A",
+      ],
+    },
   ];
 
   event.custom({
