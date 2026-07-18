@@ -23,6 +23,13 @@
 	]
 	quest.01154E300B5A8FD7.quest_subtitle: "A World Inside the Hive"
 	quest.01154E300B5A8FD7.title: "Craft a Honey Pearl"
+	quest.015112CAD01BA61B.quest_desc: [
+		"&7Oritech's Steam Engine turns a supplied steam loop into electrical power.&r"
+		" "
+		"&eSeparate water, steam, and power connections clearly when diagnosing the setup.&r"
+	]
+	quest.015112CAD01BA61B.quest_subtitle: "Electrical Generation"
+	quest.015112CAD01BA61B.title: "Build a Steam Engine"
 	quest.01C57A3A9AC3B4F5.title: "Essence of Raging"
 	quest.0205B9C94EB535DD.quest_desc: ["Soul Crystal Seeds grow concentrated spirit essence for the most demanding recipes."]
 	quest.0205B9C94EB535DD.quest_subtitle: "Cultivated Soul Crystal Essence"
@@ -56,9 +63,19 @@
 	quest.04A40A420B5AC3E5.quest_subtitle: "Cultivated Soulium Essence"
 	quest.04A40A420B5AC3E5.title: "Soulium Seeds"
 	quest.0593FF5DC6E58B76.title: "Obsidian Barrel"
+	quest.05DD01ACBF11E548.quest_desc: ["&7The Laser Arm focuses energy for Oritech's advanced manufacturing steps.&r"]
+	quest.05DD01ACBF11E548.quest_subtitle: "Powered Industry"
+	quest.05DD01ACBF11E548.title: "Build a Laser Arm"
 	quest.06216B44D7EA3DA9.quest_desc: ["Warden Seeds are dangerous power made agricultural; harvest deep-dark strength with care."]
 	quest.06216B44D7EA3DA9.quest_subtitle: "Cultivated Warden Essence"
 	quest.06216B44D7EA3DA9.title: "Warden Seeds"
+	quest.06A3FCED02DE56BE.quest_desc: [
+		"&7Fluix Crystals combine charged quartz, redstone, and Nether Quartz into AE2's signature material.&r"
+		" "
+		"&eFor the water reaction, drop the exact ingredients together and wait for conversion.&r"
+	]
+	quest.06A3FCED02DE56BE.quest_subtitle: "Digital Progression"
+	quest.06A3FCED02DE56BE.title: "Make Fluix Crystals"
 	quest.06C81E9D90C778FC.quest_desc: [
 		"§7Andesite Casings turn simple alloy into a proper machine frame.§r"
 		" "
@@ -72,9 +89,15 @@
 	quest.06EBFFCFCE57218A.quest_desc: ["Glowstone Seeds bring bright Nether dust home for lighting and magical recipes."]
 	quest.06EBFFCFCE57218A.quest_subtitle: "Cultivated Glowstone Essence"
 	quest.06EBFFCFCE57218A.title: "Glowstone Seeds"
+	quest.070D12DF74281A94.quest_desc: ["&7The Fragment Forge turns high-energy products into advanced components.&r"]
+	quest.070D12DF74281A94.quest_subtitle: "Powered Industry"
+	quest.070D12DF74281A94.title: "Build a Fragment Forge"
 	quest.0789D9872462D216.quest_desc: ["§fIt condenses your Crimsite exploration into the key needed for Iron resource generation.§r"]
 	quest.0789D9872462D216.quest_subtitle: "Custom Resource Core"
 	quest.0789D9872462D216.title: "Craft a Crimsite Core"
+	quest.0843AD7EEF419A18.quest_desc: ["&7Calculation Processors handle capacity and storage logic across an ME system.&r"]
+	quest.0843AD7EEF419A18.quest_subtitle: "Digital Circuit"
+	quest.0843AD7EEF419A18.title: "Make a Calculation Processor"
 	quest.0860B05992C8E356.title: "Diamond Glider"
 	quest.0A586098A85A17ED.title: "Essence of Calming"
 	quest.0A5C056A2A1492A4.quest_desc: [
@@ -84,6 +107,12 @@
 	]
 	quest.0A5C056A2A1492A4.quest_subtitle: "Hidden Energy"
 	quest.0A5C056A2A1492A4.title: "Find Utheric Shards"
+	quest.0B4BD01A88F0FDE3.quest_desc: ["&7The Basic Generator gives the factory its first independent source of electricity.&r"]
+	quest.0B4BD01A88F0FDE3.quest_subtitle: "Electrical Generation"
+	quest.0B4BD01A88F0FDE3.title: "Build a Basic Generator"
+	quest.0B9EF5104D703692.quest_desc: ["&7Time Steel is the gateway material for Tempad's temporal technology.&r"]
+	quest.0B9EF5104D703692.quest_subtitle: "Temporal Technology"
+	quest.0B9EF5104D703692.title: "Forge Time Steel"
 	quest.0D766B72F550F11A.quest_desc: ["Utherium Seeds cultivate alien Undergarden energy for stronger custom materials."]
 	quest.0D766B72F550F11A.quest_subtitle: "Cultivated Utherium Essence"
 	quest.0D766B72F550F11A.title: "Utherium Seeds"
@@ -103,6 +132,9 @@
 	]
 	quest.0E18DE2A29892903.quest_subtitle: "Automation Check"
 	quest.0E18DE2A29892903.title: "Generate Iron"
+	quest.0ED4FEA2336B2568.quest_desc: ["&7Basic Flux Storage buffers energy directly inside a Flux Network.&r"]
+	quest.0ED4FEA2336B2568.quest_subtitle: "Wireless Energy"
+	quest.0ED4FEA2336B2568.title: "Build Basic Flux Storage"
 	quest.0F5AC97C67C06135.title: "Diamond Barrel"
 	quest.0FCAE2FFD1263B87.quest_desc: [
 		"§7Zinc carries the first traces of mechanical potential.§r"
@@ -113,6 +145,24 @@
 	]
 	quest.0FCAE2FFD1263B87.quest_subtitle: "First Metal"
 	quest.0FCAE2FFD1263B87.title: "Find Zinc"
+	quest.0FDED230FEFDC0EB.quest_desc: [
+		"&7The Quantum Link Chamber connects ME networks across distance or dimensions.&r"
+		" "
+		"&fBuild the ring around each link chamber, power both ends, and bind them with entangled singularities.&r"
+		" "
+		"&eBoth structures need power, correct ring geometry, and a matched singularity pair.&r"
+	]
+	quest.0FDED230FEFDC0EB.quest_subtitle: "Digital Progression"
+	quest.0FDED230FEFDC0EB.title: "Build a Quantum Link"
+	quest.0FE65E3E2FB48FDD.quest_desc: ["&7Machine Core 1 advances Oritech equipment to technology tier 1.&r"]
+	quest.0FE65E3E2FB48FDD.quest_subtitle: "Machine Core Tier 1"
+	quest.0FE65E3E2FB48FDD.title: "Craft Machine Core 1"
+	quest.1032540378E941CE.quest_desc: ["&7The Silicon Press stamps silicon for all three families of AE2 processors.&r"]
+	quest.1032540378E941CE.quest_subtitle: "Printed Circuit Pattern"
+	quest.1032540378E941CE.title: "Find the Silicon Press"
+	quest.10407C409FA8EF84.quest_desc: ["&7The ME Drive holds storage cells while the network manages their contents.&r"]
+	quest.10407C409FA8EF84.quest_subtitle: "Digital Progression"
+	quest.10407C409FA8EF84.title: "Build an ME Drive"
 	quest.1080F263719CA71F.quest_desc: ["Nether Quartz Seeds support comparators, machines, and refined Nether crafting from home."]
 	quest.1080F263719CA71F.quest_subtitle: "Cultivated Nether Quartz Essence"
 	quest.1080F263719CA71F.title: "Nether Quartz Seeds"
@@ -123,6 +173,9 @@
 	]
 	quest.1101CDC12DFDBAB4.quest_subtitle: "Fragments of the Warden"
 	quest.1101CDC12DFDBAB4.title: "Collect Warden Carapaces"
+	quest.1120C5CBD92203A8.quest_desc: ["&7Flawed Budding Quartz improves the reliability of renewable crystal production.&r"]
+	quest.1120C5CBD92203A8.quest_subtitle: "Digital Progression"
+	quest.1120C5CBD92203A8.title: "Craft Flawed Budding Quartz"
 	quest.1152D0121612345C.quest_desc: [
 		"§7The Mechanical Saw cuts logs, strips blocks, and becomes the heart of simple wood automation.§r"
 		" "
@@ -219,6 +272,9 @@
 	]
 	quest.1978519042E27DC9.quest_subtitle: "Pressure Into Power"
 	quest.1978519042E27DC9.title: "Craft a Steam Engine"
+	quest.19F1D69ADFECC081.quest_desc: ["&7The Calculation Press creates circuits used for storage and network calculation.&r"]
+	quest.19F1D69ADFECC081.quest_subtitle: "Printed Circuit Pattern"
+	quest.19F1D69ADFECC081.title: "Find the Calculation Press"
 	quest.1ACED1A29208A092.title: "Diamond Upgrade"
 	quest.1B99B2431D1A5A72.quest_desc: [
 		"These desires focus on pollen, flowers, Honey Slimes, and injured bees."
@@ -250,6 +306,12 @@
 	quest.1EE754A8323EC5A7.quest_desc: ["Obsidian Seeds replace slow lava casting with a farmable volcanic essence."]
 	quest.1EE754A8323EC5A7.quest_subtitle: "Cultivated Obsidian Essence"
 	quest.1EE754A8323EC5A7.title: "Obsidian Seeds"
+	quest.1FD4DFECE1B67D42.quest_desc: ["&7The Refinery prepares advanced substances needed by Oritech's later machines.&r"]
+	quest.1FD4DFECE1B67D42.quest_subtitle: "Powered Industry"
+	quest.1FD4DFECE1B67D42.title: "Build a Refinery"
+	quest.20500C69A6DF6749.quest_desc: ["&7Logic Processors are the standard circuits behind many ME network devices.&r"]
+	quest.20500C69A6DF6749.quest_subtitle: "Digital Circuit"
+	quest.20500C69A6DF6749.title: "Make a Logic Processor"
 	quest.206BFA709CBCAB2A.quest_desc: [
 		"§7The Hose Pulley moves large amounts of fluid and makes bulk collection far less painful.§r"
 		" "
@@ -260,6 +322,9 @@
 	quest.2084432E2840239D.quest_desc: ["Grow Wood Seeds so logs and timber crafts can come from your farm instead of another forest trip."]
 	quest.2084432E2840239D.quest_subtitle: "Cultivated Wood Essence"
 	quest.2084432E2840239D.title: "Wood Seeds"
+	quest.20AAFFB120685D28.quest_desc: ["&7The Fertilizer accelerates nearby growth to keep automated farms productive.&r"]
+	quest.20AAFFB120685D28.quest_subtitle: "Accelerated Growth"
+	quest.20AAFFB120685D28.title: "Build a Fertilizer"
 	quest.20CECAECE7438D7F.quest_desc: [
 		"§7Create needs rotation before it can do anything clever.§r"
 		" "
@@ -273,7 +338,38 @@
 	quest.21800CB9411472AE.quest_subtitle: "Cultivated Sheep Essence"
 	quest.21800CB9411472AE.title: "Sheep Seeds"
 	quest.21864889EF3D7FE3.title: "Netherite Construction Stick"
+	quest.2219FC51389D8412.quest_desc: [
+		"&7A Flux Plug sends energy from a generator or cable into a Flux Network.&r"
+		" "
+		"&eA plug feeds the network; use a Flux Point on the machine that should receive power.&r"
+	]
+	quest.2219FC51389D8412.quest_subtitle: "Wireless Energy"
+	quest.2219FC51389D8412.title: "Build a Flux Plug"
+	quest.22349AB19BB59BC8.quest_desc: [
+		"&7The Augment Applicator installs compatible upgrades into Oritech machines.&r"
+		" "
+		"&eOnly compatible augments can be installed, so verify the target machine before committing rare materials.&r"
+	]
+	quest.22349AB19BB59BC8.quest_subtitle: "Powered Industry"
+	quest.22349AB19BB59BC8.title: "Build an Augment Applicator"
+	quest.225C03294136A9F0.quest_desc: [
+		"&7A Flux Point delivers energy from a Flux Network to a machine or local cable.&r"
+		" "
+		"&eIf no energy arrives, confirm that a Flux Plug is feeding the same named network.&r"
+	]
+	quest.225C03294136A9F0.quest_subtitle: "Wireless Energy"
+	quest.225C03294136A9F0.title: "Build a Flux Point"
+	quest.238D72E451BF3DD6.quest_desc: ["&7Flux Cores refine Flux Dust into components used by every Flux Networks device.&r"]
+	quest.238D72E451BF3DD6.quest_subtitle: "Wireless Energy"
+	quest.238D72E451BF3DD6.title: "Craft Flux Cores"
 	quest.2468A9BE914BEFDE.title: "Essence of Knowing"
+	quest.246EA8BDE0EBBBCA.quest_desc: [
+		"&7The Refinery Module extends the machine with the processing needed for late technology.&r"
+		" "
+		"&eIf new processes remain unavailable, confirm that the module is attached to the correct machine.&r"
+	]
+	quest.246EA8BDE0EBBBCA.quest_subtitle: "Powered Industry"
+	quest.246EA8BDE0EBBBCA.title: "Install a Refinery Module"
 	quest.24828DD7843BAD17.quest_desc: [
 		"The Otherside hides temples older than the sculk spreading through it."
 		" "
@@ -302,6 +398,18 @@
 	]
 	quest.25B4817CC7F9D6A1.quest_subtitle: "Automation Check"
 	quest.25B4817CC7F9D6A1.title: "Generate Nickel"
+	quest.25D5F8A7B5EB738F.quest_desc: ["&7Machine Core 6 advances Oritech equipment to technology tier 6.&r"]
+	quest.25D5F8A7B5EB738F.quest_subtitle: "Machine Core Tier 6"
+	quest.25D5F8A7B5EB738F.title: "Craft Machine Core 6"
+	quest.26A381EB48031E70.quest_desc: ["&7The Atomic Forge manufactures materials beyond conventional mechanical processing.&r"]
+	quest.26A381EB48031E70.quest_subtitle: "Powered Industry"
+	quest.26A381EB48031E70.title: "Build an Atomic Forge"
+	quest.26C34D85662B5AE6.quest_desc: ["&7Machine Core 2 advances Oritech equipment to technology tier 2.&r"]
+	quest.26C34D85662B5AE6.quest_subtitle: "Machine Core Tier 2"
+	quest.26C34D85662B5AE6.title: "Craft Machine Core 2"
+	quest.26CD127124654FA2.quest_desc: ["&7Machine Core 7 advances Oritech equipment to technology tier 7.&r"]
+	quest.26CD127124654FA2.quest_subtitle: "Machine Core Tier 7"
+	quest.26CD127124654FA2.title: "Craft Machine Core 7"
 	quest.279FA5A90AA0D5BC.quest_desc: ["Sky Stone Seeds turn meteor hunting into a controlled Applied Energistics resource."]
 	quest.279FA5A90AA0D5BC.quest_subtitle: "Cultivated Sky Stone Essence"
 	quest.279FA5A90AA0D5BC.title: "Sky Stone Seeds"
@@ -312,9 +420,19 @@
 	quest.287E5269E7A6AA79.quest_subtitle: "Cultivated Ghast Essence"
 	quest.287E5269E7A6AA79.title: "Ghast Seeds"
 	quest.291C454B10B8EBBD.title: "Elevators"
+	quest.291EF1B8C5FAF6D2.quest_desc: ["&7The Foundry processes and combines metals for Oritech's industrial recipes.&r"]
+	quest.291EF1B8C5FAF6D2.quest_subtitle: "Powered Industry"
+	quest.291EF1B8C5FAF6D2.title: "Build a Foundry"
 	quest.2947EE06D8C93FF2.quest_desc: ["Pig Seeds turn basic animal drops into a clean farmable essence line."]
 	quest.2947EE06D8C93FF2.quest_subtitle: "Cultivated Pig Essence"
 	quest.2947EE06D8C93FF2.title: "Pig Seeds"
+	quest.29B52E3C87142E4D.quest_desc: [
+		"&7An AE2 Singularity is compressed matter taken to an extreme for quantum technology.&r"
+		" "
+		"&fRun a Matter Condenser with the required storage component and feed it a large volume of renewable material.&r"
+	]
+	quest.29B52E3C87142E4D.quest_subtitle: "Digital Progression"
+	quest.29B52E3C87142E4D.title: "Create a Singularity"
 	quest.29B7FA7414FE5127.quest_desc: ["Fractured Shared Seeds tie this age back to the pack's broken world and its stranger recipes."]
 	quest.29B7FA7414FE5127.quest_subtitle: "Cultivated Fractured Shared Essence"
 	quest.29B7FA7414FE5127.title: "Fractured Shared Seeds"
@@ -332,6 +450,13 @@
 	]
 	quest.2BA0235D2DDDA051.quest_subtitle: "First Alloy"
 	quest.2BA0235D2DDDA051.title: "Make Cloggrum"
+	quest.2BB6982E8369B983.quest_desc: [
+		"&7The Matter Condenser destroys supplied material to create extraordinarily dense matter.&r"
+		" "
+		"&eFeed it a renewable bulk resource and never connect valuable general storage to its input.&r"
+	]
+	quest.2BB6982E8369B983.quest_subtitle: "Digital Progression"
+	quest.2BB6982E8369B983.title: "Build a Matter Condenser"
 	quest.2C60767BD295F11B.title: "Gold Barrel"
 	quest.2CD0C913394EB5AE.quest_desc: ["§fUse the Viridite you gathered to unlock the Nickel generation path.§r"]
 	quest.2CD0C913394EB5AE.quest_subtitle: "Custom Resource Core"
@@ -360,6 +485,13 @@
 	quest.2E78830BD103CB57.quest_desc: ["Emerald Seeds make trading currency and green gem recipes far easier to sustain."]
 	quest.2E78830BD103CB57.quest_subtitle: "Cultivated Emerald Essence"
 	quest.2E78830BD103CB57.title: "Emerald Seeds"
+	quest.2EA74B5D4BC76075.quest_desc: [
+		"&7The Fuel Generator burns conventional fuel to produce steady electrical power.&r"
+		" "
+		"&eAn energy buffer and automated fuel input keep long processes stable.&r"
+	]
+	quest.2EA74B5D4BC76075.quest_subtitle: "Electrical Generation"
+	quest.2EA74B5D4BC76075.title: "Build a Fuel Generator"
 	quest.2F230B0DD745B6EC.quest_desc: ["Freeze a corner of your garden with Ice Seeds for cold essence whenever recipes ask for it."]
 	quest.2F230B0DD745B6EC.quest_subtitle: "Cultivated Ice Essence"
 	quest.2F230B0DD745B6EC.title: "Ice Seeds"
@@ -395,6 +527,9 @@
 	]
 	quest.35690DA73DE6F776.quest_subtitle: "Pressed Power"
 	quest.35690DA73DE6F776.title: "Craft a Resonarium Plate"
+	quest.35A6F9649E54174A.quest_desc: ["&7The Bio Generator turns renewable organic material into electrical power.&r"]
+	quest.35A6F9649E54174A.quest_subtitle: "Electrical Generation"
+	quest.35A6F9649E54174A.title: "Build a Bio Generator"
 	quest.35C22982FC123B45.quest_desc: [
 		"§7Some phenomena cannot be explained.§r"
 		" "
@@ -418,6 +553,12 @@
 	]
 	quest.37AD46973FE4076D.quest_subtitle: "Directed Logistics"
 	quest.37AD46973FE4076D.title: "Craft a Mechanical Arm"
+	quest.388CD5446CC01181.quest_desc: ["&7The Chronometer provides portable access to Tempad's temporal systems.&r"]
+	quest.388CD5446CC01181.quest_subtitle: "Temporal Technology"
+	quest.388CD5446CC01181.title: "Craft a Chronometer"
+	quest.396229085654B376.quest_desc: ["&7The Centrifuge separates complex inputs into useful processed materials.&r"]
+	quest.396229085654B376.quest_subtitle: "Powered Industry"
+	quest.396229085654B376.title: "Build a Centrifuge"
 	quest.3A3FDB2C0738518C.quest_desc: [
 		"§7Your machines are now strong enough to do more than process what you mine by hand.§r"
 		" "
@@ -441,9 +582,25 @@
 	quest.3A7A7F0160A7E9A4.title: "Generate Zinc"
 	quest.3AB7518A0232F39C.title: "Netherite Barrel"
 	quest.3BBF7D4ABB5C285F.title: "Essence of Radiance"
+	quest.3C70A5B33ED35671.quest_desc: [
+		"&7Still Strange Matter is an exotic product of Oritech's highest processing chain.&r"
+		" "
+		"&eUse a dedicated tank; mixing this fluid into another network can waste a long production cycle.&r"
+	]
+	quest.3C70A5B33ED35671.quest_subtitle: "Powered Industry"
+	quest.3C70A5B33ED35671.title: "Collect Still Strange Matter"
 	quest.3CA6E03A937B5C2F.quest_desc: ["Platinum Seeds secure precious industrial essence for expensive late-game crafts."]
 	quest.3CA6E03A937B5C2F.quest_subtitle: "Cultivated Platinum Essence"
 	quest.3CA6E03A937B5C2F.title: "Platinum Seeds"
+	quest.3CD9F06FB8729803.quest_desc: ["&7Certus Quartz is the basic crystal behind AE2 components and networks.&r"]
+	quest.3CD9F06FB8729803.quest_subtitle: "Digital Progression"
+	quest.3CD9F06FB8729803.title: "Gather Certus Quartz"
+	quest.3D4CF467D45DD795.quest_desc: ["&7Sky Stone is the first physical trace of Applied Energistics technology.&r"]
+	quest.3D4CF467D45DD795.quest_subtitle: "Digital Progression"
+	quest.3D4CF467D45DD795.title: "Find Sky Stone"
+	quest.3DEFE136C2F663A0.quest_desc: ["&7Machine Core 4 advances Oritech equipment to technology tier 4.&r"]
+	quest.3DEFE136C2F663A0.quest_subtitle: "Machine Core Tier 4"
+	quest.3DEFE136C2F663A0.title: "Craft Machine Core 4"
 	quest.3E58E0FB809F3BD9.quest_desc: [
 		"Nether Star Seeds are an endgame crop for turning Wither power into a slow but renewable essence line."
 		" "
@@ -461,6 +618,16 @@
 	quest.3EC6888629E95574.quest_desc: ["Redstone Seeds keep circuits, machines, and automation logic supplied from the field."]
 	quest.3EC6888629E95574.quest_subtitle: "Cultivated Redstone Essence"
 	quest.3EC6888629E95574.title: "Redstone Seeds"
+	quest.3EE8E5C6993FE4D2.quest_desc: [
+		"&7Flawless Budding Quartz is the best foundation for renewable Certus production.&r"
+		" "
+		"&eHarvest clusters only at full growth for the best return from each face.&r"
+	]
+	quest.3EE8E5C6993FE4D2.quest_subtitle: "Digital Progression"
+	quest.3EE8E5C6993FE4D2.title: "Craft Flawless Budding Quartz"
+	quest.3EECE71323BBA36B.quest_desc: ["&7Chipped Budding Quartz continues the renewable Certus growth chain.&r"]
+	quest.3EECE71323BBA36B.quest_subtitle: "Digital Progression"
+	quest.3EECE71323BBA36B.title: "Craft Chipped Budding Quartz"
 	quest.3EFEC4006AB93CCC.quest_desc: [
 		"§7Veridium is another Create stone resource found through exploration and mining.§r"
 		" "
@@ -482,6 +649,9 @@
 	]
 	quest.3F8FDF23051A7247.quest_subtitle: "The First Alloy"
 	quest.3F8FDF23051A7247.title: "Craft Andesite Alloy"
+	quest.3FC3F71FF15B1160.quest_desc: ["&7The Block Placer reproduces block placement as part of an automated line.&r"]
+	quest.3FC3F71FF15B1160.quest_subtitle: "Powered Industry"
+	quest.3FC3F71FF15B1160.title: "Build a Block Placer"
 	quest.405C4901EE2BAC5A.quest_desc: [
 		"Froststeel begins as raw material hidden inside the Undergarden."
 		" "
@@ -497,6 +667,9 @@
 	]
 	quest.410B78E13AFC434F.quest_subtitle: "Concentrated Royalty"
 	quest.410B78E13AFC434F.title: "Fill a Royal Jelly Bucket"
+	quest.4143ABEB70777A30.quest_desc: ["&7The 64K Cell Component expands the practical capacity of ME item storage.&r"]
+	quest.4143ABEB70777A30.quest_subtitle: "64K Digital Capacity"
+	quest.4143ABEB70777A30.title: "Craft Cell Component 64K"
 	quest.41CA701E6DC76F37.quest_desc: ["Brass Seeds support mechanical builds with a steady alloy essence source."]
 	quest.41CA701E6DC76F37.quest_subtitle: "Cultivated Brass Essence"
 	quest.41CA701E6DC76F37.title: "Brass Seeds"
@@ -510,6 +683,13 @@
 	]
 	quest.422CEE61A723A33E.quest_subtitle: "Pressed Parts"
 	quest.422CEE61A723A33E.title: "Craft a Mechanical Press"
+	quest.42341EC5B943117F.quest_desc: [
+		"&7The Tempad opens temporary gateways between saved destinations.&r"
+		" "
+		"&eSave destinations in open spaces, away from lava, void edges, and enclosed machinery.&r"
+	]
+	quest.42341EC5B943117F.quest_subtitle: "Temporal Technology"
+	quest.42341EC5B943117F.title: "Craft a Tempad"
 	quest.4242965A13D79C42.quest_desc: [
 		"The Heart of the Deep opens a way into the Otherside."
 		" "
@@ -569,12 +749,22 @@
 	quest.46D41410B1D4C616.quest_desc: ["Forgotten Seeds preserve ancient Undergarden power in a renewable form."]
 	quest.46D41410B1D4C616.quest_subtitle: "Cultivated Forgotten Essence"
 	quest.46D41410B1D4C616.title: "Forgotten Seeds"
+	quest.46F32CC3B5E43788.quest_desc: [
+		"&7The ME Controller is the heart of a growing network, distributing power and channels through its faces.&r"
+		" "
+		"&eEach controller face supplies channels; Smart Cables reveal how many are in use.&r"
+	]
+	quest.46F32CC3B5E43788.quest_subtitle: "Digital Progression"
+	quest.46F32CC3B5E43788.title: "Build an ME Controller"
 	quest.46FDFD2428B06D4C.quest_desc: ["Steel Seeds strengthen your infrastructure with renewable heavy metal essence."]
 	quest.46FDFD2428B06D4C.quest_subtitle: "Cultivated Steel Essence"
 	quest.46FDFD2428B06D4C.title: "Steel Seeds"
 	quest.47240678096167BB.quest_desc: ["Adamant Seeds cultivate stubborn, high-tier essence for the strongest material gates."]
 	quest.47240678096167BB.quest_subtitle: "Cultivated Adamant Essence"
 	quest.47240678096167BB.title: "Adamant Seeds"
+	quest.473E6DE55188B7D4.quest_desc: ["&7The Logic Press creates printed circuits for common network devices.&r"]
+	quest.473E6DE55188B7D4.quest_subtitle: "Printed Circuit Pattern"
+	quest.473E6DE55188B7D4.title: "Find the Logic Press"
 	quest.4787C1D384778BEA.title: "Golden Glider"
 	quest.47901AF510FE12FC.quest_desc: ["Armadillo Seeds preserve scute-related resources in a compact magical crop."]
 	quest.47901AF510FE12FC.quest_subtitle: "Cultivated Armadillo Essence"
@@ -595,6 +785,13 @@
 	]
 	quest.47F92CA7E0294DDA.quest_subtitle: "Care for the Colony"
 	quest.47F92CA7E0294DDA.title: "The Queen's Beekeeping"
+	quest.48100508EA4A0312.quest_desc: [
+		"&7The Drone Port introduces autonomous transport between configured locations.&r"
+		" "
+		"&eStart with nearby endpoints so range, access, and filters are easy to verify.&r"
+	]
+	quest.48100508EA4A0312.quest_subtitle: "Powered Industry"
+	quest.48100508EA4A0312.title: "Build a Drone Port"
 	quest.48AAD65FFE4AE1FF.quest_desc: ["Honey Seeds bottle the sweetness of bees into a calmer, crop-based resource path."]
 	quest.48AAD65FFE4AE1FF.quest_subtitle: "Cultivated Honey Essence"
 	quest.48AAD65FFE4AE1FF.title: "Honey Seeds"
@@ -608,6 +805,13 @@
 		"§6Follow the main Progression chapters to guide your journey.§r"
 	]
 	quest.48DA5F1CC92B5184.title: "Progression Matters"
+	quest.491415E3200FC513.quest_desc: [
+		"&7The Large Solar Panel produces passive power whenever it can see the sky.&r"
+		" "
+		"&eNight and poor sky access stop production, so keep backup energy storage.&r"
+	]
+	quest.491415E3200FC513.quest_subtitle: "Electrical Generation"
+	quest.491415E3200FC513.title: "Build a Large Solar Panel"
 	quest.494AE9D1D5FEA6A5.quest_desc: ["Coal Seeds keep early fuel and carbon recipes moving even when mining slows down."]
 	quest.494AE9D1D5FEA6A5.quest_subtitle: "Cultivated Coal Essence"
 	quest.494AE9D1D5FEA6A5.title: "Coal Seeds"
@@ -667,12 +871,32 @@
 	quest.4CF4737FE41E136F.quest_desc: ["Creeper Seeds give you gunpowder essence without waiting for explosions."]
 	quest.4CF4737FE41E136F.quest_subtitle: "Cultivated Creeper Essence"
 	quest.4CF4737FE41E136F.title: "Creeper Seeds"
+	quest.4CFC4533838FCE9F.quest_desc: ["&7The 16K Cell Component expands the practical capacity of ME item storage.&r"]
+	quest.4CFC4533838FCE9F.quest_subtitle: "16K Digital Capacity"
+	quest.4CFC4533838FCE9F.title: "Craft Cell Component 16K"
 	quest.4D0D548BC4F08DB4.quest_desc: ["Fluix Seeds stabilize AE2 progression with farmable fluix essence."]
 	quest.4D0D548BC4F08DB4.quest_subtitle: "Cultivated Fluix Essence"
 	quest.4D0D548BC4F08DB4.title: "Fluix Seeds"
+	quest.4D5448811BC38A2C.quest_desc: [
+		"&7The Inscriber stamps materials into the circuits used by every important AE2 processor.&r"
+		" "
+		"&eInputs occupy specific slots; use the interface arrows when a recipe will not begin.&r"
+	]
+	quest.4D5448811BC38A2C.quest_subtitle: "Digital Progression"
+	quest.4D5448811BC38A2C.title: "Build an Inscriber"
+	quest.4D758D3641EA3599.quest_desc: [
+		"&7The 1K Cell Component expands the practical capacity of ME item storage.&r"
+		" "
+		"&eCells limit distinct item types as well as bytes, so avoid filling them with tiny stacks.&r"
+	]
+	quest.4D758D3641EA3599.quest_subtitle: "1K Digital Capacity"
+	quest.4D758D3641EA3599.title: "Craft Cell Component 1K"
 	quest.4E74D80CEC27A7E4.quest_desc: ["Silicon Seeds support circuit and processor crafting with a renewable supply line."]
 	quest.4E74D80CEC27A7E4.quest_subtitle: "Cultivated Silicon Essence"
 	quest.4E74D80CEC27A7E4.title: "Silicon Seeds"
+	quest.4E8825D12111FC6B.quest_desc: ["&7Electrum is a gold ingot charged with electricity that will allow you to opens this age.&r"]
+	quest.4E8825D12111FC6B.quest_subtitle: "New Technology"
+	quest.4E8825D12111FC6B.title: "Make Electrum"
 	quest.4EBF77C1E4DA7981.quest_desc: [
 		"The Otherside is not empty. Some of its creatures are little more than living sculk decay."
 		" "
@@ -681,6 +905,9 @@
 	quest.4EBF77C1E4DA7981.quest_subtitle: "Living Decay"
 	quest.4EBF77C1E4DA7981.title: "Defeat a Sludge"
 	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
+	quest.50071A0278D80BA6.quest_desc: ["&7The Engineering Press creates advanced circuits for controllers and dense storage.&r"]
+	quest.50071A0278D80BA6.quest_subtitle: "Printed Circuit Pattern"
+	quest.50071A0278D80BA6.title: "Find the Engineering Press"
 	quest.50DDF2BE419D5CD8.quest_desc: [
 		"§7Encased Fans push air through blocks and materials.§r"
 		" "
@@ -694,6 +921,9 @@
 	quest.5165909A68C1B5BD.quest_desc: ["Cow Seeds are your reliable route to leather, beef, and ranch materials without expanding pens forever."]
 	quest.5165909A68C1B5BD.quest_subtitle: "Cultivated Cow Essence"
 	quest.5165909A68C1B5BD.title: "Cow Seeds"
+	quest.51A24A24DCF5CFE2.quest_desc: ["&7Electrum Casings provide a stable frame for the first electrical machines.&r"]
+	quest.51A24A24DCF5CFE2.quest_subtitle: "Digital Progression"
+	quest.51A24A24DCF5CFE2.title: "Craft an Electrum Casing"
 	quest.52870C249A924E6F.quest_desc: [
 		"Every completed Queen's Desire advancement rewards a Royal Jelly Bottle."
 		" "
@@ -707,6 +937,20 @@
 	quest.53D6163B84FD4B33.quest_desc: ["Duratium Seeds grow durable custom metal essence for advanced equipment chains."]
 	quest.53D6163B84FD4B33.quest_subtitle: "Cultivated Duratium Essence"
 	quest.53D6163B84FD4B33.title: "Duratium Seeds"
+	quest.540A57E6C7E147B5.quest_desc: [
+		"&7The Lava Generator converts a continuous lava supply into electrical power.&r"
+		" "
+		"&eUse filtered fluid pipes so another liquid cannot enter the generator.&r"
+	]
+	quest.540A57E6C7E147B5.quest_subtitle: "Electrical Generation"
+	quest.540A57E6C7E147B5.title: "Build a Lava Generator"
+	quest.54485D0CAD718119.quest_desc: [
+		"&7The Flux Controller provides centralized options for the entire wireless network.&r"
+		" "
+		"&eCheck ownership and access permissions if another player cannot use the network.&r"
+	]
+	quest.54485D0CAD718119.quest_subtitle: "Wireless Energy"
+	quest.54485D0CAD718119.title: "Build a Flux Controller"
 	quest.54678129C0A1A442.quest_desc: [
 		"[{\"text\":\"Press \",\"color\":\"white\"},{\"keybind\":\"key.ftbchunks.map\",\"color\":\"gold\"},{\"text\":\" to open the FTB Chunks map.\",\"color\":\"white\"}]"
 		" "
@@ -736,8 +980,14 @@
 	]
 	quest.54FDC770499D6560.quest_subtitle: "Exploration Material"
 	quest.54FDC770499D6560.title: "Gather Crimsite"
+	quest.55C3D47B5B2B9120.quest_desc: ["&7The Fractured Singularity binds digital density to the pack's broken reality.&r"]
+	quest.55C3D47B5B2B9120.quest_subtitle: "Digital Progression"
+	quest.55C3D47B5B2B9120.title: "Stabilize a Fractured Singularity"
 	quest.55FF126D92F7E1EE.title: "Storage Controller"
 	quest.5679AB2B6AF7FA6F.title: "Copper Construction Stick"
+	quest.5796DA9810601E71.quest_desc: ["&7The Assembler manufactures machine components without repeated manual crafting.&r"]
+	quest.5796DA9810601E71.quest_subtitle: "Powered Industry"
+	quest.5796DA9810601E71.title: "Build an Assembler"
 	quest.57C41AC47480BA8F.quest_desc: [
 		"Find a Throne Pillar, the home of the Bee Queen."
 		" "
@@ -745,6 +995,9 @@
 	]
 	quest.57C41AC47480BA8F.quest_subtitle: "The Queen Awaits"
 	quest.57C41AC47480BA8F.title: "Find the Throne Pillar"
+	quest.57E295D70174F9C6.quest_desc: ["&7Charged Certus Quartz carries the energy needed to form Fluix.&r"]
+	quest.57E295D70174F9C6.quest_subtitle: "Digital Progression"
+	quest.57E295D70174F9C6.title: "Charge Certus Quartz"
 	quest.5876D13B06C07E0B.quest_desc: ["Nether Seeds condense the hostile dimension into essence you can harvest safely at home."]
 	quest.5876D13B06C07E0B.quest_subtitle: "Cultivated Nether Essence"
 	quest.5876D13B06C07E0B.title: "Nether Seeds"
@@ -758,6 +1011,12 @@
 	]
 	quest.58BE26650A0440F6.quest_subtitle: "Portal Key"
 	quest.58BE26650A0440F6.title: "Obtain a Catalyst"
+	quest.59972BC0AD42823E.quest_desc: ["&7The Block Destroyer breaks blocks presented to its working face.&r"]
+	quest.59972BC0AD42823E.quest_subtitle: "Powered Industry"
+	quest.59972BC0AD42823E.title: "Build a Block Destroyer"
+	quest.5AC64186511562F5.quest_desc: ["&7The Fluix Core is the main checkpoint that unlocks the pack's digital progression.&r"]
+	quest.5AC64186511562F5.quest_subtitle: "Digital Progression"
+	quest.5AC64186511562F5.title: "Craft a Fluix Core"
 	quest.5B4350BB46637173.quest_desc: [
 		"§7The Mechanical Drill breaks blocks for you.§r"
 		" "
@@ -765,12 +1024,25 @@
 	]
 	quest.5B4350BB46637173.quest_subtitle: "Powered Breaking"
 	quest.5B4350BB46637173.title: "Craft a Mechanical Drill"
+	quest.5B46F61EE362F36E.quest_desc: ["&7Formation and Annihilation Cores let the ME network place and remove matter.&r"]
+	quest.5B46F61EE362F36E.quest_subtitle: "Digital Progression"
+	quest.5B46F61EE362F36E.title: "Craft Formation and Annihilation Cores"
 	quest.5C0F21A11B1611E1.quest_desc: ["Let Stone Seeds cover the constant need for cobble, stone, and early building essence."]
 	quest.5C0F21A11B1611E1.quest_subtitle: "Cultivated Stone Essence"
 	quest.5C0F21A11B1611E1.title: "Stone Seeds"
 	quest.5C449B5BAB66086E.quest_desc: ["Sculk Seeds carry deep ancient growth into controlled essence production."]
 	quest.5C449B5BAB66086E.quest_subtitle: "Cultivated Sculk Essence"
 	quest.5C449B5BAB66086E.title: "Sculk Seeds"
+	quest.5D052D2C79CB2CC6.quest_desc: ["&7A Flux Block concentrates the resources needed for the complete wireless-energy toolkit.&r"]
+	quest.5D052D2C79CB2CC6.quest_subtitle: "Wireless Energy"
+	quest.5D052D2C79CB2CC6.title: "Craft a Flux Block"
+	quest.5D288661692F7AFA.quest_desc: [
+		"&7Budding Certus Quartz grows crystal buds and makes Certus renewable.&r"
+		" "
+		"&eLeave several faces exposed and avoid breaking the budding block itself.&r"
+	]
+	quest.5D288661692F7AFA.quest_subtitle: "Digital Progression"
+	quest.5D288661692F7AFA.title: "Obtain Budding Certus Quartz"
 	quest.5D8FC161AF681FD4.quest_desc: ["Turtle Seeds carry slow coastal resources into your controlled farm network."]
 	quest.5D8FC161AF681FD4.quest_subtitle: "Cultivated Turtle Essence"
 	quest.5D8FC161AF681FD4.title: "Turtle Seeds"
@@ -859,7 +1131,13 @@
 	quest.657DCCCCD3FE615E.quest_desc: ["Copper Seeds make pipes, coils, and early machine parts easier to mass produce."]
 	quest.657DCCCCD3FE615E.quest_subtitle: "Cultivated Copper Essence"
 	quest.657DCCCCD3FE615E.title: "Copper Seeds"
+	quest.6589C4AA92E71F8F.quest_desc: ["&7A Chronomark records a destination that temporal devices can reach later.&r"]
+	quest.6589C4AA92E71F8F.quest_subtitle: "Temporal Technology"
+	quest.6589C4AA92E71F8F.title: "Create a Chronomark"
 	quest.65A746736DC2D8ED.title: "Diamond Construction Stick"
+	quest.663C2C9828D6C746.quest_desc: ["&7The Electrum Core is the main checkpoint between rotational power and Oritech industry.&r"]
+	quest.663C2C9828D6C746.quest_subtitle: "Digital Progression"
+	quest.663C2C9828D6C746.title: "Craft an Electrum Core"
 	quest.6655C9EC1E601EB6.quest_desc: [
 		"§7Andesite is rough, common, and easy to overlook.§r"
 		" "
@@ -882,6 +1160,9 @@
 	quest.689AD3F0E7571A85.title: "Energite Seeds"
 	quest.6942D9CB3B07E0D8.title: "Configuration Tool"
 	quest.6A4CCCEA030C7865.title: "Controller Extension"
+	quest.6AC0DB7D357CFE78.quest_desc: ["&7The Tree Feller harvests wood for a renewable automated forestry line.&r"]
+	quest.6AC0DB7D357CFE78.quest_subtitle: "Automated Forestry"
+	quest.6AC0DB7D357CFE78.title: "Build a Tree Feller"
 	quest.6AD41FA37188492D.quest_desc: [
 		"Complete all sixteen Queen's Desire advancements."
 		" "
@@ -921,6 +1202,9 @@
 	quest.6C74B0300D2159A6.title: "Defeat a Stalker"
 	quest.6CE2C3EFDCA2D25D.title: "Iron Barrel"
 	quest.6D407B1D6ECEC401.title: "Diamond Backpack"
+	quest.6DBCE30C8EB7B626.quest_desc: ["&7Machine Core 5 advances Oritech equipment to technology tier 5.&r"]
+	quest.6DBCE30C8EB7B626.quest_subtitle: "Machine Core Tier 5"
+	quest.6DBCE30C8EB7B626.title: "Craft Machine Core 5"
 	quest.6DF3932CE848E0A1.quest_desc: ["Deepslate Seeds bring the deep stone layer into automation before mining becomes a chore."]
 	quest.6DF3932CE848E0A1.quest_subtitle: "Cultivated Deepslate Essence"
 	quest.6DF3932CE848E0A1.title: "Deepslate Seeds"
@@ -947,6 +1231,9 @@
 	quest.717A0D8EDE87A2DF.quest_desc: ["Stabilize your first fields with Earth Seeds, turning basic soil work into a steady essence source."]
 	quest.717A0D8EDE87A2DF.quest_subtitle: "Cultivated Earth Essence"
 	quest.717A0D8EDE87A2DF.title: "Earth Seeds"
+	quest.71A85954F6912C94.quest_desc: ["&7Engineering Processors power AE2's most demanding network components.&r"]
+	quest.71A85954F6912C94.quest_subtitle: "Digital Circuit"
+	quest.71A85954F6912C94.title: "Make an Engineering Processor"
 	quest.72033845D8A91608.quest_desc: [
 		"§6Engineer's Goggles reveal stress, speed, and machine details that are otherwise easy to miss.§r"
 		" "
@@ -957,6 +1244,9 @@
 	quest.72A610C3E3B1C7AE.quest_desc: ["Nature Seeds gather plant life into one crop, smoothing out dye, leaf, and organic recipes."]
 	quest.72A610C3E3B1C7AE.quest_subtitle: "Cultivated Nature Essence"
 	quest.72A610C3E3B1C7AE.title: "Nature Seeds"
+	quest.72AD0CAC23AC335D.quest_desc: ["&7The 4K Cell Component expands the practical capacity of ME item storage.&r"]
+	quest.72AD0CAC23AC335D.quest_subtitle: "4K Digital Capacity"
+	quest.72AD0CAC23AC335D.title: "Craft Cell Component 4K"
 	quest.72D10B75A011DEB8.title: "Netherite Upgrade"
 	quest.72EC9401EE3BA289.quest_desc: [
 		"§7Many dimensions, structures, and hidden locations contain important resources, progression items, and fragments of lost knowledge.§r"
@@ -966,9 +1256,26 @@
 		"§fDo not remain underground forever.§r"
 	]
 	quest.72EC9401EE3BA289.title: "Exploration is Essential"
+	quest.72F72CE103EE9BF9.quest_desc: ["&7The Chronon Battery stores the energy required by Tempad technology.&r"]
+	quest.72F72CE103EE9BF9.quest_subtitle: "Temporal Technology"
+	quest.72F72CE103EE9BF9.title: "Build a Chronon Battery"
 	quest.7303890E9D4FFCCF.quest_desc: ["Dirt Seeds are humble, but they make terrain work and bulk crafting much less manual."]
 	quest.7303890E9D4FFCCF.quest_subtitle: "Cultivated Dirt Essence"
 	quest.7303890E9D4FFCCF.title: "Dirt Seeds"
+	quest.73FEC50107D340CA.quest_desc: [
+		"&7The Deep Drill extracts underground resources without another manual mining trip.&r"
+		" "
+		"&eIts sustained energy demand is high, so monitor generation before leaving it running.&r"
+	]
+	quest.73FEC50107D340CA.quest_subtitle: "Powered Industry"
+	quest.73FEC50107D340CA.title: "Build a Deep Drill"
+	quest.75AD0195B0CAF319.quest_desc: [
+		"&7The Tesla Coil transfers electrical power without a direct cable between both ends.&r"
+		" "
+		"&eKeep both coils within range and make sure the sending coil is receiving power.&r"
+	]
+	quest.75AD0195B0CAF319.quest_subtitle: "New Technology"
+	quest.75AD0195B0CAF319.title: "Build a Tesla Coil"
 	quest.75CE2CADC4756616.quest_desc: [
 		"Cloggrum is one of the first metals worth collecting in the Undergarden."
 		" "
@@ -977,6 +1284,9 @@
 	quest.75CE2CADC4756616.quest_subtitle: "Undergarden Metal"
 	quest.75CE2CADC4756616.title: "Mine Raw Cloggrum"
 	quest.760E55F3762CEE14.title: "Armory Cabinet"
+	quest.76B17947279E3743.quest_desc: ["&7Machine Core 3 advances Oritech equipment to technology tier 3.&r"]
+	quest.76B17947279E3743.quest_subtitle: "Machine Core Tier 3"
+	quest.76B17947279E3743.title: "Craft Machine Core 3"
 	quest.76B954D68DD2F748.title: "Essence of Continuity"
 	quest.77C38BE8ECF78C64.title: "Netherite Backpack"
 	quest.77D9929025AD4DB1.title: "Wooden Glider"
@@ -987,6 +1297,13 @@
 	]
 	quest.790A807983D217D9.quest_subtitle: "Doorway to the Otherside"
 	quest.790A807983D217D9.title: "Obtain the Heart of the Deep"
+	quest.792251FD6D6815C6.quest_desc: [
+		"&7The 256K Cell Component expands the practical capacity of ME item storage.&r"
+		" "
+		"&eAutocraft the nested component chain instead of assembling every lower tier by hand.&r"
+	]
+	quest.792251FD6D6815C6.quest_subtitle: "256K Digital Capacity"
+	quest.792251FD6D6815C6.title: "Craft Cell Component 256K"
 	quest.7981CF7164F5B951.quest_desc: ["§fIt focuses your Ochrum exploration into the progression key for automated Gold production.§r"]
 	quest.7981CF7164F5B951.quest_subtitle: "Custom Resource Core"
 	quest.7981CF7164F5B951.title: "Craft an Ochrum Core"
@@ -1000,13 +1317,36 @@
 	quest.7A4B44B343547F12.quest_subtitle: "Cultivated Air Essence"
 	quest.7A4B44B343547F12.title: "Air Seeds"
 	quest.7ABF9857AE02F946.quest_desc: [
-		""
+		"&7Flux Dust is the first material used to build a wireless Flux Network.&r"
+		" "
+		"&ePerform the conversion in a controlled area and keep valuable loose items away from it.&r"
+		" "
 		"{image:minecraft:textures/gui/quests/flux_craft.png width:96 height:96 align:center}"
 	]
+	quest.7ABF9857AE02F946.quest_subtitle: "Wireless Energy"
+	quest.7ABF9857AE02F946.title: "Create Flux Dust"
 	quest.7AEF195E258F6020.title: "Backpack"
+	quest.7B168B08E0B36F0C.quest_desc: [
+		"&7A Molecular Assembler and Pattern Provider form the basic AE2 autocrafting pair.&r"
+		" "
+		"&fPlace them together, connect the provider to the ME network, and encode a simple crafting pattern.&r"
+		" "
+		"&eThe network also needs storage, power, an available channel, and enough crafting CPU space.&r"
+	]
+	quest.7B168B08E0B36F0C.quest_subtitle: "Digital Progression"
+	quest.7B168B08E0B36F0C.title: "Begin ME Autocrafting"
 	quest.7B993E1F7990D293.quest_desc: ["Experience Seeds convert growth into stored knowledge for enchanting and utility crafts."]
 	quest.7B993E1F7990D293.quest_subtitle: "Cultivated Experience Essence"
 	quest.7B993E1F7990D293.title: "Experience Seeds"
+	quest.7B9A5E838B0A0A12.quest_desc: [
+		"&7The Particle Accelerator is the major multiblock used to create exotic late-age materials.&r"
+		" "
+		"&fCraft its controller, motors, rings, and sensors, then assemble the complete structure with Oritech's guide.&r"
+		" "
+		"&eA reversed component or malformed ring prevents startup; inspect every layer.&r"
+	]
+	quest.7B9A5E838B0A0A12.quest_subtitle: "Powered Industry"
+	quest.7B9A5E838B0A0A12.title: "Assemble the Particle Accelerator"
 	quest.7C20643129AD0134.title: "Chest"
 	quest.7D04BE7ADA7A5793.title: "Gold Upgrade"
 	quest.7E35B188166E3ED9.quest_desc: ["Wildfire Seeds bottle a hotter flame for recipes beyond ordinary blaze power."]
@@ -1174,4 +1514,36 @@
 	task.69B13AC47F86E94C.title: "Claims"
 	task.6E299E94C559321A.title: "Progression"
 	task.7FDD597DA3D7A5BA.title: "Resource Generator"
+	quest.7BCF609A2E79A59A.quest_desc: [
+		"&7The Infusion Altar combines essences and materials to create seeds, crystals, and other Mystical Agriculture components.&r"
+		" "
+		"&ePlace eight Infusion Pedestals around the altar and activate the recipe from its center.&r"
+	]
+	quest.7BCF609A2E79A59A.quest_subtitle: "The Heart of Seed Crafting"
+	quest.7BCF609A2E79A59A.title: "Build an Infusion Altar"
+	quest.42318046DA02C486.quest_desc: ["&7The Infusion Crystal upgrades lower essences into stronger tiers used by increasingly valuable seeds.&r"]
+	quest.42318046DA02C486.quest_subtitle: "Essence Transmutation"
+	quest.42318046DA02C486.title: "Craft an Infusion Crystal"
+	quest.497AE1198BA68365.quest_desc: ["&7Inferium is the foundation of Mystical Agriculture and the starting material for every higher essence tier.&r"]
+	quest.497AE1198BA68365.quest_subtitle: "The First Essence"
+	quest.497AE1198BA68365.title: "Gather Inferium Essence"
+	quest.082979C3AA5CE91C.quest_desc: ["&7Prudentium is the second essence tier and unlocks a wider range of useful resource seeds.&r"]
+	quest.082979C3AA5CE91C.quest_subtitle: "Tier Two Essence"
+	quest.082979C3AA5CE91C.title: "Create Prudentium Essence"
+	quest.7D42EE8FAAC4C722.quest_desc: ["&7Tertium supports stronger seeds that replace increasingly dangerous or repetitive resource gathering.&r"]
+	quest.7D42EE8FAAC4C722.quest_subtitle: "Tier Three Essence"
+	quest.7D42EE8FAAC4C722.title: "Create Tertium Essence"
+	quest.5BAF4F567EA7033A.quest_desc: ["&7Imperium unlocks advanced seeds for valuable metals, rare creatures, and technological materials.&r"]
+	quest.5BAF4F567EA7033A.quest_subtitle: "Tier Four Essence"
+	quest.5BAF4F567EA7033A.title: "Create Imperium Essence"
+	quest.02CFF707C09E12D5.quest_desc: ["&7Supremium is the highest standard essence tier and the gateway to the most powerful resource seeds.&r"]
+	quest.02CFF707C09E12D5.quest_subtitle: "Tier Five Essence"
+	quest.02CFF707C09E12D5.title: "Create Supremium Essence"
+	quest.6248DE8E6A9D2A5C.quest_desc: [
+		"&7The Awakening Altar transforms Supremium equipment and materials into their awakened forms.&r"
+		" "
+		"&eArrange eight Awakening Pedestals around the altar before activating an awakening recipe.&r"
+	]
+	quest.6248DE8E6A9D2A5C.quest_subtitle: "Power Beyond Supremium"
+	quest.6248DE8E6A9D2A5C.title: "Build an Awakening Altar"
 }
