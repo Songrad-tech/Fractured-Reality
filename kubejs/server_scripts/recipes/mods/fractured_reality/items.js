@@ -70,6 +70,60 @@ ServerEvents.recipes((event) => {
         "     A",
       ],
     },
+
+    {
+      id: "fractured_boots",
+      baseTool: "mysticalagriculture:awakened_supremium_boots",
+      pattern: [
+        "AAA   AAA",
+        "ABA   AFA",
+        "ADA   AGA",
+        "ACA   AEA",
+        "AAA   AAA",
+      ],
+    },
+    {
+      id: "fractured_leggings",
+      baseTool: "mysticalagriculture:awakened_supremium_leggings",
+      pattern: [
+        "AAAAAAAAA",
+        "ABEGDGEBA",
+        "ACAAAAACA",
+        "ABA   ABA",
+        "ACA   ACA",
+        "AEA   AEA",
+        "ABA   ABA",
+        "AFA   AFA",
+        "AAA   AAA",
+      ],
+    },
+    {
+      id: "fractured_chestplate",
+      baseTool: "mysticalagriculture:awakened_supremium_chestplate",
+      pattern: [
+        "AAA   AAA",
+        "AFA   AFA",
+        "ACA   ACA",
+        "AFA   AFA",
+        "ACAAAAACA",
+        "ABCEGECBA",
+        "AEBGDGBEA",
+        "ABCEGECBA",
+        "AAAAAAAAA",
+      ],
+    },
+    {
+      id: "fractured_helmet",
+      baseTool: "mysticalagriculture:awakened_supremium_helmet",
+      pattern: [
+        "AAAAAAAAA",
+        "ACBGDGBCA",
+        "ABAAAAABA",
+        "AEA   AEA",
+        "AFA   AFA",
+        "AAA   AAA",
+      ],
+    },
   ];
 
   event.custom({
