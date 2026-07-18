@@ -79,5 +79,93 @@
 			x: -2.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "48149D3CD7A9E97C"
+			tasks: [{
+				id: "7F4DF2149B6FFC2A"
+				item: { count: 1, id: "kubejs:fractured_shovel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "5CE4C9D28725C867"
+			tasks: [{
+				id: "59FC2B80840C4FF6"
+				item: { count: 1, id: "kubejs:fractured_axe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "067E99E1095F125B"
+			tasks: [{
+				id: "4BDA76D0EF37464D"
+				item: { count: 1, id: "kubejs:fractured_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "469407FCA123527F"
+			tasks: [{
+				id: "69AD7C99F00DF92F"
+				item: { count: 1, id: "kubejs:fractured_hoe" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "6EF7688AC704CD40"
+			tasks: [{
+				id: "7008EF9B8147D251"
+				item: { count: 1, id: "kubejs:fractured_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "0B4AF70315A3DF32"
+			tasks: [{
+				id: "059A956ACAAD4621"
+				item: { count: 1, id: "kubejs:fractured_chestplate" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "78F2CE9C4400C653"
+			tasks: [{
+				id: "09B27D34B10E65F8"
+				item: { count: 1, id: "kubejs:fractured_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "163282EDAD73D448"
+			tasks: [{
+				id: "679E08C778460156"
+				item: { count: 1, id: "kubejs:fractured_boots" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
 	]
 }
