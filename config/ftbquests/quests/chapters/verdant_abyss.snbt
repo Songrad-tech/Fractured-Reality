@@ -1,8 +1,11 @@
 {
+	autofocus_id: "62F5592C52CD8821"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "verdant_abyss"
 	group: "69F5CC4C3382AB9B"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "undergarden:depthrock_pebble"
 	}
@@ -30,6 +33,7 @@
 	quests: [
 		{
 			dependencies: ["26A381EB48031E70"]
+			hide_until_deps_complete: true
 			id: "58BE26650A0440F6"
 			rewards: [{
 				id: "7DA56BEC24A087F5"

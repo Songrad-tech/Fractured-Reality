@@ -1,8 +1,11 @@
 {
+	autofocus_id: "40AA516985A4A73F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "final_chapter__fractured_divinity"
 	group: "2B3850906486FE99"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: true
 	icon: {
 		components: {
 			"ftbquests:icon": "fractured_reality:item/fractured_shard"
@@ -15,6 +18,7 @@
 	quests: [
 		{
 			dependencies: ["55321446C11DA7F0"]
+			hide_until_deps_complete: true
 			id: "40AA516985A4A73F"
 			tasks: [{
 				id: "7D91F7CE1A08CDCC"

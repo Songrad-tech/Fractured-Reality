@@ -3,11 +3,724 @@
 	default_quest_shape: ""
 	filename: "market"
 	group: ""
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "kubejs:fractured_coin"
 	}
 	id: "3C209F73768184BD"
+	images: [
+		{
+			dependency: "3F8FDF23051A7247"
+			height: 20.0d
+			image: "create:block/palettes/industrial_iron_window_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependency: "0DC9B4CBE1642B75"
+			height: 20.0d
+			image: "create:block/palettes/industrial_iron_window_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependency: "06C81E9D90C778FC"
+			height: 20.0d
+			image: "create:block/palettes/industrial_iron_window_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependency: "3D4CF467D45DD795"
+			height: 20.0d
+			image: "create:block/palettes/industrial_iron_window_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependency: "0B9EF5104D703692"
+			height: 20.0d
+			image: "create:block/palettes/industrial_iron_window_pane_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 10.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["3F8FDF23051A7247"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "005F946A8F491A08"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "6526D43495DE0DE9"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "026B4035FF28B575"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F8FDF23051A7247"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:copper_ingot"
+			}
+			id: "1B7C9A42D5E803F6"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "2DDDA091EF853632"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0A09A0952F308FE0"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F8FDF23051A7247"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:gold_ingot"
+			}
+			id: "2D8F04B6A1C795E3"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "4FE5ADD47C62977E"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "37DEBEFF93076606"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F8FDF23051A7247"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:coal"
+			}
+			id: "3E9105C7B2D846F0"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "0A98C9BF92E67EA6"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "426A3A75AFB46206"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F8FDF23051A7247"]
+			disable_toast: true
+			icon: {
+				id: "create:zinc_ingot"
+			}
+			id: "4FA216D8C3E95701"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "2483022CD1BCEFF7"
+				item: {
+					count: 1
+					id: "create:zinc_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "22036AC26368DD0E"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4E8825D12111FC6B"]
+			disable_toast: true
+			icon: {
+				id: "createaddition:electrum_ingot"
+			}
+			id: "50B327E9D4FA6812"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "6BAB6CA4D523CD56"
+				item: {
+					count: 1
+					id: "createaddition:electrum_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "094DC627EB135AF8"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F8FDF23051A7247"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:quartz"
+			}
+			id: "61C438FAE50B7923"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "0532B3C6543BDC96"
+				item: {
+					count: 1
+					id: "minecraft:quartz"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1A5ED738FC246B09"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F8FDF23051A7247"]
+			disable_toast: true
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "72D5490BF61C8A34"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "0A17CE385FD2B964"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2B6FE8490D357C1A"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DC9B4CBE1642B75"]
+			disable_toast: true
+			icon: {
+				id: "kubejs:andesite_core"
+			}
+			id: "3BAD15F224F063A1"
+			optional: true
+			rewards: [{
+				id: "1B28DF4960E3CA75"
+				item: {
+					count: 1
+					id: "kubejs:andesite_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3C70F95A1E468D2B"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["459A613EBCC07CF4"]
+			disable_toast: true
+			icon: {
+				id: "kubejs:copper_core"
+			}
+			id: "2CA01FCCDE8B193A"
+			optional: true
+			rewards: [{
+				id: "2C39E05A71F4DB86"
+				item: {
+					count: 1
+					id: "kubejs:copper_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4D810A6B2F579E3C"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6048F41AC1218BF5"]
+			disable_toast: true
+			icon: {
+				id: "kubejs:brass_core"
+			}
+			id: "357F6E425A9EC8C5"
+			optional: true
+			rewards: [{
+				id: "3D4AF16B8205EC97"
+				item: {
+					count: 1
+					id: "kubejs:brass_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5E921B7C3068AF4D"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["663C2C9828D6C746"]
+			disable_toast: true
+			icon: {
+				id: "kubejs:electrum_core"
+			}
+			id: "2D9097B20B7EABBB"
+			optional: true
+			rewards: [{
+				id: "4E5B027C9316FDA8"
+				item: {
+					count: 1
+					id: "kubejs:electrum_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6FA32C8D4179B05E"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5AC64186511562F5"]
+			disable_toast: true
+			icon: {
+				id: "kubejs:fluix_core"
+			}
+			id: "333A55DC815BB25E"
+			optional: true
+			rewards: [{
+				id: "5F6C138DA4270EB9"
+				item: {
+					count: 1
+					id: "kubejs:fluix_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "70B43D9E528AC16F"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["17E242E6078451DA"]
+			disable_toast: true
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "512CBC078876045D"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "2CAA2F4B1281FFDD"
+				item: {
+					count: 1
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3921FD0DF96AD6CD"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F8FDF23051A7247"]
+			disable_toast: true
+			icon: {
+				id: "oritech:nickel_ingot"
+			}
+			id: "6A1D4F8C2B709E35"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "58CBC7ABB14281C3"
+				item: {
+					count: 1
+					id: "oritech:nickel_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "74F75DF55A4FC77B"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["06C81E9D90C778FC"]
+			disable_toast: true
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "5554C93702B69B2D"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "721195D9499A21E2"
+				item: {
+					count: 1
+					id: "create:andesite_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "43FA9097C7351A50"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["028183CAF76216EB"]
+			disable_toast: true
+			icon: {
+				id: "create:copper_casing"
+			}
+			id: "1DFAA5DBAC88B1FC"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "731F06A7E750F08D"
+				item: {
+					count: 1
+					id: "create:copper_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "507D39EEEABD6C6B"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44BAE70AE87741B8"]
+			disable_toast: true
+			icon: {
+				id: "create:brass_casing"
+			}
+			id: "07D9FB4E1C2A6385"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "18EA0C5F2D3B7496"
+				item: {
+					count: 1
+					id: "create:brass_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "29FB1D603E4C85A7"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["51A24A24DCF5CFE2"]
+			disable_toast: true
+			icon: {
+				id: "kubejs:electrum_casing"
+			}
+			id: "3A0C2E714F5D96B8"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "4B1D3F82506EA7C9"
+				item: {
+					count: 1
+					id: "kubejs:electrum_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "5C2E4093617FB8DA"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B9EF5104D703692"]
+			disable_toast: true
+			icon: {
+				id: "tempad:time_steel"
+			}
+			id: "6D3F51A47280C9EB"
+			optional: true
+			rewards: [{
+				id: "7E4062B58391DAFC"
+				item: {
+					count: 1
+					id: "tempad:time_steel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0207546AC2925997"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3D4CF467D45DD795"]
+			disable_toast: true
+			icon: {
+				id: "ae2:sky_stone_block"
+			}
+			id: "11DBB19A02404D58"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "2BFF8A8A5CF99C31"
+				item: {
+					count: 1
+					id: "ae2:sky_stone_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4C9CE82BB8C6FAAF"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3CD9F06FB8729803"]
+			disable_toast: true
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "4D338AB7F28ACEA8"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "4086B103CD61ED90"
+				item: {
+					count: 1
+					id: "ae2:certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3C299D06A36C1068"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["57E295D70174F9C6"]
+			disable_toast: true
+			icon: {
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+			id: "6065F3E536512B82"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "07C9FB4E1D2A6385"
+				item: {
+					count: 1
+					id: "ae2:charged_certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "18DA0C5F2E3B7496"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["06A3FCED02DE56BE"]
+			disable_toast: true
+			icon: {
+				id: "ae2:fluix_crystal"
+			}
+			id: "29EB1D603F4C85A7"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "3AFC2E71405D96B8"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "4B0D3F82516EA7C9"
+				item: { count: 1, id: "kubejs:fractured_coin" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+	]
 }

@@ -1,8 +1,11 @@
 {
+	autofocus_id: "75AD0195B0CAF319"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "age_2__electric_age"
 	group: "2B3850906486FE99"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "createaddition:electrum_ingot"
 	}
@@ -12,10 +15,11 @@
 	quests: [
 		{
 			dependencies: ["65194B1780617E2D"]
+			hide_until_deps_complete: true
 			id: "75AD0195B0CAF319"
 			rewards: [{
-				id: "5FAA597E118E70FB"
 				count: 12
+				id: "5FAA597E118E70FB"
 				item: {
 					count: 1
 					id: "kubejs:fractured_coin"
@@ -34,8 +38,8 @@
 			dependencies: ["75AD0195B0CAF319"]
 			id: "4E8825D12111FC6B"
 			rewards: [{
-				id: "58C786B8536094D8"
 				count: 8
+				id: "58C786B8536094D8"
 				item: {
 					count: 1
 					id: "kubejs:fractured_coin"
@@ -54,8 +58,8 @@
 			dependencies: ["4E8825D12111FC6B"]
 			id: "51A24A24DCF5CFE2"
 			rewards: [{
-				id: "6DA55511C389E4C9"
 				count: 10
+				id: "6DA55511C389E4C9"
 				item: {
 					count: 1
 					id: "kubejs:fractured_coin"
@@ -74,8 +78,8 @@
 			dependencies: ["51A24A24DCF5CFE2"]
 			id: "663C2C9828D6C746"
 			rewards: [{
-				id: "3AFC1039BAE5C450"
 				count: 40
+				id: "3AFC1039BAE5C450"
 				item: {
 					count: 1
 					id: "kubejs:fractured_coin"

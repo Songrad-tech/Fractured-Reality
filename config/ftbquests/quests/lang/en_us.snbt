@@ -15,6 +15,7 @@
 	chapter.7EE8A90CDC0768D4.title: "Age 3: Digital Consciousness"
 	chapter_group.2B3850906486FE99.title: "Progression"
 	chapter_group.69F5CC4C3382AB9B.title: "Exploration"
+	quest.005F946A8F491A08.title: "Iron Ingot"
 	quest.006F7EA770EB49AD.title: "Copper Upgrade"
 	quest.01154E300B5A8FD7.quest_desc: [
 		"This Honey Pearl has been attuned to the hive beyond the Overworld."
@@ -41,6 +42,9 @@
 	]
 	quest.028183CAF76216EB.quest_subtitle: "A Warmer Frame"
 	quest.028183CAF76216EB.title: "Craft a Copper Casing"
+	quest.02CFF707C09E12D5.quest_desc: ["&7Supremium is the highest standard essence tier and the gateway to the most powerful resource seeds.&r"]
+	quest.02CFF707C09E12D5.quest_subtitle: "Tier Five Essence"
+	quest.02CFF707C09E12D5.title: "Create Supremium Essence"
 	quest.02FE952A15865F26.title: "Wooden Construction Stick"
 	quest.0329DD5F78FB3E0C.quest_desc: [
 		"§6A Blaze Burner is the heat source behind stronger mixing recipes.§r"
@@ -95,6 +99,10 @@
 	quest.0789D9872462D216.quest_desc: ["§fIt condenses your Crimsite exploration into the key needed for Iron resource generation.§r"]
 	quest.0789D9872462D216.quest_subtitle: "Custom Resource Core"
 	quest.0789D9872462D216.title: "Craft a Crimsite Core"
+	quest.07D9FB4E1C2A6385.title: "Brass Casing"
+	quest.082979C3AA5CE91C.quest_desc: ["&7Prudentium is the second essence tier and unlocks a wider range of useful resource seeds.&r"]
+	quest.082979C3AA5CE91C.quest_subtitle: "Tier Two Essence"
+	quest.082979C3AA5CE91C.title: "Create Prudentium Essence"
 	quest.0843AD7EEF419A18.quest_desc: ["&7Calculation Processors handle capacity and storage logic across an ME system.&r"]
 	quest.0843AD7EEF419A18.quest_subtitle: "Digital Circuit"
 	quest.0843AD7EEF419A18.title: "Make a Calculation Processor"
@@ -199,6 +207,7 @@
 	]
 	quest.11AF2176193077FD.quest_subtitle: "Exploration Material"
 	quest.11AF2176193077FD.title: "Gather Asurine"
+	quest.11DBB19A02404D58.title: "Sky Stone Block"
 	quest.125AEB10070AAA43.title: "Essence of Life"
 	quest.128BDDD7D750138C.quest_desc: [
 		"§7Hand crafting may help you survive the early days.§r"
@@ -276,6 +285,7 @@
 	quest.19F1D69ADFECC081.quest_subtitle: "Printed Circuit Pattern"
 	quest.19F1D69ADFECC081.title: "Find the Calculation Press"
 	quest.1ACED1A29208A092.title: "Diamond Upgrade"
+	quest.1B7C9A42D5E803F6.title: "Copper Ingot"
 	quest.1B99B2431D1A5A72.quest_desc: [
 		"These desires focus on pollen, flowers, Honey Slimes, and injured bees."
 		" "
@@ -286,6 +296,7 @@
 	quest.1D6A4382B115577A.quest_desc: ["Amethyst Seeds keep crystal essence growing after your first geode discoveries."]
 	quest.1D6A4382B115577A.quest_subtitle: "Cultivated Amethyst Essence"
 	quest.1D6A4382B115577A.title: "Amethyst Seeds"
+	quest.1DFAA5DBAC88B1FC.title: "Copper Casing"
 	quest.1E4C5686F11D495F.quest_desc: [
 		"Complete the Queen's hunting requests: Silverfish, Endermites, Spiders, and Cave Spiders."
 		" "
@@ -436,6 +447,7 @@
 	quest.29B7FA7414FE5127.quest_desc: ["Fractured Shared Seeds tie this age back to the pack's broken world and its stranger recipes."]
 	quest.29B7FA7414FE5127.quest_subtitle: "Cultivated Fractured Shared Essence"
 	quest.29B7FA7414FE5127.title: "Fractured Shared Seeds"
+	quest.29EB1D603F4C85A7.title: "Fluix Crystal"
 	quest.2B28FB7ECCDC5319.quest_desc: ["Temper Fire Seeds carefully; their essence fuels hotter recipes without chasing flames."]
 	quest.2B28FB7ECCDC5319.quest_subtitle: "Cultivated Fire Essence"
 	quest.2B28FB7ECCDC5319.title: "Fire Seeds"
@@ -458,6 +470,7 @@
 	quest.2BB6982E8369B983.quest_subtitle: "Digital Progression"
 	quest.2BB6982E8369B983.title: "Build a Matter Condenser"
 	quest.2C60767BD295F11B.title: "Gold Barrel"
+	quest.2CA01FCCDE8B193A.title: "Copper Core"
 	quest.2CD0C913394EB5AE.quest_desc: ["§fUse the Viridite you gathered to unlock the Nickel generation path.§r"]
 	quest.2CD0C913394EB5AE.quest_subtitle: "Custom Resource Core"
 	quest.2CD0C913394EB5AE.title: "Craft a Viridite Core"
@@ -473,6 +486,8 @@
 	quest.2D5F80A90CCA1579.quest_desc: ["Netherite Seeds are a top-tier reward for pushing essence farming into true endgame metals."]
 	quest.2D5F80A90CCA1579.quest_subtitle: "Cultivated Netherite Essence"
 	quest.2D5F80A90CCA1579.title: "Netherite Seeds"
+	quest.2D8F04B6A1C795E3.title: "Gold Ingot"
+	quest.2D9097B20B7EABBB.title: "Electrum Core"
 	quest.2E40399441207208.quest_desc: [
 		"§6Challenge: Copper should now be a renewable factory output.§r"
 		" "
@@ -503,6 +518,7 @@
 	]
 	quest.31FC459BE575BB16.quest_subtitle: "Condensed Echo"
 	quest.31FC459BE575BB16.title: "Obtain a Soul Crystal"
+	quest.333A55DC815BB25E.title: "Fluix Core"
 	quest.33744EB9CA7827B4.title: "Diamond Magnum Torch"
 	quest.339B1B43D36D8DB4.quest_desc: [
 		"Enter The Bumblezone and begin exploring its enormous honeycomb caverns."
@@ -527,6 +543,7 @@
 	]
 	quest.35690DA73DE6F776.quest_subtitle: "Pressed Power"
 	quest.35690DA73DE6F776.title: "Craft a Resonarium Plate"
+	quest.357F6E425A9EC8C5.title: "Brass Core"
 	quest.35A6F9649E54174A.quest_desc: ["&7The Bio Generator turns renewable organic material into electrical power.&r"]
 	quest.35A6F9649E54174A.quest_subtitle: "Electrical Generation"
 	quest.35A6F9649E54174A.title: "Build a Bio Generator"
@@ -559,6 +576,7 @@
 	quest.396229085654B376.quest_desc: ["&7The Centrifuge separates complex inputs into useful processed materials.&r"]
 	quest.396229085654B376.quest_subtitle: "Powered Industry"
 	quest.396229085654B376.title: "Build a Centrifuge"
+	quest.3A0C2E714F5D96B8.title: "Electrum Casing"
 	quest.3A3FDB2C0738518C.quest_desc: [
 		"§7Your machines are now strong enough to do more than process what you mine by hand.§r"
 		" "
@@ -581,6 +599,7 @@
 	quest.3A7A7F0160A7E9A4.quest_subtitle: "Automation Check"
 	quest.3A7A7F0160A7E9A4.title: "Generate Zinc"
 	quest.3AB7518A0232F39C.title: "Netherite Barrel"
+	quest.3BAD15F224F063A1.title: "Andesite Core"
 	quest.3BBF7D4ABB5C285F.title: "Essence of Radiance"
 	quest.3C70A5B33ED35671.quest_desc: [
 		"&7Still Strange Matter is an exotic product of Oritech's highest processing chain.&r"
@@ -597,7 +616,7 @@
 	quest.3CD9F06FB8729803.title: "Gather Certus Quartz"
 	quest.3D4CF467D45DD795.quest_desc: ["&7Sky Stone is the first physical trace of Applied Energistics technology.&r"]
 	quest.3D4CF467D45DD795.quest_subtitle: "Digital Progression"
-	quest.3D4CF467D45DD795.title: "Find Sky Stone"
+	quest.3D4CF467D45DD795.title: "Craft Sky Stone"
 	quest.3DEFE136C2F663A0.quest_desc: ["&7Machine Core 4 advances Oritech equipment to technology tier 4.&r"]
 	quest.3DEFE136C2F663A0.quest_subtitle: "Machine Core Tier 4"
 	quest.3DEFE136C2F663A0.title: "Craft Machine Core 4"
@@ -615,6 +634,7 @@
 	]
 	quest.3E7246FF565DE837.quest_subtitle: "Fluid Application"
 	quest.3E7246FF565DE837.title: "Craft a Spout"
+	quest.3E9105C7B2D846F0.title: "Coal"
 	quest.3EC6888629E95574.quest_desc: ["Redstone Seeds keep circuits, machines, and automation logic supplied from the field."]
 	quest.3EC6888629E95574.quest_subtitle: "Cultivated Redstone Essence"
 	quest.3EC6888629E95574.title: "Redstone Seeds"
@@ -683,6 +703,9 @@
 	]
 	quest.422CEE61A723A33E.quest_subtitle: "Pressed Parts"
 	quest.422CEE61A723A33E.title: "Craft a Mechanical Press"
+	quest.42318046DA02C486.quest_desc: ["&7The Infusion Crystal upgrades lower essences into stronger tiers used by increasingly valuable seeds.&r"]
+	quest.42318046DA02C486.quest_subtitle: "Essence Transmutation"
+	quest.42318046DA02C486.title: "Craft an Infusion Crystal"
 	quest.42341EC5B943117F.quest_desc: [
 		"&7The Tempad opens temporary gateways between saved destinations.&r"
 		" "
@@ -815,6 +838,9 @@
 	quest.494AE9D1D5FEA6A5.quest_desc: ["Coal Seeds keep early fuel and carbon recipes moving even when mining slows down."]
 	quest.494AE9D1D5FEA6A5.quest_subtitle: "Cultivated Coal Essence"
 	quest.494AE9D1D5FEA6A5.title: "Coal Seeds"
+	quest.497AE1198BA68365.quest_desc: ["&7Inferium is the foundation of Mystical Agriculture and the starting material for every higher essence tier.&r"]
+	quest.497AE1198BA68365.quest_subtitle: "The First Essence"
+	quest.497AE1198BA68365.title: "Gather Inferium Essence"
 	quest.49AC2693809C5238.quest_desc: ["Limestone Seeds make decorative and processing stone available without quarry detours."]
 	quest.49AC2693809C5238.quest_subtitle: "Cultivated Limestone Essence"
 	quest.49AC2693809C5238.title: "Limestone Seeds"
@@ -877,6 +903,7 @@
 	quest.4D0D548BC4F08DB4.quest_desc: ["Fluix Seeds stabilize AE2 progression with farmable fluix essence."]
 	quest.4D0D548BC4F08DB4.quest_subtitle: "Cultivated Fluix Essence"
 	quest.4D0D548BC4F08DB4.title: "Fluix Seeds"
+	quest.4D338AB7F28ACEA8.title: "Certus Quartz Crystal"
 	quest.4D5448811BC38A2C.quest_desc: [
 		"&7The Inscriber stamps materials into the circuits used by every important AE2 processor.&r"
 		" "
@@ -904,10 +931,12 @@
 	]
 	quest.4EBF77C1E4DA7981.quest_subtitle: "Living Decay"
 	quest.4EBF77C1E4DA7981.title: "Defeat a Sludge"
+	quest.4FA216D8C3E95701.title: "Zinc Ingot"
 	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
 	quest.50071A0278D80BA6.quest_desc: ["&7The Engineering Press creates advanced circuits for controllers and dense storage.&r"]
 	quest.50071A0278D80BA6.quest_subtitle: "Printed Circuit Pattern"
 	quest.50071A0278D80BA6.title: "Find the Engineering Press"
+	quest.50B327E9D4FA6812.title: "Electrum Ingot"
 	quest.50DDF2BE419D5CD8.quest_desc: [
 		"§7Encased Fans push air through blocks and materials.§r"
 		" "
@@ -918,6 +947,7 @@
 	quest.512BB2F6A1757B62.quest_desc: ["Certus Quartz Seeds keep Applied Energistics growth steady once networks begin expanding."]
 	quest.512BB2F6A1757B62.quest_subtitle: "Cultivated Certus Quartz Essence"
 	quest.512BB2F6A1757B62.title: "Certus Quartz Seeds"
+	quest.512CBC078876045D.title: "Brass Ingot"
 	quest.5165909A68C1B5BD.quest_desc: ["Cow Seeds are your reliable route to leather, beef, and ranch materials without expanding pens forever."]
 	quest.5165909A68C1B5BD.quest_subtitle: "Cultivated Cow Essence"
 	quest.5165909A68C1B5BD.title: "Cow Seeds"
@@ -980,6 +1010,7 @@
 	]
 	quest.54FDC770499D6560.quest_subtitle: "Exploration Material"
 	quest.54FDC770499D6560.title: "Gather Crimsite"
+	quest.5554C93702B69B2D.title: "Andesite Casing"
 	quest.55C3D47B5B2B9120.quest_desc: ["&7The Fractured Singularity binds digital density to the pack's broken reality.&r"]
 	quest.55C3D47B5B2B9120.quest_subtitle: "Digital Progression"
 	quest.55C3D47B5B2B9120.title: "Stabilize a Fractured Singularity"
@@ -1027,6 +1058,9 @@
 	quest.5B46F61EE362F36E.quest_desc: ["&7Formation and Annihilation Cores let the ME network place and remove matter.&r"]
 	quest.5B46F61EE362F36E.quest_subtitle: "Digital Progression"
 	quest.5B46F61EE362F36E.title: "Craft Formation and Annihilation Cores"
+	quest.5BAF4F567EA7033A.quest_desc: ["&7Imperium unlocks advanced seeds for valuable metals, rare creatures, and technological materials.&r"]
+	quest.5BAF4F567EA7033A.quest_subtitle: "Tier Four Essence"
+	quest.5BAF4F567EA7033A.title: "Create Imperium Essence"
 	quest.5C0F21A11B1611E1.quest_desc: ["Let Stone Seeds cover the constant need for cobble, stone, and early building essence."]
 	quest.5C0F21A11B1611E1.quest_subtitle: "Cultivated Stone Essence"
 	quest.5C0F21A11B1611E1.title: "Stone Seeds"
@@ -1061,6 +1095,7 @@
 	]
 	quest.6048F41AC1218BF5.quest_subtitle: "Advanced Mechanical Core"
 	quest.6048F41AC1218BF5.title: "Craft a Brass Core"
+	quest.6065F3E536512B82.title: "Charged Certus Quartz Crystal"
 	quest.60CFD33DF18A59CC.quest_desc: ["Lapis Lazuli Seeds support enchanting, dyes, and blue-tier crafting without ore runs."]
 	quest.60CFD33DF18A59CC.quest_subtitle: "Cultivated Lapis Lazuli Essence"
 	quest.60CFD33DF18A59CC.title: "Lapis Lazuli Seeds"
@@ -1070,6 +1105,7 @@
 	quest.61493893A4E2DF29.quest_desc: ["Nickel Seeds keep industrial alloy chains supplied when recipes start scaling up."]
 	quest.61493893A4E2DF29.quest_subtitle: "Cultivated Nickel Essence"
 	quest.61493893A4E2DF29.title: "Nickel Seeds"
+	quest.61C438FAE50B7923.title: "Nether Quartz"
 	quest.62006D27C12C3402.quest_desc: [
 		"§lJEI§r §7will guide you throughout your journey.§r"
 		" "
@@ -1081,6 +1117,13 @@
 		"§cDo not rely entirely on vanilla progression knowledge.§r"
 	]
 	quest.62006D27C12C3402.title: "JEI is Your Best Friend"
+	quest.6248DE8E6A9D2A5C.quest_desc: [
+		"&7The Awakening Altar transforms Supremium equipment and materials into their awakened forms.&r"
+		" "
+		"&eArrange eight Awakening Pedestals around the altar before activating an awakening recipe.&r"
+	]
+	quest.6248DE8E6A9D2A5C.quest_subtitle: "Power Beyond Supremium"
+	quest.6248DE8E6A9D2A5C.title: "Build an Awakening Altar"
 	quest.629860E916A8B1F7.quest_desc: [
 		"§6Mechanical Crafters assemble recipes too large or too awkward for a normal crafting grid.§r"
 		" "
@@ -1159,6 +1202,7 @@
 	quest.689AD3F0E7571A85.quest_subtitle: "Cultivated Energite Essence"
 	quest.689AD3F0E7571A85.title: "Energite Seeds"
 	quest.6942D9CB3B07E0D8.title: "Configuration Tool"
+	quest.6A1D4F8C2B709E35.title: "Nickel Ingot"
 	quest.6A4CCCEA030C7865.title: "Controller Extension"
 	quest.6AC0DB7D357CFE78.quest_desc: ["&7The Tree Feller harvests wood for a renewable automated forestry line.&r"]
 	quest.6AC0DB7D357CFE78.quest_subtitle: "Automated Forestry"
@@ -1201,6 +1245,7 @@
 	quest.6C74B0300D2159A6.quest_subtitle: "Hunter in the Dark"
 	quest.6C74B0300D2159A6.title: "Defeat a Stalker"
 	quest.6CE2C3EFDCA2D25D.title: "Iron Barrel"
+	quest.6D3F51A47280C9EB.title: "Time Steel"
 	quest.6D407B1D6ECEC401.title: "Diamond Backpack"
 	quest.6DBCE30C8EB7B626.quest_desc: ["&7Machine Core 5 advances Oritech equipment to technology tier 5.&r"]
 	quest.6DBCE30C8EB7B626.quest_subtitle: "Machine Core Tier 5"
@@ -1248,6 +1293,7 @@
 	quest.72AD0CAC23AC335D.quest_subtitle: "4K Digital Capacity"
 	quest.72AD0CAC23AC335D.title: "Craft Cell Component 4K"
 	quest.72D10B75A011DEB8.title: "Netherite Upgrade"
+	quest.72D5490BF61C8A34.title: "Andesite Alloy"
 	quest.72EC9401EE3BA289.quest_desc: [
 		"§7Many dimensions, structures, and hidden locations contain important resources, progression items, and fragments of lost knowledge.§r"
 		" "
@@ -1347,8 +1393,18 @@
 	]
 	quest.7B9A5E838B0A0A12.quest_subtitle: "Powered Industry"
 	quest.7B9A5E838B0A0A12.title: "Assemble the Particle Accelerator"
+	quest.7BCF609A2E79A59A.quest_desc: [
+		"&7The Infusion Altar combines essences and materials to create seeds, crystals, and other Mystical Agriculture components.&r"
+		" "
+		"&ePlace eight Infusion Pedestals around the altar and activate the recipe from its center.&r"
+	]
+	quest.7BCF609A2E79A59A.quest_subtitle: "The Heart of Seed Crafting"
+	quest.7BCF609A2E79A59A.title: "Build an Infusion Altar"
 	quest.7C20643129AD0134.title: "Chest"
 	quest.7D04BE7ADA7A5793.title: "Gold Upgrade"
+	quest.7D42EE8FAAC4C722.quest_desc: ["&7Tertium supports stronger seeds that replace increasingly dangerous or repetitive resource gathering.&r"]
+	quest.7D42EE8FAAC4C722.quest_subtitle: "Tier Three Essence"
+	quest.7D42EE8FAAC4C722.title: "Create Tertium Essence"
 	quest.7E35B188166E3ED9.quest_desc: ["Wildfire Seeds bottle a hotter flame for recipes beyond ordinary blaze power."]
 	quest.7E35B188166E3ED9.quest_subtitle: "Cultivated Wildfire Essence"
 	quest.7E35B188166E3ED9.title: "Wildfire Seeds"
@@ -1514,36 +1570,4 @@
 	task.69B13AC47F86E94C.title: "Claims"
 	task.6E299E94C559321A.title: "Progression"
 	task.7FDD597DA3D7A5BA.title: "Resource Generator"
-	quest.7BCF609A2E79A59A.quest_desc: [
-		"&7The Infusion Altar combines essences and materials to create seeds, crystals, and other Mystical Agriculture components.&r"
-		" "
-		"&ePlace eight Infusion Pedestals around the altar and activate the recipe from its center.&r"
-	]
-	quest.7BCF609A2E79A59A.quest_subtitle: "The Heart of Seed Crafting"
-	quest.7BCF609A2E79A59A.title: "Build an Infusion Altar"
-	quest.42318046DA02C486.quest_desc: ["&7The Infusion Crystal upgrades lower essences into stronger tiers used by increasingly valuable seeds.&r"]
-	quest.42318046DA02C486.quest_subtitle: "Essence Transmutation"
-	quest.42318046DA02C486.title: "Craft an Infusion Crystal"
-	quest.497AE1198BA68365.quest_desc: ["&7Inferium is the foundation of Mystical Agriculture and the starting material for every higher essence tier.&r"]
-	quest.497AE1198BA68365.quest_subtitle: "The First Essence"
-	quest.497AE1198BA68365.title: "Gather Inferium Essence"
-	quest.082979C3AA5CE91C.quest_desc: ["&7Prudentium is the second essence tier and unlocks a wider range of useful resource seeds.&r"]
-	quest.082979C3AA5CE91C.quest_subtitle: "Tier Two Essence"
-	quest.082979C3AA5CE91C.title: "Create Prudentium Essence"
-	quest.7D42EE8FAAC4C722.quest_desc: ["&7Tertium supports stronger seeds that replace increasingly dangerous or repetitive resource gathering.&r"]
-	quest.7D42EE8FAAC4C722.quest_subtitle: "Tier Three Essence"
-	quest.7D42EE8FAAC4C722.title: "Create Tertium Essence"
-	quest.5BAF4F567EA7033A.quest_desc: ["&7Imperium unlocks advanced seeds for valuable metals, rare creatures, and technological materials.&r"]
-	quest.5BAF4F567EA7033A.quest_subtitle: "Tier Four Essence"
-	quest.5BAF4F567EA7033A.title: "Create Imperium Essence"
-	quest.02CFF707C09E12D5.quest_desc: ["&7Supremium is the highest standard essence tier and the gateway to the most powerful resource seeds.&r"]
-	quest.02CFF707C09E12D5.quest_subtitle: "Tier Five Essence"
-	quest.02CFF707C09E12D5.title: "Create Supremium Essence"
-	quest.6248DE8E6A9D2A5C.quest_desc: [
-		"&7The Awakening Altar transforms Supremium equipment and materials into their awakened forms.&r"
-		" "
-		"&eArrange eight Awakening Pedestals around the altar before activating an awakening recipe.&r"
-	]
-	quest.6248DE8E6A9D2A5C.quest_subtitle: "Power Beyond Supremium"
-	quest.6248DE8E6A9D2A5C.title: "Build an Awakening Altar"
 }

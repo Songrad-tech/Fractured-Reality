@@ -1,8 +1,11 @@
 {
+	autofocus_id: "20CECAECE7438D7F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "age_1__mechanical_age"
 	group: "2B3850906486FE99"
+	hide_quest_until_deps_complete: false
+	hide_quest_until_deps_visible: true
 	icon: {
 		id: "create:andesite_alloy"
 	}
