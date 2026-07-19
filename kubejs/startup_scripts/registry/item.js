@@ -172,6 +172,10 @@ StartupEvents.registry("item", (event) => {
     .texture("fractured_reality:item/fractured_cake_base")
     .tag("create:upright_on_belt");
 
+  event
+    .create("fractured_core")
+    .parentModel("fractured_reality:block/fractured_core");
+
   fracturedTool("fractured_shovel", "shovel", "Fractured Shovel");
   fracturedTool("fractured_axe", "axe", "Fractured Axe");
   fracturedTool("fractured_pickaxe", "pickaxe", "Fractured Pickaxe");

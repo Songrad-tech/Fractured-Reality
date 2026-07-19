@@ -815,6 +815,7 @@
 	]
 	quest.48100508EA4A0312.quest_subtitle: "Powered Industry"
 	quest.48100508EA4A0312.title: "Build a Drone Port"
+	quest.48149D3CD7A9E97C.title: "Fractured Tools"
 	quest.48AAD65FFE4AE1FF.quest_desc: ["Honey Seeds bottle the sweetness of bees into a calmer, crop-based resource path."]
 	quest.48AAD65FFE4AE1FF.quest_subtitle: "Cultivated Honey Essence"
 	quest.48AAD65FFE4AE1FF.title: "Honey Seeds"
@@ -1265,6 +1266,7 @@
 	]
 	quest.6ED33C26796DEA3A.quest_subtitle: "The Beginning"
 	quest.6ED33C26796DEA3A.title: "Gather Wood"
+	quest.6EF7688AC704CD40.title: "Fractured Armor"
 	quest.70B1DD16E287E1E0.title: "Diamond Chest"
 	quest.716185F216AB4B7E.quest_desc: [
 		"Utheric Shards can be formed into a stronger crystal."
@@ -1556,6 +1558,7 @@
 	quest.F1B74DE9725240D1.title: "Break the Overcast Pots"
 	task.0E65D18F4C1C713D.title: "Any #c:ores/zinc"
 	task.10B1D3F62030CB9B.title: "Any #minecraft:logs"
+	task.183AE911609335CF.title: "Thanks for playing"
 	task.1C47A13DFFFDD8C5.title: "Useful Tips"
 	task.2169DD2DC384F9F2.title: "Any #functionalstorage:drawer_1x1"
 	task.2E3EEF143D275E46.title: "Any #elevatorid:elevators"

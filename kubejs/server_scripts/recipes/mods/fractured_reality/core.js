@@ -116,4 +116,22 @@ ServerEvents.recipes((event) => {
       time: 80,
     })
     .id("kubejs:assembly/electrum_core");
+
+  event
+    .custom({
+      type: "mysticalagriculture:infusion",
+      input: item("kubejs:fractured_casing"),
+      ingredients: [
+        item("kubejs:andesite_core"),
+        item("the_bumblezone:royal_jelly_block"),
+        item("kubejs:copper_core"),
+        item("deeperdarker:soul_crystal"),
+        item("kubejs:brass_core"),
+        item("undergarden:forgotten_block"),
+        item("kubejs:electrum_core"),
+        item("kubejs:fluix_core"),
+      ],
+      result: result("kubejs:fractured_core"),
+    })
+    .id("kubejs:infusion/fractured_core");
 });

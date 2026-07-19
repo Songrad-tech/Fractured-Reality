@@ -19,6 +19,8 @@
 			dependencies: ["55321446C11DA7F0"]
 			hide_until_deps_complete: true
 			id: "40AA516985A4A73F"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "7D91F7CE1A08CDCC"
 				item: { count: 1, id: "kubejs:fractured_dragon_heart" }
@@ -68,7 +70,7 @@
 				item: { count: 1, id: "mysticalagriculture:creative_soulium_dagger" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -79,96 +81,68 @@
 				item: { count: 1, id: "create:handheld_worldshaper" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "48149D3CD7A9E97C"
-			tasks: [{
-				id: "7F4DF2149B6FFC2A"
-				item: { count: 1, id: "kubejs:fractured_shovel" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0DB8863C6C3F4096"]
-			id: "5CE4C9D28725C867"
-			tasks: [{
-				id: "59FC2B80840C4FF6"
-				item: { count: 1, id: "kubejs:fractured_axe" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0DB8863C6C3F4096"]
-			id: "067E99E1095F125B"
-			tasks: [{
-				id: "4BDA76D0EF37464D"
-				item: { count: 1, id: "kubejs:fractured_pickaxe" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0DB8863C6C3F4096"]
-			id: "469407FCA123527F"
-			tasks: [{
-				id: "69AD7C99F00DF92F"
-				item: { count: 1, id: "kubejs:fractured_hoe" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 6.0d
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7F4DF2149B6FFC2A"
+					item: { count: 1, id: "kubejs:fractured_shovel" }
+					type: "item"
+				}
+				{
+					id: "74C1CB6C59522437"
+					item: { count: 1, id: "kubejs:fractured_axe" }
+					type: "item"
+				}
+				{
+					id: "38DCF1D9EA75F101"
+					item: { count: 1, id: "kubejs:fractured_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "6989367BED430283"
+					item: { count: 1, id: "kubejs:fractured_hoe" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "6EF7688AC704CD40"
-			tasks: [{
-				id: "7008EF9B8147D251"
-				item: { count: 1, id: "kubejs:fractured_helmet" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0DB8863C6C3F4096"]
-			id: "0B4AF70315A3DF32"
-			tasks: [{
-				id: "059A956ACAAD4621"
-				item: { count: 1, id: "kubejs:fractured_chestplate" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0DB8863C6C3F4096"]
-			id: "78F2CE9C4400C653"
-			tasks: [{
-				id: "09B27D34B10E65F8"
-				item: { count: 1, id: "kubejs:fractured_leggings" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0DB8863C6C3F4096"]
-			id: "163282EDAD73D448"
-			tasks: [{
-				id: "679E08C778460156"
-				item: { count: 1, id: "kubejs:fractured_boots" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 7.5d
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7008EF9B8147D251"
+					item: { count: 1, id: "kubejs:fractured_helmet" }
+					type: "item"
+				}
+				{
+					id: "7FCF86558F830DC2"
+					item: { count: 1, id: "kubejs:fractured_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0A1C72835BF1EF07"
+					item: { count: 1, id: "kubejs:fractured_leggings" }
+					type: "item"
+				}
+				{
+					id: "7C988F042309B0E7"
+					item: { count: 1, id: "kubejs:fractured_boots" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0DB8863C6C3F4096"]
@@ -178,27 +152,29 @@
 				item: { count: 1, id: "tempad:creative_chronometer" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["0C418B02BBC1D8E6"]
 			id: "0584BBA7D65DA1FC"
 			tasks: [{
 				id: "42160F5E2F500BE9"
 				item: { count: 1, id: "oritech:creative_storage_block" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: -5.0d
 			y: 12.0d
 		}
 		{
+			dependencies: ["0C418B02BBC1D8E6"]
 			id: "7535FB0671D13044"
 			tasks: [{
 				id: "229374F81E1363C4"
 				item: { count: 1, id: "oritech:creative_tank_block" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: -3.0d
 			y: 12.0d
 		}
 		{
@@ -209,52 +185,52 @@
 				item: { count: 1, id: "ae2:creative_storage_cell" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 12.5d
+			x: -7.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["0C418B02BBC1D8E6"]
 			id: "7B635AAD726B82D2"
 			tasks: [{
 				id: "3ACD7B75944A6A22"
 				item: { count: 1, id: "ae2:creative_energy_cell" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 13.5d
+			x: -1.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["0C418B02BBC1D8E6"]
 			id: "0FF6B93D8531A927"
 			tasks: [{
 				id: "02D6CCAC7063FCC2"
 				item: { count: 1, id: "create:creative_motor" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.5d
+			x: 1.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["0C418B02BBC1D8E6"]
 			id: "5BFCD40073F95AB5"
 			tasks: [{
 				id: "753A8E018E211AEE"
 				item: { count: 1, id: "create:creative_fluid_tank" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 13.5d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
-			dependencies: [
-				"1A0A0E7491FCB10D"
-				"6C40E5231C8193EB"
-			]
+			dependencies: ["1A0A0E7491FCB10D"]
 			id: "4FE8658051BD726E"
 			tasks: [{
 				id: "24928D15A75C9D77"
 				item: { count: 1, id: "create:creative_crate" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.5d
+			x: -7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0DB8863C6C3F4096"]
@@ -264,7 +240,7 @@
 				item: { count: 1, id: "create:creative_blaze_cake" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -275,18 +251,19 @@
 				item: { count: 1, id: "functionalstorage:creative_vending_upgrade" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.5d
+			x: -7.0d
+			y: 10.0d
 		}
 		{
+			dependencies: ["0C418B02BBC1D8E6"]
 			id: "2C2CB7AB721AE383"
 			tasks: [{
 				id: "4CCDCC1FF16299F2"
 				item: { count: 1, id: "createaddition:creative_energy" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.5d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0DB8863C6C3F4096"]
@@ -296,8 +273,43 @@
 				item: { count: 1, id: "functionalstorage:max_storage_upgrade" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -7.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["6C40E5231C8193EB"]
+			id: "0C418B02BBC1D8E6"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3B673609EEC10B5B"
+				item: { count: 1, id: "kubejs:fractured_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"0584BBA7D65DA1FC"
+				"7535FB0671D13044"
+				"5BFCD40073F95AB5"
+				"29A76AC91D55A68B"
+				"7B635AAD726B82D2"
+				"6EF7688AC704CD40"
+				"48149D3CD7A9E97C"
+				"0FF6B93D8531A927"
+				"2C2CB7AB721AE383"
+			]
+			id: "1983BA6660DE73C0"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "183AE911609335CF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.0d
 		}
 	]
 }
