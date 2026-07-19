@@ -154,4 +154,48 @@ ServerEvents.recipes((event) => {
     },
     "kubejs:mechanical_crafting/creative_crate",
   );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("ae2:singularity"),
+        C: item("functionalstorage:max_storage_upgrade"),
+        D: item("minecraft:heavy_core"),
+        E: item("kubejs:nether_star_block"),
+        F: item("create:creative_crate"),
+        G: item("sophisticatedbackpacks:stack_upgrade_omega_tier"),
+      },
+      pattern: ["AAAAA", "ACDCA", "ABEBA", "AFGFA", "ABEBA", "ACDCA", "AAAAA"],
+      result: "functionalstorage:creative_vending_upgrade",
+    },
+    "kubejs:mechanical_crafting/creative_vending_upgrade",
+  );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("ae2:cell_component_256k"),
+        C: item("kubejs:nether_star_block"),
+        D: item("create:creative_crate"),
+        E: item("ae2:singularity"),
+        F: item("minecraft:heavy_core"),
+        G: item("functionalstorage:creative_vending_upgrade"),
+      },
+      pattern: [
+        "AAAAAAA",
+        "ABBCBBA",
+        "ABDEDBA",
+        "ACFGFCA",
+        "ABDEDBA",
+        "ABBCBBA",
+        "AAAAAAA",
+      ],
+      result: "ae2:creative_storage_cell",
+    },
+    "kubejs:mechanical_crafting/creative_storage_cell",
+  );
 });
