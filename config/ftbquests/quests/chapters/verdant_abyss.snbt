@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "verdant_abyss"
 	group: "69F5CC4C3382AB9B"
-	hide_quest_until_deps_complete: false
 	hide_quest_until_deps_visible: true
 	icon: {
 		id: "undergarden:depthrock_pebble"

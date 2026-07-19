@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "final_chapter__fractured_divinity"
 	group: "2B3850906486FE99"
-	hide_quest_until_deps_complete: false
 	hide_quest_until_deps_visible: true
 	icon: {
 		components: {
@@ -258,6 +257,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["0DB8863C6C3F4096"]
 			id: "70D66A02B447FBD2"
 			tasks: [{
 				id: "6E53A0AA004B2A9F"
@@ -265,7 +265,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4FE8658051BD726E"]
@@ -285,7 +285,7 @@
 				item: { count: 1, id: "createaddition:creative_energy" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 10.5d
 		}
 		{

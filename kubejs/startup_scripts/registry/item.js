@@ -163,6 +163,15 @@ StartupEvents.registry("item", (event) => {
     .texture("fractured_reality:item/incomplete_fractured_ingot")
     .tag("c:hidden_from_recipe_viewers");
 
+  event
+    .create("fractured_flour")
+    .texture("fractured_reality:item/fractured_flour");
+
+  event
+    .create("fractured_cake_base")
+    .texture("fractured_reality:item/fractured_cake_base")
+    .tag("create:upright_on_belt");
+
   fracturedTool("fractured_shovel", "shovel", "Fractured Shovel");
   fracturedTool("fractured_axe", "axe", "Fractured Axe");
   fracturedTool("fractured_pickaxe", "pickaxe", "Fractured Pickaxe");

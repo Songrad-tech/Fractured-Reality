@@ -4,7 +4,6 @@
 	default_quest_shape: ""
 	filename: "ressource_generation"
 	group: "2B3850906486FE99"
-	hide_quest_until_deps_complete: false
 	hide_quest_until_deps_visible: true
 	icon: {
 		id: "kubejs:viridite"

@@ -1,4 +1,37 @@
 ServerEvents.recipes((event) => {
+  event
+    .custom({
+      type: "create:crushing",
+      ingredients: [item("kubejs:fractured_ingot")],
+      processing_time: 150,
+      results: [countedResult("kubejs:fractured_flour", 1)],
+    })
+    .id("kubjs:crushing/fractured_flour");
+
+  event
+    .custom({
+      type: "create:compacting",
+      ingredients: [
+        item("kubejs:fractured_flour"),
+        item("minecraft:sugar"),
+        item("create:dough"),
+        tag("c:eggs"),
+      ],
+      results: [countedResult("kubejs:fractured_cake_base", 1)],
+    })
+    .id("kubejs:create/compacting/fractured_cake_base");
+
+  event
+    .custom({
+      type: "create:filling",
+      ingredients: [
+        item("kubejs:fractured_cake_base"),
+        fluid("the_bumblezone:royal_jelly_fluid_still", 1000),
+      ],
+      results: [countedResult("create:creative_blaze_cake", 1)],
+    })
+    .id("kubejs:create/filling/creative_blaze_cake");
+
   mechanicalCrafting(
     event,
     {
