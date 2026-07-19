@@ -171,5 +171,133 @@
 			x: 6.5d
 			y: 7.5d
 		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "2740ACDD37091FF0"
+			tasks: [{
+				id: "6DC3F39509AA31AC"
+				item: { count: 1, id: "tempad:creative_chronometer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "0584BBA7D65DA1FC"
+			tasks: [{
+				id: "42160F5E2F500BE9"
+				item: { count: 1, id: "oritech:creative_storage_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "7535FB0671D13044"
+			tasks: [{
+				id: "229374F81E1363C4"
+				item: { count: 1, id: "oritech:creative_tank_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["740CEB2F6F7BD3DE"]
+			id: "29A76AC91D55A68B"
+			tasks: [{
+				id: "58CF935911C52B0B"
+				item: { count: 1, id: "ae2:creative_storage_cell" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			id: "7B635AAD726B82D2"
+			tasks: [{
+				id: "3ACD7B75944A6A22"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			id: "0FF6B93D8531A927"
+			tasks: [{
+				id: "02D6CCAC7063FCC2"
+				item: { count: 1, id: "create:creative_motor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "5BFCD40073F95AB5"
+			tasks: [{
+				id: "753A8E018E211AEE"
+				item: { count: 1, id: "create:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"1A0A0E7491FCB10D"
+				"6C40E5231C8193EB"
+			]
+			id: "4FE8658051BD726E"
+			tasks: [{
+				id: "24928D15A75C9D77"
+				item: { count: 1, id: "create:creative_crate" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			id: "70D66A02B447FBD2"
+			tasks: [{
+				id: "6E53A0AA004B2A9F"
+				item: { count: 1, id: "create:creative_blaze_cake" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4FE8658051BD726E"]
+			id: "740CEB2F6F7BD3DE"
+			tasks: [{
+				id: "7532FC35ED979538"
+				item: { count: 1, id: "functionalstorage:creative_vending_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			id: "2C2CB7AB721AE383"
+			tasks: [{
+				id: "4CCDCC1FF16299F2"
+				item: { count: 1, id: "createaddition:creative_energy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0DB8863C6C3F4096"]
+			id: "1A0A0E7491FCB10D"
+			tasks: [{
+				id: "7EA7CA68876AD774"
+				item: { count: 1, id: "functionalstorage:max_storage_upgrade" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
 	]
 }

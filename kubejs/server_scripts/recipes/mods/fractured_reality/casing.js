@@ -19,5 +19,5 @@ ServerEvents.recipes((event) => {
       ],
       results: [result("kubejs:fractured_casing")],
     })
-    .id("kubejs:item_application/electrum_casing");
+    .id("kubejs:item_application/fractured_casing");
 });

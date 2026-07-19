@@ -49,4 +49,76 @@ ServerEvents.recipes((event) => {
     },
     "kubejs:mechanical_crafting/handheld_worldshaper",
   );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("the_bumblezone:royal_jelly_block"),
+        C: item("tempad:chronon_battery"),
+        D: item("tempad:time_steel"),
+        E: item("kubejs:nether_star_block"),
+        F: item("tempad:chronometer"),
+      },
+      pattern: [
+        "  AAA  ",
+        " ABCBA ",
+        "ABDEDBA",
+        "ACEFECA",
+        "ABDEDBA",
+        " ABCBA ",
+        "  AAA  ",
+      ],
+      result: "tempad:creative_chronometer",
+    },
+    "kubejs:mechanical_crafting/creative_chronometer",
+  );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("the_bumblezone:royal_jelly_block"),
+        C: item("functionalstorage:netherite_upgrade"),
+        D: item("mysticalagriculture:awakened_supremium_upgrade"),
+        E: item("kubejs:nether_star_block"),
+        F: item("ae2:singularity"),
+        G: item("minecraft:netherite_upgrade_smithing_template"),
+      },
+      pattern: ["AAAAA", "ACDCA", "ABEBA", "AFGFA", "ABEBA", "ACDCA", "AAAAA"],
+      result: "functionalstorage:max_storage_upgrade",
+    },
+    "kubejs:mechanical_crafting/max_storage_upgrade",
+  );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("the_bumblezone:royal_jelly_block"),
+        C: item("functionalstorage:max_storage_upgrade"),
+        D: item("sophisticatedbackpacks:stack_upgrade_omega_tier"),
+        E: item("kubejs:nether_star_block"),
+        F: item("ae2:singularity"),
+        G: item("kubejs:fractured_casing"),
+        H: item("minecraft:heavy_core"),
+      },
+      pattern: [
+        "AAAAAAAAA",
+        "ABBEEEBBA",
+        "GGGGGGGGG",
+        "GFEHFHEFG",
+        "GHDCDCDHG",
+        "GFEHFHEFG",
+        "GGGGGGGGG",
+        "ABBEEEBBA",
+        "AAAAAAAAA",
+      ],
+      result: "create:creative_crate",
+    },
+    "kubejs:mechanical_crafting/creative_crate",
+  );
 });
