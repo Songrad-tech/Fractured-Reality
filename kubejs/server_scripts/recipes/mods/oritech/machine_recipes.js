@@ -279,4 +279,13 @@ ServerEvents.recipes((event) => {
   oritechMachineShapedRecipes.forEach((recipe) => {
     event.shaped(recipe.output, recipe.pattern, recipe.keys);
   });
+
+  event
+    .custom({
+      type: "oritech:particle_collision",
+      ingredients: [item("kubejs:fractured_core"), item("ae2:singularity")],
+      results: [countedResult("oritech:black_hole_block", 1)],
+      time: 20000,
+    })
+    .id("kubejs:particle_collision/black_hole");
 });
