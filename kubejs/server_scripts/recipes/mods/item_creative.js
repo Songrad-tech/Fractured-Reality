@@ -198,4 +198,167 @@ ServerEvents.recipes((event) => {
     },
     "kubejs:mechanical_crafting/creative_storage_cell",
   );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("kubejs:fractured_core"),
+        C: item("create:fluid_tank"),
+        D: item("kubejs:nether_star_block"),
+        E: item("ae2:singularity"),
+        F: item("undergarden:virulent_mix_bucket"),
+        G: item("the_bumblezone:royal_jelly_bucket"),
+        H: item("oritech:still_strange_matter_bucket"),
+        I: item("kubejs:fractured_essence_bucket"),
+      },
+      pattern: [
+        "AAAAAAA",
+        "ABCCCBA",
+        "ACFDGCA",
+        "ACDEDCA",
+        "ACHDICA",
+        "ABCCCBA",
+        "AAAAAAA",
+      ],
+      result: "create:creative_fluid_tank",
+    },
+    "kubejs:mechanical_crafting/creative_fluid_tank",
+  );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("kubejs:fractured_core"),
+        C: item("oritech:small_tank_block"),
+        D: item("kubejs:nether_star_block"),
+        E: item("ae2:singularity"),
+        F: item("undergarden:virulent_mix_bucket"),
+        G: item("the_bumblezone:royal_jelly_bucket"),
+        H: item("oritech:still_strange_matter_bucket"),
+        I: item("kubejs:fractured_essence_bucket"),
+      },
+      pattern: [
+        "AAAAAAA",
+        "ABCCCBA",
+        "ACFDGCA",
+        "ACDEDCA",
+        "ACHDICA",
+        "ABCCCBA",
+        "AAAAAAA",
+      ],
+      result: "oritech:creative_tank_block",
+    },
+    "kubejs:mechanical_crafting/creative_tank_block",
+  );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("kubejs:fractured_core"),
+        C: item("ae2:dense_energy_cell"),
+        D: item("kubejs:nether_star_block"),
+        E: item("fluxnetworks:gargantuan_flux_storage"),
+        F: item("ae2:singularity"),
+      },
+      pattern: [
+        "AAAAAAA",
+        "ABCCCBA",
+        "ACDEDCA",
+        "ACEFECA",
+        "ACDEDCA",
+        "ABCCCBA",
+        "AAAAAAA",
+      ],
+      result: "ae2:creative_energy_cell",
+    },
+    "kubejs:mechanical_crafting/creative_energy_cell",
+  );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("kubejs:fractured_core"),
+        C: item("oritech:unstable_container"),
+        D: item("kubejs:nether_star_block"),
+        E: item("fluxnetworks:gargantuan_flux_storage"),
+        F: item("ae2:singularity"),
+      },
+      pattern: [
+        "AAAAAAA",
+        "ABCCCBA",
+        "ACDEDCA",
+        "ACEFECA",
+        "ACDEDCA",
+        "ABCCCBA",
+        "AAAAAAA",
+      ],
+      result: "oritech:creative_storage_block",
+    },
+    "kubejs:mechanical_crafting/creative_storage_block",
+  );
+
+  mechanicalCrafting(
+    event,
+    {
+      key: {
+        A: item("kubejs:fractured_ingot"),
+        B: item("kubejs:fractured_core"),
+        C: item("createaddition:electric_motor"),
+        D: item("kubejs:nether_star_block"),
+        E: item("fluxnetworks:gargantuan_flux_storage"),
+        F: item("ae2:singularity"),
+        G: item("createaddition:alternator"),
+      },
+      pattern: [
+        "AAAAAAA",
+        "ABCCCBA",
+        "AGDEDGA",
+        "AGEFEGA",
+        "AGDEDGA",
+        "ABCCCBA",
+        "AAAAAAA",
+      ],
+      result: "createaddition:creative_energy",
+    },
+    "kubejs:mechanical_crafting/creative_energy",
+  );
+
+  sequencedAssembly(
+    event,
+    {
+      id: "kubejs:sequenced_assembly/creative_motor",
+      ingredient: item("kubejs:fractured_core"),
+      transitionalItem: "kubejs:incomplete_creative_motor",
+      loops: 64,
+      results: [result("create:creative_motor")],
+      sequence: [
+        deploying(
+          "kubejs:incomplete_creative_motor",
+          item("create:large_water_wheel"),
+        ),
+        deploying(
+          "kubejs:incomplete_creative_motor",
+          item("create:windmill_bearing"),
+        ),
+        pressing("kubejs:incomplete_creative_motor"),
+        deploying(
+          "kubejs:incomplete_creative_motor",
+          item("create:steam_engine"),
+        ),
+        deploying(
+          "kubejs:incomplete_creative_motor",
+          item("kubejs:fractured_ingot"),
+        ),
+      ],
+    },
+    "kubejs:sequenced_assembly/creative_motor",
+  );
 });

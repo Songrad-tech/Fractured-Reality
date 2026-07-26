@@ -176,6 +176,11 @@ StartupEvents.registry("item", (event) => {
     .create("fractured_core")
     .parentModel("fractured_reality:block/fractured_core");
 
+  event
+    .create("incomplete_creative_motor")
+    .parentModel("fractured_reality:block/incomplete_creative_motor")
+    .tag("c:hidden_from_recipe_viewers");
+
   fracturedTool("fractured_shovel", "shovel", "Fractured Shovel");
   fracturedTool("fractured_axe", "axe", "Fractured Axe");
   fracturedTool("fractured_pickaxe", "pickaxe", "Fractured Pickaxe");
