@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 6.0d
+			id: "1B698CCD4DE6BD97"
 			image: "minecraft:textures/entity/end_portal.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 2.0d
+			id: "73156A823F6FF0C0"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 2.0d
+			id: "648263B1A0B0394D"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 2.0d
+			id: "397A3ABA2B9D7779"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5899B4CE4796AEAA"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 90.0d
 			width: 2.0d
@@ -52,6 +57,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6953ADFCFBD9664C"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 90.0d
 			width: 2.0d
@@ -60,6 +66,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6E87977D86C4EDD3"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 90.0d
 			width: 2.0d
@@ -68,6 +75,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7955A5AAF60B90E4"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 180.0d
 			width: 2.0d
@@ -76,6 +84,7 @@
 		}
 		{
 			height: 2.0d
+			id: "3C89FA14B034C1DB"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 180.0d
 			width: 2.0d
@@ -84,6 +93,7 @@
 		}
 		{
 			height: 2.0d
+			id: "07B5EB3FBB981666"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 180.0d
 			width: 2.0d
@@ -92,6 +102,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4F23E826F406F365"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 270.0d
 			width: 2.0d
@@ -100,6 +111,7 @@
 		}
 		{
 			height: 2.0d
+			id: "18A3F81537EA634C"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 270.0d
 			width: 2.0d
@@ -108,6 +120,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7C4A5E75061CA53F"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 270.0d
 			width: 2.0d

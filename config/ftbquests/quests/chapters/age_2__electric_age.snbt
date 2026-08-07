@@ -9,6 +9,7 @@
 		id: "createaddition:electrum_ingot"
 	}
 	id: "47BCA02B74AEAE70"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

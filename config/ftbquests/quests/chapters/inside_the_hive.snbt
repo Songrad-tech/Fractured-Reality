@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "7ACBD8A922BAD5AF"
 			image: "minecraft:textures/gui/quests/the_bumblezone_title.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 5.0d
+			id: "2B3A82715C9D325F"
 			image: "minecraft:textures/gui/quests/queen_bee.png"
 			rotation: 0.0d
 			width: 6.0d

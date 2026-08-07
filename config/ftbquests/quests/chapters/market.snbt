@@ -12,6 +12,7 @@
 		{
 			dependency: "3F8FDF23051A7247"
 			height: 20.0d
+			id: "4CC4F33FCDB62B4A"
 			image: "create:block/palettes/industrial_iron_window_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -21,6 +22,7 @@
 		{
 			dependency: "0DC9B4CBE1642B75"
 			height: 20.0d
+			id: "2434A8FF3B3ECBE7"
 			image: "create:block/palettes/industrial_iron_window_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -30,6 +32,7 @@
 		{
 			dependency: "06C81E9D90C778FC"
 			height: 20.0d
+			id: "7E79D621C3751827"
 			image: "create:block/palettes/industrial_iron_window_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -39,6 +42,7 @@
 		{
 			dependency: "3D4CF467D45DD795"
 			height: 20.0d
+			id: "2B3958FB89EB5E03"
 			image: "create:block/palettes/industrial_iron_window_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -48,6 +52,7 @@
 		{
 			dependency: "0B9EF5104D703692"
 			height: 20.0d
+			id: "095D8B76FFB4952E"
 			image: "create:block/palettes/industrial_iron_window_pane_top"
 			rotation: 90.0d
 			width: 1.0d

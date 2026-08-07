@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 4.0d
+			id: "7F22199C2BBA0E4A"
 			image: "minecraft:textures/gui/quests/rotbeast.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 5.0d
+			id: "7C5E196612E291D3"
 			image: "minecraft:textures/gui/quests/forgotten_guardian.png"
 			rotation: 0.0d
 			width: 4.0d

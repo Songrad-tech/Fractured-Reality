@@ -12,6 +12,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "178EFA23CBF2F69A"
+	images: [ ]
 	order_index: 6
 	quest_links: [ ]
 	quests: [

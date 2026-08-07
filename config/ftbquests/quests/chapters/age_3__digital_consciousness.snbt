@@ -9,6 +9,7 @@
 		id: "ae2:controller"
 	}
 	id: "7EE8A90CDC0768D4"
+	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

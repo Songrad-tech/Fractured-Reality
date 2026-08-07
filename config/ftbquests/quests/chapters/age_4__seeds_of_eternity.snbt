@@ -9,6 +9,7 @@
 		id: "mysticalagriculture:master_infusion_crystal"
 	}
 	id: "2777DBBD34C022DB"
+	images: [ ]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

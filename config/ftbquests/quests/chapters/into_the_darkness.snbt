@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "300046DDEE25EF0D"
 			image: "minecraft:textures/gui/quests/warden.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 5.0d
+			id: "68BCCB3DF172C980"
 			image: "minecraft:textures/gui/quests/stalker.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 5.0d
+			id: "21B3F3B482DFEBD5"
 			image: "minecraft:textures/gui/quests/deeper_and_darker_title.png"
 			rotation: 0.0d
 			width: 10.0d

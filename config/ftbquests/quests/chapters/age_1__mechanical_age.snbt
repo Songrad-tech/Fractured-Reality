@@ -9,6 +9,7 @@
 		id: "create:andesite_alloy"
 	}
 	id: "1E400F3088D217E5"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
