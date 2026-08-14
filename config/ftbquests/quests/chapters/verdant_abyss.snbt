@@ -28,6 +28,16 @@
 			x: -3.0d
 			y: -0.5d
 		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "34482A122B28122E"
+			image: "minecraft:textures/gui/quests/the_undergarden_title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.5d
+			y: -1.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
