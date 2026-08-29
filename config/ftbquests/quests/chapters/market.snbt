@@ -59,6 +59,16 @@
 			x: 8.0d
 			y: 10.5d
 		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "25AE7B9358D2FDD4"
+			image: "minecraft:textures/gui/quests/market.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 8.142857142857139d
+			y: -5.625d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
