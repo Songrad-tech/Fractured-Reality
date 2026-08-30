@@ -16,6 +16,7 @@
 	chapter_group.2B3850906486FE99.title: "Progression"
 	chapter_group.69F5CC4C3382AB9B.title: "Exploration"
 	quest.005F946A8F491A08.title: "Iron Ingot"
+	quest.006F7EA770EB49AD.quest_desc: ["The Copper Upgrade increases how much a drawer can hold. It is an inexpensive way to expand important bulk storage without rebuilding the network."]
 	quest.006F7EA770EB49AD.title: "Copper Upgrade"
 	quest.01154E300B5A8FD7.quest_desc: [
 		"This Honey Pearl has been attuned to the hive beyond the Overworld."
@@ -45,6 +46,7 @@
 	quest.02CFF707C09E12D5.quest_desc: ["&7Supremium is the highest standard essence tier and the gateway to the most powerful resource seeds.&r"]
 	quest.02CFF707C09E12D5.quest_subtitle: "Tier Five Essence"
 	quest.02CFF707C09E12D5.title: "Create Supremium Essence"
+	quest.02FE952A15865F26.quest_desc: ["The Wooden Construction Stick places multiple blocks in a line or surface using materials from your inventory. It is a simple way to speed up floors, walls, and bridges."]
 	quest.02FE952A15865F26.title: "Wooden Construction Stick"
 	quest.0329DD5F78FB3E0C.quest_desc: [
 		"§6A Blaze Burner is the heat source behind stronger mixing recipes.§r"
@@ -55,6 +57,7 @@
 	]
 	quest.0329DD5F78FB3E0C.quest_subtitle: "Controlled Heat"
 	quest.0329DD5F78FB3E0C.title: "Capture a Blaze Burner"
+	quest.033F07AD47AC2AB2.quest_desc: ["The Linking Tool connects drawers to a Storage Controller and helps define the controller's network, turning separate storage blocks into one manageable system."]
 	quest.033F07AD47AC2AB2.title: "Linking Tool"
 	quest.03A760BECFFD5126.quest_desc: [
 		"The catacombs still have a guardian, and it has not forgotten its duty."
@@ -66,6 +69,7 @@
 	quest.04A40A420B5AC3E5.quest_desc: ["Soulium Seeds deepen your Mystical Agriculture setup with spirit-bound essence."]
 	quest.04A40A420B5AC3E5.quest_subtitle: "Cultivated Soulium Essence"
 	quest.04A40A420B5AC3E5.title: "Soulium Seeds"
+	quest.0593FF5DC6E58B76.quest_desc: ["The Obsidian Barrel combines generous storage with a tougher container, making it a strong choice for valuable stockpiles and busy industrial areas."]
 	quest.0593FF5DC6E58B76.title: "Obsidian Barrel"
 	quest.05DD01ACBF11E548.quest_desc: ["&7The Laser Arm focuses energy for Oritech's advanced manufacturing steps.&r"]
 	quest.05DD01ACBF11E548.quest_subtitle: "Powered Industry"
@@ -106,6 +110,7 @@
 	quest.0843AD7EEF419A18.quest_desc: ["&7Calculation Processors handle capacity and storage logic across an ME system.&r"]
 	quest.0843AD7EEF419A18.quest_subtitle: "Digital Circuit"
 	quest.0843AD7EEF419A18.title: "Make a Calculation Processor"
+	quest.0860B05992C8E356.quest_desc: ["The Diamond Glider is well suited to frequent long-distance exploration, giving you a dependable way to convert mountains, towers, and other high places into fast travel."]
 	quest.0860B05992C8E356.title: "Diamond Glider"
 	quest.098814F981482811.quest_desc: ["Forged beyond the steady flow of time, this eye anchors the portal against temporal distortion and helps restore its stability."]
 	quest.098814F981482811.quest_subtitle: "Tempad + Oritech"
@@ -155,6 +160,7 @@
 	quest.0ED4FEA2336B2568.quest_desc: ["&7Basic Flux Storage buffers energy directly inside a Flux Network.&r"]
 	quest.0ED4FEA2336B2568.quest_subtitle: "Wireless Energy"
 	quest.0ED4FEA2336B2568.title: "Build Basic Flux Storage"
+	quest.0F5AC97C67C06135.quest_desc: ["The Diamond Barrel provides high-capacity storage for bulk materials while remaining easy to connect to pipes, hoppers, and other logistics systems."]
 	quest.0F5AC97C67C06135.title: "Diamond Barrel"
 	quest.0FCAE2FFD1263B87.quest_desc: [
 		"§7Zinc carries the first traces of mechanical potential.§r"
@@ -253,6 +259,8 @@
 	quest.12F047277E8EE4FF.quest_desc: ["Dye Seeds are the tidy answer when recipes start asking for every color at once."]
 	quest.12F047277E8EE4FF.quest_subtitle: "Cultivated Dye Essence"
 	quest.12F047277E8EE4FF.title: "Dye Seeds"
+	quest.12FEB243D400D4CE.quest_desc: ["Vein Mining is an enchantment that can be applied to compatible tools. It lets the enchanted tool break groups of connected matching blocks in one operation, greatly speeding up ore collection and tree harvesting at the cost of additional durability and resources."]
+	quest.12FEB243D400D4CE.title: "Vein Mining"
 	quest.134E8E70EF5D79E4.quest_desc: ["Flux Dust Seeds feed energy and redstone-adjacent crafting with a renewable crop."]
 	quest.134E8E70EF5D79E4.quest_subtitle: "Cultivated Flux Dust Essence"
 	quest.134E8E70EF5D79E4.title: "Flux Dust Seeds"
@@ -278,6 +286,7 @@
 	quest.171622854563F784.quest_desc: [" §fIt turns your Asurine finds into the progression key for automated Zinc production.§r"]
 	quest.171622854563F784.quest_subtitle: "Custom Resource Core"
 	quest.171622854563F784.title: "Craft an Asurine Core"
+	quest.174458AA46110F36.quest_desc: ["The Gold Chest raises capacity further and reduces the number of separate containers needed around machines and crafting stations."]
 	quest.174458AA46110F36.title: "Gold Chest"
 	quest.17E242E6078451DA.quest_desc: [
 		"§6Brass carries Create from simple motion into smarter machines.§r"
@@ -308,6 +317,7 @@
 	quest.19F1D69ADFECC081.title: "Find the Calculation Press"
 	quest.1A7308D143DA5C61.quest_desc: ["Born from the remnants of a reality torn apart, this eye resonates with the fractures destabilizing the path to the End."]
 	quest.1A7308D143DA5C61.quest_subtitle: "AE2 + Oritech"
+	quest.1ACED1A29208A092.quest_desc: ["The Diamond Upgrade gives drawers a substantial capacity boost, ideal for resources produced continuously or consumed in very large batches."]
 	quest.1ACED1A29208A092.title: "Diamond Upgrade"
 	quest.1B7C9A42D5E803F6.title: "Copper Ingot"
 	quest.1B99B2431D1A5A72.quest_desc: [
@@ -374,6 +384,7 @@
 	quest.21800CB9411472AE.quest_desc: ["Sheep Seeds keep wool and mutton resources available without constant shearing rounds."]
 	quest.21800CB9411472AE.quest_subtitle: "Cultivated Sheep Essence"
 	quest.21800CB9411472AE.title: "Sheep Seeds"
+	quest.21864889EF3D7FE3.quest_desc: ["The Netherite Construction Stick is the strongest standard tier and the best choice for massive platforms, factory shells, and other placement-heavy projects."]
 	quest.21864889EF3D7FE3.title: "Netherite Construction Stick"
 	quest.21D677C3C24AAD51.quest_desc: ["Unearthed from the forgotten depths below the world, this eye carries an ancient force capable of reinforcing the unstable gateway."]
 	quest.21D677C3C24AAD51.quest_subtitle: "The Undergarden"
@@ -458,6 +469,7 @@
 	quest.287E5269E7A6AA79.quest_desc: ["Ghast Seeds make tears farmable, which is far kinder than searching the Nether sky."]
 	quest.287E5269E7A6AA79.quest_subtitle: "Cultivated Ghast Essence"
 	quest.287E5269E7A6AA79.title: "Ghast Seeds"
+	quest.291C454B10B8EBBD.quest_desc: ["Elevators provide instant vertical travel between matching blocks. Place them above one another, then jump to go up or sneak to go down, an excellent compact alternative to stairs and ladders."]
 	quest.291C454B10B8EBBD.title: "Elevators"
 	quest.291EF1B8C5FAF6D2.quest_desc: ["&7The Foundry processes and combines metals for Oritech's industrial recipes.&r"]
 	quest.291EF1B8C5FAF6D2.quest_subtitle: "Powered Industry"
@@ -465,6 +477,8 @@
 	quest.2947EE06D8C93FF2.quest_desc: ["Pig Seeds turn basic animal drops into a clean farmable essence line."]
 	quest.2947EE06D8C93FF2.quest_subtitle: "Cultivated Pig Essence"
 	quest.2947EE06D8C93FF2.title: "Pig Seeds"
+	quest.297F324A555D9FD3.quest_desc: ["The Item Trash Can permanently destroys anything inserted into it. Use filters or controlled extraction so valuable items never enter by accident."]
+	quest.297F324A555D9FD3.title: "Item Trash Can"
 	quest.29B52E3C87142E4D.quest_desc: [
 		"&7An AE2 Singularity is compressed matter taken to an extreme for quantum technology.&r"
 		" "
@@ -479,6 +493,7 @@
 	quest.2B28FB7ECCDC5319.quest_desc: ["Temper Fire Seeds carefully; their essence fuels hotter recipes without chasing flames."]
 	quest.2B28FB7ECCDC5319.quest_subtitle: "Cultivated Fire Essence"
 	quest.2B28FB7ECCDC5319.title: "Fire Seeds"
+	quest.2B4A1A32FE79E51A.quest_desc: ["The Netherite Glider is the end-game version of this compact travel tool, ideal for reliable aerial movement when a full flight solution would be excessive."]
 	quest.2B4A1A32FE79E51A.title: "Netherite Glider"
 	quest.2B775794C77A8BAF.quest_desc: ["Squid Seeds are a cleaner path to ink-based crafting than waiting underwater."]
 	quest.2B775794C77A8BAF.quest_subtitle: "Cultivated Squid Essence"
@@ -497,6 +512,7 @@
 	]
 	quest.2BB6982E8369B983.quest_subtitle: "Digital Progression"
 	quest.2BB6982E8369B983.title: "Build a Matter Condenser"
+	quest.2C60767BD295F11B.quest_desc: ["The Gold Barrel increases capacity again, allowing frequently used resources to stay in one block instead of being split across several containers."]
 	quest.2C60767BD295F11B.title: "Gold Barrel"
 	quest.2CA01FCCDE8B193A.title: "Copper Core"
 	quest.2CD0C913394EB5AE.quest_desc: ["§fUse the Viridite you gathered to unlock the Nickel generation path.§r"]
@@ -538,6 +554,7 @@
 	quest.2F230B0DD745B6EC.quest_desc: ["Freeze a corner of your garden with Ice Seeds for cold essence whenever recipes ask for it."]
 	quest.2F230B0DD745B6EC.quest_subtitle: "Cultivated Ice Essence"
 	quest.2F230B0DD745B6EC.title: "Ice Seeds"
+	quest.3058A05926D38F58.quest_desc: ["The Gold Backpack increases portable storage again, making it easier to carry several projects' worth of materials and useful backpack upgrades at once."]
 	quest.3058A05926D38F58.title: "Gold Backpack"
 	quest.31FC459BE575BB16.quest_desc: [
 		"The Soul Crystal is one of the clearest signs that the Otherside changes what it touches."
@@ -547,6 +564,7 @@
 	quest.31FC459BE575BB16.quest_subtitle: "Condensed Echo"
 	quest.31FC459BE575BB16.title: "Obtain a Soul Crystal"
 	quest.333A55DC815BB25E.title: "Fluix Core"
+	quest.33744EB9CA7827B4.quest_desc: ["The Diamond Magnum Torch suppresses natural hostile mob spawning across a large area, making it ideal for protecting bases, farms, and outdoor workspaces without covering everything in lights."]
 	quest.33744EB9CA7827B4.title: "Diamond Magnum Torch"
 	quest.339B1B43D36D8DB4.quest_desc: [
 		"Enter The Bumblezone and begin exploring its enormous honeycomb caverns."
@@ -585,6 +603,7 @@
 		"§4That is perfectly normal.§r"
 	]
 	quest.35C22982FC123B45.title: "Reality Feels... Wrong"
+	quest.361CDDAF1904CA7D.quest_desc: ["Time in a Bottle stores time while carried in your inventory. That stored time can accelerate compatible blocks, making slow machines, crops, and other bottlenecks finish sooner."]
 	quest.361CDDAF1904CA7D.title: "Time in a Bottle"
 	quest.37A9D826BB297B64.quest_desc: ["Rogdorium Seeds secure a custom metal line before advanced recipes demand stacks of it."]
 	quest.37A9D826BB297B64.quest_subtitle: "Cultivated Rogdorium Essence"
@@ -628,6 +647,7 @@
 	]
 	quest.3A7A7F0160A7E9A4.quest_subtitle: "Automation Check"
 	quest.3A7A7F0160A7E9A4.title: "Generate Zinc"
+	quest.3AB7518A0232F39C.quest_desc: ["The Netherite Barrel is the top barrel tier, offering excellent capacity in a single block for the resources your factory produces in truly excessive quantities."]
 	quest.3AB7518A0232F39C.title: "Netherite Barrel"
 	quest.3BAD15F224F063A1.title: "Andesite Core"
 	quest.3BBF7D4ABB5C285F.title: "Essence of Radiance"
@@ -709,6 +729,7 @@
 	]
 	quest.405C4901EE2BAC5A.quest_subtitle: "Cold Metal"
 	quest.405C4901EE2BAC5A.title: "Mine Raw Froststeel"
+	quest.407C4005B465D453.quest_desc: ["The Iron Chest stores more items than a vanilla chest without occupying additional floor space, making it a cheap first upgrade for crowded rooms."]
 	quest.407C4005B465D453.title: "Iron Chest"
 	quest.410B78E13AFC434F.quest_desc: [
 		"Combine four Royal Jelly Bottles with a Bucket to collect a full bucket."
@@ -723,6 +744,7 @@
 	quest.41CA701E6DC76F37.quest_desc: ["Brass Seeds support mechanical builds with a steady alloy essence source."]
 	quest.41CA701E6DC76F37.quest_subtitle: "Cultivated Brass Essence"
 	quest.41CA701E6DC76F37.title: "Brass Seeds"
+	quest.421B58874D9E154B.quest_desc: ["A Compacting Drawer keeps a material and its compacted forms together, automatically exposing conversions such as nuggets, ingots, and blocks from one shared stock."]
 	quest.421B58874D9E154B.title: "Compacting Drawer"
 	quest.422CEE61A723A33E.quest_desc: [
 		"§7The Mechanical Press flattens, stamps, and shapes materials.§r"
@@ -760,6 +782,7 @@
 	]
 	quest.42E3219A7C71D571.quest_subtitle: "Proof of Devotion"
 	quest.42E3219A7C71D571.title: "The Queen's Great Feats"
+	quest.43AFE81D3D2240D8.quest_desc: ["A Barrel is a compact single-block inventory that can still be opened with a solid block directly above it, making it convenient for tight storage rooms and automation."]
 	quest.43AFE81D3D2240D8.title: "Barrel"
 	quest.449B86794FC6FCE9.quest_desc: ["Fish Seeds bring aquatic drops to land, useful when recipes ask for ocean resources."]
 	quest.449B86794FC6FCE9.quest_subtitle: "Cultivated Fish Essence"
@@ -820,6 +843,7 @@
 	quest.473E6DE55188B7D4.quest_desc: ["&7The Logic Press creates printed circuits for common network devices.&r"]
 	quest.473E6DE55188B7D4.quest_subtitle: "Printed Circuit Pattern"
 	quest.473E6DE55188B7D4.title: "Find the Logic Press"
+	quest.4787C1D384778BEA.quest_desc: ["The Golden Glider continues the glider progression and offers another practical mobility option for crossing rough terrain without building bridges everywhere."]
 	quest.4787C1D384778BEA.title: "Golden Glider"
 	quest.47901AF510FE12FC.quest_desc: ["Armadillo Seeds preserve scute-related resources in a compact magical crop."]
 	quest.47901AF510FE12FC.quest_subtitle: "Cultivated Armadillo Essence"
@@ -884,6 +908,7 @@
 	]
 	quest.49E35A1F78D77ED9.quest_subtitle: "Vertical Motion"
 	quest.49E35A1F78D77ED9.title: "Craft an Elevator Pulley"
+	quest.4A8BD7AA0C2B41E6.quest_desc: ["The Iron Glider is a sturdier step up from wood, making repeated exploration and long descents more reliable before stronger materials become affordable."]
 	quest.4A8BD7AA0C2B41E6.title: "Iron Glider"
 	quest.4AAD20A54D5CA614.quest_desc: [
 		"Rogdorium is a rare crystal infused with the strange energy of the Undergarden."
@@ -892,6 +917,8 @@
 	]
 	quest.4AAD20A54D5CA614.quest_subtitle: "Crystal of the Depths"
 	quest.4AAD20A54D5CA614.title: "Obtain Rogdorium"
+	quest.4ACA3AD7D9F37A05.quest_desc: ["Sleeping Bags let you pass the night while travelling without replacing your permanent spawn point, making them safer than carrying a normal bed on long expeditions."]
+	quest.4ACA3AD7D9F37A05.title: "Sleeping Bags"
 	quest.4B647320ACF3A334.quest_desc: [
 		"§6The Rotation Speed Controller lets you tune machines without rebuilding the whole power line.§r"
 		" "
@@ -899,6 +926,7 @@
 	]
 	quest.4B647320ACF3A334.quest_subtitle: "Controlled Speed"
 	quest.4B647320ACF3A334.title: "Craft a Speed Controller"
+	quest.4B94CEBFFEF5D196.quest_desc: ["The Iron Backpack expands the capacity of the basic backpack, giving long mining trips and building sessions more room before you need to return home."]
 	quest.4B94CEBFFEF5D196.title: "Iron Backpack"
 	quest.4BD509205B526E8C.quest_desc: [
 		"The Undergarden's catacombs are old, hostile, and worth searching."
@@ -965,6 +993,7 @@
 	quest.4EBF77C1E4DA7981.quest_subtitle: "Living Decay"
 	quest.4EBF77C1E4DA7981.title: "Defeat a Sludge"
 	quest.4FA216D8C3E95701.title: "Zinc Ingot"
+	quest.4FB1DF47DEF3A064.quest_desc: ["Ender Drawers share their stored contents through a linked channel, allowing the same resource stock to be accessed from multiple locations without running physical item lines between them."]
 	quest.4FB1DF47DEF3A064.title: "Ender Drawer"
 	quest.50071A0278D80BA6.quest_desc: ["&7The Engineering Press creates advanced circuits for controllers and dense storage.&r"]
 	quest.50071A0278D80BA6.quest_subtitle: "Printed Circuit Pattern"
@@ -1028,6 +1057,7 @@
 		"§cHighly recommended once automation begins.§r"
 	]
 	quest.54678129C0A1A442.title: "Claim and Protect Your Base"
+	quest.5478A6C6A333557A.quest_desc: ["The Iron Construction Stick handles broader and more frequent placement jobs, making repetitive walls, platforms, and roofs much faster to assemble."]
 	quest.5478A6C6A333557A.title: "Iron Construction Stick"
 	quest.54C14057FC31C6DF.quest_desc: [
 		"Resonarium hums with the strange frequency of the Otherside."
@@ -1059,9 +1089,11 @@
 	quest.55C3D47B5B2B9120.quest_desc: ["&7The Fractured Singularity binds digital density to the pack's broken reality.&r"]
 	quest.55C3D47B5B2B9120.quest_subtitle: "Digital Progression"
 	quest.55C3D47B5B2B9120.title: "Stabilize a Fractured Singularity"
+	quest.55FF126D92F7E1EE.quest_desc: ["The Storage Controller provides a single access point for a connected drawer network. Pipes and players can insert or extract across many drawers through this one block."]
 	quest.55FF126D92F7E1EE.title: "Storage Controller"
 	quest.5612A9DE37B4C5C0.quest_desc: ["Crafted at the heart of advanced machinery, this eye brings the precision and control needed to maintain the portal's unstable structure."]
 	quest.5612A9DE37B4C5C0.quest_subtitle: "Oritech"
+	quest.5679AB2B6AF7FA6F.quest_desc: ["The Copper Construction Stick improves on the wooden tier, allowing larger building operations before the tool reaches its limits."]
 	quest.5679AB2B6AF7FA6F.title: "Copper Construction Stick"
 	quest.5796DA9810601E71.quest_desc: ["&7The Assembler manufactures machine components without repeated manual crafting.&r"]
 	quest.5796DA9810601E71.quest_subtitle: "Powered Industry"
@@ -1134,6 +1166,7 @@
 	]
 	quest.5E4130136133654B.quest_subtitle: "Drained Clean"
 	quest.5E4130136133654B.title: "Craft an Item Drain"
+	quest.6015EDC54A6BCEC0.quest_desc: ["A Drawer stores large quantities of a limited set of items and displays its contents on the front. It is perfect for bulk resources that would otherwise clutter ordinary chests."]
 	quest.6015EDC54A6BCEC0.title: "Drawer"
 	quest.6048F41AC1218BF5.quest_desc: [
 		"§6The Brass Core is the major capstone for advanced Create machinery.§r"
@@ -1203,6 +1236,7 @@
 	quest.637878425CE55C37.title: "Defeat the Warden"
 	quest.63A1228608D20D77.quest_desc: ["A precious gift bestowed by the Queen of an ancient hive, infused with a strange essence that helps bind the fractured portal together."]
 	quest.63A1228608D20D77.quest_subtitle: "The Bumblezone"
+	quest.63D67DEF525D3D68.quest_desc: ["The Explorer's Compass searches for configured structures and points you toward the selected target. It saves enormous amounts of blind travel when progression requires a specific landmark."]
 	quest.63D67DEF525D3D68.title: "Explorer's Compass"
 	quest.647C86D465511AA7.quest_desc: ["Coral Seeds bring fragile reef materials into your garden without damaging the ocean."]
 	quest.647C86D465511AA7.quest_subtitle: "Cultivated Coral Essence"
@@ -1219,6 +1253,7 @@
 	]
 	quest.65194B1780617E2D.quest_subtitle: "Rotation Becomes Power"
 	quest.65194B1780617E2D.title: "Craft an Alternator"
+	quest.6523137544744B69.quest_desc: ["The Obsidian Chest combines large capacity with a more resilient container, providing dependable local storage for important or heavily automated resources."]
 	quest.6523137544744B69.title: "Obsidian Chest"
 	quest.657DCCCCD3FE615E.quest_desc: ["Copper Seeds make pipes, coils, and early machine parts easier to mass produce."]
 	quest.657DCCCCD3FE615E.quest_subtitle: "Cultivated Copper Essence"
@@ -1226,6 +1261,7 @@
 	quest.6589C4AA92E71F8F.quest_desc: ["&7A Chronomark records a destination that temporal devices can reach later.&r"]
 	quest.6589C4AA92E71F8F.quest_subtitle: "Temporal Technology"
 	quest.6589C4AA92E71F8F.title: "Create a Chronomark"
+	quest.65A746736DC2D8ED.quest_desc: ["The Diamond Construction Stick is designed for large builds, letting you extend structures quickly while spending less time placing every block by hand."]
 	quest.65A746736DC2D8ED.title: "Diamond Construction Stick"
 	quest.663C2C9828D6C746.quest_desc: ["&7The Electrum Core is the main checkpoint between rotational power and Oritech industry.&r"]
 	quest.663C2C9828D6C746.quest_subtitle: "Digital Progression"
@@ -1250,8 +1286,10 @@
 	quest.689AD3F0E7571A85.quest_desc: ["Energite Seeds give your energy-tier materials a renewable backbone."]
 	quest.689AD3F0E7571A85.quest_subtitle: "Cultivated Energite Essence"
 	quest.689AD3F0E7571A85.title: "Energite Seeds"
+	quest.6942D9CB3B07E0D8.quest_desc: ["The Configuration Tool changes drawer behavior such as locking or display options. It is essential for preventing automated systems from repurposing emptied drawers."]
 	quest.6942D9CB3B07E0D8.title: "Configuration Tool"
 	quest.6A1D4F8C2B709E35.title: "Nickel Ingot"
+	quest.6A4CCCEA030C7865.quest_desc: ["A Controller Extension adds another interaction point to an existing drawer network, making it easier to connect automation from distant or inconvenient sides."]
 	quest.6A4CCCEA030C7865.title: "Controller Extension"
 	quest.6AC0DB7D357CFE78.quest_desc: ["&7The Tree Feller harvests wood for a renewable automated forestry line.&r"]
 	quest.6AC0DB7D357CFE78.quest_subtitle: "Automated Forestry"
@@ -1295,8 +1333,10 @@
 	]
 	quest.6C74B0300D2159A6.quest_subtitle: "Hunter in the Dark"
 	quest.6C74B0300D2159A6.title: "Defeat a Stalker"
+	quest.6CE2C3EFDCA2D25D.quest_desc: ["The Iron Barrel upgrades the basic barrel with more storage while preserving its compact footprint and automation-friendly access."]
 	quest.6CE2C3EFDCA2D25D.title: "Iron Barrel"
 	quest.6D3F51A47280C9EB.title: "Time Steel"
+	quest.6D407B1D6ECEC401.quest_desc: ["The Diamond Backpack offers a major capacity increase for late-game expeditions, bulk crafting, and construction work far away from your main storage."]
 	quest.6D407B1D6ECEC401.title: "Diamond Backpack"
 	quest.6DBCE30C8EB7B626.quest_desc: ["&7Machine Core 5 advances Oritech equipment to technology tier 5.&r"]
 	quest.6DBCE30C8EB7B626.quest_subtitle: "Machine Core Tier 5"
@@ -1317,6 +1357,7 @@
 	quest.6ED33C26796DEA3A.quest_subtitle: "The Beginning"
 	quest.6ED33C26796DEA3A.title: "Gather Wood"
 	quest.6EF7688AC704CD40.title: "Fractured Armor"
+	quest.70B1DD16E287E1E0.quest_desc: ["The Diamond Chest packs a large inventory into one block, which is especially useful as a buffer for automated production lines."]
 	quest.70B1DD16E287E1E0.title: "Diamond Chest"
 	quest.716185F216AB4B7E.quest_desc: [
 		"Utheric Shards can be formed into a stronger crystal."
@@ -1344,6 +1385,7 @@
 	quest.72AD0CAC23AC335D.quest_desc: ["&7The 4K Cell Component expands the practical capacity of ME item storage.&r"]
 	quest.72AD0CAC23AC335D.quest_subtitle: "4K Digital Capacity"
 	quest.72AD0CAC23AC335D.title: "Craft Cell Component 4K"
+	quest.72D10B75A011DEB8.quest_desc: ["The Netherite Upgrade is the highest standard capacity tier, allowing a single drawer to absorb enormous production without expanding the storage wall."]
 	quest.72D10B75A011DEB8.title: "Netherite Upgrade"
 	quest.72D5490BF61C8A34.title: "Andesite Alloy"
 	quest.72EC9401EE3BA289.quest_desc: [
@@ -1383,12 +1425,15 @@
 	quest.75CE2CADC4756616.title: "Mine Raw Cloggrum"
 	quest.75E11D4A3E06B103.quest_desc: ["Charged with raw electrical power, this eye supplies the energy required to awaken and stabilize the path to the End."]
 	quest.75E11D4A3E06B103.quest_subtitle: "create crafts and additions"
+	quest.760E55F3762CEE14.quest_desc: ["The Armory Cabinet stores large numbers of non-stackable items in one block, making it especially useful for armor, tools, weapons, and equipment dropped by mob farms."]
 	quest.760E55F3762CEE14.title: "Armory Cabinet"
 	quest.76B17947279E3743.quest_desc: ["&7Machine Core 3 advances Oritech equipment to technology tier 3.&r"]
 	quest.76B17947279E3743.quest_subtitle: "Machine Core Tier 3"
 	quest.76B17947279E3743.title: "Craft Machine Core 3"
 	quest.76B954D68DD2F748.title: "Essence of Continuity"
+	quest.77C38BE8ECF78C64.quest_desc: ["The Netherite Backpack is the highest standard backpack tier, combining excellent portable capacity with a durable end-game container for your most important supplies."]
 	quest.77C38BE8ECF78C64.title: "Netherite Backpack"
+	quest.77D9929025AD4DB1.quest_desc: ["The Wooden Glider turns height into forward travel and provides a simple early-game way to cross gaps or descend safely. Keep some altitude, because it cannot create lift on its own."]
 	quest.77D9929025AD4DB1.title: "Wooden Glider"
 	quest.790A807983D217D9.quest_desc: [
 		"The Heart of the Deep is the key to reaching the Otherside."
@@ -1425,6 +1470,7 @@
 	]
 	quest.7ABF9857AE02F946.quest_subtitle: "Wireless Energy"
 	quest.7ABF9857AE02F946.title: "Create Flux Dust"
+	quest.7AEF195E258F6020.quest_desc: ["A backpack adds portable storage that stays with you while exploring or building. It can also accept upgrades, letting one inventory grow into a specialized mobile toolkit."]
 	quest.7AEF195E258F6020.title: "Backpack"
 	quest.7B168B08E0B36F0C.quest_desc: [
 		"&7A Molecular Assembler and Pattern Provider form the basic AE2 autocrafting pair.&r"
@@ -1454,7 +1500,9 @@
 	]
 	quest.7BCF609A2E79A59A.quest_subtitle: "The Heart of Seed Crafting"
 	quest.7BCF609A2E79A59A.title: "Build an Infusion Altar"
+	quest.7C20643129AD0134.quest_desc: ["The humble Chest is the foundation of item storage and works with almost every hopper, pipe, and transport system. Its main limitation is the space required to open it."]
 	quest.7C20643129AD0134.title: "Chest"
+	quest.7D04BE7ADA7A5793.quest_desc: ["The Gold Upgrade provides a larger capacity multiplier than copper, helping busy farms and processing lines run longer before storage fills."]
 	quest.7D04BE7ADA7A5793.title: "Gold Upgrade"
 	quest.7D42EE8FAAC4C722.quest_desc: ["&7Tertium supports stronger seeds that replace increasingly dangerous or repetitive resource gathering.&r"]
 	quest.7D42EE8FAAC4C722.quest_subtitle: "Tier Three Essence"
