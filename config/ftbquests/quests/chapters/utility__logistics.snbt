@@ -10,7 +10,16 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "626D402EBAE946F4"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 6.0d
+		id: "70D512B4C31EC99E"
+		image: "minecraft:textures/gui/quests/utility_and_logistics.png"
+		rotation: -10.0d
+		width: 12.0d
+		x: -8.5d
+		y: -3.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -296,7 +305,7 @@
 				item: { count: 1, id: "minecraft:barrel" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
@@ -315,7 +324,7 @@
 				item: { count: 1, id: "metalbarrels:iron_barrel" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 4.0d
 		}
 		{
@@ -334,7 +343,7 @@
 				item: { count: 1, id: "metalbarrels:gold_barrel" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 5.5d
 		}
 		{
@@ -353,7 +362,7 @@
 				item: { count: 1, id: "metalbarrels:diamond_barrel" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 7.0d
 		}
 		{
@@ -372,7 +381,7 @@
 				item: { count: 1, id: "metalbarrels:obsidian_barrel" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 8.5d
 		}
 		{
@@ -391,7 +400,7 @@
 				item: { count: 1, id: "metalbarrels:netherite_barrel" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 10.0d
 		}
 		{

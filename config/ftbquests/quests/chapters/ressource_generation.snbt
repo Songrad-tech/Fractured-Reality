@@ -9,7 +9,16 @@
 		id: "kubejs:viridite"
 	}
 	id: "60E95EFFAAB07DD2"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 5.0d
+		id: "4826536B415EC4DA"
+		image: "minecraft:textures/gui/quests/ressources_generation.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.2857142857142776d
+		y: -3.9107142857142847d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
