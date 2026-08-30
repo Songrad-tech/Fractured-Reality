@@ -49,6 +49,7 @@
 			}
 			id: "16FF223093771098"
 			rewards: [{
+				count: 12
 				id: "2E2B8842D752A9CC"
 				item: {
 					count: 1
@@ -68,6 +69,7 @@
 			dependencies: ["637878425CE55C37"]
 			id: "790A807983D217D9"
 			rewards: [{
+				count: 16
 				id: "38FD189E35653277"
 				item: {
 					count: 1
@@ -90,6 +92,7 @@
 			}
 			id: "4242965A13D79C42"
 			rewards: [{
+				count: 16
 				id: "7879FA3D387B1544"
 				item: {
 					count: 1
@@ -120,6 +123,7 @@
 			}
 			id: "24828DD7843BAD17"
 			rewards: [{
+				count: 24
 				id: "3A357FCBA5998031"
 				item: {
 					count: 1
@@ -139,6 +143,7 @@
 			dependencies: ["24828DD7843BAD17"]
 			id: "6C74B0300D2159A6"
 			rewards: [{
+				count: 24
 				id: "479E41A2716C13A4"
 				item: {
 					count: 1
@@ -159,6 +164,7 @@
 			dependencies: ["6C74B0300D2159A6"]
 			id: "31FC459BE575BB16"
 			rewards: [{
+				count: 16
 				id: "13DC9D927A3B83CA"
 				item: {
 					count: 1
@@ -178,6 +184,7 @@
 			dependencies: ["16FF223093771098"]
 			id: "637878425CE55C37"
 			rewards: [{
+				count: 32
 				id: "6E0F05C08DD38A65"
 				item: {
 					count: 1
@@ -187,6 +194,13 @@
 			}]
 			tasks: [{
 				entity: "minecraft:warden"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:warden"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "52F78F20848BDA47"
 				type: "kill"
 				value: 1L
@@ -198,6 +212,7 @@
 			dependencies: ["4242965A13D79C42"]
 			id: "4EBF77C1E4DA7981"
 			rewards: [{
+				count: 20
 				id: "25FF4AC442D15D6A"
 				item: {
 					count: 1
@@ -218,6 +233,7 @@
 			dependencies: ["4EBF77C1E4DA7981"]
 			id: "54C14057FC31C6DF"
 			rewards: [{
+				count: 20
 				id: "2F95A7CFA1C5834B"
 				item: {
 					count: 1
@@ -237,6 +253,7 @@
 			dependencies: ["54C14057FC31C6DF"]
 			id: "35690DA73DE6F776"
 			rewards: [{
+				count: 24
 				id: "49314E67D3404652"
 				item: {
 					count: 1
@@ -259,6 +276,7 @@
 			]
 			id: "7FD9E439525F1203"
 			rewards: [{
+				count: 20
 				id: "11B6C634A2BBA269"
 				item: {
 					count: 1
@@ -278,6 +296,7 @@
 			dependencies: ["637878425CE55C37"]
 			id: "1101CDC12DFDBAB4"
 			rewards: [{
+				count: 16
 				id: "22E225FFFE10DF3E"
 				item: {
 					count: 1

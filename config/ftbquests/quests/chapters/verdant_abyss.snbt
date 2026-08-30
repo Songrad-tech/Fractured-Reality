@@ -47,6 +47,7 @@
 			hide_until_deps_complete: true
 			id: "58BE26650A0440F6"
 			rewards: [{
+				count: 16
 				id: "7DA56BEC24A087F5"
 				item: {
 					count: 1
@@ -69,6 +70,7 @@
 			}
 			id: "62F5592C52CD8821"
 			rewards: [{
+				count: 16
 				id: "13B3F71A1462ACF2"
 				item: {
 					count: 1
@@ -99,6 +101,7 @@
 			}
 			id: "4BD509205B526E8C"
 			rewards: [{
+				count: 24
 				id: "31C0B085875140EC"
 				item: {
 					count: 1
@@ -118,6 +121,7 @@
 			dependencies: ["4BD509205B526E8C"]
 			id: "03A760BECFFD5126"
 			rewards: [{
+				count: 32
 				id: "55142CC76E9C84E2"
 				item: {
 					count: 1
@@ -127,6 +131,13 @@
 			}]
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "undergarden:forgotten_guardian"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "4E9F3937E1CADA9F"
 				type: "kill"
 				value: 1L
@@ -138,6 +149,7 @@
 			dependencies: ["03A760BECFFD5126"]
 			id: "7F3839D206AED8BA"
 			rewards: [{
+				count: 24
 				id: "773C8B810890E9B2"
 				item: {
 					count: 1
@@ -157,6 +169,7 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "75CE2CADC4756616"
 			rewards: [{
+				count: 8
 				id: "0DD1DD4AD0E37007"
 				item: {
 					count: 1
@@ -176,6 +189,7 @@
 			dependencies: ["75CE2CADC4756616"]
 			id: "2BA0235D2DDDA051"
 			rewards: [{
+				count: 12
 				id: "054644FD3DAB18B9"
 				item: {
 					count: 1
@@ -195,6 +209,7 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "405C4901EE2BAC5A"
 			rewards: [{
+				count: 10
 				id: "0F8907767669270F"
 				item: {
 					count: 1
@@ -214,6 +229,7 @@
 			dependencies: ["405C4901EE2BAC5A"]
 			id: "4C2651AD1AA0A7D5"
 			rewards: [{
+				count: 16
 				id: "3B0741D56AC0FFCB"
 				item: {
 					count: 1
@@ -233,6 +249,7 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "0A5C056A2A1492A4"
 			rewards: [{
+				count: 12
 				id: "01B22457A478C8E8"
 				item: {
 					count: 1
@@ -252,6 +269,7 @@
 			dependencies: ["0A5C056A2A1492A4"]
 			id: "716185F216AB4B7E"
 			rewards: [{
+				count: 20
 				id: "294F8C1E448B3693"
 				item: {
 					count: 1
@@ -271,6 +289,7 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "631750A602DDA817"
 			rewards: [{
+				count: 16
 				id: "1BB1B6EB8BCCC2D6"
 				item: {
 					count: 1
@@ -290,6 +309,7 @@
 			dependencies: ["62F5592C52CD8821"]
 			id: "4AAD20A54D5CA614"
 			rewards: [{
+				count: 20
 				id: "04EDF5D75BAC221C"
 				item: {
 					count: 1
@@ -312,6 +332,7 @@
 			]
 			id: "7EFC4A52220B1A80"
 			rewards: [{
+				count: 32
 				id: "6A794C6ECB6BDE6A"
 				item: {
 					count: 1

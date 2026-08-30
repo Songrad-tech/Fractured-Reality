@@ -20,6 +20,15 @@
 			dependencies: ["55321446C11DA7F0"]
 			hide_until_deps_complete: true
 			id: "40AA516985A4A73F"
+			rewards: [{
+				count: 48
+				id: "4AD095E2F494DAE9"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -33,6 +42,15 @@
 		{
 			dependencies: ["3E6489E8ADC28BBD"]
 			id: "0DB8863C6C3F4096"
+			rewards: [{
+				count: 64
+				id: "2CF7747F4721B96D"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C5A179633BC2848"
 				item: { count: 1, id: "kubejs:fractured_ingot" }
@@ -44,6 +62,15 @@
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "6C40E5231C8193EB"
+			rewards: [{
+				count: 64
+				id: "07B02821F1F4BA06"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77C574DA7342B45C"
 				item: { count: 1, id: "kubejs:fractured_casing" }
@@ -55,6 +82,15 @@
 		{
 			dependencies: ["40AA516985A4A73F"]
 			id: "3E6489E8ADC28BBD"
+			rewards: [{
+				count: 48
+				id: "485070377538EE35"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "29CB852C78F0D723"
 				item: { count: 1, id: "kubejs:fractured_essence_bucket" }
@@ -66,6 +102,15 @@
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "667D449EB01AECF4"
+			rewards: [{
+				count: 64
+				id: "2627CF4A079C1B83"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D94EAAF9813C9F6"
 				item: { count: 1, id: "mysticalagriculture:creative_soulium_dagger" }
@@ -77,6 +122,15 @@
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "7F4F70FE44C0C32F"
+			rewards: [{
+				count: 64
+				id: "3E1EC9E4505275C0"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5439C7DC361367E0"
 				item: { count: 1, id: "create:handheld_worldshaper" }
@@ -88,6 +142,15 @@
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "48149D3CD7A9E97C"
+			rewards: [{
+				count: 64
+				id: "46E1429E897DB5D8"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -118,6 +181,15 @@
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "6EF7688AC704CD40"
+			rewards: [{
+				count: 256
+				id: "48803DE4F67DB374"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -148,6 +220,15 @@
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "2740ACDD37091FF0"
+			rewards: [{
+				count: 64
+				id: "4E27C6EF0A431F1C"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DC3F39509AA31AC"
 				item: { count: 1, id: "tempad:creative_chronometer" }
@@ -159,6 +240,15 @@
 		{
 			dependencies: ["0C418B02BBC1D8E6"]
 			id: "0584BBA7D65DA1FC"
+			rewards: [{
+				count: 64
+				id: "08A9C0B6BB06081D"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "42160F5E2F500BE9"
 				item: { count: 1, id: "oritech:creative_storage_block" }
@@ -170,6 +260,15 @@
 		{
 			dependencies: ["0C418B02BBC1D8E6"]
 			id: "7535FB0671D13044"
+			rewards: [{
+				count: 64
+				id: "0DA1F46872F3E4D4"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "229374F81E1363C4"
 				item: { count: 1, id: "oritech:creative_tank_block" }
@@ -181,6 +280,15 @@
 		{
 			dependencies: ["740CEB2F6F7BD3DE"]
 			id: "29A76AC91D55A68B"
+			rewards: [{
+				count: 64
+				id: "2792DDF53A0ED97F"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "58CF935911C52B0B"
 				item: { count: 1, id: "ae2:creative_storage_cell" }
@@ -192,6 +300,15 @@
 		{
 			dependencies: ["0C418B02BBC1D8E6"]
 			id: "7B635AAD726B82D2"
+			rewards: [{
+				count: 64
+				id: "6E5B2CA058F80F85"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3ACD7B75944A6A22"
 				item: { count: 1, id: "ae2:creative_energy_cell" }
@@ -203,6 +320,15 @@
 		{
 			dependencies: ["0C418B02BBC1D8E6"]
 			id: "0FF6B93D8531A927"
+			rewards: [{
+				count: 64
+				id: "019959F47C7CB513"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "02D6CCAC7063FCC2"
 				item: { count: 1, id: "create:creative_motor" }
@@ -214,6 +340,15 @@
 		{
 			dependencies: ["0C418B02BBC1D8E6"]
 			id: "5BFCD40073F95AB5"
+			rewards: [{
+				count: 64
+				id: "23C8E93FA0EEE8AE"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "753A8E018E211AEE"
 				item: { count: 1, id: "create:creative_fluid_tank" }
@@ -225,6 +360,15 @@
 		{
 			dependencies: ["1A0A0E7491FCB10D"]
 			id: "4FE8658051BD726E"
+			rewards: [{
+				count: 64
+				id: "0730B5D25502B702"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "24928D15A75C9D77"
 				item: { count: 1, id: "create:creative_crate" }
@@ -236,6 +380,15 @@
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "70D66A02B447FBD2"
+			rewards: [{
+				count: 64
+				id: "45FFEB865F5D0334"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E53A0AA004B2A9F"
 				item: { count: 1, id: "create:creative_blaze_cake" }
@@ -247,6 +400,15 @@
 		{
 			dependencies: ["4FE8658051BD726E"]
 			id: "740CEB2F6F7BD3DE"
+			rewards: [{
+				count: 64
+				id: "39002AFDF2D78A64"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7532FC35ED979538"
 				item: { count: 1, id: "functionalstorage:creative_vending_upgrade" }
@@ -258,6 +420,15 @@
 		{
 			dependencies: ["0C418B02BBC1D8E6"]
 			id: "2C2CB7AB721AE383"
+			rewards: [{
+				count: 64
+				id: "7F125BF978FD152E"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CCDCC1FF16299F2"
 				item: { count: 1, id: "createaddition:creative_energy" }
@@ -269,6 +440,15 @@
 		{
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "1A0A0E7491FCB10D"
+			rewards: [{
+				count: 64
+				id: "33407A9E91399E2A"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7EA7CA68876AD774"
 				item: { count: 1, id: "functionalstorage:max_storage_upgrade" }
@@ -280,6 +460,15 @@
 		{
 			dependencies: ["6C40E5231C8193EB"]
 			id: "0C418B02BBC1D8E6"
+			rewards: [{
+				count: 64
+				id: "5D5AF3C01434208E"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -303,6 +492,15 @@
 				"2C2CB7AB721AE383"
 			]
 			id: "1983BA6660DE73C0"
+			rewards: [{
+				count: 128
+				id: "0C95AD00536D2B08"
+				item: {
+					count: 1
+					id: "kubejs:fractured_coin"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
