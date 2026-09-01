@@ -28,7 +28,7 @@ ItemEvents.modifyTooltips((event) => {
   FRACTURED_GEAR_ITEMS.forEach((item) => {
     event.modify(item, (tooltip) => {
       tooltip.insert(1, [
-        Text.of("End-game relic tier").color("dark_purple"),
+        Text.of("Fractured relic tier").color("dark_purple"),
         Text.of("Unbreakable tool").color("gray"),
       ]);
     });
@@ -37,7 +37,7 @@ ItemEvents.modifyTooltips((event) => {
   FRACTURED_ARMOR_ITEMS.forEach((item) => {
     event.modify(item, (tooltip) => {
       tooltip.insert(1, [
-        Text.of("End-game relic tier").color("dark_purple"),
+        Text.of("Fractured relic tier").color("dark_purple"),
         Text.of("Full set: grants creative-style flight").color("aqua"),
         Text.of("Full set: immune to fire and lava").color("gold"),
         Text.of("Full set: grants absorption II").color("yellow"),
