@@ -664,6 +664,15 @@
 	quest.3CD9F06FB8729803.quest_desc: ["&7Certus Quartz is the basic crystal behind AE2 components and networks.&r"]
 	quest.3CD9F06FB8729803.quest_subtitle: "Digital Progression"
 	quest.3CD9F06FB8729803.title: "Gather Certus Quartz"
+	quest.3CEBFB1E02C914B2.quest_desc: [
+		"§7Fractured Coins tend to pile up as the Market expands. This wallet keeps them together without filling your inventory.§r"
+		" "
+		"§fHold the wallet in one hand and Fractured Coins in the other, then right-click to store the entire stack.§r"
+		" "
+		"§eShift and right-click to withdraw one coin, or shift and left-click to withdraw a full stack.§r"
+	]
+	quest.3CEBFB1E02C914B2.quest_subtitle: "A Pocket for Fractured Currency"
+	quest.3CEBFB1E02C914B2.title: "Craft a Fractured Wallet"
 	quest.3D4CF467D45DD795.quest_desc: ["&7Sky Stone is the first physical trace of Applied Energistics technology.&r"]
 	quest.3D4CF467D45DD795.quest_subtitle: "Digital Progression"
 	quest.3D4CF467D45DD795.title: "Craft Sky Stone"

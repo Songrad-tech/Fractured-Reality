@@ -86,10 +86,6 @@ function playScenarioEyeDialogue(name) {
   const dialogue = queue[0];
   const player = dialogue.player;
   const server = player.server;
-  // Close on the next tick, after the inventory transfer has completed.
-  server.scheduleInTicks(1, () => {
-    if (!player.isRemoved()) player.closeContainer();
-  });
   server.scheduleInTicks(SCENARIO_EYE_WHISPER_DELAY, () => {
     if (!player.isRemoved()) sendScenarioEyeWhisper(player, dialogue.whisper);
   });
