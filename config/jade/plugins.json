@@ -73,6 +73,9 @@
   "ftbquests": {
     "barrier": true
   },
+  "pipez": {
+    "pipe": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
