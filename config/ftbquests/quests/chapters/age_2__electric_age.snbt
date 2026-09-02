@@ -9,7 +9,16 @@
 		id: "createaddition:electrum_ingot"
 	}
 	id: "47BCA02B74AEAE70"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 5.0d
+		id: "6415EF467B1A1C57"
+		image: "minecraft:textures/gui/quests/age_2.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.1071428571428612d
+		y: -3.410714285714292d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

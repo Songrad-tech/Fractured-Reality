@@ -9,7 +9,16 @@
 		id: "create:andesite_alloy"
 	}
 	id: "1E400F3088D217E5"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 5.0d
+		id: "3FEB7DDBBF233A90"
+		image: "minecraft:textures/gui/quests/age_1.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -5.0d
+		y: -3.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

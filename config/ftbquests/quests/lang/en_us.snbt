@@ -1,13 +1,13 @@
 {
 	chapter.14893C4ADFC69999.title: "Inside the Hive"
 	chapter.178EFA23CBF2F69A.title: "Final Age: Fractured Divinity"
-	chapter.1E400F3088D217E5.title: "Age 1: Mechanical Age"
+	chapter.1E400F3088D217E5.title: "Age 1: Mechanical"
 	chapter.1E627FF06E3DEFF1.title: "Prologue: A Fractured World"
 	chapter.2777DBBD34C022DB.title: "Age 4: Seeds of Eternity"
 	chapter.3ACA0646478CC055.title: "Verdant Abyss"
 	chapter.3C209F73768184BD.title: "Market"
 	chapter.46E470D55F809922.title: "Into the Darkness"
-	chapter.47BCA02B74AEAE70.title: "Age 2: Electric Age"
+	chapter.47BCA02B74AEAE70.title: "Age 2: Electrical"
 	chapter.60E95EFFAAB07DD2.title: "Resources Generation"
 	chapter.626D402EBAE946F4.title: "Utility \\& Logistics"
 	chapter.6399B43668493780.title: "Introduction"
@@ -673,7 +673,11 @@
 	]
 	quest.3CEBFB1E02C914B2.quest_subtitle: "A Pocket for Fractured Currency"
 	quest.3CEBFB1E02C914B2.title: "Craft a Fractured Wallet"
-	quest.3D4CF467D45DD795.quest_desc: ["&7Sky Stone is the first physical trace of Applied Energistics technology.&r"]
+	quest.3D4CF467D45DD795.quest_desc: [
+		"Sky Stone is the first physical trace of Applied Energistics technology."
+		""
+		"&6You can generate them just as if you were generating stone, but with a block of energite underneath.&r"
+	]
 	quest.3D4CF467D45DD795.quest_subtitle: "Digital Progression"
 	quest.3D4CF467D45DD795.title: "Craft Sky Stone"
 	quest.3DEFE136C2F663A0.quest_desc: ["&7Machine Core 4 advances Oritech equipment to technology tier 4.&r"]
