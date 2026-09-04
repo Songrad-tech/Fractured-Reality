@@ -9,7 +9,16 @@
 		id: "mysticalagriculture:master_infusion_crystal"
 	}
 	id: "2777DBBD34C022DB"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 5.0d
+		id: "0F56B6A4CF881971"
+		image: "minecraft:textures/gui/quests/age_4.png"
+		rotation: 0.0d
+		width: 13.0d
+		x: 0.0d
+		y: -14.0d
+	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

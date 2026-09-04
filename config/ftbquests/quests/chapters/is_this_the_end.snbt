@@ -1,5 +1,5 @@
 {
-	autofocus_id: "11D68544BDAC6AA7"
+	autofocus_id: "1A7308D143DA5C61"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "is_this_the_end"
@@ -126,6 +126,16 @@
 			width: 2.0d
 			x: -3.4311224489795933d
 			y: -1.7117346938775668d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "267CA1D01BB8C355"
+			image: "minecraft:textures/gui/quests/is_this_the_end.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.17602040816326792d
+			y: -6.729591836734713d
 		}
 	]
 	order_index: 3

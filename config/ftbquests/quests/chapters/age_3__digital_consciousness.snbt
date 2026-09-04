@@ -1,5 +1,5 @@
 {
-	autofocus_id: "3D4CF467D45DD795"
+	autofocus_id: "3CD9F06FB8729803"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "age_3__digital_consciousness"
@@ -9,7 +9,16 @@
 		id: "ae2:controller"
 	}
 	id: "7EE8A90CDC0768D4"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 7.0d
+		id: "76E77982DEFC62ED"
+		image: "minecraft:textures/gui/quests/age_3.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: -5.464285714285715d
+		y: -0.7678571428571459d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
