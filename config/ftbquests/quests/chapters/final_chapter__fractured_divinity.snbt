@@ -12,7 +12,16 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "178EFA23CBF2F69A"
-	images: [ ]
+	images: [{
+		click_action: "none:"
+		height: 5.0d
+		id: "692CEA6473E32081"
+		image: "minecraft:textures/gui/quests/final_age.png"
+		rotation: 0.0d
+		width: 14.0d
+		x: 0.0d
+		y: -3.0d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
@@ -143,7 +152,7 @@
 			dependencies: ["0DB8863C6C3F4096"]
 			id: "48149D3CD7A9E97C"
 			rewards: [{
-				count: 64
+				count: 256
 				id: "46E1429E897DB5D8"
 				item: {
 					count: 1
@@ -172,6 +181,11 @@
 				{
 					id: "6989367BED430283"
 					item: { count: 1, id: "kubejs:fractured_hoe" }
+					type: "item"
+				}
+				{
+					id: "5193A697857AE451"
+					item: { count: 1, id: "kubejs:fractured_sword" }
 					type: "item"
 				}
 			]
@@ -491,6 +505,7 @@
 				"0FF6B93D8531A927"
 				"2C2CB7AB721AE383"
 			]
+			hide_until_deps_complete: true
 			id: "1983BA6660DE73C0"
 			rewards: [{
 				count: 128

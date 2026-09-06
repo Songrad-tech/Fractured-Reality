@@ -70,7 +70,6 @@ ServerEvents.recipes((event) => {
         "     A",
       ],
     },
-
     {
       id: "fractured_boots",
       baseTool: "mysticalagriculture:awakened_supremium_boots",
@@ -122,6 +121,21 @@ ServerEvents.recipes((event) => {
         "AEA   AEA",
         "AFA   AFA",
         "AAA   AAA",
+      ],
+    },
+    {
+      id: "fractured_sword",
+      baseTool: "mysticalagriculture:awakened_supremium_sword",
+      pattern: [
+        "       AA",
+        "      ACA",
+        "     AEA ",
+        "    ADA  ",
+        "B  AEA   ",
+        " BACA    ",
+        "  GA     ",
+        " B B     ",
+        "F   B    ",
       ],
     },
   ];

@@ -65,8 +65,9 @@ StartupEvents.registry("item", (event) => {
 
   fracturedTool("fractured_shovel", "shovel");
   fracturedTool("fractured_axe", "axe");
-  fracturedTool("fractured_pickaxe");
+  fracturedTool("fractured_pickaxe", "pickaxe");
   fracturedTool("fractured_hoe", "hoe");
+  fracturedTool("fractured_sword", "sword");
 
   fracturedArmor("fractured_helmet", "geckojs:anim_helmet");
   fracturedArmor("fractured_chestplate", "geckojs:anim_chestplate");
