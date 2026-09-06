@@ -34,7 +34,7 @@ function createFullStoneSet(event, id, displayName, tag) {
 function createStoneCore(event, id, hidden) {
   const block = event
     .create(id)
-    .parentModel(`fractured_reality:block/core/resources/${id}`)
+    .parentModel(`${FRACTURED_MOD_ID}:block/core/resources/${id}`)
     .soundType("stone")
     .requiresTool(true)
     .tagBlock("minecraft:mineable/pickaxe");
