@@ -8,12 +8,12 @@ A civilization rebuilt through machinery, energy and forgotten dimensions.
 
 Fractured Reality is a heavily customized Minecraft 1.21.1 modpack focused on:
 
-- ⚙️ Progressive tech evolution
-- 🌍 Exploration and dimensional progression
-- 📖 Quest-driven experience
-- 🧩 Custom recipes and progression systems
-- 🚀 End-game automation
-- 🎨 Immersive atmosphere and worldbuilding
+- Progressive tech evolution
+- Exploration and dimensional progression
+- Quest-driven experience
+- Custom recipes and progression systems
+- End-game automation
+- Immersive atmosphere and worldbuilding
 
 The modpack is designed around multiple technological eras, guiding the player from primitive mechanical systems to advanced digital networks and exploration.
 
@@ -36,10 +36,6 @@ The modpack is designed around multiple technological eras, guiding the player f
 - Mystical Agriculture
 - End Remastered
 - And many more...
-
-## Status
-
-⚠️ Work in progress
 
 ## Credits
 
