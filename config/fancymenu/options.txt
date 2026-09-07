@@ -19,7 +19,7 @@ S:game_intro_sound_channel = 'master';
 S:preload_resources = '';
 B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
-F:game_intro_volume = '1.0';
+F:game_intro_volume = '0.5';
 S:custom_game_intro_skip_text = '';
 
 
@@ -65,9 +65,9 @@ B:enable_element_tilting_controls = 'true';
 ##[ui]
 
 B:enable_ui_animations = 'true';
-S:ui_scale_v2 = 'micro';
+S:ui_scale_v2 = 'auto';
 I:context_menu_hover_open_speed = '1';
-S:ui_theme = 'dark';
+S:ui_theme = 'purple_void';
 B:pip_window_docking = 'true';
 B:enable_ui_blur = 'true';
 F:ui_blur_intensity = '3.0';
@@ -137,11 +137,11 @@ B:global_slider_label_underline_on_hover = 'false';
 B:global_slider_handle_nine_slice = 'false';
 I:global_button_background_nine_slice_border_left = '5';
 B:global_button_background_transparent = 'false';
-B:seamless_world_loading = 'false';
+B:seamless_world_loading = 'true';
 B:global_slider_background_transparent = 'false';
 S:global_slider_handle_normal = '';
 I:global_slider_background_nine_slice_border_right = '5';
-S:global_background_panorama = '';
+S:global_background_panorama = 'fractured_panorama';
 I:global_slider_handle_nine_slice_border_left = '5';
 S:global_menu_background_texture = '';
 
