@@ -22,6 +22,7 @@ const FRACTURED_GEAR_ITEMS = [
   "kubejs:fractured_axe",
   "kubejs:fractured_pickaxe",
   "kubejs:fractured_hoe",
+  "kubejs:fractured_sword",
 ];
 
 ItemEvents.modifyTooltips((event) => {
