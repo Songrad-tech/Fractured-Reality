@@ -53,6 +53,8 @@ const oritechRecipeRemovals = [
   "oritech:crafting/augment/applicator",
   "oritech:crafting/droneportalt",
   "oritech:crafting/droneport",
+
+  "oritech:motor/overchargedcrystal",
 ];
 
 ServerEvents.recipes((event) => {

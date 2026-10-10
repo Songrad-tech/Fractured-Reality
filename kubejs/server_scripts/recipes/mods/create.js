@@ -259,4 +259,72 @@ ServerEvents.recipes((event) => {
       ],
     })
     .id("kubejs:create/filling/royal_jelly_bottle");
+
+  event
+    .custom({
+      type: "create:sequenced_assembly",
+      ingredient: {
+        tag: "c:plates/gold",
+      },
+      loops: 5,
+      results: [
+        {
+          id: "create:precision_mechanism",
+        },
+      ],
+      sequence: [
+        {
+          type: "create:deploying",
+          ingredients: [
+            {
+              item: "create:incomplete_precision_mechanism",
+            },
+            {
+              item: "create:cogwheel",
+            },
+          ],
+          results: [
+            {
+              id: "create:incomplete_precision_mechanism",
+            },
+          ],
+        },
+        {
+          type: "create:deploying",
+          ingredients: [
+            {
+              item: "create:incomplete_precision_mechanism",
+            },
+            {
+              item: "create:large_cogwheel",
+            },
+          ],
+          results: [
+            {
+              id: "create:incomplete_precision_mechanism",
+            },
+          ],
+        },
+        {
+          type: "create:deploying",
+          ingredients: [
+            {
+              item: "create:incomplete_precision_mechanism",
+            },
+            {
+              tag: "c:nuggets/iron",
+            },
+          ],
+          results: [
+            {
+              id: "create:incomplete_precision_mechanism",
+            },
+          ],
+        },
+      ],
+      transitional_item: {
+        id: "create:incomplete_precision_mechanism",
+      },
+    })
+    .id("create:sequenced_assembly/precision_mechanism");
 });

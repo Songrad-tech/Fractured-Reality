@@ -267,6 +267,15 @@ const oritechMachineShapedRecipes = [
       C: "#c:glass_blocks",
     },
   },
+  {
+    output: "oritech:overcharged_crystal",
+    pattern: [" A ", "BCB", "BCB"],
+    keys: {
+      A: "oritech:flux_gate",
+      B: "oritech:energite_ingot",
+      C: "oritech:advanced_battery",
+    },
+  },
 ];
 
 [
